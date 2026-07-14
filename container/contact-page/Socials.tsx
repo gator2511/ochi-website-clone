@@ -1,29 +1,43 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
-import { eyes } from "@/public";
 import { ArrowUpRight } from "lucide-react";
 import { LinkHover, TextMask } from "@/animation";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { Eyes } from "@/components";
 
+const socialLinks = [
+	{
+		id: 1,
+		title: "Instagram",
+		href: "https://www.instagram.com/gundeepsingh.25/",
+	},
+	{
+		id: 2,
+		title: "Facebook",
+		href: "https://www.facebook.com/profile.php?id=61573879594526",
+	},
+	{
+		id: 3,
+		title: "LinkedIn",
+		href: "https://www.linkedin.com/company/gt-marketing-darwin/?viewAsMember=true",
+	},
+];
+
 export default function Socials() {
-	const [rotate, setRotate] = useState(0);
-	const phrase = ["INSTAGRAM", "behance", "facebook", "linkedin"];
-	useEffect(() => {
-		window.addEventListener("mousemove", (e) => {
-			let mouseX = e.clientX;
-			let mouseY = e.clientY;
-
-			let deltaX = mouseX - window.innerWidth / 2;
-			let deltaY = mouseY - window.innerHeight / 2;
-
-			var angle = Math.atan2(deltaY, deltaX) * (180 / Math.PI);
-			setRotate(angle - 280);
-		});
-	}, []);
+	const phrase = ["INSTAGRAM", "FACEBOOK", "LINKEDIN"];
 	const container = useRef(null);
+
+	useEffect(() => {
+		const handleMouseMove = (event: MouseEvent) => {
+			const deltaX = event.clientX - window.innerWidth / 2;
+			const deltaY = event.clientY - window.innerHeight / 2;
+			Math.atan2(deltaY, deltaX);
+		};
+
+		window.addEventListener("mousemove", handleMouseMove);
+		return () => window.removeEventListener("mousemove", handleMouseMove);
+	}, []);
 
 	const { scrollYProgress } = useScroll({
 		target: container,
@@ -50,6 +64,16 @@ export default function Socials() {
 							<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
 								Our contact
 							</h3>
+							<div className="pt-[30px] flex flex-col gap-y-[10px]">
+								{socialLinks.map((item) => (
+									<LinkHover
+										key={item.id}
+										title={item.title}
+										href={item.href}
+										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium text-secondry capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
+									/>
+								))}
+							</div>
 						</div>
 						<div className="w-[50%] sm:w-full xm:w-full flex sm:flex-col xm:flex-col justify-between gap-y-[20px]">
 							<div>
