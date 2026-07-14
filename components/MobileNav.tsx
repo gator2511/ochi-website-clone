@@ -10,10 +10,11 @@ import { AnimatePresence, motion } from "framer-motion";
 
 export default function MobileNav() {
 	const [toggle, setToggle] = useState(false);
+
 	return (
 		<>
 			<div className="w-full hidden justify-between items-center h-[8vh] padding-x sm:flex xm:flex md:flex">
-				<Link href={"/"} aria-label="GT Marketing home">
+				<Link href="/" aria-label="GT Marketing home">
 					<Image
 						src={logo}
 						alt="GT Marketing logo"
@@ -37,7 +38,7 @@ export default function MobileNav() {
 						transition={{ duration: 1, ease: [0.3, 0.86, 0.36, 0.95] }}
 						className="fixed top-0 bottom-0 right-0 z-50 w-full min-h-screen flex justify-end items-end flex-col bg-secondry">
 						<div className="w-full flex justify-between items-center h-[8vh] border-b border-[#f1f1f155] padding-x">
-							<Link href={"/"} aria-label="GT Marketing home">
+							<Link href="/" aria-label="GT Marketing home">
 								<Image
 									src={logo}
 									alt="GT Marketing logo"
@@ -52,15 +53,22 @@ export default function MobileNav() {
 							/>
 						</div>
 						<ul className="h-full w-full flex justify-center text-left flex-col gap-[10px] padding-x">
-							{footernavbarItems.map((item) => (
-								<Link
-									href={item.href}
-									key={item.id}
-									onClick={(toggle) => setToggle(!toggle)}
-									className="text-[80px] leading-[67px] font-FoundersGrotesk uppercase font-bold tracking-[-.9] text-background">
-									{item.title}
-								</Link>
-							))}
+							{footernavbarItems.map((item) => {
+								const href =
+									item.title.toLowerCase() === "about us"
+										? "/ochi-team"
+										: item.href;
+
+								return (
+									<Link
+										href={href}
+										key={item.id}
+										onClick={() => setToggle(false)}
+										className="text-[80px] leading-[67px] font-FoundersGrotesk uppercase font-bold tracking-[-.9] text-background">
+										{item.title}
+									</Link>
+								);
+							})}
 						</ul>
 					</motion.div>
 				)}
