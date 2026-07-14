@@ -28,7 +28,7 @@ export default function Navbar() {
 				className="w-full h-[8vh] padding-x fixed top-0 left-0 z-50 backdrop-blur-[7px] flex items-center justify-between sm:hidden xm:hidden md:hidden"
 				animate={hidden ? "hidden" : "vissible"}>
 				<div className="w-[50%]">
-					<Link href={"/"} aria-label="GT Marketing home">
+					<Link href="/" aria-label="GT Marketing home">
 						<Image
 							src={logo}
 							alt="GT Marketing logo"
@@ -40,19 +40,26 @@ export default function Navbar() {
 					</Link>
 				</div>
 				<div className="flex gap-x-[20px] w-[50%]">
-					{navbarItems.map((item) => (
-						<Link
-							key={item.id}
-							className={`w-fit paragraph font-medium font-NeueMontreal text-secondry capitalize flex flex-col hover ${
-								item.id === 5 && "ml-auto"
-							}`}
-							href={item.href}>
-							<TextHover
-								titile1={item.title}
-								titile2={item.title}
-							/>
-						</Link>
-					))}
+					{navbarItems.map((item) => {
+						const href =
+							item.title.toLowerCase() === "about us"
+								? "/ochi-team"
+								: item.href;
+
+						return (
+							<Link
+								key={item.id}
+								className={`w-fit paragraph font-medium font-NeueMontreal text-secondry capitalize flex flex-col hover ${
+									item.id === 5 && "ml-auto"
+								}`}
+								href={href}>
+								<TextHover
+									titile1={item.title}
+									titile2={item.title}
+								/>
+							</Link>
+						);
+					})}
 				</div>
 			</motion.nav>
 			<MobileNav />
