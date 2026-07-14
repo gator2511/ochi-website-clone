@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { LinkHover, TextMask } from "@/animation";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { Eyes } from "@/components";
 
@@ -27,17 +27,6 @@ const socialLinks = [
 export default function Socials() {
 	const phrase = ["INSTAGRAM", "FACEBOOK", "LINKEDIN"];
 	const container = useRef(null);
-
-	useEffect(() => {
-		const handleMouseMove = (event: MouseEvent) => {
-			const deltaX = event.clientX - window.innerWidth / 2;
-			const deltaY = event.clientY - window.innerHeight / 2;
-			Math.atan2(deltaY, deltaX);
-		};
-
-		window.addEventListener("mousemove", handleMouseMove);
-		return () => window.removeEventListener("mousemove", handleMouseMove);
-	}, []);
 
 	const { scrollYProgress } = useScroll({
 		target: container,
