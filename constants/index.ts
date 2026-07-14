@@ -15,7 +15,7 @@ export const navbarItems = [
    {
       id: 3,
       title: "About us",
-      href: "/ochi-team",
+      href: "/gt-team",
    },
    {
       id: 4,
@@ -73,7 +73,7 @@ export const footernavbarItems = [
    {
       id: 4,
       title: "About us",
-      href: "ochi-team",
+      href: "gt-team",
    },
    {
       id: 5,
@@ -91,7 +91,7 @@ export const clientsItem = [
    {
       id: 1,
       website: "Karman Ventures",
-      href: "https://www.ochi.design",
+      href: "https://www.gtmarketing.design",
       title: "Services:",
       name: "William Barnes",
       src: client01,
@@ -162,11 +162,11 @@ export const clientsItem = [
       title: "Services:",
       name: "Tormer levy",
       src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
+      review: "GT Marketing brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations GT Marketing developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
       links: [
          {
             id: 1,
-            title: "compony presentation",
+            title: "company presentation",
             href: "/services",
          },
          {
@@ -219,7 +219,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Brendon Goss",
       src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
+      review: "The service received from GT Marketing was absolutely first-class. Their close attention to detail and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
       links: [
          {
             id: 1,
@@ -240,7 +240,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Raff Labri",
       src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
+      review: "GT Marketing has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best, most complete PP template they’ve ever seen. GT Marketing delivered more than I was expecting and we were really surprised with the quality of his work. Will work with GT Marketing design again for sure!",
       links: [
          {
             id: 1,
@@ -313,7 +313,7 @@ export const clientsItem = [
       title: "Services:",
       name: "David Buddy",
       src: client09,
-      review: "We were surprised by the accuracy with which Ochi Design nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
+      review: "We were surprised by the accuracy with which GT Marketing Design nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
       links: [
          {
             id: 1,
@@ -470,7 +470,7 @@ export const serviceClientsItem = [
    {
       id: 1,
       website: "Karman Ventures",
-      href: "https://www.ochi.design",
+      href: "https://www.GT Marketing.design",
       title: "Services:",
       name: "William Barnes",
       src: client01,
@@ -541,7 +541,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Tormer levy",
       src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
+      review: "GT Marketing brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations GT Marketing developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
       links: [
          {
             id: 1,
@@ -598,7 +598,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Brendon Goss",
       src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
+      review: "The service received from GT Marketing was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
       links: [
          {
             id: 1,
@@ -619,7 +619,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Raff Labri",
       src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
+      review: "GT Marketing has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. GT Marketing delivered more than I was expecting and we were really surprised with the quality of his work. Will work with GT Marketing design again for sure!",
       links: [
          {
             id: 1,
@@ -1209,7 +1209,7 @@ export const aboutPartberItems = [
       id: 2,
       src: officevibe,
       title: "Officevibe",
-      para: "Ochi has an impressive understanding of what's needed to do an effective presentation. The stakeholders at work said it's the best most complete PP template they've ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!"
+      para: "GT Marketing has an impressive understanding of what's needed to do an effective presentation. The stakeholders at work said it's the best most complete PP template they've ever seen. GT Marketing delivered more than I was expecting and we were really surprised with the quality of his work. Will work with GT Marketing design again for sure!"
    },
    {
       id: 3,
@@ -1303,17 +1303,17 @@ export const FaqItems = [
       id: 4,
       question: "I want to become a part of the team! Do you hire?",
       title: "Description",
-      description: "Yes! We actively search for talent to join us in completing high-stake presentation design projects at OCHI. As a presentation agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
+      description: "Yes! We actively search for talent to join us in completing high-stake presentation design projects at GT Marketing. As a presentation agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "If you feel like you’re on top of your creative game, whether it’s storytelling, graphic design, or animation. Send us the CV and portfolio at Ihor@ochi.design with “CREATE AND THRILL” in the subject. We will get back to you and maybe schedule a call. If there’s a potential fit here, you will meet the team. If that goes well – you’ll become a part of it."
+            description: "If you feel like you’re on top of your creative game, whether it’s storytelling, graphic design, or animation. Send us the CV and portfolio at Ihor@GT Marketing.design with “CREATE AND THRILL” in the subject. We will get back to you and maybe schedule a call. If there’s a potential fit here, you will meet the team. If that goes well – you’ll become a part of it."
          },
          {
             id: 2,
             title: 2,
-            description: "If you think you can improve our processes, marketing, PR, and communications, or you excel at managing people, we would love to hear from you. Send your message to hello@ochi.design with “-” and we will get back to you."
+            description: "If you think you can improve our processes, marketing, PR, and communications, or you excel at managing people, we would love to hear from you. Send your message to hello@GT Marketing.design with “-” and we will get back to you."
          },
       ],
       button: "read"
@@ -1341,7 +1341,7 @@ export const FaqItems = [
       id: 6,
       question: "Would you like to jump on a podcast or YouTube video?",
       title: "Description",
-      description: "Yes, why not. It’s a great chance to give back to the creative community by sharing and learning. Especially if the audience is relevant to the communication design subject. Or maybe it helps our clients in some way. We can’t know until we see some details, so drop us a line with a brief explanation at kseniia@ochi.design with the “Podcast/YT Proposal”.",
+      description: "Yes, why not. It’s a great chance to give back to the creative community by sharing and learning. Especially if the audience is relevant to the communication design subject. Or maybe it helps our clients in some way. We can’t know until we see some details, so drop us a line with a brief explanation at kseniia@GT Marketing.design with the “Podcast/YT Proposal”.",
       links: [
          {
             id: 1,
