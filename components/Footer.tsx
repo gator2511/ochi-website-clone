@@ -81,14 +81,21 @@ export default function Footer() {
 								<h1 className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
 									M:
 								</h1>
-								{footernavbarItems.map((item) => (
-									<LinkHover
-										key={item.id}
-										title={item.title}
-										href={item.href}
-										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium text-secondry capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-									/>
-								))}
+								{footernavbarItems.map((item) => {
+									const href =
+										item.title.toLowerCase() === "about us"
+											? "/ochi-team"
+											: item.href;
+
+									return (
+										<LinkHover
+											key={item.id}
+											title={item.title}
+											href={href}
+											className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium text-secondry capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
+										/>
+									);
+								})}
 							</div>
 						</div>
 						<div className="pt-[50px] flex gap-x-[20px]">
