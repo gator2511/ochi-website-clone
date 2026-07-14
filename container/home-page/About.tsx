@@ -13,7 +13,7 @@ export default function About() {
 		<section className="w-full bg-about padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
 			<div className="pl-[50px] sm:px-[20px] xm:px-[20px]">
 				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					Ochi is a strategic partner for fast-grow­ing tech
+					GT Marketing is a strategic partner for fast-grow­ing tech
 					<br className="sm:hidden xm:hidden" /> businesses that need to&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
 						raise funds,
