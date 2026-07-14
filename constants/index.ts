@@ -850,9 +850,9 @@ export const achiveItems = [
    {
       id: 1,
       title1: ["100+"],
-      title2: ["$280+"],
+      title2: ["$1+"],
       subTitle1: "Clients from 17 Countries",
-      subTitle2: "Millions raised for our clients",
+      subTitle2: "Million raised for our clients",
    },
    {
       id: 2,
