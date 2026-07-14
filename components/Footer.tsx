@@ -2,7 +2,25 @@ import Link from "next/link";
 import Image from "next/image";
 import { logo } from "@/public";
 import { LinkHover, TextMask } from "@/animation";
-import { footerItems, footernavbarItems } from "@/constants";
+import { footernavbarItems } from "@/constants";
+
+const socialLinks = [
+	{
+		id: 1,
+		title: "Instagram",
+		href: "https://www.instagram.com/gundeepsingh.25/",
+	},
+	{
+		id: 2,
+		title: "Facebook",
+		href: "https://www.facebook.com/profile.php?id=61573879594526",
+	},
+	{
+		id: 3,
+		title: "LinkedIn",
+		href: "https://www.linkedin.com/company/gt-marketing-darwin/?viewAsMember=true",
+	},
+];
 
 export default function Footer() {
 	const phrase = ["Eye-", "opening"];
@@ -27,7 +45,7 @@ export default function Footer() {
 							<h1 className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
 								S:
 							</h1>
-							{footerItems.map((item) => (
+							{socialLinks.map((item) => (
 								<LinkHover
 									title={item.title}
 									href={item.href}
