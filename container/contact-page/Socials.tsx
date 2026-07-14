@@ -31,6 +31,9 @@ export default function Socials() {
 	});
 
 	const mq = useTransform(scrollYProgress, [0, 1], [0, -700]);
+	const addressHref =
+		"https://www.google.com/maps/search/?api=1&query=130%20Smith%20Street%2C%20Darwin%20City%2C%20NT%200800";
+
 	return (
 		<section
 			className="w-full min-h-screen sm:h-screen xm:h-screen bg-about padding-y relative"
@@ -55,33 +58,28 @@ export default function Socials() {
 								</h1>
 								<div className="flex flex-col gap-y-[10px]">
 									<LinkHover
-										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title={`202-1965 W 4th Awe`}
-										href="/"
+										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
+										title="130 Smith Street, Darwin City"
+										href={addressHref}
 									/>
 									<LinkHover
-										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title={`Vancouver, Canada`}
-										href="/"
+										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
+										title="Darwin, Northern Territory"
+										href={addressHref}
 									/>
 									<LinkHover
-										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title="30 Chukarina"
-										href="/"
-									/>
-									<LinkHover
-										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title="St Lviv, Ukraine"
-										href="/"
+										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
+										title="0800"
+										href={addressHref}
 									/>
 								</div>
 							</div>
 							<div className="flex w-fit h-fit gap-x-[5px] group">
-								<div className="rounded-[50px] border-[2px] border-[#21212155] group-hover:bg-secondry  py-[3px] px-[12px] cursor-pointer">
+								<div className="rounded-[50px] border-[2px] border-[#21212155] group-hover:bg-secondry py-[3px] px-[12px] cursor-pointer">
 									<Link
-										href="mailto:hello@ochi.design"
+										href="mailto:gundeep@gtmarketing.io"
 										className="paragraph font-NeueMontreal text-secondry uppercase group-hover:text-background transition-all duration-200 ease-in">
-										hello@ochi.design
+										gundeep@gtmarketing.io
 									</Link>
 								</div>
 								<div className="w-[33px] flex items-center justify-center h-[33px] border-[2px] border-[#21212155] rounded-[50px] group-hover:bg-secondry transition-all duration-200 ease-in cursor-pointer sm:hidden xm:hidden">
