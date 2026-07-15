@@ -1,6 +1,12 @@
 "use client";
 import { useEffect } from "react";
-import { BrandImageGallery, Curve, Marquee, Ready } from "@/components";
+import {
+	BrandImageGallery,
+	Curve,
+	HomeVisionShowcase,
+	Marquee,
+	Ready,
+} from "@/components";
 import { About, Clients, Hero, Projects, VideoHome } from "@/container";
 
 export default function Home() {
@@ -24,6 +30,7 @@ export default function Home() {
 				<About />
 				<BrandImageGallery variant="home" />
 				<VideoHome />
+				<HomeVisionShowcase />
 				<Projects />
 				<Clients />
 				<Ready />
