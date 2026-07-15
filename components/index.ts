@@ -15,3 +15,4 @@ export { default as Ratings } from "./Ratings";
 export { default as Heading } from "./Heading";
 export { default as MobileNav } from "./MobileNav";
 export { default as BrandImageGallery } from "./BrandImageGallery";
+export { default as HomeVisionShowcase } from "./HomeVisionShowcase";
