@@ -1,19 +1,19 @@
 "use client";
 import { useEffect } from "react";
-import { Curve, Marquee, Ready } from "@/components";
+import { BrandImageGallery, Curve, Marquee, Ready } from "@/components";
 import { About, Clients, Hero, Projects, VideoHome } from "@/container";
 
 export default function Home() {
 	useEffect(() => {
 		(async () => {
 			const LocomotiveScroll = (await import("locomotive-scroll")).default;
-			const locomotiveScroll = new LocomotiveScroll();
+			new LocomotiveScroll();
 		})();
 	}, []);
 
 	return (
 		<>
-			<Curve backgroundColor={"#f1f1f1"}>
+			<Curve backgroundColor="#f1f1f1">
 				<Hero />
 				<div className="w-full bg-marquee z-10 relative rounded-t-[20px] padding-y">
 					<Marquee
@@ -22,6 +22,7 @@ export default function Home() {
 					/>
 				</div>
 				<About />
+				<BrandImageGallery variant="home" />
 				<VideoHome />
 				<Projects />
 				<Clients />
