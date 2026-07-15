@@ -2,7 +2,7 @@
 import Head from "next/head";
 import { Heroabout } from "@/container";
 import { useEffect } from "react";
-import { Curve, Ready } from "@/components";
+import { BrandImageGallery, Curve, Ready } from "@/components";
 
 export default function About() {
 	useEffect(() => {
@@ -23,6 +23,7 @@ export default function About() {
 			</Head>
 			<Curve backgroundColor="#f1f1f1">
 				<Heroabout />
+				<BrandImageGallery variant="about" />
 				<Ready />
 			</Curve>
 		</>
