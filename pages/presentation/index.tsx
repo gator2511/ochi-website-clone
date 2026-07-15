@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import { Curve, Ready } from "@/components";
+import { BrandImageGallery, Curve, Ready } from "@/components";
 import {
 	Heropresentation,
 	Projectspresentation,
@@ -11,14 +11,16 @@ export default function Presentation() {
 	useEffect(() => {
 		(async () => {
 			const LocomotiveScroll = (await import("locomotive-scroll")).default;
-			const locomotiveScroll = new LocomotiveScroll();
+			new LocomotiveScroll();
 		})();
 	}, []);
+
 	return (
 		<>
-			<Curve backgroundColor={"#f1f1f1"}>
+			<Curve backgroundColor="#f1f1f1">
 				<Heropresentation />
 				<Projectspresentation />
+				<BrandImageGallery variant="work" />
 				<Publication />
 				<Ready />
 			</Curve>
