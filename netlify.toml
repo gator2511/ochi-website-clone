@@ -1,3 +1,4 @@
+# GT Marketing Netlify build configuration
 [build]
   command = "npm run build"
 
