@@ -1,9 +1,100 @@
 {
   "type": "ContactPage",
-  "title": "Contact",
-  "navigationLabel": "Contact Us",
   "seoTitle": "Contact GT Marketing | Darwin",
   "seoDescription": "Contact GT Marketing to discuss marketing strategy, social media, websites, hosting, automation and growth systems.",
-  "heroHeading": "Start a practical conversation about growth.",
-  "summary": "Tell us what you are trying to achieve, the timeline and the commercial problem that needs solving."
+  "hero": {
+    "headingLine1": "Let’s start",
+    "headingLine2": "a project together",
+    "image": "/contacthhero.jpg",
+    "imageAlt": "GT Marketing contact visual",
+    "formIntro": "Fill the form below:"
+  },
+  "form": {
+    "nameLabel": "Hi! My name is",
+    "namePlaceholder": "Enter your name*",
+    "companyLabel": "and I work with",
+    "companyPlaceholder": "Company name type here*",
+    "goalLabel": "I’m looking for a partner to help me with",
+    "goalPlaceholder": "Your goal type here*",
+    "deadlineLabel": "With an idea of having that completed",
+    "deadlinePlaceholder": "Date*",
+    "budgetLabel": "I am hoping to stay around a budget range of",
+    "budgetPlaceholder": "Select*",
+    "emailLabel": "You can reach me at",
+    "emailPlaceholder": "name@example.com",
+    "emailSuffix": "to start the conversation.",
+    "detailsLabel": "Optionally, I’m sharing more:",
+    "detailsPlaceholder": "Project details type here...",
+    "consentLabel": "I agree with the",
+    "privacyLabel": "Privacy Policy",
+    "submitLabel": "Send inquiry",
+    "sendingLabel": "Sending...",
+    "successHeading": "Enquiry received",
+    "successMessage": "Thank you. Your details have been received and GT Marketing will respond shortly.",
+    "errorFallback": "Something went wrong. Please email gundeep@gtmarketing.io."
+  },
+  "gallery": {
+    "eyebrow": "Start a conversation",
+    "title": "Bring the ambition. We will build the system.",
+    "images": [
+      { "src": "https://images.pexels.com/photos/3923546/pexels-photo-3923546.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Creative portrait holding oranges over the eyes" },
+      { "src": "https://images.pexels.com/photos/13788166/pexels-photo-13788166.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange architectural interior with geometric light" },
+      { "src": "https://images.pexels.com/photos/11588266/pexels-photo-11588266.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Fashion portrait in a vivid orange suit" }
+    ]
+  },
+  "socials": {
+    "headingLines": ["Instagram", "Facebook", "LinkedIn"],
+    "contactLabel": "Our contact"
+  },
+  "faq": {
+    "heading": "A few things you may want to ask us:",
+    "items": [
+      {
+        "question": "What happens after I submit an enquiry?",
+        "title": "Process",
+        "description": "We review your goals, timeline, budget and business context before deciding whether the project is a good fit. You will receive a response outlining the most practical next step.",
+        "buttonLabel": "Read",
+        "links": [
+          { "title": "1", "description": "A short discovery conversation is normally used to clarify the commercial problem and required outcomes." },
+          { "title": "2", "description": "When the scope is clear, we provide a proposal covering deliverables, timing, responsibilities and fees." }
+        ]
+      },
+      {
+        "question": "Which industries do you work with?",
+        "title": "Industries",
+        "description": "GT Marketing works with Australian businesses across healthcare, NDIS, hospitality, professional services, property, technology and other growth-focused sectors.",
+        "buttonLabel": "Read",
+        "links": [
+          { "title": "1", "description": "Regulated sectors require careful attention to claims, privacy, participant or patient trust and advertising obligations." }
+        ]
+      },
+      {
+        "question": "Can you manage strategy and execution together?",
+        "title": "Delivery",
+        "description": "Yes. Our model is designed to connect positioning, campaign planning, content, websites, paid media, automation and reporting rather than treating them as unrelated tasks.",
+        "buttonLabel": "Read",
+        "links": [
+          { "title": "1", "description": "The exact delivery team and channel mix depend on your priorities, internal capability and available budget." }
+        ]
+      },
+      {
+        "question": "Do you work with other agencies and specialists?",
+        "title": "Collaboration",
+        "description": "Yes. We collaborate with photographers, videographers, developers, designers and specialist advisers when that produces a stronger result for the client.",
+        "buttonLabel": "Read",
+        "links": [
+          { "title": "1", "description": "Responsibilities and ownership are clarified before delivery so you have one accountable point of contact." }
+        ]
+      },
+      {
+        "question": "Can you support workshops or speaking engagements?",
+        "title": "Training",
+        "description": "GT Marketing can support practical workshops and presentations covering marketing strategy, digital execution, AI-enabled workflows, brand positioning and communication.",
+        "buttonLabel": "Read",
+        "links": [
+          { "title": "1", "description": "Send the audience, topic, location and expected format through the contact form so we can assess the request." }
+        ]
+      }
+    ]
+  }
 }
