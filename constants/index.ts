@@ -116,7 +116,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Nina Walloch",
       src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
+      review: "Gundeep and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
       links: [
          {
             id: 1,
@@ -219,7 +219,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Brendon Goss",
       src: client05,
-      review: "The service received from GT Marketing was absolutely first-class. Their close attention to detail and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
+      review: "The service received from GT Marketing was absolutely first-class. Their close attention to detail and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Gundeep and his team. I cannot recommend them highly enough.",
       links: [
          {
             id: 1,
@@ -256,7 +256,7 @@ export const clientsItem = [
       title: "Services:",
       name: "Stefan Strohmer",
       src: client07,
-      review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
+      review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Gundeep and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
       links: [
          {
             id: 1,
@@ -495,7 +495,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Nina Walloch",
       src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
+      review: "Gundeep and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
       links: [
          {
             id: 1,
@@ -598,7 +598,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Brendon Goss",
       src: client05,
-      review: "The service received from GT Marketing was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
+      review: "The service received from GT Marketing was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Gundeep and his team. I cannot recommend them highly enough.",
       links: [
          {
             id: 1,
@@ -635,7 +635,7 @@ export const serviceClientsItem = [
       title: "Services:",
       name: "Stefan Strohmer",
       src: client07,
-      review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
+      review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Gundeep and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
       links: [
          {
             id: 1,
@@ -814,21 +814,21 @@ export const expectationsItems = [
       title1: "04",
       subTitle1: "One point of contact",
       btn: "read",
-      para1: "Every project is led by Ihor, the agency's founder and creative director. He ensures the whole project flows from start to finish. He puts together the right creative team for your specific project. You will always have this direct contact person available to speak your business language. He takes care of translating your business goals into the language of design for the team."
+      para1: "Every project is led by Gundeep, the agency's founder and creative director. He ensures the whole project flows from start to finish. He puts together the right creative team for your specific project. You will always have this direct contact person available to speak your business language. He takes care of translating your business goals into the language of design for the team."
    },
    {
       id: 3,
       title1: "02",
-      subTitle1: "Ukrainian Business",
+      subTitle1: "Darwin and Oceania Business",
       btn: "read",
-      para1: "We are a Ukrainian-born business working mainly with international clients. And as Ukrainians, we offer an unshakable workforce that's proven it can handle anything. The international arena was our focus from the start. And each working day, we showed up as genuine innovators and Ukraine ambassadors. Part of our mission is to promote our homeland by doing the most incredible work we can, each project at a time.",
+      para1: "We are a local Darwin business working mainly with international clients. And we offer an unshakable workforce that's proven it can handle anything. The international arena was our focus from the start. And each working day, we showed up as genuine innovators and Australia ambassadors. Part of our mission is to promote our homeland by doing the most incredible work we can, each project at a time.",
    },
    {
       id: 4,
       title1: "05",
       subTitle1: "Constantly Improving",
       btn: "read",
-      para1: "We are passionate about creating industry-shifting presentations. And as the world around us, we constantly evolve and improve. Our growth is fueled by an innovative ecosystem designed for each team member to grow. We provide them with frequent pieces for training both on design craft and personal development. We are constantly looking for new ways to support our creatives and our community as for our clients."
+      para1: "We are passionate about creating industry-shifting presentations. And as the world around us changes, we constantly evolve and improve. Our growth is fueled by an innovative ecosystem designed for each team member to grow. We provide them with frequent pieces for training both on design craft and personal development. We are constantly looking for new ways to support our creatives and our community as for our clients."
    },
    {
       id: 5,
@@ -840,7 +840,7 @@ export const expectationsItems = [
    {
       id: 6,
       title1: "06",
-      subTitle1: "Limited Amount of Client",
+      subTitle1: "Limited Number of Clients",
       btn: "read",
       para1: "We believe it is vital to dedicate sole focus and undivided attention to each project. To add as much value as possible, we serve a limited amount of clients per month. We have a rule that we follow to choosing projects: our client understands the value of the presentation as a communication tool. We believe in their products or ideas. Together, we work to create positive change."
    },
@@ -1080,7 +1080,7 @@ export const publicationItems = [
    },
    {
       id: 3,
-      title: "tech for ukraine",
+      title: "tech for Australia",
       src: publication3
    },
 ];
@@ -1121,7 +1121,7 @@ export const latestItemss = [
          },
       ],
       title: "Presenting to an International Audience: <br/> Tips and Lessons Learned.",
-      subTitle: "By Ihor Hulyahrodskyy",
+      subTitle: "By Gundeep Thethy",
       date: "26 May 2023"
    },
    {
@@ -1135,7 +1135,7 @@ export const latestItemss = [
          },
       ],
       title: "Developing compony-wide presentation template for premium blend.",
-      subTitle: "By Ihor Hulyahrodskyy",
+      subTitle: "By Gundeep Thethy",
       date: "07 Dec 2022"
    },
 ];
@@ -1203,7 +1203,7 @@ export const aboutPartberItems = [
       id: 1,
       src: planetly,
       title: "Planetly",
-      para: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership."
+      para: "Gundeep and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership."
    },
    {
       id: 2,
@@ -1215,7 +1215,7 @@ export const aboutPartberItems = [
       id: 3,
       src: nestle,
       title: "Nestle",
-      para: "This is just a great experience for us! As an established company, you operate within different industries and expect immediate input with a certain level of service. Ihor and the team delivered exactly that. Fantastic result, quick delivery time, and highly responsive. This team is a hidden gem. We've already started to outline our next projects for them."
+      para: "This is just a great experience for us! As an established company, you operate within different industries and expect immediate input with a certain level of service. Gundeep and the team delivered exactly that. Fantastic result, quick delivery time, and highly responsive. This team is a hidden gem. We've already started to outline our next projects for them."
    },
    // {
    //    id: 4,
@@ -1239,7 +1239,7 @@ export const aboutPartberItems = [
    //    id: 7,
    //    src: orderlion,
    //    title: "Orderlion",
-   //    para: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!"
+   //    para: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Gundeep and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!"
    // },
    // {
    //    id: 8,
@@ -1308,7 +1308,7 @@ export const FaqItems = [
          {
             id: 1,
             title: 1,
-            description: "If you feel like you’re on top of your creative game, whether it’s storytelling, graphic design, or animation. Send us the CV and portfolio at Ihor@GT Marketing.design with “CREATE AND THRILL” in the subject. We will get back to you and maybe schedule a call. If there’s a potential fit here, you will meet the team. If that goes well – you’ll become a part of it."
+            description: "If you feel like you’re on top of your creative game, whether it’s storytelling, graphic design, or animation. Send us the CV and portfolio at Gundeep@GT Marketing.design with “CREATE AND THRILL” in the subject. We will get back to you and maybe schedule a call. If there’s a potential fit here, you will meet the team. If that goes well – you’ll become a part of it."
          },
          {
             id: 2,
