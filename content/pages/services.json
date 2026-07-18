@@ -1,9 +1,174 @@
 {
   "type": "ServicesPage",
-  "title": "Services",
-  "navigationLabel": "Services",
   "seoTitle": "Marketing Services | GT Marketing Darwin",
   "seoDescription": "Explore GT Marketing services across strategy, social media, DTC marketing, website development, hosting and presentation design.",
-  "heroHeading": "Services built around measurable business growth.",
-  "summary": "Strategy, creative execution, digital delivery and technology working together as one practical growth system."
+  "hero": {
+    "heading": "Services",
+    "image": "https://images.pexels.com/photos/36835822/pexels-photo-36835822.jpeg?auto=compress&cs=tinysrgb&w=2000",
+    "imageAlt": "Bold orange architecture representing structured business growth",
+    "imageCaption": "Strategy, creative execution and technology working as one growth system.",
+    "intro": "We create clear, commercially focused marketing systems that educate audiences, strengthen positioning and influence action.",
+    "approachLabel": "We do this by following a simple approach:",
+    "approachItems": [
+      {
+        "title": "Goal defines it all",
+        "description": "We begin with the commercial outcome you need. Understanding the purpose, audience and decision behind the work allows us to tailor every channel and asset to drive the right result."
+      },
+      {
+        "title": "One connected system",
+        "description": "Strategy, creative, websites, campaigns, automation and reporting are planned together so execution is consistent and performance can be measured."
+      }
+    ]
+  },
+  "process": {
+    "heading": "Holistic process",
+    "items": [
+      {
+        "phase": "01. Phase",
+        "name": "Discovery",
+        "image": "/phase1.png",
+        "description": "We define your goals, audience, offer and operating context. Research and discovery identify the commercial problem and the opportunities that should guide future decisions.",
+        "buttonLabel": "Read"
+      },
+      {
+        "phase": "02. Phase",
+        "name": "Strategy",
+        "image": "/phase2.png",
+        "description": "We turn discovery into a clear growth plan covering positioning, channels, messaging, priorities, measurement and the practical sequence of delivery.",
+        "buttonLabel": "Read"
+      },
+      {
+        "phase": "03. Phase",
+        "name": "Creative and build",
+        "image": "/phase3.png",
+        "description": "We develop the campaigns, content, website assets and customer journeys needed to communicate clearly and move people toward action.",
+        "buttonLabel": "Read"
+      },
+      {
+        "phase": "04. Phase",
+        "name": "Launch and feedback",
+        "image": "/phase4.png",
+        "description": "Work is launched in controlled stages, reviewed against the objective and improved through client feedback and performance evidence.",
+        "buttonLabel": "Read"
+      },
+      {
+        "phase": "05. Phase",
+        "name": "Optimisation",
+        "image": "/phase5.png",
+        "description": "We monitor results, improve weak points and document what works so marketing becomes more efficient and predictable over time.",
+        "buttonLabel": "Read"
+      }
+    ]
+  },
+  "capabilities": {
+    "intro": "There is no commercial value in fragmented marketing activity. GT Marketing connects strategy, communication, digital delivery and technology so your team can focus on running the business while the growth system keeps improving.",
+    "label": "Our Capabilities:",
+    "groups": [
+      {
+        "title": "Raise funds",
+        "items": [
+          { "label": "Investor deck", "url": "/contact" },
+          { "label": "Startup pitch", "url": "/contact" }
+        ]
+      },
+      {
+        "title": "Sell products",
+        "items": [
+          { "label": "Business proposal", "url": "/contact" },
+          { "label": "Company presentation", "url": "/contact" },
+          { "label": "Product presentation", "url": "/contact" },
+          { "label": "Sales deck", "url": "/contact" },
+          { "label": "Service deck", "url": "/contact" }
+        ]
+      },
+      {
+        "title": "Hire and manage people",
+        "items": [
+          { "label": "Branded template", "url": "/contact" },
+          { "label": "Onboarding presentation", "url": "/contact" },
+          { "label": "Policy deck and playbook", "url": "/contact" },
+          { "label": "Progress report", "url": "/contact" }
+        ]
+      },
+      {
+        "title": "Additional",
+        "items": [
+          { "label": "Branding", "url": "/contact" },
+          { "label": "Corporate training", "url": "/contact" },
+          { "label": "Redesign", "url": "/contact" },
+          { "label": "Marketing review", "url": "/contact" }
+        ]
+      }
+    ],
+    "marketingHeading": "Marketing",
+    "marketingItems": [
+      { "label": "Social Media Marketing", "url": "/contact" },
+      { "label": "DTC Marketing", "url": "/contact" },
+      { "label": "Marketing Strategy", "url": "/contact" },
+      { "label": "Website Development", "url": "/contact" },
+      { "label": "Web Hosting", "url": "/contact" }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Built as a system",
+    "title": "Strategy and execution working together.",
+    "images": [
+      { "src": "https://images.pexels.com/photos/36835822/pexels-photo-36835822.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange interior with blue geometric skylight" },
+      { "src": "https://images.pexels.com/photos/28963148/pexels-photo-28963148.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange contemporary building facade" },
+      { "src": "https://images.pexels.com/photos/7350058/pexels-photo-7350058.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Abstract red and orange architectural lines" }
+    ]
+  },
+  "archive": {
+    "heading": "GT Marketing in numbers:",
+    "image": "/background.png",
+    "imageAlt": "GT Marketing work collage",
+    "stats": [
+      { "value": "100+", "label": "Clients and projects supported" },
+      { "value": "17", "label": "Countries reached through past work" },
+      { "value": "90%", "label": "Repeat-client benchmark" },
+      { "value": "98%", "label": "Net promoter score benchmark" }
+    ]
+  },
+  "expectations": {
+    "marquee": "Why GT Marketing",
+    "heading": "What you can expect",
+    "items": [
+      {
+        "number": "01",
+        "title": "Communication",
+        "buttonLabel": "Read",
+        "description": "Clear communication, mutual respect and transparent milestones are built into every engagement so you understand what is happening, why it matters and what comes next."
+      },
+      {
+        "number": "02",
+        "title": "Australian business",
+        "buttonLabel": "Read",
+        "description": "We are an Australian-based business working with local and international clients. Our Northern Territory perspective produces a practical, resilient and commercially focused approach."
+      },
+      {
+        "number": "03",
+        "title": "Holistic approach",
+        "buttonLabel": "Read",
+        "description": "We ask the questions needed to understand your goals, audience, operating environment and commercial constraints before recommending activity."
+      },
+      {
+        "number": "04",
+        "title": "One point of contact",
+        "buttonLabel": "Read",
+        "description": "Every project has one accountable GT Marketing lead who guides the work from discovery through delivery and translates your commercial goals into focused actions."
+      },
+      {
+        "number": "05",
+        "title": "Constant improvement",
+        "buttonLabel": "Read",
+        "description": "We review performance, learn from evidence and improve the system rather than repeatedly delivering the same activity without questioning its commercial value."
+      },
+      {
+        "number": "06",
+        "title": "Focused client capacity",
+        "buttonLabel": "Read",
+        "description": "We limit active engagements so each project receives the strategic attention, execution quality and follow-through required to create meaningful progress."
+      }
+    ]
+  }
 }
