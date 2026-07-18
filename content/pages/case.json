@@ -1,0 +1,91 @@
+{
+  "type": "CasePage",
+  "seoTitle": "Workiz Easy Case Study | GT Marketing",
+  "seoDescription": "A GT Marketing case study covering onboarding, internal communication and sales presentation work for Workiz Easy.",
+  "hero": {
+    "heading": "Workiz Easy",
+    "accentImage": "/workizhero.jpg",
+    "accentImageAlt": "Workiz Easy project detail",
+    "descriptionLabel": "Description:",
+    "description": "Onboarding, internal and sales presentations created for a software startup.",
+    "tags": [
+      { "label": "Onboarding presentations", "url": "/services" },
+      { "label": "Policy deck and playbook", "url": "/services" },
+      { "label": "Sales deck", "url": "/services" }
+    ],
+    "mainImage": "/workiz.jpeg",
+    "mainImageAlt": "Workiz Easy case-study overview"
+  },
+  "company": {
+    "heading": "Company",
+    "label": "About:",
+    "description": "Built by home-service professionals on a mission to make work easier, Workiz helps service businesses complete more jobs, simplify operations and grow smarter.",
+    "details": [
+      { "label": "Industry", "value": "Service-management software" },
+      { "label": "Company size", "value": "100+ people" }
+    ],
+    "image": "/welcome.jpeg",
+    "imageAlt": "Workiz team and product welcome visual"
+  },
+  "challenge": {
+    "heading": "Challenge & Solution",
+    "label": "Services we provided:",
+    "description": "The goal was to build straightforward, professional and emotionally engaging presentations for colleagues and clients. We tailored each deck to its audience, aligned the material with the brand and improved the clarity of the message.",
+    "images": [
+      { "src": "/chelengeBg.jpeg", "alt": "Workiz challenge overview" },
+      { "src": "/showcase1.jpeg", "alt": "Workiz presentation showcase one" },
+      { "src": "/showcase2.png", "alt": "Workiz presentation showcase two" },
+      { "src": "/showcase3.jpeg", "alt": "Workiz presentation showcase three" },
+      { "src": "/showcase4.jpeg", "alt": "Workiz presentation showcase four" },
+      { "src": "/showcase5.jpeg", "alt": "Workiz presentation showcase five" },
+      { "src": "/showcase6.jpeg", "alt": "Workiz presentation showcase six" },
+      { "src": "/after.png", "alt": "Workiz presentation final result" }
+    ]
+  },
+  "video": {
+    "src": "/workizvideo.mp4"
+  },
+  "result": {
+    "heading": "The Result",
+    "label": "Project outcomes:",
+    "feedbackLabel": "Feedback",
+    "feedback": "GT Marketing brought the level of professionalism our presentations were missing. Management and HR were impressed, and the final product created a better experience for new employees and clients.",
+    "resultLabel": "The result",
+    "result": "Ten presentations were created for Workiz, improving onboarding, supporting the sales team and making internal communication easier."
+  },
+  "credit": {
+    "heading": "Credit",
+    "label": "Project team:",
+    "items": [
+      { "label": "Client", "value": "Tomer Levy" },
+      { "label": "Project lead", "value": "GT Marketing" },
+      { "label": "Creative team", "value": "Strategy, storytelling, presentation design and production" },
+      { "label": "Motion & animation", "value": "Specialist project collaboration" }
+    ]
+  },
+  "related": {
+    "marquee": "Other projects",
+    "projects": [
+      {
+        "title": "Officevibe",
+        "url": "/case/",
+        "image": "/project7.webp",
+        "imageAlt": "Officevibe case study",
+        "tags": [{ "label": "Brand template", "url": "/services" }]
+      },
+      {
+        "title": "Planetly",
+        "url": "/case/",
+        "image": "/project5.webp",
+        "imageAlt": "Planetly case study",
+        "tags": [
+          { "label": "Brand template", "url": "/services" },
+          { "label": "Investor deck", "url": "/services" },
+          { "label": "Sales deck", "url": "/services" }
+        ]
+      }
+    ],
+    "ctaLabel": "View all case studies",
+    "ctaUrl": "/presentation"
+  }
+}
