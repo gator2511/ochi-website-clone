@@ -1,9 +1,238 @@
 {
   "type": "HomePage",
-  "title": "Home",
-  "navigationLabel": "Home",
   "seoTitle": "GT Marketing | Growth Marketing Agency in Darwin",
   "seoDescription": "GT Marketing builds strategy, digital execution, automation and performance systems for ambitious Australian businesses.",
-  "heroHeading": "We build growth systems that move businesses forward.",
-  "summary": "An NT-based growth agency focused on qualified leads, stronger positioning, operational efficiency and measurable commercial outcomes."
+  "hero": {
+    "headingLine1": "We create",
+    "headingAccent": "eye-opening",
+    "headingLine3": "growth systems",
+    "accentImage": "/ochi-side.jpg",
+    "accentImageAlt": "GT Marketing creative detail",
+    "badgeImage": "/awwwards.svg",
+    "badgeImageAlt": "Recognition badge",
+    "introLeft": "For ambitious Australian businesses",
+    "introRight": "From positioning to measurable growth",
+    "ctaLabel": "Start the project",
+    "ctaUrl": "/contact",
+    "scrollLabel": "Scroll down"
+  },
+  "marqueeText": "GT Marketing",
+  "about": {
+    "intro": "GT Marketing is a strategic growth partner for businesses that need stronger positioning, consistent lead generation, better digital execution and practical systems that turn marketing activity into commercial progress.",
+    "expectationLabel": "What you can expect",
+    "paragraphs": [
+      "We combine strategy, creative execution, digital channels and automation so every part of your marketing works toward the same commercial objective.",
+      "We focus on qualified enquiries, clear positioning, operational efficiency and measurable performance rather than disconnected tactics or vanity metrics."
+    ],
+    "socialLabel": "Social",
+    "approachHeading": "Our approach:",
+    "approachCtaLabel": "Read more",
+    "approachCtaUrl": "/ochi-team",
+    "approachImage": "/gt-home-approach.svg",
+    "approachImageAlt": "GT Marketing founder portrait"
+  },
+  "gallery": {
+    "eyebrow": "Designed to move",
+    "title": "Bold ideas. Structured growth.",
+    "images": [
+      { "src": "https://images.pexels.com/photos/13788166/pexels-photo-13788166.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange architectural interior with geometric light" },
+      { "src": "https://images.pexels.com/photos/28963148/pexels-photo-28963148.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange contemporary building facade" },
+      { "src": "https://images.pexels.com/photos/7577937/pexels-photo-7577937.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange ink cloud against a white background" }
+    ]
+  },
+  "video": {
+    "src": "/homevideo.mp4"
+  },
+  "vision": {
+    "eyebrow": "A clearer growth perspective",
+    "title": "Marketing should create momentum, not more noise.",
+    "items": [
+      {
+        "src": "https://images.pexels.com/photos/8763898/pexels-photo-8763898.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "alt": "Fashion portrait in an orange suit with a circular light installation",
+        "label": "Distinct positioning",
+        "title": "Stand apart before you scale."
+      },
+      {
+        "src": "https://images.pexels.com/photos/6923559/pexels-photo-6923559.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "alt": "Creative fashion portrait in vivid orange",
+        "label": "Bold creative",
+        "title": "Make the brand impossible to ignore."
+      },
+      {
+        "src": "https://images.pexels.com/photos/9836458/pexels-photo-9836458.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "alt": "Three businesswomen overlooking a calm landscape",
+        "label": "One direction",
+        "title": "Align strategy, execution and growth."
+      },
+      {
+        "src": "https://images.pexels.com/photos/3761137/pexels-photo-3761137.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "alt": "Woman wearing virtual reality goggles against an orange background",
+        "label": "Future-focused systems",
+        "title": "See the opportunity before the market does."
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Featured projects",
+    "ctaLabel": "View all case studies",
+    "ctaUrl": "/presentation",
+    "items": [
+      {
+        "title": "Fyde",
+        "url": "/case/",
+        "image": "/project1.webp",
+        "imageAlt": "Fyde project",
+        "tags": [
+          { "label": "Audit", "url": "/services" },
+          { "label": "Copywriting", "url": "/services" },
+          { "label": "Sales deck", "url": "/services" },
+          { "label": "Slides design", "url": "/services" }
+        ]
+      },
+      {
+        "title": "Vise",
+        "url": "/case/",
+        "image": "/project2.webp",
+        "imageAlt": "Vise project",
+        "tags": [
+          { "label": "Agency", "url": "/services" },
+          { "label": "Company presentation", "url": "/services" }
+        ]
+      },
+      {
+        "title": "Trawa",
+        "url": "/case/",
+        "image": "/project3.webp",
+        "imageAlt": "Trawa project",
+        "tags": [
+          { "label": "Brand identity", "url": "/services" },
+          { "label": "Design research", "url": "/services" },
+          { "label": "Investor deck", "url": "/services" }
+        ]
+      },
+      {
+        "title": "Premium Blend",
+        "url": "/case/",
+        "image": "/project4.webp",
+        "imageAlt": "Premium Blend project",
+        "tags": [
+          { "label": "Brand template", "url": "/services" }
+        ]
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "Clients’ reviews",
+    "items": [
+      {
+        "website": "Karman Ventures",
+        "url": "https://www.gtmarketing.io",
+        "serviceLabel": "Services:",
+        "name": "William Barnes",
+        "image": "/client01.png",
+        "review": "They were transparent about the time and stages of the project. The end product was high quality and the process was managed clearly from initial story through to final design.",
+        "tags": [
+          { "label": "Investor deck", "url": "/services" },
+          { "label": "Sales deck", "url": "/services" }
+        ]
+      },
+      {
+        "website": "Planetly",
+        "url": "https://www.planetly.com",
+        "serviceLabel": "Services:",
+        "name": "Nina Walloch",
+        "image": "/client02.png",
+        "review": "The projects were handled with professionalism and creativity. The team understood the brand and translated it into effective presentation design, resulting in a continued partnership.",
+        "tags": [
+          { "label": "Agency", "url": "/services" },
+          { "label": "Branded template", "url": "/services" },
+          { "label": "Investor deck", "url": "/services" }
+        ]
+      },
+      {
+        "website": "Workiz Easy",
+        "url": "https://www.workiz.com",
+        "serviceLabel": "Services:",
+        "name": "Tormer Levy",
+        "image": "/client03.png",
+        "review": "GT Marketing brought the professionalism our presentations were missing. The final product created a stronger experience for new employees and clients.",
+        "tags": [
+          { "label": "Company presentation", "url": "/services" },
+          { "label": "Onboarding presentation", "url": "/services" }
+        ]
+      },
+      {
+        "website": "Premium Blend",
+        "url": "https://www.premium-blend.com",
+        "serviceLabel": "Services:",
+        "name": "Elien Kim",
+        "image": "/client04.png",
+        "review": "Fast, effective and attentive to every detail. The resulting template brought clarity, confidence and ease to our presentations.",
+        "tags": [
+          { "label": "Branded template", "url": "/services" },
+          { "label": "Illustration", "url": "/services" }
+        ]
+      },
+      {
+        "website": "Hypercare Systems",
+        "url": "https://www.hypercare-systems.com",
+        "serviceLabel": "Services:",
+        "name": "Brendon Goss",
+        "image": "/client05.png",
+        "review": "The attention to narrative, flow and aesthetics exceeded expectations. The visuals, animation and strategic guidance were first-class.",
+        "tags": [
+          { "label": "Investor deck", "url": "/services" },
+          { "label": "Startup pitch", "url": "/services" }
+        ]
+      },
+      {
+        "website": "Officevibe",
+        "url": "https://www.officevibe.com",
+        "serviceLabel": "Services:",
+        "name": "Raff Labri",
+        "image": "/client06.png",
+        "review": "GT Marketing understood what was required for an effective presentation and delivered beyond expectations with a complete, high-quality template.",
+        "tags": [
+          { "label": "Branded template deck", "url": "/services" }
+        ]
+      },
+      {
+        "website": "Orderlion",
+        "url": "https://www.orderlion.com",
+        "serviceLabel": "Services:",
+        "name": "Stefan Strohmer",
+        "image": "/client07.jpeg",
+        "review": "The team understood the business problem, iterated thoughtfully and delivered a result we were genuinely excited to use.",
+        "tags": [
+          { "label": "Agency", "url": "/services" },
+          { "label": "Product presentation", "url": "/services" }
+        ]
+      },
+      {
+        "website": "Black Book",
+        "url": "https://www.blackbookapp.co",
+        "serviceLabel": "Services:",
+        "name": "Jacki Smith",
+        "image": "/client08.png",
+        "review": "The team understood the product, worked through feedback constructively and handled the process professionally from milestones to final delivery.",
+        "tags": [
+          { "label": "Review", "url": "/services" },
+          { "label": "Startup pitch", "url": "/services" }
+        ]
+      },
+      {
+        "website": "Trawa Energy",
+        "url": "https://www.trawa.de",
+        "serviceLabel": "Services:",
+        "name": "David Buddy",
+        "image": "/client09.png",
+        "review": "GT Marketing accurately captured a design language that aligned with our preferences and the vision for our growing company.",
+        "tags": [
+          { "label": "Branding", "url": "/services" },
+          { "label": "Investor deck", "url": "/services" }
+        ]
+      }
+    ]
+  }
 }
