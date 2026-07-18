@@ -1,5 +1,8 @@
 "use client";
 
+import Image from "next/image";
+import { motion } from "framer-motion";
+
 export default function Hero() {
 	return (
 		<section className="w-full min-h-screen padding-x pt-[140px] pb-[100px] lg:pt-[120px] md:pt-[100px] sm:pt-[90px] xm:pt-[90px]">
@@ -10,6 +13,24 @@ export default function Hero() {
 						GT MARKETING
 					</h1>
 				</div>
+
+				<motion.div
+					initial={{ opacity: 0, y: 70 }}
+					whileInView={{ opacity: 1, y: 0 }}
+					viewport={{ once: true, amount: 0.2 }}
+					transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+					className="w-full flex justify-end pb-[80px] lg:pb-[70px] md:pb-[60px] sm:pb-[45px] xm:pb-[45px]">
+					<div className="group relative w-[62%] h-[760px] lg:w-[66%] lg:h-[680px] md:w-[72%] md:h-[590px] sm:w-full sm:h-[560px] xm:w-full xm:h-[500px] overflow-hidden rounded-[20px] bg-[#25160e]">
+						<Image
+							src="/gt-about-founder.svg"
+							alt="GT Marketing editorial portrait"
+							fill
+							sizes="(max-width: 768px) 100vw, 62vw"
+							priority
+							className="object-cover object-center transition-transform duration-[1400ms] ease-[.215,.61,.355,1] group-hover:scale-[1.035]"
+						/>
+					</div>
+				</motion.div>
 
 				<div className="w-full border-t border-[#21212155] pt-[24px]">
 					<div className="w-full flex justify-between sm:flex-col xm:flex-col gap-[30px]">
