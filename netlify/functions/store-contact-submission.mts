@@ -1,25 +1,40 @@
 import { getDatabase } from "@netlify/database";
+import type { FormSubmittedEvent } from "@netlify/functions";
 
-type FormData = Record<string, string | undefined>;
+const CONTACT_FORM_NAME = "gt-marketing-contact";
+
+function requiredField(data: Record<string, string>, field: string) {
+	const value = data[field]?.trim();
+
+	if (!value) {
+		throw new Error(`Missing required form field: ${field}`);
+	}
+
+	return value;
+}
 
 export default {
-	async formSubmitted(event: { data?: FormData }) {
-		const data = event.data ?? {};
-		const formName = data["form-name"] ?? data.formName ?? data.form_name;
+	async formSubmitted(event: FormSubmittedEvent) {
+		const data = event.data;
 
-		if (formName && formName !== "gt-marketing-contact") {
+		if (data["form-name"] !== CONTACT_FORM_NAME) {
 			return;
 		}
 
-		if (!data.name || !data.company || !data.goal || !data.email || !data.budget) {
-			console.warn("Skipping incomplete GT Marketing contact submission.");
-			return;
+		const name = requiredField(data, "name");
+		const company = requiredField(data, "company");
+		const goal = requiredField(data, "goal");
+		const budget = requiredField(data, "budget");
+		const email = requiredField(data, "email").toLowerCase();
+		const privacyConsent = data.privacy_consent === "yes";
+
+		if (!privacyConsent) {
+			throw new Error("Privacy consent was not provided.");
 		}
 
 		const database = getDatabase();
 		const deadline = data.deadline?.trim() || null;
 		const details = data.details?.trim() || null;
-		const consent = data.privacy_consent === "yes";
 		const rawData = JSON.stringify(data);
 
 		await database.sql`
@@ -35,16 +50,18 @@ export default {
 				raw_data
 			)
 			VALUES (
-				${data.name.trim()},
-				${data.company.trim()},
-				${data.goal.trim()},
+				${name},
+				${company},
+				${goal},
 				${deadline},
-				${data.budget.trim()},
-				${data.email.trim().toLowerCase()},
+				${budget},
+				${email},
 				${details},
-				${consent},
+				${privacyConsent},
 				${rawData}::jsonb
 			)
 		`;
+
+		console.log(`Stored GT Marketing enquiry from ${email}.`);
 	},
 };
