@@ -4,6 +4,14 @@ import { useState } from "react";
 import { Button } from "@/components";
 import { serviceCapaybilitiesItem } from "@/constants";
 
+const marketingServices = [
+	{ id: 1, title: "Social Media Marketing", href: "/contact" },
+	{ id: 2, title: "DTC Marketing", href: "/contact" },
+	{ id: 3, title: "Marketing Strategy", href: "/contact" },
+	{ id: 4, title: "Website Development", href: "/contact" },
+	{ id: 5, title: "Web Hosting", href: "/contact" },
+];
+
 export default function Capibilyties() {
 	const [hovered, setHovered] = useState(false);
 	const [hovered1, setHovered1] = useState(false);
@@ -38,20 +46,20 @@ export default function Capibilyties() {
 								{hovered && item.id === 1 ? (
 									<Image
 										src={item.src1}
-										alt="img"
+										alt="GT Marketing capability"
 										width={300}
 										height={200}
-										className="w-[300px] h-[200px] rounded-[20px]"
+										className="w-[300px] h-[200px] rounded-[20px] object-cover"
 									/>
 								) : (
 									hovered1 &&
 									item.id === 1 && (
 										<Image
 											src={item.src2}
-											alt="img"
+											alt="GT Marketing capability"
 											width={300}
 											height={200}
-											className="w-[300px] h-[200px] rounded-[20px]"
+											className="w-[300px] h-[200px] rounded-[20px] object-cover"
 										/>
 									)
 								)}
@@ -102,6 +110,34 @@ export default function Capibilyties() {
 							</div>
 						</div>
 					))}
+				</div>
+			</div>
+
+			<div className="w-full flex sm:flex-col xm:flex-col justify-between py-[35px] padding-x border-t border-[#21212155] sm:gap-[20px] xm:gap-[20px]">
+				<div className="w-[10%] sm:w-full xm:w-full">
+					<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
+						Marketing:
+					</h3>
+				</div>
+				<div className="w-[90%] flex sm:flex-col xm:flex-col">
+					<div className="w-[40%] sm:hidden xm:hidden" />
+					<div className="w-[55%] sm:w-full xm:w-full">
+						<div className="flex items-center gap-x-[10px] pb-[20px]">
+							<span className="w-[12px] h-[12px] rounded-full bg-secondry" />
+							<h2 className="paragraph uppercase font-medium font-NeueMontreal text-secondry">
+								Marketing
+							</h2>
+						</div>
+						<div className="grid grid-cols-2 sm:grid-cols-1 xm:grid-cols-1 gap-x-[40px] gap-y-[6px]">
+							{marketingServices.map((service) => (
+								<Button
+									key={service.id}
+									href={service.href}
+									title={service.title}
+								/>
+							))}
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
