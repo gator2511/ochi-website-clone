@@ -1,9 +1,148 @@
 {
   "type": "PrivacyPage",
-  "title": "Privacy Policy",
-  "navigationLabel": "Privacy Policy",
   "seoTitle": "Privacy Policy | GT Marketing",
   "seoDescription": "Read how GT Marketing collects, uses, stores and protects personal information submitted through its website and services.",
-  "heroHeading": "Privacy Policy",
-  "summary": "This policy explains how GT Marketing manages personal information, contact-form submissions, service-provider processing and privacy requests."
+  "eyebrow": "GT Marketing / Legal",
+  "headingLines": ["Privacy", "Policy"],
+  "summary": "This policy explains how GT Marketing manages personal information collected through this website and our business activities.",
+  "effectiveDate": "Effective: 18 July 2026",
+  "contactLabel": "Contact",
+  "sections": [
+    {
+      "number": "01",
+      "title": "About this policy",
+      "paragraphs": [
+        "GT Marketing respects your privacy. This Privacy Policy explains how we collect, hold, use and disclose personal information when you visit gtmarketing.io, submit an enquiry, communicate with us or use our services.",
+        "We aim to handle personal information consistently with the Privacy Act 1988 (Cth) and the Australian Privacy Principles where they apply to us."
+      ],
+      "bullets": []
+    },
+    {
+      "number": "02",
+      "title": "Information we collect",
+      "paragraphs": [
+        "Depending on how you interact with us, we may collect the following information.",
+        "Please do not include health information, disability information or other sensitive personal information in the general contact form unless it is genuinely necessary and we have asked you to provide it."
+      ],
+      "bullets": [
+        "Your name, email address and other contact details.",
+        "Your business or organisation name.",
+        "Project goals, preferred completion date, budget range and details included in an enquiry.",
+        "Communications, proposals, meeting notes, feedback and service records.",
+        "Website and device information such as IP address, browser type, referring page, access time and security logs.",
+        "Payment, invoicing and transaction information where you become a client."
+      ]
+    },
+    {
+      "number": "03",
+      "title": "How we collect information",
+      "paragraphs": ["We may collect personal information in the following ways."],
+      "bullets": [
+        "Directly from you through our contact form, email or meetings.",
+        "When you engage us or request a proposal.",
+        "From publicly available business sources and professional networks.",
+        "From referral partners where appropriate.",
+        "Automatically through hosting, security and website technologies."
+      ]
+    },
+    {
+      "number": "04",
+      "title": "Why we use your information",
+      "paragraphs": [
+        "You may opt out of marketing communications at any time by using the unsubscribe option provided or emailing us."
+      ],
+      "bullets": [
+        "Respond to enquiries and assess whether we can assist you.",
+        "Prepare proposals, quotations and service agreements.",
+        "Deliver, manage and improve our marketing services.",
+        "Manage client relationships, billing and administration.",
+        "Operate, secure, troubleshoot and improve our website.",
+        "Comply with legal, regulatory and insurance obligations.",
+        "Send marketing communications where you have consented or where otherwise permitted by law."
+      ]
+    },
+    {
+      "number": "05",
+      "title": "Contact forms and database storage",
+      "paragraphs": [
+        "When you submit the contact form, the information is processed by Netlify Forms, recorded in our Netlify project and copied to our contact-submissions database so we can organise and respond to your enquiry. A notification may also be sent to our business email.",
+        "We use the information submitted through the form only for enquiry management, client development, service delivery, security and related business administration unless you separately agree to receive marketing."
+      ],
+      "bullets": []
+    },
+    {
+      "number": "06",
+      "title": "Cookies and technical information",
+      "paragraphs": [
+        "Our website and hosting providers may use essential cookies, logs and similar technologies to deliver pages, maintain security, prevent abuse and understand technical performance. If we introduce non-essential analytics or advertising cookies, we will update this policy and provide any consent controls required by law.",
+        "You can control cookies through your browser settings, although disabling essential technologies may affect site functionality."
+      ],
+      "bullets": []
+    },
+    {
+      "number": "07",
+      "title": "Disclosure and service providers",
+      "paragraphs": [
+        "We do not sell personal information. We take reasonable steps to use service providers that handle information securely and only for the purposes for which it was provided."
+      ],
+      "bullets": [
+        "Hosting, database, email, CRM, analytics, automation and technology providers that support our operations.",
+        "Professional advisers such as accountants, lawyers, insurers and IT specialists.",
+        "Contractors or collaborators who need the information to perform agreed services.",
+        "Government, regulatory or law-enforcement bodies where required or authorised by law."
+      ]
+    },
+    {
+      "number": "08",
+      "title": "Overseas processing",
+      "paragraphs": [
+        "Some technology providers we use, including Netlify, are based overseas or use infrastructure and subprocessors outside Australia. As a result, personal information may be processed or stored in the United States and other countries where those providers operate.",
+        "Privacy protections in those countries may differ from Australian law. We take reasonable steps appropriate to the circumstances when selecting and managing service providers."
+      ],
+      "bullets": []
+    },
+    {
+      "number": "09",
+      "title": "Security and retention",
+      "paragraphs": [
+        "We use reasonable administrative, technical and organisational measures designed to protect personal information from misuse, interference, loss and unauthorised access, modification or disclosure. No internet transmission or storage system can be guaranteed to be completely secure.",
+        "We retain personal information only for as long as reasonably needed for the purpose for which it was collected, to maintain business and tax records, resolve disputes and meet legal obligations. Information that is no longer required is deleted, de-identified or securely disposed of where practicable."
+      ],
+      "bullets": []
+    },
+    {
+      "number": "10",
+      "title": "Access and correction",
+      "paragraphs": [
+        "You may request access to personal information we hold about you or ask us to correct information that is inaccurate, incomplete or out of date. You may also ask us to delete information where we are not required to retain it.",
+        "Email your request to gundeep@gtmarketing.io. We may need to verify your identity before processing it. We will respond within a reasonable period and explain any lawful reason why a request cannot be completed in full."
+      ],
+      "bullets": []
+    },
+    {
+      "number": "11",
+      "title": "Privacy complaints",
+      "paragraphs": [
+        "To raise a privacy concern, email gundeep@gtmarketing.io with enough detail for us to understand and investigate the issue. We will acknowledge the complaint and aim to provide a response within a reasonable period.",
+        "If you are not satisfied with our response and the Privacy Act applies to the matter, you may contact the Office of the Australian Information Commissioner through its official website."
+      ],
+      "bullets": []
+    },
+    {
+      "number": "12",
+      "title": "External links and social media",
+      "paragraphs": [
+        "Our website links to third-party platforms such as Facebook, Instagram, LinkedIn and Google Maps. Those services operate under their own privacy policies. We are not responsible for how third-party websites collect or use information after you leave our website."
+      ],
+      "bullets": []
+    },
+    {
+      "number": "13",
+      "title": "Changes to this policy",
+      "paragraphs": [
+        "We may update this policy when our services, technology or legal requirements change. The latest version will be published on this page with the updated effective date."
+      ],
+      "bullets": []
+    }
+  ]
 }
