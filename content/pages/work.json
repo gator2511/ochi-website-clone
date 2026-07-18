@@ -1,9 +1,125 @@
 {
   "type": "WorkPage",
-  "title": "Our Work",
-  "navigationLabel": "Our Work",
   "seoTitle": "Our Work | GT Marketing",
   "seoDescription": "See selected GT Marketing projects across campaigns, branding, presentations, websites and growth systems.",
-  "heroHeading": "Work designed to create commercial momentum.",
-  "summary": "Selected projects demonstrating strategic thinking, creative execution and practical business outcomes."
+  "hero": {
+    "heading": "Work",
+    "count": "9"
+  },
+  "intro": "Purpose-driven, strategy-led work that people notice, understand and act on.",
+  "projects": [
+    {
+      "title": "Fyde",
+      "url": "/case/",
+      "image": "/project1.webp",
+      "imageAlt": "Fyde project",
+      "tags": [
+        { "label": "Audit", "url": "/services" },
+        { "label": "Copywriting", "url": "/services" },
+        { "label": "Sales deck", "url": "/services" },
+        { "label": "Slides design", "url": "/services" }
+      ]
+    },
+    {
+      "title": "Trawa",
+      "url": "/case/",
+      "image": "/project3.webp",
+      "imageAlt": "Trawa project",
+      "tags": [
+        { "label": "Brand identity", "url": "/services" },
+        { "label": "Design research", "url": "/services" },
+        { "label": "Investor deck", "url": "/services" }
+      ]
+    },
+    {
+      "title": "Premium Blend",
+      "url": "/case/",
+      "image": "/project4.webp",
+      "imageAlt": "Premium Blend project",
+      "tags": [
+        { "label": "Brand template", "url": "/services" }
+      ]
+    },
+    {
+      "title": "Planetly",
+      "url": "/case/",
+      "image": "/project5.webp",
+      "imageAlt": "Planetly project",
+      "tags": [
+        { "label": "Brand template", "url": "/services" },
+        { "label": "Big news deck", "url": "/services" },
+        { "label": "Investor deck", "url": "/services" },
+        { "label": "Sales deck", "url": "/services" }
+      ]
+    },
+    {
+      "title": "Black Box",
+      "url": "/case/",
+      "image": "/project8.webp",
+      "imageAlt": "Black Box project",
+      "tags": [
+        { "label": "Investor deck", "url": "/services" },
+        { "label": "Redesign", "url": "/services" },
+        { "label": "Review", "url": "/services" }
+      ]
+    },
+    {
+      "title": "Vise",
+      "url": "/case/",
+      "image": "/project2.webp",
+      "imageAlt": "Vise project",
+      "tags": [
+        { "label": "Agency", "url": "/services" },
+        { "label": "Company presentation", "url": "/services" }
+      ]
+    },
+    {
+      "title": "Soft Start",
+      "url": "/case/",
+      "image": "/project9.webp",
+      "imageAlt": "Soft Start project",
+      "tags": [
+        { "label": "Brand template", "url": "/services" },
+        { "label": "Sales deck", "url": "/services" }
+      ]
+    },
+    {
+      "title": "Officevibe",
+      "url": "/case/",
+      "image": "/project7.webp",
+      "imageAlt": "Officevibe project",
+      "tags": [
+        { "label": "Brand template", "url": "/services" }
+      ]
+    },
+    {
+      "title": "Workiz Easy",
+      "url": "/case/",
+      "image": "/project6.webp",
+      "imageAlt": "Workiz Easy project",
+      "tags": [
+        { "label": "Onboarding presentation", "url": "/services" },
+        { "label": "Policy deck and playbook", "url": "/services" },
+        { "label": "Sales deck", "url": "/services" }
+      ]
+    }
+  ],
+  "gallery": {
+    "eyebrow": "Distinct by design",
+    "title": "Creative work that earns attention.",
+    "images": [
+      { "src": "https://images.pexels.com/photos/11588266/pexels-photo-11588266.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Fashion portrait in a vivid orange suit" },
+      { "src": "https://images.pexels.com/photos/3923546/pexels-photo-3923546.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Creative portrait holding oranges over the eyes" },
+      { "src": "https://images.pexels.com/photos/12915530/pexels-photo-12915530.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Modern yellow building under dramatic clouds" }
+    ]
+  },
+  "publication": {
+    "marquee": "Behance",
+    "heading": "Latest publication",
+    "items": [
+      { "title": "Officevibe presentation template", "image": "/publication1.jpeg", "imageAlt": "Officevibe publication", "url": "/presentation" },
+      { "title": "Trawa Energy pitch deck", "image": "/publication2.png", "imageAlt": "Trawa Energy publication", "url": "/presentation" },
+      { "title": "Tech for Australia", "image": "/publication3.png", "imageAlt": "Australian technology publication", "url": "/presentation" }
+    ]
+  }
 }
