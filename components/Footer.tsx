@@ -129,8 +129,8 @@ export default function Footer() {
 							© GT Studio 2026
 						</h1>
 						<LinkHover
-							title="Legal Terms"
-							href="/"
+							title="Privacy Policy"
+							href="/privacy"
 							className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
 						/>
 					</div>
