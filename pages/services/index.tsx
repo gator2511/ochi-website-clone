@@ -1,7 +1,6 @@
 "use client";
 import {
 	Capibilyties,
-	Clientsservices,
 	Expectations,
 	Process,
 	Archive,
@@ -25,7 +24,6 @@ export default function Services() {
 				<Process />
 				<Capibilyties />
 				<BrandImageGallery variant="services" />
-				<Clientsservices />
 				<Archive />
 				<Expectations />
 				<Ready />
