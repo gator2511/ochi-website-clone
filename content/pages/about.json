@@ -1,9 +1,25 @@
 {
   "type": "AboutPage",
-  "title": "About GT Marketing",
-  "navigationLabel": "About Us",
   "seoTitle": "About GT Marketing | Darwin Growth Agency",
   "seoDescription": "Learn how GT Marketing combines strategy, execution, automation and performance tracking for businesses in the Northern Territory and beyond.",
-  "heroHeading": "About GT Marketing",
-  "summary": "An NT-based growth agency built for businesses that want results rather than fragmented tactics and marketing noise."
+  "hero": {
+    "headingLine1": "About",
+    "headingLine2": "GT Marketing",
+    "image": "/gt-about-founder.svg",
+    "imageAlt": "GT Marketing founder reading a newspaper",
+    "sectionLabel": "About us:",
+    "paragraphs": [
+      "GT Marketing is an NT-based growth agency built for businesses that want results, not marketing noise. We go beyond traditional marketing to design and run complete growth systems such as strategy, digital execution, automation and performance tracking — all aligned to drive revenue.",
+      "We work with businesses that are tired of fragmented tactics, inconsistent leads and wasted spend. Instead of chasing vanity metrics, we focus on predictable lead flow, stronger brand positioning and operational efficiency."
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Clear direction",
+    "title": "Growth without the marketing noise.",
+    "images": [
+      { "src": "https://images.pexels.com/photos/13788166/pexels-photo-13788166.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange architectural interior with geometric light" },
+      { "src": "https://images.pexels.com/photos/17719825/pexels-photo-17719825.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Abstract orange architectural curve" },
+      { "src": "https://images.pexels.com/photos/7577937/pexels-photo-7577937.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange ink cloud against a white background" }
+    ]
+  }
 }
