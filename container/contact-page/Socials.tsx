@@ -1,116 +1,74 @@
 "use client";
+
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { LinkHover, TextMask } from "@/animation";
 import { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { Eyes } from "@/components";
+import site from "@/content/data/site.json";
 
-const socialLinks = [
-	{
-		id: 1,
-		title: "Instagram",
-		href: "https://www.instagram.com/gundeepsingh.25/",
-	},
-	{
-		id: 2,
-		title: "Facebook",
-		href: "https://www.facebook.com/profile.php?id=61573879594526",
-	},
-	{
-		id: 3,
-		title: "LinkedIn",
-		href: "https://www.linkedin.com/company/gt-marketing-darwin/?viewAsMember=true",
-	},
-];
-
-export default function Socials() {
-	const phrase = ["INSTAGRAM", "FACEBOOK", "LINKEDIN"];
+export default function Socials({
+	content,
+}: {
+	content: { headingLines: string[]; contactLabel: string };
+}) {
 	const container = useRef(null);
-
-	const { scrollYProgress } = useScroll({
-		target: container,
-		offset: ["start end", "end start"],
-	});
-
+	const { scrollYProgress } = useScroll({ target: container, offset: ["start end", "end start"] });
 	const mq = useTransform(scrollYProgress, [0, 1], [0, -700]);
-	const addressHref =
-		"https://www.google.com/maps/search/?api=1&query=130%20Smith%20Street%2C%20Darwin%20City%2C%20NT%200800";
 
 	return (
-		<section
-			className="w-full min-h-screen sm:h-screen xm:h-screen bg-about padding-y relative"
-			ref={container}>
+		<section className="w-full min-h-screen sm:h-screen xm:h-screen bg-about padding-y relative" ref={container}>
 			<div className="w-full h-full flex justify-center gap-[50px] items-center flex-col">
 				<div className="flex flex-col gap-[10px] pb-[50px]">
 					<h1 className="text-[277px] leading-[207px] lg:text-[230px] lg:leading-[170px] md:text-[150px] md:leading-[100px] sm:text-[74px] sm:leading-[68px] xm:text-[64px] xm:leading-[48px] text-center font-bold font-FoundersGrotesk text-secondry uppercase pointer-events-none">
-						<TextMask>{phrase}</TextMask>
+						{content.headingLines.map((line, index) => (
+							<span key={`${line}-${index}`} data-sb-field-path={`socials.headingLines.${index}`}>
+								<TextMask>{[line]}</TextMask>
+							</span>
+						))}
 					</h1>
 				</div>
 				<div className="w-full border-t border-[#21212155] pt-[20px]">
 					<div className="w-full flex sm:flex-col xm:flex-col justify-between gap-y-[20px] padding-x">
 						<div className="w-[50%] sm:w-full xm:w-full">
-							<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-								Our contact
+							<h3 data-sb-field-path="socials.contactLabel" className="paragraph font-medium text-secondry font-NeueMontreal">
+								{content.contactLabel}
 							</h3>
-							<div className="pt-[30px] flex flex-col gap-y-[10px]">
-								{socialLinks.map((item) => (
-									<LinkHover
-										key={item.id}
-										title={item.title}
-										href={item.href}
-										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium text-secondry capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-									/>
+							<div data-sb-object-id="content/data/site.json" className="pt-[30px] flex flex-col gap-y-[10px]">
+								{site.socialLinks.map((item, index) => (
+									<span key={`${item.label}-${index}`} data-sb-field-path={`socialLinks.${index}.label`}>
+										<LinkHover title={item.label} href={item.url} className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium text-secondry capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]" />
+									</span>
 								))}
 							</div>
 						</div>
-						<div className="w-[50%] sm:w-full xm:w-full flex sm:flex-col xm:flex-col justify-between gap-y-[20px]">
+						<div data-sb-object-id="content/data/site.json" className="w-[50%] sm:w-full xm:w-full flex sm:flex-col xm:flex-col justify-between gap-y-[20px]">
 							<div>
-								<h1 className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
-									L:
-								</h1>
+								<h1 className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">L:</h1>
 								<div className="flex flex-col gap-y-[10px]">
-									<LinkHover
-										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title="130 Smith Street, Darwin City"
-										href={addressHref}
-									/>
-									<LinkHover
-										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title="Darwin, Northern Territory"
-										href={addressHref}
-									/>
-									<LinkHover
-										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title="0800"
-										href={addressHref}
-									/>
+									{site.addressLines.map((line, index) => (
+										<span key={`${line}-${index}`} data-sb-field-path={`addressLines.${index}`}>
+											<LinkHover title={line} href={site.addressUrl} className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]" />
+										</span>
+									))}
 								</div>
 							</div>
 							<div className="flex w-fit h-fit gap-x-[5px] group">
 								<div className="rounded-[50px] border-[2px] border-[#21212155] group-hover:bg-secondry py-[3px] px-[12px] cursor-pointer">
-									<Link
-										href="mailto:gundeep@gtmarketing.io"
-										className="paragraph font-NeueMontreal text-secondry uppercase group-hover:text-background transition-all duration-200 ease-in">
-										gundeep@gtmarketing.io
+									<Link data-sb-field-path="email" href={`mailto:${site.email}`} className="paragraph font-NeueMontreal text-secondry uppercase group-hover:text-background transition-all duration-200 ease-in">
+										{site.email}
 									</Link>
 								</div>
 								<div className="w-[33px] flex items-center justify-center h-[33px] border-[2px] border-[#21212155] rounded-[50px] group-hover:bg-secondry transition-all duration-200 ease-in cursor-pointer sm:hidden xm:hidden">
-									<p className="paragraph font-normal text-secondry group-hover:text-background">
-										<ArrowUpRight
-											size={24}
-											strokeWidth={1.25}
-										/>
-									</p>
+									<ArrowUpRight size={24} strokeWidth={1.25} />
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<motion.div
-				className="w-full absolute top-[50%] transform translate-y-[-50%] gap-[30px] flex items-center justify-center"
-				style={{ y: mq }}>
+			<motion.div className="w-full absolute top-[50%] transform translate-y-[-50%] gap-[30px] flex items-center justify-center" style={{ y: mq }}>
 				<Eyes className="w-[230px] h-[230px] md:w-[200px] md:h-[200px] sm:w-[150px] sm:h-[150px] xm:w-[150px] xm:h-[150px] sm:flex-col xm:flex-col" />
 			</motion.div>
 		</section>
