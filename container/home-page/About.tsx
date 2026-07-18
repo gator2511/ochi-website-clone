@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import { aboutImg } from "@/public";
 import { LinkHover } from "@/animation";
 import { footerItems } from "@/constants";
 import { Heading, RoundButton } from "@/components";
@@ -49,7 +48,7 @@ export default function About() {
 									captivating.
 								</p>
 							</div>
-							<div className="w-[60%] flex justify-end flex-col  sm:w-full xm:w-full">
+							<div className="w-[60%] flex justify-end flex-col sm:w-full xm:w-full">
 								<h1 className="sub-paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
 									S:
 								</h1>
@@ -59,7 +58,7 @@ export default function About() {
 											key={item.id}
 											className="w-fit sub-paragraph font-medium capitalize before:h-[1px] after:h-[1px] before:bottom-[1px] after:bottom-[1px]"
 											title={item.title}
-											href={"/"}
+											href="/"
 										/>
 									))}
 								</div>
@@ -85,13 +84,15 @@ export default function About() {
 					</div>
 				</div>
 				<div
-					className={`w-[50%] sm:w-full xm:w-full transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${
+					className={`relative w-[50%] h-[610px] lg:h-[560px] md:h-[500px] sm:w-full sm:h-[540px] xm:w-full xm:h-[470px] transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden bg-[#e9e5df] ${
 						hovered && "scale-[0.96]"
 					}`}>
 					<Image
-						src={aboutImg}
-						alt="about-img"
-						className={`w-full h-full transition transform duration-[2s] ease-[.215,.61,.355,1] ${
+						src="/gt-home-approach.svg"
+						alt="GT Marketing portrait"
+						fill
+						sizes="(max-width: 768px) 100vw, 50vw"
+						className={`object-cover object-[center_32%] transition transform duration-[2s] ease-[.215,.61,.355,1] ${
 							hovered && "scale-[1.09]"
 						}`}
 					/>
