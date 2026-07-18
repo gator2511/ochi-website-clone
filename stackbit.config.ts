@@ -1,49 +1,38 @@
 import { GitContentSource } from "@stackbit/cms-git";
 import { defineStackbitConfig } from "@stackbit/types";
 
-const linkFields = [
-	{ name: "label", type: "string", required: true },
-	{ name: "url", type: "string", required: true },
-];
+const stringField = (name: string, required = true) => ({ name, type: "string", required });
+const textField = (name: string, required = true) => ({ name, type: "text", required });
+const imageField = (name: string, required = true) => ({ name, type: "image", required });
+const stringList = (name: string) => ({ name, type: "list", items: { type: "string" } });
+const textList = (name: string) => ({ name, type: "list", items: { type: "text" } });
+const objectField = (name: string, fields: any[]) => ({ name, type: "object", fields });
+const objectList = (name: string, fields: any[]) => ({
+	name,
+	type: "list",
+	items: { type: "object", fields },
+});
 
-const imageFields = [
-	{ name: "src", type: "image", required: true },
-	{ name: "alt", type: "string", required: true },
-];
-
+const linkFields = [stringField("label"), stringField("url")];
+const imageFields = [imageField("src"), stringField("alt")];
+const seoFields = [stringField("seoTitle"), textField("seoDescription")];
 const galleryFields = [
-	{ name: "eyebrow", type: "string", required: true },
-	{ name: "title", type: "string", required: true },
-	{
-		name: "images",
-		type: "list",
-		required: true,
-		items: { type: "object", fields: imageFields },
-	},
+	stringField("eyebrow"),
+	stringField("title"),
+	objectList("images", imageFields),
 ];
-
 const projectFields = [
-	{ name: "title", type: "string", required: true },
-	{ name: "url", type: "string", required: true },
-	{ name: "image", type: "image", required: true },
-	{ name: "imageAlt", type: "string", required: true },
-	{
-		name: "tags",
-		type: "list",
-		items: { type: "object", fields: linkFields },
-	},
+	stringField("title"),
+	stringField("url"),
+	imageField("image"),
+	stringField("imageAlt"),
+	objectList("tags", linkFields),
 ];
-
 const publicationFields = [
-	{ name: "title", type: "string", required: true },
-	{ name: "image", type: "image", required: true },
-	{ name: "imageAlt", type: "string", required: true },
-	{ name: "url", type: "string", required: false },
-];
-
-const commonSeoFields = [
-	{ name: "seoTitle", type: "string", required: true },
-	{ name: "seoDescription", type: "text", required: true },
+	stringField("title"),
+	imageField("image"),
+	stringField("imageAlt"),
+	stringField("url", false),
 ];
 
 const models: any[] = [
@@ -52,48 +41,25 @@ const models: any[] = [
 		type: "data",
 		filePath: "content/data/site.json",
 		fields: [
-			{ name: "brandName", type: "string", required: true },
-			{ name: "logo", type: "image", required: true },
-			{ name: "logoAlt", type: "string", required: true },
-			{
-				name: "navigation",
-				type: "list",
-				required: true,
-				items: { type: "object", fields: linkFields },
-			},
-			{
-				name: "socialLinks",
-				type: "list",
-				required: true,
-				items: { type: "object", fields: linkFields },
-			},
-			{
-				name: "addressLines",
-				type: "list",
-				required: true,
-				items: { type: "string" },
-			},
-			{ name: "addressUrl", type: "string", required: true },
-			{ name: "email", type: "string", required: true },
-			{ name: "footerHeading", type: "string", required: true },
-			{ name: "footerHeadingAccent", type: "string", required: true },
-			{ name: "copyright", type: "string", required: true },
-			{ name: "privacyLabel", type: "string", required: true },
-			{ name: "websiteCredit", type: "string", required: true },
-			{
-				name: "ready",
-				type: "object",
-				fields: [
-					{
-						name: "headingLines",
-						type: "list",
-						items: { type: "string" },
-					},
-					{ name: "primaryLabel", type: "string", required: true },
-					{ name: "primaryUrl", type: "string", required: true },
-					{ name: "orLabel", type: "string", required: true },
-				],
-			},
+			stringField("brandName"),
+			imageField("logo"),
+			stringField("logoAlt"),
+			objectList("navigation", linkFields),
+			objectList("socialLinks", linkFields),
+			stringList("addressLines"),
+			stringField("addressUrl"),
+			stringField("email"),
+			stringField("footerHeading"),
+			stringField("footerHeadingAccent"),
+			stringField("copyright"),
+			stringField("privacyLabel"),
+			stringField("websiteCredit"),
+			objectField("ready", [
+				stringList("headingLines"),
+				stringField("primaryLabel"),
+				stringField("primaryUrl"),
+				stringField("orLabel"),
+			]),
 		],
 	},
 	{
@@ -102,112 +68,62 @@ const models: any[] = [
 		urlPath: "/",
 		filePath: "content/pages/home.json",
 		fields: [
-			...commonSeoFields,
-			{
-				name: "hero",
-				type: "object",
-				fields: [
-					{ name: "headingLine1", type: "string", required: true },
-					{ name: "headingAccent", type: "string", required: true },
-					{ name: "headingLine3", type: "string", required: true },
-					{ name: "accentImage", type: "image", required: true },
-					{ name: "accentImageAlt", type: "string", required: true },
-					{ name: "badgeImage", type: "image", required: true },
-					{ name: "badgeImageAlt", type: "string", required: true },
-					{ name: "introLeft", type: "string", required: true },
-					{ name: "introRight", type: "string", required: true },
-					{ name: "ctaLabel", type: "string", required: true },
-					{ name: "ctaUrl", type: "string", required: true },
-					{ name: "scrollLabel", type: "string", required: true },
-				],
-			},
-			{ name: "marqueeText", type: "string", required: true },
-			{
-				name: "about",
-				type: "object",
-				fields: [
-					{ name: "intro", type: "text", required: true },
-					{ name: "expectationLabel", type: "string", required: true },
-					{
-						name: "paragraphs",
-						type: "list",
-						items: { type: "text" },
-					},
-					{ name: "socialLabel", type: "string", required: true },
-					{ name: "approachHeading", type: "string", required: true },
-					{ name: "approachCtaLabel", type: "string", required: true },
-					{ name: "approachCtaUrl", type: "string", required: true },
-					{ name: "approachImage", type: "image", required: true },
-					{ name: "approachImageAlt", type: "string", required: true },
-				],
-			},
-			{ name: "gallery", type: "object", fields: galleryFields },
-			{
-				name: "video",
-				type: "object",
-				fields: [{ name: "src", type: "string", required: true }],
-			},
-			{
-				name: "vision",
-				type: "object",
-				fields: [
-					{ name: "eyebrow", type: "string", required: true },
-					{ name: "title", type: "string", required: true },
-					{
-						name: "items",
-						type: "list",
-						items: {
-							type: "object",
-							fields: [
-								...imageFields,
-								{ name: "label", type: "string", required: true },
-								{ name: "title", type: "string", required: true },
-							],
-						},
-					},
-				],
-			},
-			{
-				name: "projects",
-				type: "object",
-				fields: [
-					{ name: "heading", type: "string", required: true },
-					{ name: "ctaLabel", type: "string", required: true },
-					{ name: "ctaUrl", type: "string", required: true },
-					{
-						name: "items",
-						type: "list",
-						items: { type: "object", fields: projectFields },
-					},
-				],
-			},
-			{
-				name: "reviews",
-				type: "object",
-				fields: [
-					{ name: "heading", type: "string", required: true },
-					{
-						name: "items",
-						type: "list",
-						items: {
-							type: "object",
-							fields: [
-								{ name: "website", type: "string", required: true },
-								{ name: "url", type: "string", required: true },
-								{ name: "serviceLabel", type: "string", required: true },
-								{ name: "name", type: "string", required: true },
-								{ name: "image", type: "image", required: true },
-								{ name: "review", type: "text", required: true },
-								{
-									name: "tags",
-									type: "list",
-									items: { type: "object", fields: linkFields },
-								},
-							],
-						},
-					},
-				],
-			},
+			...seoFields,
+			objectField("hero", [
+				stringField("headingLine1"),
+				stringField("headingAccent"),
+				stringField("headingLine3"),
+				imageField("accentImage"),
+				stringField("accentImageAlt"),
+				imageField("badgeImage"),
+				stringField("badgeImageAlt"),
+				stringField("introLeft"),
+				stringField("introRight"),
+				stringField("ctaLabel"),
+				stringField("ctaUrl"),
+				stringField("scrollLabel"),
+			]),
+			stringField("marqueeText"),
+			objectField("about", [
+				textField("intro"),
+				stringField("expectationLabel"),
+				textList("paragraphs"),
+				stringField("socialLabel"),
+				stringField("approachHeading"),
+				stringField("approachCtaLabel"),
+				stringField("approachCtaUrl"),
+				imageField("approachImage"),
+				stringField("approachImageAlt"),
+			]),
+			objectField("gallery", galleryFields),
+			objectField("video", [stringField("src")]),
+			objectField("vision", [
+				stringField("eyebrow"),
+				stringField("title"),
+				objectList("items", [
+					...imageFields,
+					stringField("label"),
+					stringField("title"),
+				]),
+			]),
+			objectField("projects", [
+				stringField("heading"),
+				stringField("ctaLabel"),
+				stringField("ctaUrl"),
+				objectList("items", projectFields),
+			]),
+			objectField("reviews", [
+				stringField("heading"),
+				objectList("items", [
+					stringField("website"),
+					stringField("url"),
+					stringField("serviceLabel"),
+					stringField("name"),
+					imageField("image"),
+					textField("review"),
+					objectList("tags", linkFields),
+				]),
+			]),
 		],
 	},
 	{
@@ -216,122 +132,50 @@ const models: any[] = [
 		urlPath: "/services",
 		filePath: "content/pages/services.json",
 		fields: [
-			...commonSeoFields,
-			{
-				name: "hero",
-				type: "object",
-				fields: [
-					{ name: "heading", type: "string", required: true },
-					{ name: "image", type: "image", required: true },
-					{ name: "imageAlt", type: "string", required: true },
-					{ name: "imageCaption", type: "text", required: true },
-					{ name: "intro", type: "text", required: true },
-					{ name: "approachLabel", type: "string", required: true },
-					{
-						name: "approachItems",
-						type: "list",
-						items: {
-							type: "object",
-							fields: [
-								{ name: "title", type: "string", required: true },
-								{ name: "description", type: "text", required: true },
-							],
-						},
-					},
-				],
-			},
-			{
-				name: "process",
-				type: "object",
-				fields: [
-					{ name: "heading", type: "string", required: true },
-					{
-						name: "items",
-						type: "list",
-						items: {
-							type: "object",
-							fields: [
-								{ name: "phase", type: "string", required: true },
-								{ name: "name", type: "string", required: true },
-								{ name: "image", type: "image", required: true },
-								{ name: "description", type: "text", required: true },
-								{ name: "buttonLabel", type: "string", required: true },
-							],
-						},
-					},
-				],
-			},
-			{
-				name: "capabilities",
-				type: "object",
-				fields: [
-					{ name: "intro", type: "text", required: true },
-					{ name: "label", type: "string", required: true },
-					{
-						name: "groups",
-						type: "list",
-						items: {
-							type: "object",
-							fields: [
-								{ name: "title", type: "string", required: true },
-								{
-									name: "items",
-									type: "list",
-									items: { type: "object", fields: linkFields },
-								},
-							],
-						},
-					},
-					{ name: "marketingHeading", type: "string", required: true },
-					{
-						name: "marketingItems",
-						type: "list",
-						items: { type: "object", fields: linkFields },
-					},
-				],
-			},
-			{ name: "gallery", type: "object", fields: galleryFields },
-			{
-				name: "archive",
-				type: "object",
-				fields: [
-					{ name: "heading", type: "string", required: true },
-					{ name: "image", type: "image", required: true },
-					{ name: "imageAlt", type: "string", required: true },
-					{
-						name: "stats",
-						type: "list",
-						items: {
-							type: "object",
-							fields: [
-								{ name: "value", type: "string", required: true },
-								{ name: "label", type: "string", required: true },
-							],
-						},
-					},
-				],
-			},
-			{
-				name: "expectations",
-				type: "object",
-				fields: [
-					{ name: "marquee", type: "string", required: true },
-					{ name: "heading", type: "string", required: true },
-					{
-						name: "items",
-						type: "list",
-						items: {
-							type: "object",
-							fields: [
-								{ name: "number", type: "string", required: true },
-								{ name: "title", type: "string", required: true },
-								{ name: "buttonLabel", type: "string", required: true },
-								{ name: "description", type: "text", required: true },
-							],
-						},
-					},
-				],
-			},
+			...seoFields,
+			objectField("hero", [
+				stringField("heading"),
+				imageField("image"),
+				stringField("imageAlt"),
+				textField("imageCaption"),
+				textField("intro"),
+				stringField("approachLabel"),
+				objectList("approachItems", [stringField("title"), textField("description")]),
+			]),
+			objectField("process", [
+				stringField("heading"),
+				objectList("items", [
+					stringField("phase"),
+					stringField("name"),
+					imageField("image"),
+					textField("description"),
+					stringField("buttonLabel"),
+				]),
+			]),
+			objectField("capabilities", [
+				textField("intro"),
+				stringField("label"),
+				objectList("groups", [stringField("title"), objectList("items", linkFields)]),
+				stringField("marketingHeading"),
+				objectList("marketingItems", linkFields),
+			]),
+			objectField("gallery", galleryFields),
+			objectField("archive", [
+				stringField("heading"),
+				imageField("image"),
+				stringField("imageAlt"),
+				objectList("stats", [stringField("value"), stringField("label")]),
+			]),
+			objectField("expectations", [
+				stringField("marquee"),
+				stringField("heading"),
+				objectList("items", [
+					stringField("number"),
+					stringField("title"),
+					stringField("buttonLabel"),
+					textField("description"),
+				]),
+			]),
 		],
 	},
 	{
@@ -340,35 +184,69 @@ const models: any[] = [
 		urlPath: "/presentation",
 		filePath: "content/pages/work.json",
 		fields: [
-			...commonSeoFields,
-			{
-				name: "hero",
-				type: "object",
-				fields: [
-					{ name: "heading", type: "string", required: true },
-					{ name: "count", type: "string", required: true },
-				],
-			},
-			{ name: "intro", type: "text", required: true },
-			{
-				name: "projects",
-				type: "list",
-				items: { type: "object", fields: projectFields },
-			},
-			{ name: "gallery", type: "object", fields: galleryFields },
-			{
-				name: "publication",
-				type: "object",
-				fields: [
-					{ name: "marquee", type: "string", required: true },
-					{ name: "heading", type: "string", required: true },
-					{
-						name: "items",
-						type: "list",
-						items: { type: "object", fields: publicationFields },
-					},
-				],
-			},
+			...seoFields,
+			objectField("hero", [stringField("heading"), stringField("count")]),
+			textField("intro"),
+			objectList("projects", projectFields),
+			objectField("gallery", galleryFields),
+			objectField("publication", [
+				stringField("marquee"),
+				stringField("heading"),
+				objectList("items", publicationFields),
+			]),
+		],
+	},
+	{
+		name: "CasePage",
+		type: "page",
+		urlPath: "/case",
+		filePath: "content/pages/case.json",
+		fields: [
+			...seoFields,
+			objectField("hero", [
+				stringField("heading"),
+				imageField("accentImage"),
+				stringField("accentImageAlt"),
+				stringField("descriptionLabel"),
+				textField("description"),
+				objectList("tags", linkFields),
+				imageField("mainImage"),
+				stringField("mainImageAlt"),
+			]),
+			objectField("company", [
+				stringField("heading"),
+				stringField("label"),
+				textField("description"),
+				objectList("details", [stringField("label"), stringField("value")]),
+				imageField("image"),
+				stringField("imageAlt"),
+			]),
+			objectField("challenge", [
+				stringField("heading"),
+				stringField("label"),
+				textField("description"),
+				objectList("images", imageFields),
+			]),
+			objectField("video", [stringField("src")]),
+			objectField("result", [
+				stringField("heading"),
+				stringField("label"),
+				stringField("feedbackLabel"),
+				textField("feedback"),
+				stringField("resultLabel"),
+				textField("result"),
+			]),
+			objectField("credit", [
+				stringField("heading"),
+				stringField("label"),
+				objectList("items", [stringField("label"), textField("value")]),
+			]),
+			objectField("related", [
+				stringField("marquee"),
+				objectList("projects", projectFields),
+				stringField("ctaLabel"),
+				stringField("ctaUrl"),
+			]),
 		],
 	},
 	{
@@ -377,24 +255,16 @@ const models: any[] = [
 		urlPath: "/ochi-team",
 		filePath: "content/pages/about.json",
 		fields: [
-			...commonSeoFields,
-			{
-				name: "hero",
-				type: "object",
-				fields: [
-					{ name: "headingLine1", type: "string", required: true },
-					{ name: "headingLine2", type: "string", required: true },
-					{ name: "image", type: "image", required: true },
-					{ name: "imageAlt", type: "string", required: true },
-					{ name: "sectionLabel", type: "string", required: true },
-					{
-						name: "paragraphs",
-						type: "list",
-						items: { type: "text" },
-					},
-				],
-			},
-			{ name: "gallery", type: "object", fields: galleryFields },
+			...seoFields,
+			objectField("hero", [
+				stringField("headingLine1"),
+				stringField("headingLine2"),
+				imageField("image"),
+				stringField("imageAlt"),
+				stringField("sectionLabel"),
+				textList("paragraphs"),
+			]),
+			objectField("gallery", galleryFields),
 		],
 	},
 	{
@@ -403,54 +273,27 @@ const models: any[] = [
 		urlPath: "/insights",
 		filePath: "content/pages/insights.json",
 		fields: [
-			...commonSeoFields,
-			{
-				name: "hero",
-				type: "object",
-				fields: [
-					{ name: "heading", type: "string", required: true },
-					{ name: "latestLabel", type: "string", required: true },
-					{
-						name: "filters",
-						type: "list",
-						items: { type: "object", fields: linkFields },
-					},
-					{
-						name: "articles",
-						type: "list",
-						items: {
-							type: "object",
-							fields: [
-								{ name: "title", type: "string", required: true },
-								{ name: "url", type: "string", required: true },
-								{ name: "image", type: "image", required: true },
-								{ name: "imageAlt", type: "string", required: true },
-								{ name: "author", type: "string", required: true },
-								{ name: "date", type: "string", required: true },
-								{
-									name: "tags",
-									type: "list",
-									items: { type: "string" },
-								},
-							],
-						},
-					},
-				],
-			},
-			{ name: "gallery", type: "object", fields: galleryFields },
-			{
-				name: "publication",
-				type: "object",
-				fields: [
-					{ name: "marquee", type: "string", required: true },
-					{ name: "heading", type: "string", required: true },
-					{
-						name: "items",
-						type: "list",
-						items: { type: "object", fields: publicationFields },
-					},
-				],
-			},
+			...seoFields,
+			objectField("hero", [
+				stringField("heading"),
+				stringField("latestLabel"),
+				objectList("filters", linkFields),
+				objectList("articles", [
+					stringField("title"),
+					stringField("url"),
+					imageField("image"),
+					stringField("imageAlt"),
+					stringField("author"),
+					stringField("date"),
+					stringList("tags"),
+				]),
+			]),
+			objectField("gallery", galleryFields),
+			objectField("publication", [
+				stringField("marquee"),
+				stringField("heading"),
+				objectList("items", publicationFields),
+			]),
 		],
 	},
 	{
@@ -459,90 +302,37 @@ const models: any[] = [
 		urlPath: "/contact",
 		filePath: "content/pages/contact.json",
 		fields: [
-			...commonSeoFields,
-			{
-				name: "hero",
-				type: "object",
-				fields: [
-					{ name: "headingLine1", type: "string", required: true },
-					{ name: "headingLine2", type: "string", required: true },
-					{ name: "image", type: "image", required: true },
-					{ name: "imageAlt", type: "string", required: true },
-					{ name: "formIntro", type: "string", required: true },
-				],
-			},
-			{
-				name: "form",
-				type: "object",
-				fields: [
-					{ name: "nameLabel", type: "string", required: true },
-					{ name: "namePlaceholder", type: "string", required: true },
-					{ name: "companyLabel", type: "string", required: true },
-					{ name: "companyPlaceholder", type: "string", required: true },
-					{ name: "goalLabel", type: "string", required: true },
-					{ name: "goalPlaceholder", type: "string", required: true },
-					{ name: "deadlineLabel", type: "string", required: true },
-					{ name: "deadlinePlaceholder", type: "string", required: true },
-					{ name: "budgetLabel", type: "string", required: true },
-					{ name: "budgetPlaceholder", type: "string", required: true },
-					{ name: "emailLabel", type: "string", required: true },
-					{ name: "emailPlaceholder", type: "string", required: true },
-					{ name: "emailSuffix", type: "string", required: true },
-					{ name: "detailsLabel", type: "string", required: true },
-					{ name: "detailsPlaceholder", type: "string", required: true },
-					{ name: "consentLabel", type: "string", required: true },
-					{ name: "privacyLabel", type: "string", required: true },
-					{ name: "submitLabel", type: "string", required: true },
-					{ name: "sendingLabel", type: "string", required: true },
-					{ name: "successHeading", type: "string", required: true },
-					{ name: "successMessage", type: "text", required: true },
-					{ name: "errorFallback", type: "text", required: true },
-				],
-			},
-			{ name: "gallery", type: "object", fields: galleryFields },
-			{
-				name: "socials",
-				type: "object",
-				fields: [
-					{
-						name: "headingLines",
-						type: "list",
-						items: { type: "string" },
-					},
-					{ name: "contactLabel", type: "string", required: true },
-				],
-			},
-			{
-				name: "faq",
-				type: "object",
-				fields: [
-					{ name: "heading", type: "string", required: true },
-					{
-						name: "items",
-						type: "list",
-						items: {
-							type: "object",
-							fields: [
-								{ name: "question", type: "string", required: true },
-								{ name: "title", type: "string", required: true },
-								{ name: "description", type: "text", required: true },
-								{ name: "buttonLabel", type: "string", required: true },
-								{
-									name: "links",
-									type: "list",
-									items: {
-										type: "object",
-										fields: [
-											{ name: "title", type: "string", required: true },
-											{ name: "description", type: "text", required: true },
-										],
-									},
-								},
-							],
-						},
-					},
-				],
-			},
+			...seoFields,
+			objectField("hero", [
+				stringField("headingLine1"),
+				stringField("headingLine2"),
+				imageField("image"),
+				stringField("imageAlt"),
+				stringField("formIntro"),
+			]),
+			objectField("form", [
+				...[
+					"nameLabel", "namePlaceholder", "companyLabel", "companyPlaceholder",
+					"goalLabel", "goalPlaceholder", "deadlineLabel", "deadlinePlaceholder",
+					"budgetLabel", "budgetPlaceholder", "emailLabel", "emailPlaceholder",
+					"emailSuffix", "detailsLabel", "detailsPlaceholder", "consentLabel",
+					"privacyLabel", "submitLabel", "sendingLabel", "successHeading",
+				].map((name) => stringField(name)),
+				textField("successMessage"),
+				textField("errorFallback"),
+			]),
+			objectField("gallery", galleryFields),
+			objectField("socials", [stringList("headingLines"), stringField("contactLabel")]),
+			objectField("faq", [
+				stringField("heading"),
+				objectList("items", [
+					stringField("question"),
+					stringField("title"),
+					textField("description"),
+					stringField("buttonLabel"),
+					objectList("links", [stringField("title"), textField("description")]),
+				]),
+			]),
 		],
 	},
 	{
@@ -551,37 +341,18 @@ const models: any[] = [
 		urlPath: "/privacy",
 		filePath: "content/pages/privacy.json",
 		fields: [
-			...commonSeoFields,
-			{ name: "eyebrow", type: "string", required: true },
-			{
-				name: "headingLines",
-				type: "list",
-				items: { type: "string" },
-			},
-			{ name: "summary", type: "text", required: true },
-			{ name: "effectiveDate", type: "string", required: true },
-			{ name: "contactLabel", type: "string", required: true },
-			{
-				name: "sections",
-				type: "list",
-				items: {
-					type: "object",
-					fields: [
-						{ name: "number", type: "string", required: true },
-						{ name: "title", type: "string", required: true },
-						{
-							name: "paragraphs",
-							type: "list",
-							items: { type: "text" },
-						},
-						{
-							name: "bullets",
-							type: "list",
-							items: { type: "text" },
-						},
-					],
-				},
-			},
+			...seoFields,
+			stringField("eyebrow"),
+			stringList("headingLines"),
+			textField("summary"),
+			stringField("effectiveDate"),
+			stringField("contactLabel"),
+			objectList("sections", [
+				stringField("number"),
+				stringField("title"),
+				textList("paragraphs"),
+				textList("bullets"),
+			]),
 		],
 	},
 ];
