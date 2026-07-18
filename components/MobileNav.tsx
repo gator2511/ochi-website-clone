@@ -1,23 +1,26 @@
 "use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
-import { logo } from "@/public";
-import { footernavbarItems } from "@/constants";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { AnimatePresence, motion } from "framer-motion";
+import site from "@/content/data/site.json";
+
+const siteDocumentId = "content/data/site.json";
 
 export default function MobileNav() {
 	const [toggle, setToggle] = useState(false);
 
 	return (
-		<>
+		<div data-sb-object-id={siteDocumentId}>
 			<div className="w-full hidden justify-between items-center h-[8vh] padding-x sm:flex xm:flex md:flex">
-				<Link href="/" aria-label="GT Marketing home">
+				<Link href="/" aria-label={`${site.brandName} home`}>
 					<Image
-						src={logo}
-						alt="GT Marketing logo"
+						data-sb-field-path="logo"
+						src={site.logo}
+						alt={site.logoAlt}
 						width={34}
 						height={50}
 						className="h-[46px] w-auto object-contain"
@@ -38,10 +41,11 @@ export default function MobileNav() {
 						transition={{ duration: 1, ease: [0.3, 0.86, 0.36, 0.95] }}
 						className="fixed top-0 bottom-0 right-0 z-50 w-full min-h-screen flex justify-end items-end flex-col bg-secondry">
 						<div className="w-full flex justify-between items-center h-[8vh] border-b border-[#f1f1f155] padding-x">
-							<Link href="/" aria-label="GT Marketing home">
+							<Link href="/" aria-label={`${site.brandName} home`}>
 								<Image
-									src={logo}
-									alt="GT Marketing logo"
+									data-sb-field-path="logo"
+									src={site.logo}
+									alt={site.logoAlt}
 									width={34}
 									height={50}
 									className="h-[46px] w-auto object-contain"
@@ -53,26 +57,20 @@ export default function MobileNav() {
 							/>
 						</div>
 						<ul className="h-full w-full flex justify-center text-left flex-col gap-[10px] padding-x">
-							{footernavbarItems.map((item) => {
-								const href =
-									item.title.toLowerCase() === "about us"
-										? "/ochi-team"
-										: item.href;
-
-								return (
-									<Link
-										href={href}
-										key={item.id}
-										onClick={() => setToggle(false)}
-										className="text-[80px] leading-[67px] font-FoundersGrotesk uppercase font-bold tracking-[-.9] text-background">
-										{item.title}
-									</Link>
-								);
-							})}
+							{site.navigation.map((item, index) => (
+								<Link
+									href={item.url}
+									key={`${item.label}-${index}`}
+									onClick={() => setToggle(false)}
+									data-sb-field-path={`navigation.${index}.label`}
+									className="text-[80px] leading-[67px] font-FoundersGrotesk uppercase font-bold tracking-[-.9] text-background">
+									{item.label}
+								</Link>
+							))}
 						</ul>
 					</motion.div>
 				)}
 			</AnimatePresence>
-		</>
+		</div>
 	);
 }
