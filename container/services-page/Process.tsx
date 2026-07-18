@@ -1,81 +1,60 @@
-import Image from "next/image";
+"use client";
+
 import { useState } from "react";
-import { serviceProcessItems } from "@/constants";
 import { AnimatePresence, motion } from "framer-motion";
 
-export default function Process() {
-	const [activeAccordion, setActiveAccordion] = useState(
-		serviceProcessItems[0].id,
-	);
-	const toggleAccordion = (itemId: any) => {
-		setActiveAccordion((prev) => (prev === itemId ? null : itemId));
+type ProcessProps = {
+	content: {
+		heading: string;
+		items: Array<{
+			phase: string;
+			name: string;
+			image: string;
+			description: string;
+			buttonLabel: string;
+		}>;
 	};
+};
 
+export default function Process({ content }: ProcessProps) {
+	const [activeAccordion, setActiveAccordion] = useState(0);
 	return (
 		<section className="w-full padding-y">
 			<div className="w-full padding-x mb-[40px]">
-				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					Holistic process
+				<h1 data-sb-field-path="process.heading" className="sub-heading font-medium font-NeueMontreal text-secondry">
+					{content.heading}
 				</h1>
 			</div>
-			{serviceProcessItems.map((item) => (
+			{content.items.map((item, index) => (
 				<div
-					key={item.id}
-					className={`w-full flex py-[10px] flex-col ${
-						item.id == 1
-							? "border-y border-[#21212155]"
-							: "border-b border-[#21212155]"
-					}`}>
+					key={`${item.phase}-${index}`}
+					className={`w-full flex py-[10px] flex-col ${index === 0 ? "border-y" : "border-b"} border-[#21212155]`}>
 					<div className="w-full flex items-center justify-between py-[10px] padding-x">
-						<div className="w-[50%] sm:w-full xm:w-full">
-							<h3 className="paragraph font-normal font-NeueMontreal text-secondry">
-								{item.phase}
-							</h3>
-						</div>
-						<div className="w-[40%] sm:w-full xm:w-full">
-							<h3 className="paragraph font-normal font-NeueMontreal text-secondry">
-								{item.name}
-							</h3>
-						</div>
-						<div className="w-[10%] sm:w-full xm:w-full flex items-end justify-end">
+						<h3 data-sb-field-path={`process.items.${index}.phase`} className="w-[50%] paragraph font-normal font-NeueMontreal text-secondry">
+							{item.phase}
+						</h3>
+						<h3 data-sb-field-path={`process.items.${index}.name`} className="w-[40%] paragraph font-normal font-NeueMontreal text-secondry">
+							{item.name}
+						</h3>
+						<div className="w-[10%] flex justify-end">
 							<button
-								className={`paragraph font-normal font-NeueMontreal uppercase transition-all duration-200 ease-in-out ${
-									activeAccordion === item.id
-										? "text-gray-300"
-										: "text-secondry link-flash"
-								}`}
-								onClick={() => toggleAccordion(item.id)}>
-								{item.button}
+								className={`paragraph uppercase ${activeAccordion === index ? "text-gray-300" : "text-secondry link-flash"}`}
+								onClick={() => setActiveAccordion(activeAccordion === index ? -1 : index)}>
+								{item.buttonLabel}
 							</button>
 						</div>
 					</div>
-					<div
-						className={`w-full flex justify-between padding-x sm:flex-col xm:flex-col`}>
+					<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col">
 						<div className="w-[50%] sm:hidden xm:hidden" />
 						<div className="w-[40%] sm:w-full xm:w-full">
 							<AnimatePresence>
-								{activeAccordion === item.id && (
-									<motion.div
-										initial={{ opacity: 0, height: 0 }}
-										animate={{ opacity: 1, height: "auto" }}
-										exit={{ opacity: 0, height: 0 }}
-										transition={{
-											ease: [0.4, 0, 0.2, 1],
-											duration: 1.3,
-										}}>
+								{activeAccordion === index && (
+									<motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: "auto" }} exit={{ opacity: 0, height: 0 }}>
 										<div className="flex flex-col gap-[20px] py-[30px]">
-											<div className="w-[130px] h-[130px]">
-												<Image
-													src={item.src}
-													alt="clientImg"
-													className="w-full h-full object-cover rounded-[10px]"
-												/>
-											</div>
-											<div>
-												<p className="paragraph tracking-wider font-normal font-NeueMontreal text-secondry">
-													{item.review}
-												</p>
-											</div>
+											<img data-sb-field-path={`process.items.${index}.image`} src={item.image} alt={item.name} className="w-[130px] h-[130px] object-cover rounded-[10px]" />
+											<p data-sb-field-path={`process.items.${index}.description`} className="paragraph tracking-wider font-NeueMontreal text-secondry">
+												{item.description}
+											</p>
 										</div>
 									</motion.div>
 								)}
