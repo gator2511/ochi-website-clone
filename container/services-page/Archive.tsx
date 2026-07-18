@@ -13,7 +13,7 @@ export default function Archive() {
 				<div className="w-full padding-x pt-[20px] border-t border-[#21212155] flex sm:flex-col xm:flex-col justify-between gap-y-[20px]">
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<h3 className="paragraph font-medium font-NeueMontreal">
-							Ochi in numbers:
+							GT Marketing in numbers:
 						</h3>
 					</div>
 					<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-y-[20px]">
