@@ -11,6 +11,7 @@ export type TlogoMarqueeProps = {
 export type TMarqueeProps = {
    title: string;
    className: string;
+   fieldPath?: string;
 };
 
 export type TLinkHoverProps = {
