@@ -20,7 +20,7 @@ export default function Form() {
 		const formData = new FormData(form);
 
 		try {
-			const response = await fetch("/", {
+			const response = await fetch("/contact-form.html", {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/x-www-form-urlencoded",
