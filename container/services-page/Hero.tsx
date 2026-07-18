@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export default function Hero() {
 	return (
 		<section className="w-full min-h-screen">
@@ -10,6 +14,32 @@ export default function Hero() {
 							</h1>
 						</div>
 					</div>
+
+					<div className="w-full padding-x pb-[70px] lg:pb-[60px] md:pb-[50px] sm:pb-[35px] xm:pb-[35px]">
+						<motion.figure
+							initial={{ opacity: 0, y: 60, scale: 0.98 }}
+							whileInView={{ opacity: 1, y: 0, scale: 1 }}
+							viewport={{ once: true, amount: 0.2 }}
+							transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
+							className="group relative w-full h-[68vh] min-h-[520px] max-h-[820px] md:h-[58vh] md:min-h-[440px] sm:h-[420px] sm:min-h-0 xm:h-[360px] xm:min-h-0 overflow-hidden rounded-[20px]">
+							<motion.img
+								src="https://images.pexels.com/photos/36835822/pexels-photo-36835822.jpeg?auto=compress&cs=tinysrgb&w=2000"
+								alt="Bold orange architecture representing structured business growth"
+								loading="eager"
+								decoding="async"
+								whileHover={{ scale: 1.035 }}
+								transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+								className="w-full h-full object-cover"
+							/>
+							<div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" />
+							<div className="absolute left-[30px] bottom-[28px] sm:left-[20px] sm:bottom-[20px] xm:left-[18px] xm:bottom-[18px] max-w-[620px]">
+								<p className="paragraph font-NeueMontreal text-white">
+									Strategy, creative execution and technology working as one growth system.
+								</p>
+							</div>
+						</motion.figure>
+					</div>
+
 					<div className="w-full border-t border-[#21212155]">
 						<p className="w-[80%] sm:w-full xm:w-full sub-heading font-normal padding-x font-NeueMontreal text-secondry padding-y">
 							We create&nbsp;
@@ -27,10 +57,10 @@ export default function Hero() {
 						<div className="w-full flex justify-between sm:flex-col xm:flex-col padding-x sm:gap-[20px] xm:gap-[20px]">
 							<div className="w-[50%] sm:w-full xm:w-full">
 								<p className="paragraph font-NeueMontreal text-secondry">
-									We do this by following <br /> simple approach:
+									We do this by following <br /> a simple approach:
 								</p>
 							</div>
-							<div className="w-[50%] sm:w-full xm:w-full flex justify-between sm:flex-col xm:flex-col gap-[20px]	">
+							<div className="w-[50%] sm:w-full xm:w-full flex justify-between sm:flex-col xm:flex-col gap-[20px]">
 								<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-[20px]">
 									<div className="flex flex-col gap-[20px]">
 										<p className="paragraph font-NeueMontreal text-secondry underline">
