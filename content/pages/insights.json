@@ -1,9 +1,53 @@
 {
   "type": "InsightsPage",
-  "title": "Insights",
-  "navigationLabel": "Insights",
   "seoTitle": "Marketing Insights | GT Marketing",
   "seoDescription": "Read practical GT Marketing insights on growth strategy, digital marketing, websites, automation and brand performance.",
-  "heroHeading": "Ideas for sharper marketing decisions.",
-  "summary": "Practical thinking on positioning, customer acquisition, digital execution, automation and sustainable business growth."
+  "hero": {
+    "heading": "Insights",
+    "latestLabel": "Latest insights:",
+    "filters": [
+      { "label": "All", "url": "/insights" },
+      { "label": "Marketing strategy", "url": "/insights" },
+      { "label": "Digital execution", "url": "/insights" },
+      { "label": "Brand growth", "url": "/insights" }
+    ],
+    "articles": [
+      {
+        "title": "Presenting to an international audience: tips and lessons learned.",
+        "url": "/insights",
+        "image": "/latest1.png",
+        "imageAlt": "Presentation strategy article",
+        "author": "By GT Marketing",
+        "date": "26 May 2026",
+        "tags": ["Public speaking", "Storytelling"]
+      },
+      {
+        "title": "Building a company-wide presentation system that teams actually use.",
+        "url": "/insights",
+        "image": "/latest2.jpeg",
+        "imageAlt": "Company presentation template article",
+        "author": "By GT Marketing",
+        "date": "07 June 2026",
+        "tags": ["Presentation template"]
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "See the pattern",
+    "title": "Ideas shaped by commercial reality.",
+    "images": [
+      { "src": "https://images.pexels.com/photos/12915530/pexels-photo-12915530.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Modern yellow building under dramatic clouds" },
+      { "src": "https://images.pexels.com/photos/36835822/pexels-photo-36835822.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange interior with blue geometric skylight" },
+      { "src": "https://images.pexels.com/photos/7350058/pexels-photo-7350058.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Abstract red and orange architectural lines" }
+    ]
+  },
+  "publication": {
+    "marquee": "Instagram",
+    "heading": "Latest publication",
+    "items": [
+      { "title": "Sales calls? Oh no!", "image": "/insights1.png", "imageAlt": "Sales calls insight", "url": "https://www.instagram.com/gundeepsingh.25/" },
+      { "title": "Are you trying to be the main character?", "image": "/insights2.jpeg", "imageAlt": "Brand positioning insight", "url": "https://www.instagram.com/gundeepsingh.25/" },
+      { "title": "New top seven", "image": "/insights3.jpeg", "imageAlt": "Marketing ideas publication", "url": "https://www.instagram.com/gundeepsingh.25/" }
+    ]
+  }
 }
