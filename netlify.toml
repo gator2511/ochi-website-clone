@@ -9,3 +9,9 @@
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
+
+[[redirects]]
+  from = "https://www.gtmarketing.io/*"
+  to = "https://gtmarketing.io/:splat"
+  status = 301
+  force = true
