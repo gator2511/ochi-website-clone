@@ -49,6 +49,11 @@ const models: any[] = [
 			stringList("addressLines"),
 			stringField("addressUrl"),
 			stringField("email"),
+			textField("acknowledgement"),
+			objectField("footerFlags", [
+				imageField("image"),
+				stringField("alt"),
+			]),
 			stringField("footerHeading"),
 			stringField("footerHeadingAccent"),
 			stringField("copyright"),
