@@ -22,6 +22,11 @@
   ],
   "addressUrl": "https://www.google.com/maps/search/?api=1&query=130+Smith+Street+Darwin+City+NT+0800",
   "email": "gundeep@gtmarketing.io",
+  "acknowledgement": "We acknowledge the Larrakia people as the Traditional Custodians of the land on which the Darwin Convention Centre stands. We pay our respects to their Elders past and present and remain committed to working together to care for this land. Darwin is a place that welcomes and values people of every kind. It has an estimated population of 147,000 (ABS, 2018-19), which is comprised of 60 nationalities. Indigenous Australians are a vital presence in the life of the city. The Larrakia people are the traditional custodians of Darwin and have a unique place in the community showcasing their art and culture. With an unpretentious mixed culture, enviable tropical climate and plethora of outdoor activity opportunities, Darwin is a dynamic, creative and fun-loving city that visitors enjoy discovering.",
+  "footerFlags": {
+    "image": "/footer-flags.svg",
+    "alt": "Aboriginal, Torres Strait Islander and Larrakia flags"
+  },
   "footerHeading": "Eye-opening",
   "footerHeadingAccent": "Growth Systems",
   "copyright": "© GT Studio 2026",
