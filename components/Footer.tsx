@@ -37,7 +37,7 @@ export default function Footer() {
 								</span>
 							))}
 						</div>
-						<div className="flex justify-between">
+						<div className="flex justify-between sm:flex-col xm:flex-col sm:gap-[10px] xm:gap-[10px]">
 							<div className="pt-[50px]">
 								<h1 className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">L:</h1>
 								<div className="flex flex-col gap-y-[10px]">
@@ -75,10 +75,27 @@ export default function Footer() {
 								/>
 							</span>
 						</div>
+						<p
+							data-sb-field-path="acknowledgement"
+							className="max-w-[920px] pt-[34px] text-[15px] leading-[1.55] md:text-[14px] sm:text-[13px] xm:text-[13px] font-NeueMontreal italic text-secondry opacity-80">
+							{site.acknowledgement}
+						</p>
 					</div>
 				</div>
 			</div>
-			<div className="w-full pt-[40px] pb-[30px] flex justify-between sm:flex-col xm:flex-col sm:gap-[20px] xm:gap-[20px]">
+
+			<div className="w-full flex justify-center py-[55px] md:py-[45px] sm:py-[35px] xm:py-[35px]">
+				<Image
+					data-sb-field-path="footerFlags.image"
+					src={site.footerFlags.image}
+					alt={site.footerFlags.alt}
+					width={183}
+					height={287}
+					className="w-[165px] h-auto md:w-[145px] sm:w-[125px] xm:w-[115px] object-contain"
+				/>
+			</div>
+
+			<div className="w-full pt-[20px] pb-[30px] flex justify-between sm:flex-col xm:flex-col sm:gap-[20px] xm:gap-[20px]">
 				<div className="w-1/2 sm:w-full xm:w-full">
 					<Link href="/" aria-label={`${site.brandName} home`}>
 						<Image
