@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import "@/styles/globals.css";
 import { Footer, Navbar, NetlifyFormRouter } from "@/components";
 import { AnimatePresence } from "framer-motion";
@@ -7,6 +8,7 @@ const defaultTitle = "GT Marketing | Growth Marketing Agency in Darwin";
 const defaultDescription =
 	"GT Marketing builds strategy, digital execution, automation, websites and performance systems for ambitious Australian businesses.";
 const socialImage = "https://gtmarketing.io/contacthhero.jpg";
+const googleMeasurementId = "G-816V9Z644Z";
 
 export default function App({
 	Component,
@@ -42,6 +44,18 @@ export default function App({
 				<meta name="twitter:description" content={defaultDescription} />
 				<meta name="twitter:image" content={socialImage} />
 			</Head>
+			<Script
+				src={`https://www.googletagmanager.com/gtag/js?id=${googleMeasurementId}`}
+				strategy="afterInteractive"
+			/>
+			<Script id="google-analytics" strategy="afterInteractive">
+				{`
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+					gtag('config', '${googleMeasurementId}');
+				`}
+			</Script>
 			<NetlifyFormRouter />
 			<Navbar />
 			<AnimatePresence mode="wait">
