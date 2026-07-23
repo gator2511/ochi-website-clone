@@ -6,6 +6,7 @@ import { AnimatePresence } from "framer-motion";
 const defaultTitle = "GT Marketing | Growth Marketing Agency in Darwin";
 const defaultDescription =
 	"GT Marketing builds strategy, digital execution, automation, websites and performance systems for ambitious Australian businesses.";
+const socialImage = "https://gtmarketing.io/contacthhero.jpg";
 
 export default function App({
 	Component,
@@ -33,13 +34,13 @@ export default function App({
 				<meta property="og:title" content={defaultTitle} />
 				<meta property="og:description" content={defaultDescription} />
 				<meta property="og:url" content={canonicalUrl} />
-				<meta property="og:image" content="https://gtmarketing.io/background.png" />
+				<meta property="og:image" content={socialImage} />
 				<meta property="og:image:alt" content="GT Marketing" />
 
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:title" content={defaultTitle} />
 				<meta name="twitter:description" content={defaultDescription} />
-				<meta name="twitter:image" content="https://gtmarketing.io/background.png" />
+				<meta name="twitter:image" content={socialImage} />
 			</Head>
 			<NetlifyFormRouter />
 			<Navbar />
