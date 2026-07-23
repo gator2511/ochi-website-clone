@@ -89,7 +89,7 @@ export default function About({ content }: AboutProps) {
 						onMouseEnter={() => setHovered(true)}
 						onMouseLeave={() => setHovered(false)}>
 						<RoundButton
-							href={content.approachCtaUrl}
+							href="/about-us"
 							title={content.approachCtaLabel}
 							bgcolor="#000"
 							className="bg-white text-black"
