@@ -1,13 +1,20 @@
-# Ochi Website Clone created with
+# GT Marketing Website
 
-✅ Next JS
-✅ React JS
-✅ TypeScript
-✅ Tailwind CSS
-✅ GSAP
-✅ Framer Motion
-✅ Locomotive Scroll
+[![Netlify Status](https://api.netlify.com/api/v1/badges/86124966-cac8-458c-b973-fca4998c258d/deploy-status)](https://app.netlify.com/projects/gtmarketingio/deploys)
 
-<hr/>
+Official website for GT Marketing, a Darwin-based growth marketing agency providing strategy, digital execution, automation, website development and performance systems for Australian businesses.
 
-![OCHI - Presentation Design Agency and 2 more pages - Personal - Microsoft​ Edge 5_26_2024 4_34_03 AM](https://github.com/devwithzain/ochi-website-clone/assets/131141179/d47be37b-efa0-45f0-bb18-1c5aed00191b)
+## Technology
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- GSAP
+- Framer Motion
+- Locomotive Scroll
+- Netlify
+
+## Production
+
+Website: https://gtmarketing.io
