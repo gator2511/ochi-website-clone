@@ -6,7 +6,7 @@
   "navigation": [
     { "label": "Services", "url": "/services" },
     { "label": "Our Work", "url": "/presentation" },
-    { "label": "About Us", "url": "/ochi-team" },
+    { "label": "About Us", "url": "/about-us" },
     { "label": "Insights", "url": "/insights" },
     { "label": "Contact Us", "url": "/contact" }
   ],
