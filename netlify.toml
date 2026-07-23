@@ -15,3 +15,9 @@
   to = "https://gtmarketing.io/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/ochi-team"
+  to = "/about-us"
+  status = 301
+  force = true
