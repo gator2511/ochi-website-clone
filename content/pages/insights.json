@@ -8,27 +8,36 @@
     "filters": [
       { "label": "All", "url": "/insights" },
       { "label": "Marketing strategy", "url": "/insights" },
-      { "label": "Digital execution", "url": "/insights" },
+      { "label": "Social media marketing", "url": "/insights" },
       { "label": "Brand growth", "url": "/insights" }
     ],
     "articles": [
       {
-        "title": "Presenting to an international audience: tips and lessons learned.",
-        "url": "/insights",
-        "image": "/latest1.png",
-        "imageAlt": "Presentation strategy article",
+        "title": "How playful brand personality helps businesses stand out in crowded markets.",
+        "url": "https://www.instagram.com/gundeepsingh.25/",
+        "image": "https://images.pexels.com/photos/4588052/pexels-photo-4588052.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "imageAlt": "Shiba Inu wearing a yellow knitted hat",
         "author": "By GT Marketing",
-        "date": "26 May 2026",
-        "tags": ["Public speaking", "Storytelling"]
+        "date": "Marketing insight",
+        "tags": ["Brand marketing", "Social media"]
       },
       {
-        "title": "Building a company-wide presentation system that teams actually use.",
-        "url": "/insights",
-        "image": "/latest2.jpeg",
-        "imageAlt": "Company presentation template article",
+        "title": "Why a consistent visual identity makes your marketing more memorable.",
+        "url": "https://www.instagram.com/gundeepsingh.25/",
+        "image": "https://images.pexels.com/photos/4691532/pexels-photo-4691532.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "imageAlt": "Woman holding an orange slice over one eye against an orange background",
         "author": "By GT Marketing",
-        "date": "07 June 2026",
-        "tags": ["Presentation template"]
+        "date": "Marketing insight",
+        "tags": ["Brand strategy", "Content marketing"]
+      },
+      {
+        "title": "How emerging technology can create stronger digital customer experiences.",
+        "url": "https://www.instagram.com/gundeepsingh.25/",
+        "image": "https://images.pexels.com/photos/4389462/pexels-photo-4389462.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "imageAlt": "Person using a virtual reality headset in front of binary projections",
+        "author": "By GT Marketing",
+        "date": "Marketing insight",
+        "tags": ["Digital marketing", "Marketing innovation"]
       }
     ]
   },
@@ -44,10 +53,9 @@
   "publication": {
     "marquee": "Instagram",
     "heading": "Latest publication",
-    "items": [
-      { "title": "Sales calls? Oh no!", "image": "/insights1.png", "imageAlt": "Sales calls insight", "url": "https://www.instagram.com/gundeepsingh.25/" },
-      { "title": "Are you trying to be the main character?", "image": "/insights2.jpeg", "imageAlt": "Brand positioning insight", "url": "https://www.instagram.com/gundeepsingh.25/" },
-      { "title": "New top seven", "image": "/insights3.jpeg", "imageAlt": "Marketing ideas publication", "url": "https://www.instagram.com/gundeepsingh.25/" }
-    ]
+    "description": "See the latest GT Marketing ideas, practical marketing observations and behind-the-scenes updates on Instagram.",
+    "profileLabel": "View Instagram feed",
+    "profileHandle": "@gundeepsingh.25",
+    "profileUrl": "https://www.instagram.com/gundeepsingh.25/"
   }
 }
