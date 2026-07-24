@@ -1,11 +1,15 @@
 import Link from "next/link";
-import { Marquee } from "@/components";
+import { ArrowUpRight } from "lucide-react";
+import { Marquee, Rounded } from "@/components";
 
 type PublicationProps = {
 	content: {
 		marquee: string;
 		heading: string;
-		items: Array<{ title: string; image: string; imageAlt: string; url?: string }>;
+		description: string;
+		profileLabel: string;
+		profileHandle: string;
+		profileUrl: string;
 	};
 };
 
@@ -20,29 +24,42 @@ export default function Publication({ content }: PublicationProps) {
 				/>
 			</div>
 			<div className="w-full padding-x py-[30px]">
-				<div className="w-full flex justify-between gap-[20px] flex-wrap sm:flex-col xm:flex-col">
-					<h3 data-sb-field-path="publication.heading" className="paragraph font-medium text-white font-NeueMontreal">
-						{content.heading}
-					</h3>
-					<div className="w-[70%] flex gap-y-[20px] sm:flex-col xm:flex-col sm:w-full xm:w-full gap-[10px]">
-						{content.items.map((item, index) => (
-							<div className="w-full flex gap-[20px] rounded-[20px] flex-col" key={`${item.title}-${index}`}>
-								<Link href={item.url ?? "/insights"} className="group overflow-hidden rounded-[20px]">
-									<img
-										data-sb-field-path={`publication.items.${index}.image`}
-										src={item.image}
-										alt={item.imageAlt}
-										className="w-full h-full group-hover:scale-[1.09] transform duration-[1s] ease-[.4,0,.2,1]"
-									/>
-								</Link>
-								<div className="flex gap-[10px] items-center">
-									<span className="w-[10px] h-[10px] rounded-full bg-white" />
-									<h4 data-sb-field-path={`publication.items.${index}.title`} className="paragraph uppercase font-medium font-NeueMontreal text-white">
-										{item.title}
-									</h4>
-								</div>
-							</div>
-						))}
+				<div className="w-full border-t border-white/35 pt-[24px] grid grid-cols-12 gap-[24px] sm:flex sm:flex-col xm:flex xm:flex-col">
+					<div className="col-span-4">
+						<h3
+							data-sb-field-path="publication.heading"
+							className="paragraph font-medium text-white font-NeueMontreal">
+							{content.heading}
+						</h3>
+					</div>
+					<div className="col-span-8 flex flex-col gap-[30px] max-w-[880px]">
+						<p
+							data-sb-field-path="publication.description"
+							className="sub-heading font-NeueMontreal text-white">
+							{content.description}
+						</p>
+						<p
+							data-sb-field-path="publication.profileHandle"
+							className="paragraph font-NeueMontreal text-white/75">
+							{content.profileHandle}
+						</p>
+						<div className="w-fit">
+							<Link
+								href={content.profileUrl}
+								target="_blank"
+								rel="noopener noreferrer"
+								data-sb-field-path="publication.profileLabel"
+								className="flex items-center justify-between bg-white cursor-pointer rounded-full group">
+								<Rounded className="py-[6px]" backgroundColor="#212121">
+									<p className="small-text uppercase font-normal font-NeueMontreal z-10 px-[10px] ml-[15px] py-[6px] text-secondry group-hover:text-white">
+										{content.profileLabel}
+									</p>
+									<div className="bg-secondry p-[10px] rounded-full scale-[0.3] mr-[10px] group-hover:scale-[0.9] transition-all z-10 text-white group-hover:bg-white group-hover:text-secondry duration-300 ease-in-out">
+										<ArrowUpRight strokeWidth={1.5} size={30} className="scale-[0] group-hover:scale-[1]" />
+									</div>
+								</Rounded>
+							</Link>
+						</div>
 					</div>
 				</div>
 			</div>
