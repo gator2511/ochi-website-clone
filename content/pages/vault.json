@@ -1,0 +1,116 @@
+{
+  "type": "VaultPage",
+  "seoTitle": "The Vault | GT Marketing Ideas, Inspiration and Growth Thinking",
+  "seoDescription": "Explore The Vault by GT Marketing: a curated visual archive of strategy, branding, digital marketing, culture, systems and commercial ideas.",
+  "hero": {
+    "eyebrow": "A living archive by GT Marketing",
+    "headingLine1": "The",
+    "headingLine2": "Vault",
+    "intro": "A growing collection of ideas, references, provocations and visual signals that shape how we think about brands, marketing and growth.",
+    "note": "No rigid order. No trend-chasing. Just useful things worth keeping."
+  },
+  "filters": ["All", "Strategy", "Brand", "Digital", "Growth", "Culture", "Systems"],
+  "items": [
+    {
+      "title": "Less, but louder",
+      "category": "Brand",
+      "note": "Distinctive brands reduce noise before they add more content.",
+      "image": "https://images.pexels.com/photos/13788166/pexels-photo-13788166.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "imageAlt": "Orange architectural interior representing bold brand distinction",
+      "ratio": "4 / 5"
+    },
+    {
+      "title": "Design for the pause",
+      "category": "Culture",
+      "note": "Attention often begins where the expected pattern breaks.",
+      "image": "https://images.pexels.com/photos/28963148/pexels-photo-28963148.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "imageAlt": "Contemporary orange building facade representing visual interruption",
+      "ratio": "16 / 10"
+    },
+    {
+      "title": "Systems beat sporadic effort",
+      "category": "Systems",
+      "note": "Reliable growth comes from repeatable decisions, not occasional intensity.",
+      "image": "https://images.pexels.com/photos/7577937/pexels-photo-7577937.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "imageAlt": "Orange ink cloud representing connected marketing systems",
+      "ratio": "1 / 1"
+    },
+    {
+      "title": "Orange is a strategy",
+      "category": "Brand",
+      "note": "A recognisable visual code compounds every time the market sees it.",
+      "image": "https://images.pexels.com/photos/8763898/pexels-photo-8763898.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "imageAlt": "Fashion portrait in orange representing consistent brand coding",
+      "ratio": "3 / 4"
+    },
+    {
+      "title": "Proof before polish",
+      "category": "Growth",
+      "note": "The strongest creative work starts with a commercial truth worth amplifying.",
+      "image": "https://images.pexels.com/photos/6923559/pexels-photo-6923559.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "imageAlt": "Creative orange portrait representing evidence-led campaign design",
+      "ratio": "4 / 5"
+    },
+    {
+      "title": "Build for movement",
+      "category": "Digital",
+      "note": "A digital experience should guide people forward, not simply look complete.",
+      "image": "https://images.pexels.com/photos/9836458/pexels-photo-9836458.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "imageAlt": "People overlooking a landscape representing forward digital movement",
+      "ratio": "16 / 11"
+    },
+    {
+      "title": "Local is a competitive edge",
+      "category": "Strategy",
+      "note": "Specificity creates relevance. Relevance creates preference.",
+      "image": "https://images.pexels.com/photos/3761137/pexels-photo-3761137.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "imageAlt": "Future-focused portrait representing locally relevant innovation",
+      "ratio": "4 / 5"
+    },
+    {
+      "title": "Attention has architecture",
+      "category": "Digital",
+      "note": "Hierarchy, pacing and contrast decide what gets noticed first.",
+      "image": "https://images.pexels.com/photos/11588266/pexels-photo-11588266.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "imageAlt": "Vivid editorial portrait representing attention-led content design",
+      "ratio": "3 / 4"
+    },
+    {
+      "title": "Trust compounds",
+      "category": "Strategy",
+      "note": "Every clear promise, useful interaction and consistent follow-through adds equity.",
+      "image": "https://images.pexels.com/photos/3923546/pexels-photo-3923546.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "imageAlt": "Creative portrait using oranges representing memorable trust signals",
+      "ratio": "1 / 1"
+    },
+    {
+      "title": "Good friction",
+      "category": "Growth",
+      "note": "Not every step should disappear. Some moments should slow people down long enough to decide.",
+      "image": "https://images.pexels.com/photos/12915530/pexels-photo-12915530.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "imageAlt": "Modern yellow building under dramatic clouds representing productive friction",
+      "ratio": "16 / 10"
+    },
+    {
+      "title": "The human layer",
+      "category": "Culture",
+      "note": "Technology scales output. Human judgement determines whether the output matters.",
+      "image": "https://images.pexels.com/photos/36835822/pexels-photo-36835822.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "imageAlt": "Geometric interior representing the relationship between technology and people",
+      "ratio": "4 / 5"
+    },
+    {
+      "title": "Make data visible",
+      "category": "Systems",
+      "note": "People act faster when performance is translated into a clear shared picture.",
+      "image": "https://images.pexels.com/photos/7350058/pexels-photo-7350058.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "imageAlt": "Abstract red and orange lines representing visible marketing data",
+      "ratio": "3 / 4"
+    }
+  ],
+  "closing": {
+    "eyebrow": "Keep looking",
+    "heading": "The useful idea is rarely the first one.",
+    "text": "The Vault will continue to evolve as we collect sharper references, stronger questions and practical signals from the world around us."
+  }
+}
