@@ -2,6 +2,7 @@ import Head from "next/head";
 import Script from "next/script";
 import "@/styles/globals.css";
 import { Footer, Navbar, NetlifyFormRouter } from "@/components";
+import CustomCursor from "@/components/CustomCursor";
 import { AnimatePresence } from "framer-motion";
 
 const defaultTitle = "GT Marketing | Growth Marketing Agency in Darwin";
@@ -56,6 +57,7 @@ export default function App({
 					gtag('config', '${googleMeasurementId}');
 				`}
 			</Script>
+			<CustomCursor />
 			<NetlifyFormRouter />
 			<Navbar />
 			<AnimatePresence mode="wait">
