@@ -8,6 +8,7 @@
     { "label": "Our Work", "url": "/presentation" },
     { "label": "About Us", "url": "/about-us" },
     { "label": "Insights", "url": "/insights" },
+    { "label": "The Vault", "url": "/the-vault" },
     { "label": "Contact Us", "url": "/contact" }
   ],
   "socialLinks": [
