@@ -1,106 +1,128 @@
 {
   "type": "WorkPage",
-  "seoTitle": "Our Work | GT Marketing",
-  "seoDescription": "See selected GT Marketing projects across campaigns, branding, presentations, websites and growth systems.",
+  "seoTitle": "Industry Marketing Solutions | GT Marketing",
+  "seoDescription": "Explore GT Marketing growth systems for tradies, hospitality, NDIS providers, SMEs, agriculture, finance, real estate, security and events.",
   "hero": {
     "heading": "Work",
     "count": "9"
   },
-  "intro": "Purpose-driven, strategy-led work that people notice, understand and act on.",
+  "intro": "Industry-focused growth systems designed to turn attention into enquiries, bookings, trust and measurable commercial progress.",
   "projects": [
     {
-      "title": "Fyde",
-      "url": "/case/",
-      "image": "/project1.webp",
-      "imageAlt": "Fyde project",
+      "title": "Tradies",
+      "image": "/industries/tradies.svg",
+      "imageAlt": "Tradies marketing website concept for electricians, plumbers and construction businesses in Australia",
+      "seoTitle": "Tradies Marketing and Website Solutions | GT Marketing",
+      "seoDescription": "Lead generation, local SEO, website development and marketing systems for Australian tradies and service businesses.",
+      "description": "Lead-generation websites, local SEO and campaigns designed for electricians, plumbers, builders and service teams that need more qualified jobs.",
       "tags": [
-        { "label": "Audit", "url": "/services" },
-        { "label": "Copywriting", "url": "/services" },
-        { "label": "Sales deck", "url": "/services" },
-        { "label": "Slides design", "url": "/services" }
+        { "label": "Local SEO" },
+        { "label": "Lead generation" },
+        { "label": "Website development" }
       ]
     },
     {
-      "title": "Trawa",
-      "url": "/case/",
-      "image": "/project3.webp",
-      "imageAlt": "Trawa project",
+      "title": "Hospitality",
+      "image": "/industries/hospitality.svg",
+      "imageAlt": "Hospitality marketing website concept for restaurants, cafes and venues",
+      "seoTitle": "Hospitality Marketing for Restaurants and Venues | GT Marketing",
+      "seoDescription": "Hospitality marketing, booking campaigns, social media and local search strategies for restaurants, cafes and venues.",
+      "description": "Booking-led websites, local discovery and social campaigns that help restaurants, cafes and venues turn attention into reservations.",
       "tags": [
-        { "label": "Brand identity", "url": "/services" },
-        { "label": "Design research", "url": "/services" },
-        { "label": "Investor deck", "url": "/services" }
+        { "label": "Social media" },
+        { "label": "Local search" },
+        { "label": "Bookings" }
       ]
     },
     {
-      "title": "Premium Blend",
-      "url": "/case/",
-      "image": "/project4.webp",
-      "imageAlt": "Premium Blend project",
+      "title": "NDIS",
+      "image": "/industries/ndis.svg",
+      "imageAlt": "Accessible NDIS provider marketing website concept focused on participant trust and enquiries",
+      "seoTitle": "NDIS Provider Marketing and Websites | GT Marketing",
+      "seoDescription": "Participant-focused NDIS marketing, compliant website content, outreach and lead generation for Australian disability service providers.",
+      "description": "Participant-focused websites, outreach and compliant marketing systems that help NDIS providers build trust and generate appropriate enquiries.",
       "tags": [
-        { "label": "Brand template", "url": "/services" }
+        { "label": "Participant outreach" },
+        { "label": "Compliant content" },
+        { "label": "NDIS websites" }
       ]
     },
     {
-      "title": "Planetly",
-      "url": "/case/",
-      "image": "/project5.webp",
-      "imageAlt": "Planetly project",
+      "title": "SMEs",
+      "image": "/industries/smes.svg",
+      "imageAlt": "Australian small business growth marketing website and performance dashboard concept",
+      "seoTitle": "SME Growth Marketing and Automation | GT Marketing",
+      "seoDescription": "Integrated marketing strategy, websites, lead generation and automation for Australian small and medium businesses.",
+      "description": "Integrated strategy, digital execution and automation for small and medium businesses that need clearer positioning and predictable growth.",
       "tags": [
-        { "label": "Brand template", "url": "/services" },
-        { "label": "Big news deck", "url": "/services" },
-        { "label": "Investor deck", "url": "/services" },
-        { "label": "Sales deck", "url": "/services" }
+        { "label": "Growth strategy" },
+        { "label": "Automation" },
+        { "label": "Performance marketing" }
       ]
     },
     {
-      "title": "Black Box",
-      "url": "/case/",
-      "image": "/project8.webp",
-      "imageAlt": "Black Box project",
+      "title": "Agriculture",
+      "image": "/industries/agriculture.svg",
+      "imageAlt": "Agriculture and regional business marketing website concept for Australian producers",
+      "seoTitle": "Agriculture and Regional Marketing | GT Marketing",
+      "seoDescription": "Brand strategy, websites and digital marketing for Australian agriculture, producers and regional businesses.",
+      "description": "Regional branding, digital channels and market communication that help producers, suppliers and agricultural businesses reach stronger buyers and partners.",
       "tags": [
-        { "label": "Investor deck", "url": "/services" },
-        { "label": "Redesign", "url": "/services" },
-        { "label": "Review", "url": "/services" }
+        { "label": "Regional branding" },
+        { "label": "Digital strategy" },
+        { "label": "B2B marketing" }
       ]
     },
     {
-      "title": "Vise",
-      "url": "/case/",
-      "image": "/project2.webp",
-      "imageAlt": "Vise project",
+      "title": "Finance and Crypto",
+      "image": "/industries/finance-crypto.svg",
+      "imageAlt": "Finance and cryptocurrency marketing website concept with market data visualisation",
+      "seoTitle": "Finance and Crypto Marketing Strategy | GT Marketing",
+      "seoDescription": "Trust-led digital marketing, education content and conversion strategy for finance, fintech and cryptocurrency businesses.",
+      "description": "Trust-led messaging, educational content and conversion systems for finance, fintech and crypto brands operating in complex markets.",
       "tags": [
-        { "label": "Agency", "url": "/services" },
-        { "label": "Company presentation", "url": "/services" }
+        { "label": "Trust marketing" },
+        { "label": "Content strategy" },
+        { "label": "Conversion" }
       ]
     },
     {
-      "title": "Soft Start",
-      "url": "/case/",
-      "image": "/project9.webp",
-      "imageAlt": "Soft Start project",
+      "title": "Real Estate",
+      "image": "/industries/real-estate.svg",
+      "imageAlt": "Real estate agency marketing website concept for property listings and agent lead generation",
+      "seoTitle": "Real Estate Marketing and Agent Branding | GT Marketing",
+      "seoDescription": "Property marketing, agent positioning, campaign strategy and lead generation for Australian real estate businesses.",
+      "description": "Property campaigns, agent positioning and digital lead generation that create stronger buyer attention and seller enquiries.",
       "tags": [
-        { "label": "Brand template", "url": "/services" },
-        { "label": "Sales deck", "url": "/services" }
+        { "label": "Property campaigns" },
+        { "label": "Agent branding" },
+        { "label": "Lead generation" }
       ]
     },
     {
-      "title": "Officevibe",
-      "url": "/case/",
-      "image": "/project7.webp",
-      "imageAlt": "Officevibe project",
+      "title": "Security",
+      "image": "/industries/security.svg",
+      "imageAlt": "Professional security company marketing website concept for commercial and local security services",
+      "seoTitle": "Security Company Marketing and Lead Generation | GT Marketing",
+      "seoDescription": "Credibility-led websites, local SEO and B2B campaigns for Australian security companies and service providers.",
+      "description": "Credibility-led websites, local search and B2B campaigns for security providers that need stronger trust and better commercial leads.",
       "tags": [
-        { "label": "Brand template", "url": "/services" }
+        { "label": "B2B campaigns" },
+        { "label": "Local SEO" },
+        { "label": "Credibility" }
       ]
     },
     {
-      "title": "Workiz Easy",
-      "url": "/case/",
-      "image": "/project6.webp",
-      "imageAlt": "Workiz Easy project",
+      "title": "Events",
+      "image": "/industries/events.svg",
+      "imageAlt": "Event marketing website concept for ticket sales, sponsors and live experiences",
+      "seoTitle": "Event Marketing, Ticket Sales and Landing Pages | GT Marketing",
+      "seoDescription": "Event campaigns, sponsor marketing, ticket sales and high-converting landing pages for Australian events and venues.",
+      "description": "Event campaigns, ticket-sales funnels and sponsor visibility systems built to increase attendance and commercial value.",
       "tags": [
-        { "label": "Onboarding presentation", "url": "/services" },
-        { "label": "Policy deck and playbook", "url": "/services" },
-        { "label": "Sales deck", "url": "/services" }
+        { "label": "Ticket campaigns" },
+        { "label": "Sponsor marketing" },
+        { "label": "Landing pages" }
       ]
     }
   ],
