@@ -14,6 +14,7 @@ const objectList = (name: string, fields: any[]) => ({
 });
 
 const linkFields = [stringField("label"), stringField("url")];
+const optionalLinkFields = [stringField("label"), stringField("url", false)];
 const imageFields = [imageField("src"), stringField("alt")];
 const seoFields = [stringField("seoTitle"), textField("seoDescription")];
 const galleryFields = [
@@ -23,10 +24,13 @@ const galleryFields = [
 ];
 const projectFields = [
 	stringField("title"),
-	stringField("url"),
+	stringField("url", false),
 	imageField("image"),
 	stringField("imageAlt"),
-	objectList("tags", linkFields),
+	stringField("seoTitle", false),
+	textField("seoDescription", false),
+	textField("description", false),
+	objectList("tags", optionalLinkFields),
 ];
 const publicationFields = [
 	stringField("title"),
@@ -50,6 +54,7 @@ const models: any[] = [
 			stringField("addressUrl"),
 			stringField("email"),
 			textField("acknowledgement"),
+			stringField("abn"),
 			objectField("footerFlags", [
 				imageField("image"),
 				stringField("alt"),
@@ -113,8 +118,8 @@ const models: any[] = [
 			]),
 			objectField("projects", [
 				stringField("heading"),
-				stringField("ctaLabel"),
-				stringField("ctaUrl"),
+				stringField("ctaLabel", false),
+				stringField("ctaUrl", false),
 				objectList("items", projectFields),
 			]),
 			objectField("reviews", [
@@ -257,7 +262,7 @@ const models: any[] = [
 	{
 		name: "AboutPage",
 		type: "page",
-		urlPath: "/ochi-team",
+		urlPath: "/about-us",
 		filePath: "content/pages/about.json",
 		fields: [
 			...seoFields,
@@ -297,7 +302,10 @@ const models: any[] = [
 			objectField("publication", [
 				stringField("marquee"),
 				stringField("heading"),
-				objectList("items", publicationFields),
+				textField("description"),
+				stringField("profileLabel"),
+				stringField("profileHandle"),
+				stringField("profileUrl"),
 			]),
 		],
 	},
@@ -316,13 +324,7 @@ const models: any[] = [
 				stringField("formIntro"),
 			]),
 			objectField("form", [
-				...[
-					"nameLabel", "namePlaceholder", "companyLabel", "companyPlaceholder",
-					"goalLabel", "goalPlaceholder", "deadlineLabel", "deadlinePlaceholder",
-					"budgetLabel", "budgetPlaceholder", "emailLabel", "emailPlaceholder",
-					"emailSuffix", "detailsLabel", "detailsPlaceholder", "consentLabel",
-					"privacyLabel", "submitLabel", "sendingLabel", "successHeading",
-				].map((name) => stringField(name)),
+				...["nameLabel", "namePlaceholder", "companyLabel", "companyPlaceholder", "goalLabel", "goalPlaceholder", "deadlineLabel", "deadlinePlaceholder", "budgetLabel", "budgetPlaceholder", "emailLabel", "emailPlaceholder", "emailSuffix", "detailsLabel", "detailsPlaceholder", "consentLabel", "privacyLabel", "submitLabel", "sendingLabel", "successHeading"].map((name) => stringField(name)),
 				textField("successMessage"),
 				textField("errorFallback"),
 			]),
