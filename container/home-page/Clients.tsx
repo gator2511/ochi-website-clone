@@ -32,7 +32,7 @@ export default function Clients({ content }: ClientsProps) {
 		<section className="w-full padding-y">
 			<h1
 				data-sb-field-path="reviews.heading"
-				className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
+				className="sub-heading padding-x font-medium font-NeueMontreal text-[#fd4402] pb-[50px]">
 				{content.heading}
 			</h1>
 			{content.items.map((item, index) => (
