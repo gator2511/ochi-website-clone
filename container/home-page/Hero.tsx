@@ -53,7 +53,9 @@ export default function Hero({ content }: HeroProps) {
 									</motion.span>
 									<span data-sb-field-path="hero.headingAccent">{content.headingAccent}</span>
 								</span>
-								<span data-sb-field-path="hero.headingLine3">{content.headingLine3}</span>
+								<span data-sb-field-path="hero.headingLine3" className="text-[#fd4402]">
+									{content.headingLine3}
+								</span>
 							</h1>
 						</div>
 						<div>
