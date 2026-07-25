@@ -5,10 +5,13 @@ import { ProjectCard, Tags } from "@/components";
 
 type Project = {
 	title: string;
-	url: string;
+	url?: string;
 	image: string;
 	imageAlt: string;
-	tags: Array<{ label: string; url: string }>;
+	seoTitle?: string;
+	seoDescription?: string;
+	description?: string;
+	tags: Array<{ label: string; url?: string }>;
 };
 
 export default function Projects({
@@ -29,24 +32,29 @@ export default function Projects({
 				<h2 data-sb-field-path="intro" className="sub-heading font-normal padding-x font-NeueMontreal text-secondry">
 					{intro}
 				</h2>
-				<div className="w-full flex justify-between gap-y-[50px] padding-x padding-y flex-wrap">
+				<div className="w-full flex justify-between gap-y-[70px] padding-x padding-y flex-wrap">
 					{projects.map((item, index) => (
-						<div className="w-[49%] sm:w-full xm:w-full" key={`${item.title}-${index}`}>
+						<article className="w-[49%] sm:w-full xm:w-full" key={`${item.title}-${index}`}>
 							<div className="flex gap-x-[10px] items-center pb-[10px]">
 								<span className="w-[10px] h-[10px] rounded-full bg-secondry" />
-								<h1 data-sb-field-path={`projects.${index}.title`} className="small-text uppercase font-medium font-NeueMontreal text-secondry">
+								<h3 data-sb-field-path={`projects.${index}.title`} className="small-text uppercase font-medium font-NeueMontreal text-secondry">
 									{item.title}
-								</h1>
+								</h3>
 							</div>
 							<ProjectCard item={item} index={index} fieldPath={`projects.${index}`} />
 							<div className="flex flex-wrap items-center gap-[10px] mt-[20px]">
 								{item.tags.map((tag, tagIndex) => (
 									<div key={`${tag.label}-${tagIndex}`} data-sb-field-path={`projects.${index}.tags.${tagIndex}.label`}>
-										<Tags bgcolor="#212121" item={{ id: tagIndex, title: tag.label, href: tag.url }} className="hover:text-white" />
+										<Tags bgcolor="#212121" item={{ id: tagIndex, title: tag.label, href: tag.url || undefined }} className="hover:text-white" />
 									</div>
 								))}
 							</div>
-						</div>
+							{item.description && (
+								<p data-sb-field-path={`projects.${index}.description`} className="paragraph font-NeueMontreal text-secondry pt-[18px] max-w-[680px]">
+									{item.description}
+								</p>
+							)}
+						</article>
 					))}
 				</div>
 			</section>
