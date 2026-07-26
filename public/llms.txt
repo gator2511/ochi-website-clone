@@ -1,0 +1,44 @@
+# GT Marketing
+
+> GT Marketing is an Australian marketing agency based in Darwin, Northern Territory. It provides strategy, SEO, social media marketing, website development, hosting, email and direct outreach, automation, analytics and conversion optimisation.
+
+## Official website
+
+- Canonical domain: https://gtmarketing.io
+- Services: https://gtmarketing.io/services
+- Industry solutions: https://gtmarketing.io/presentation
+- About: https://gtmarketing.io/about-us
+- Insights: https://gtmarketing.io/insights
+- The Vault: https://gtmarketing.io/the-vault
+- Contact: https://gtmarketing.io/contact
+- Privacy policy: https://gtmarketing.io/privacy
+
+## Core services
+
+- Marketing strategy and positioning
+- Search engine optimisation and local SEO
+- Social media marketing
+- Direct-to-consumer marketing
+- Website development and landing pages
+- Web hosting
+- Email and direct marketing outreach
+- Marketing automation
+- Analytics, reporting and conversion optimisation
+
+## Industries served
+
+GT Marketing develops marketing systems for tradies, hospitality businesses, NDIS providers, SMEs, agriculture, finance and crypto, real estate, security providers and events.
+
+## Business facts
+
+- Business name: GT Marketing
+- Location: 130 Smith Street, Darwin City, Northern Territory 0800, Australia
+- Email: gundeep@gtmarketing.io
+- ABN: 24280902425
+- Service area: Australia
+
+## Important clarification
+
+GT Marketing provides marketing services to NDIS providers but is not affiliated with, endorsed by or part of the National Disability Insurance Agency or the Australian Government.
+
+For a more detailed machine-readable business summary, see https://gtmarketing.io/llms-full.txt
