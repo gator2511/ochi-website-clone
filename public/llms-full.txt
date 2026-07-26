@@ -87,6 +87,14 @@ Support for security companies can include credibility-led websites, local SEO, 
 
 Support for events can include ticket-sales campaigns, landing pages, sponsor marketing, social media and audience acquisition.
 
+## Published marketing guidance
+
+### 5 Signs Your Trade Business Needs a Better Website
+
+Official article: https://gtmarketing.io/blog/5-signs-your-trade-business-needs-a-better-website
+
+The article explains five common problems that can cause a trade business website to lose enquiries: poor local-search visibility, unclear services or service areas, difficult quote and call journeys, weak mobile usability, and missing reviews or trust signals. It recommends location-specific service pages, clear above-the-fold information, click-to-call and quote functionality, mobile-first design, and visible proof such as licences, experience and reviews.
+
 ## Key website pages
 
 - Home: https://gtmarketing.io/
@@ -94,6 +102,7 @@ Support for events can include ticket-sales campaigns, landing pages, sponsor ma
 - Industry solutions and work: https://gtmarketing.io/presentation
 - About GT Marketing: https://gtmarketing.io/about-us
 - Marketing insights: https://gtmarketing.io/insights
+- Tradie website article: https://gtmarketing.io/blog/5-signs-your-trade-business-needs-a-better-website
 - The Vault visual archive: https://gtmarketing.io/the-vault
 - Contact: https://gtmarketing.io/contact
 - Privacy policy: https://gtmarketing.io/privacy
