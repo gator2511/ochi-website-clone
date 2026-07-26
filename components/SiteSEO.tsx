@@ -22,7 +22,8 @@ type PageType =
 	| "AboutPage"
 	| "ContactPage"
 	| "CollectionPage"
-	| "ProfilePage";
+	| "ProfilePage"
+	| "Article";
 
 type RouteSEO = {
 	title: string;
@@ -31,6 +32,9 @@ type RouteSEO = {
 	type: PageType;
 	image?: string;
 	index?: boolean;
+	publishedDate?: string;
+	modifiedDate?: string;
+	keywords?: string[];
 };
 
 const ROUTES: Record<string, RouteSEO> = {
@@ -70,6 +74,24 @@ const ROUTES: Record<string, RouteSEO> = {
 			"Read practical GT Marketing insights on brand strategy, digital marketing, social media, customer experience, websites and sustainable business growth.",
 		label: "Insights",
 		type: "CollectionPage",
+	},
+	"/blog/5-signs-your-trade-business-needs-a-better-website": {
+		title: "5 Signs Your Trade Business Needs a Better Website | GT Marketing",
+		description:
+			"Not sure if your trade business website is costing you jobs? Here are five clear signs it is time for an upgrade, plus what to fix first.",
+		label: "5 Signs Your Trade Business Needs a Better Website",
+		type: "Article",
+		image:
+			"https://images.pexels.com/photos/12759924/pexels-photo-12759924.jpeg?auto=compress&cs=tinysrgb&w=2000",
+		publishedDate: "2026-07-26",
+		modifiedDate: "2026-07-26",
+		keywords: [
+			"trade business website",
+			"website for tradies",
+			"electrician website",
+			"plumber website Darwin",
+			"tradie website SEO",
+		],
 	},
 	"/the-vault": {
 		title: "The Vault | Marketing Ideas & Inspiration | GT Marketing",
@@ -115,23 +137,36 @@ function absoluteUrl(url?: string) {
 
 function breadcrumbSchema(path: string, label: string) {
 	if (path === "/") return null;
+	const isBlogArticle = path.startsWith("/blog/");
+	const elements = [
+		{
+			"@type": "ListItem",
+			position: 1,
+			name: "Home",
+			item: SITE_URL,
+		},
+	];
+
+	if (isBlogArticle) {
+		elements.push({
+			"@type": "ListItem",
+			position: 2,
+			name: "Insights",
+			item: `${SITE_URL}/insights`,
+		});
+	}
+
+	elements.push({
+		"@type": "ListItem",
+		position: isBlogArticle ? 3 : 2,
+		name: label,
+		item: `${SITE_URL}${path}`,
+	});
+
 	return {
 		"@type": "BreadcrumbList",
 		"@id": `${SITE_URL}${path}#breadcrumb`,
-		itemListElement: [
-			{
-				"@type": "ListItem",
-				position: 1,
-				name: "Home",
-				item: SITE_URL,
-			},
-			{
-				"@type": "ListItem",
-				position: 2,
-				name: label,
-				item: `${SITE_URL}${path}`,
-			},
-		],
+		itemListElement: elements,
 	};
 }
 
@@ -150,6 +185,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 	const canonicalUrl = `${SITE_URL}${canonicalPath === "/" ? "" : canonicalPath}`;
 	const image = absoluteUrl(page.image);
 	const shouldIndex = isKnownPage && page.index !== false;
+	const isArticle = page.type === "Article";
 
 	const address = {
 		"@type": "PostalAddress",
@@ -231,6 +267,16 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		inLanguage: "en-AU",
 	};
 
+	if (isArticle) {
+		pageSchema.headline = page.title;
+		pageSchema.image = [image];
+		pageSchema.datePublished = page.publishedDate;
+		pageSchema.dateModified = page.modifiedDate ?? page.publishedDate;
+		pageSchema.author = { "@type": "Organization", "@id": `${SITE_URL}/#business`, name: site.brandName };
+		pageSchema.mainEntityOfPage = { "@id": `${canonicalUrl}#webpage` };
+		pageSchema.keywords = page.keywords?.join(", ");
+	}
+
 	const breadcrumb = breadcrumbSchema(canonicalPath, page.label);
 	if (breadcrumb) pageSchema.breadcrumb = { "@id": breadcrumb["@id"] };
 	if (path === "/services") pageSchema.mainEntity = offerCatalog;
@@ -247,6 +293,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 			<title key="title">{page.title}</title>
 			<meta key="description" name="description" content={page.description} />
 			<meta key="author" name="author" content="GT Marketing" />
+			{page.keywords && <meta key="keywords" name="keywords" content={page.keywords.join(", ")} />}
 			<meta
 				key="robots"
 				name="robots"
@@ -270,13 +317,20 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 			<link key="alternate-default" rel="alternate" hrefLang="x-default" href={canonicalUrl} />
 
 			<meta key="og-locale" property="og:locale" content="en_AU" />
-			<meta key="og-type" property="og:type" content="website" />
+			<meta key="og-type" property="og:type" content={isArticle ? "article" : "website"} />
 			<meta key="og-site-name" property="og:site_name" content={site.brandName} />
 			<meta key="og-title" property="og:title" content={page.title} />
 			<meta key="og-description" property="og:description" content={page.description} />
 			<meta key="og-url" property="og:url" content={canonicalUrl} />
 			<meta key="og-image" property="og:image" content={image} />
 			<meta key="og-image-alt" property="og:image:alt" content={`${page.label} — GT Marketing`} />
+			{isArticle && page.publishedDate && (
+				<meta key="article-published" property="article:published_time" content={page.publishedDate} />
+			)}
+			{isArticle && (page.modifiedDate || page.publishedDate) && (
+				<meta key="article-modified" property="article:modified_time" content={page.modifiedDate ?? page.publishedDate} />
+			)}
+			{isArticle && <meta key="article-author" property="article:author" content="GT Marketing" />}
 
 			<meta key="twitter-card" name="twitter:card" content="summary_large_image" />
 			<meta key="twitter-title" name="twitter:title" content={page.title} />
