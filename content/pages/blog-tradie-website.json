@@ -1,0 +1,88 @@
+{
+  "type": "BlogArticlePage",
+  "slug": "5-signs-your-trade-business-needs-a-better-website",
+  "seoTitle": "5 Signs Your Trade Business Needs a Better Website | GT Marketing",
+  "seoDescription": "Not sure if your trade business website is costing you jobs? Here are five clear signs it is time for an upgrade, plus what to fix first.",
+  "keywords": [
+    "trade business website",
+    "website for tradies",
+    "electrician website",
+    "plumber website Darwin"
+  ],
+  "category": "Websites for tradies",
+  "author": "GT Marketing",
+  "publishedDate": "2026-07-26",
+  "updatedDate": "2026-07-26",
+  "readTime": "6 min read",
+  "title": "5 Signs Your Trade Business Needs a Better Website",
+  "intro": "If your trade business relies on word of mouth and a website you built years ago—or never really finished—you are probably losing jobs to competitors who show up first on Google. Here are five clear signs it is time for an upgrade, and what to do about each one.",
+  "heroImage": "https://images.pexels.com/photos/12759924/pexels-photo-12759924.jpeg?auto=compress&cs=tinysrgb&w=2000",
+  "heroImageAlt": "Two tradespeople wearing safety equipment and working with a mitre saw",
+  "sections": [
+    {
+      "number": "01",
+      "heading": "Your website does not show up when people search for your services",
+      "paragraphs": [
+        "If you search ‘electrician [your suburb]’ or ‘plumber near me’ and your business does not appear on the first page, most potential customers will never find you. Google favours websites with strong local SEO, including your suburb or region in page titles, service pages and Google Business Profile listings."
+      ],
+      "fix": "Add location-specific service pages, such as ‘Electrician Palmerston’ or ‘Air Conditioning Installation Darwin’, and make sure your Google Business Profile is fully completed and regularly updated."
+    },
+    {
+      "number": "02",
+      "heading": "Visitors cannot tell what you do or where you work within five seconds",
+      "paragraphs": [
+        "A trade website homepage needs to answer three things immediately: what you do, where you service and how to contact you. When visitors have to scroll or click around to find this information, they are likely to leave for a competitor instead."
+      ],
+      "fix": "Use a clear headline, a visible phone number and your service area above the fold."
+    },
+    {
+      "number": "03",
+      "heading": "There is no easy way to request a quote or call you",
+      "paragraphs": [
+        "Some trade websites still rely on a single Contact Us page buried in the navigation. When getting a quote takes more than one click, you lose enquiries—especially from mobile users searching while they are on the go."
+      ],
+      "fix": "Add click-to-call buttons and a simple quote request form on every important page, not only the contact page."
+    },
+    {
+      "number": "04",
+      "heading": "Your site is not mobile-friendly",
+      "paragraphs": [
+        "Most local trade searches happen on a phone, often from someone standing in front of a problem that needs attention immediately. A slow, difficult-to-navigate website that requires zooming or pinching loses the customers who are most ready to book."
+      ],
+      "fix": "Test the website on a phone. When the experience feels clunky, prioritise a mobile-first redesign or refresh."
+    },
+    {
+      "number": "05",
+      "heading": "You have no reviews or trust signals visible",
+      "paragraphs": [
+        "Trade customers want proof before they call, particularly for larger jobs or when they have never used your business before. A website without reviews, licences, years in business or examples of completed work asks people to trust you without evidence."
+      ],
+      "fix": "Add a reviews section and prominently show credentials such as experience, licensing and relevant commercial, government or medical clients."
+    }
+  ],
+  "bottomLineHeading": "The bottom line",
+  "bottomLine": "None of these fixes necessarily means starting from scratch. In many cases, a website refresh, targeted SEO improvements and stronger conversion elements—clear calls to action, quote forms and trust signals—can turn an underperforming site into one that consistently brings in work.",
+  "faqHeading": "Frequently asked questions",
+  "faqs": [
+    {
+      "question": "Do I need a brand new website, or can my current one be fixed?",
+      "answer": "Most trade websites do not need a full rebuild. Often the bigger opportunity is improving SEO, adding clear calls to action and building dedicated pages for each service and area without replacing the existing design."
+    },
+    {
+      "question": "How much does a website cost for a trade business?",
+      "answer": "Costs vary depending on scope, from a simple refresh through to a full custom build. A good starting point is an audit that identifies exactly what is holding the current site back before quoting a solution."
+    },
+    {
+      "question": "How long does it take to see more enquiries after fixing these issues?",
+      "answer": "SEO improvements typically take a few weeks to a few months to show results, while conversion improvements such as quote forms and click-to-call buttons can increase enquiries much sooner."
+    },
+    {
+      "question": "Does my trade business really need SEO if I already get work from referrals?",
+      "answer": "Referrals are valuable, but they do not scale predictably. SEO adds another source of leads by helping customers who are actively searching for your services find the business at the moment they need it."
+    }
+  ],
+  "ctaEyebrow": "Website not pulling its weight?",
+  "ctaHeading": "Turn your trade website into a lead-generation system.",
+  "ctaLabel": "Start a website audit",
+  "ctaUrl": "/contact"
+}
