@@ -41,14 +41,17 @@
       }
     ]
   },
-  "gallery": {
-    "eyebrow": "See the pattern",
-    "title": "Ideas shaped by commercial reality.",
-    "images": [
-      { "src": "https://images.pexels.com/photos/12915530/pexels-photo-12915530.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Modern yellow building under dramatic clouds" },
-      { "src": "https://images.pexels.com/photos/36835822/pexels-photo-36835822.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange interior with blue geometric skylight" },
-      { "src": "https://images.pexels.com/photos/7350058/pexels-photo-7350058.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Abstract red and orange architectural lines" }
-    ]
+  "featuredBlog": {
+    "eyebrow": "Featured article",
+    "issue": "01",
+    "category": "Websites for tradies",
+    "readTime": "6 min read",
+    "title": "5 Signs Your Trade Business Needs a Better Website",
+    "summary": "A trade website should make the business easy to find, understand and contact. These five warning signs reveal where an outdated website may be costing you qualified local jobs.",
+    "image": "https://images.pexels.com/photos/12759924/pexels-photo-12759924.jpeg?auto=compress&cs=tinysrgb&w=2000",
+    "imageAlt": "Two tradespeople wearing safety equipment and working with a mitre saw",
+    "ctaLabel": "Read the article",
+    "url": "/blog/5-signs-your-trade-business-needs-a-better-website"
   },
   "publication": {
     "marquee": "Instagram",
