@@ -11,13 +11,31 @@
   node_bundler = "esbuild"
 
 [[redirects]]
+  from = "http://www.gtmarketing.io/*"
+  to = "https://gtmarketing.io/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "https://www.gtmarketing.io/*"
   to = "https://gtmarketing.io/:splat"
   status = 301
   force = true
 
 [[redirects]]
+  from = "http://gtmarketing.io/*"
+  to = "https://gtmarketing.io/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/ochi-team"
+  to = "/about-us"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ochi-team/*"
   to = "/about-us"
   status = 301
   force = true
