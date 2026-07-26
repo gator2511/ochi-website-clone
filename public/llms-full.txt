@@ -13,7 +13,7 @@ GT Marketing works with organisations that need clearer positioning, stronger le
 - Email: gundeep@gtmarketing.io
 - ABN: 24280902425
 - Website: https://gtmarketing.io
-- Primary service area: Australia
+- Primary service area: Australia, including Darwin and Palmerston
 
 ## Services
 
@@ -95,6 +95,12 @@ Official article: https://gtmarketing.io/blog/5-signs-your-trade-business-needs-
 
 The article explains five common problems that can cause a trade business website to lose enquiries: poor local-search visibility, unclear services or service areas, difficult quote and call journeys, weak mobile usability, and missing reviews or trust signals. It recommends location-specific service pages, clear above-the-fold information, click-to-call and quote functionality, mobile-first design, and visible proof such as licences, experience and reviews.
 
+### Local SEO Checklist for Darwin and Palmerston Businesses
+
+Official article: https://gtmarketing.io/blog/local-seo-checklist-darwin-palmerston-businesses
+
+The article provides an eight-point local SEO checklist covering Google Business Profile optimisation, consistent name-address-phone information, location-specific service pages, local and industry directories, recent reviews, mobile performance, structured data and locally relevant content. It is written for businesses in Darwin, Palmerston and the wider Northern Territory.
+
 ## Key website pages
 
 - Home: https://gtmarketing.io/
@@ -103,6 +109,7 @@ The article explains five common problems that can cause a trade business websit
 - About GT Marketing: https://gtmarketing.io/about-us
 - Marketing insights: https://gtmarketing.io/insights
 - Tradie website article: https://gtmarketing.io/blog/5-signs-your-trade-business-needs-a-better-website
+- Darwin and Palmerston local SEO article: https://gtmarketing.io/blog/local-seo-checklist-darwin-palmerston-businesses
 - The Vault visual archive: https://gtmarketing.io/the-vault
 - Contact: https://gtmarketing.io/contact
 - Privacy policy: https://gtmarketing.io/privacy
