@@ -71,7 +71,7 @@ const ROUTES: Record<string, RouteSEO> = {
 	"/insights": {
 		title: "Marketing Insights & Growth Strategy | GT Marketing",
 		description:
-			"Read practical GT Marketing insights on brand strategy, digital marketing, social media, customer experience, websites and sustainable business growth.",
+			"Read practical GT Marketing insights on brand strategy, digital marketing, local SEO, social media, websites and sustainable business growth.",
 		label: "Insights",
 		type: "CollectionPage",
 	},
@@ -91,6 +91,24 @@ const ROUTES: Record<string, RouteSEO> = {
 			"electrician website",
 			"plumber website Darwin",
 			"tradie website SEO",
+		],
+	},
+	"/blog/local-seo-checklist-darwin-palmerston-businesses": {
+		title: "Local SEO Checklist for Darwin and Palmerston Businesses | GT Marketing",
+		description:
+			"A practical local SEO checklist for Darwin and Palmerston businesses looking to rank higher on Google and attract more local customers.",
+		label: "Local SEO Checklist for Darwin and Palmerston Businesses",
+		type: "Article",
+		image:
+			"https://static.wixstatic.com/media/873fa1_507866ba6fa8409583cf3181c43ddd5a~mv2.jpg",
+		publishedDate: "2026-07-26",
+		modifiedDate: "2026-07-26",
+		keywords: [
+			"local SEO Darwin",
+			"SEO Palmerston",
+			"Northern Territory SEO",
+			"local SEO checklist",
+			"Google Business Profile Darwin",
 		],
 	},
 	"/the-vault": {
@@ -138,7 +156,7 @@ function absoluteUrl(url?: string) {
 function breadcrumbSchema(path: string, label: string) {
 	if (path === "/") return null;
 	const isBlogArticle = path.startsWith("/blog/");
-	const elements = [
+	const elements: Array<Record<string, unknown>> = [
 		{
 			"@type": "ListItem",
 			position: 1,
@@ -225,6 +243,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		address,
 		areaServed: [
 			{ "@type": "City", name: "Darwin" },
+			{ "@type": "City", name: "Palmerston" },
 			{ "@type": "AdministrativeArea", name: "Northern Territory" },
 			{ "@type": "Country", name: "Australia" },
 		],
@@ -272,7 +291,11 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		pageSchema.image = [image];
 		pageSchema.datePublished = page.publishedDate;
 		pageSchema.dateModified = page.modifiedDate ?? page.publishedDate;
-		pageSchema.author = { "@type": "Organization", "@id": `${SITE_URL}/#business`, name: site.brandName };
+		pageSchema.author = {
+			"@type": "Organization",
+			"@id": `${SITE_URL}/#business`,
+			name: site.brandName,
+		};
 		pageSchema.mainEntityOfPage = { "@id": `${canonicalUrl}#webpage` };
 		pageSchema.keywords = page.keywords?.join(", ");
 	}
@@ -282,10 +305,9 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 	if (path === "/services") pageSchema.mainEntity = offerCatalog;
 	if (path === "/contact") pageSchema.mainEntity = { "@id": `${SITE_URL}/#business` };
 
-	const graph = [businessSchema, websiteSchema, pageSchema, ...(breadcrumb ? [breadcrumb] : [])];
 	const structuredData = {
 		"@context": "https://schema.org",
-		"@graph": graph,
+		"@graph": [businessSchema, websiteSchema, pageSchema, ...(breadcrumb ? [breadcrumb] : [])],
 	};
 
 	return (
