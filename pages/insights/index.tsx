@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect } from "react";
-import { BrandImageGallery, Curve } from "@/components";
+import { Curve } from "@/components";
+import InsightsBlogFeature from "@/components/InsightsBlogFeature";
 import { Heroinsights, Publicationinsights } from "@/container";
 import content from "@/content/pages/insights.json";
 
@@ -19,7 +20,7 @@ export default function Insights() {
 		<div data-sb-object-id={documentId}>
 			<Curve backgroundColor="#f1f1f1">
 				<Heroinsights content={content.hero} />
-				<BrandImageGallery content={content.gallery} fieldPath="gallery" />
+				<InsightsBlogFeature content={content.featuredBlog} />
 				<Publicationinsights content={content.publication} />
 			</Curve>
 		</div>
