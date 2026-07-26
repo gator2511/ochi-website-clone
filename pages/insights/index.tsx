@@ -20,7 +20,14 @@ export default function Insights() {
 		<div data-sb-object-id={documentId}>
 			<Curve backgroundColor="#f1f1f1">
 				<Heroinsights content={content.hero} />
-				<InsightsBlogFeature content={content.featuredBlog} />
+				{content.featuredBlogs.map((article, index) => (
+					<InsightsBlogFeature
+						key={article.url}
+						content={article}
+						index={index}
+						fieldPath={`featuredBlogs.${index}`}
+					/>
+				))}
 				<Publicationinsights content={content.publication} />
 			</Curve>
 		</div>
