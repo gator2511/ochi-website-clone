@@ -1,0 +1,20 @@
+# GT Marketing robots policy
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /.netlify/
+
+# Search and answer-engine crawlers
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://gtmarketing.io/sitemap.xml
