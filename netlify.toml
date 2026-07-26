@@ -21,3 +21,15 @@
   to = "/about-us"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/case"
+  to = "/presentation"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/case/*"
+  to = "/presentation"
+  status = 301
+  force = true
