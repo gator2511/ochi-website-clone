@@ -41,18 +41,32 @@
       }
     ]
   },
-  "featuredBlog": {
-    "eyebrow": "Featured article",
-    "issue": "01",
-    "category": "Websites for tradies",
-    "readTime": "6 min read",
-    "title": "5 Signs Your Trade Business Needs a Better Website",
-    "summary": "A trade website should make the business easy to find, understand and contact. These five warning signs reveal where an outdated website may be costing you qualified local jobs.",
-    "image": "https://images.pexels.com/photos/12759924/pexels-photo-12759924.jpeg?auto=compress&cs=tinysrgb&w=2000",
-    "imageAlt": "Two tradespeople wearing safety equipment and working with a mitre saw",
-    "ctaLabel": "Read the article",
-    "url": "/blog/5-signs-your-trade-business-needs-a-better-website"
-  },
+  "featuredBlogs": [
+    {
+      "eyebrow": "Featured article",
+      "issue": "01",
+      "category": "Websites for tradies",
+      "readTime": "6 min read",
+      "title": "5 Signs Your Trade Business Needs a Better Website",
+      "summary": "A trade website should make the business easy to find, understand and contact. These five warning signs reveal where an outdated website may be costing you qualified local jobs.",
+      "image": "https://images.pexels.com/photos/12759924/pexels-photo-12759924.jpeg?auto=compress&cs=tinysrgb&w=2000",
+      "imageAlt": "Two tradespeople wearing safety equipment and working with a mitre saw",
+      "ctaLabel": "Read the article",
+      "url": "/blog/5-signs-your-trade-business-needs-a-better-website"
+    },
+    {
+      "eyebrow": "Local search guide",
+      "issue": "02",
+      "category": "Local SEO Darwin",
+      "readTime": "7 min read",
+      "title": "Local SEO Checklist for Darwin and Palmerston Businesses",
+      "summary": "A practical eight-point checklist covering Google Business Profile optimisation, consistent listings, local pages, reviews, mobile performance, schema and locally relevant content.",
+      "image": "https://static.wixstatic.com/media/873fa1_507866ba6fa8409583cf3181c43ddd5a~mv2.jpg",
+      "imageAlt": "Aerial view of Darwin city, harbour and coastline at sunset",
+      "ctaLabel": "Open the checklist",
+      "url": "/blog/local-seo-checklist-darwin-palmerston-businesses"
+    }
+  ],
   "publication": {
     "marquee": "Instagram",
     "heading": "Latest publication",
