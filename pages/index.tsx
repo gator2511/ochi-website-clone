@@ -2,7 +2,6 @@
 
 import { useEffect } from "react";
 import {
-	BrandImageGallery,
 	Curve,
 	HomeVisionShowcase,
 	Marquee,
@@ -33,7 +32,6 @@ export default function Home() {
 					/>
 				</div>
 				<About content={content.about} />
-				<BrandImageGallery content={content.gallery} fieldPath="gallery" />
 				<VideoHome content={content.video} />
 				<HomeVisionShowcase content={content.vision} fieldPath="vision" />
 				<Projects content={content.projects} />
