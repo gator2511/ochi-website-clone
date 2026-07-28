@@ -6,11 +6,11 @@ export default function Ratings() {
 			<div className="w-[49.5%] sm:w-full xm:w-full h-[60vh] sm:h-[50vh] xm:h-[50vh]">
 				<div className="w-full h-full flex items-center justify-center rounded-[10px] bg-[#fd4402] relative overflow-hidden">
 					<img
-						src="/gt-rating-logo.svg"
+						src="/logo.svg"
 						alt="GT Marketing logo"
 						width="320"
-						height="210"
-						className="w-[42%] min-w-[220px] h-auto object-contain"
+						height="468"
+						className="w-[34%] max-w-[320px] h-[58%] object-contain brightness-0 invert"
 					/>
 					<div className="absolute bottom-[35px] left-[25px] border border-white px-[12px] py-[8px] rounded-full">
 						<p className="xl:text-[18px] xl:leading-[18px] text-[14px] leading-[14px] text-white uppercase font-normal font-NeueMontreal tracking-wider">
