@@ -7,7 +7,7 @@ import {
 	Marquee,
 	Ready,
 } from "@/components";
-import { About, Clients, Hero, Projects, VideoHome } from "@/container";
+import { About, Cards, Clients, Hero, Projects, VideoHome } from "@/container";
 import content from "@/content/pages/home.json";
 
 const documentId = "content/pages/home.json";
@@ -36,6 +36,7 @@ export default function Home() {
 				<HomeVisionShowcase content={content.vision} fieldPath="vision" />
 				<Projects content={content.projects} />
 				<Clients content={content.reviews} />
+				<Cards />
 				<Ready />
 			</Curve>
 		</div>
