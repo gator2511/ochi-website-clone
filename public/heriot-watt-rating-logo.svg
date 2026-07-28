@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420">
+  <rect width="760" height="420" fill="none"/>
+  <g fill="#ffffff">
+    <path d="M85 95h150v170c0 55-38 92-75 112-37-20-75-57-75-112z" fill="none" stroke="#ffffff" stroke-width="10"/>
+    <path d="M105 125h110M105 165h110M105 205h110M160 105v245" stroke="#ffffff" stroke-width="6" opacity=".85"/>
+    <circle cx="160" cy="225" r="34" fill="none" stroke="#ffffff" stroke-width="8"/>
+    <path d="M160 190v70M125 225h70" stroke="#ffffff" stroke-width="7"/>
+    <text x="270" y="190" font-family="Georgia, Times New Roman, serif" font-size="94" font-weight="700">HERIOT</text>
+    <text x="270" y="285" font-family="Georgia, Times New Roman, serif" font-size="94" font-weight="700">WATT</text>
+    <text x="275" y="345" font-family="Georgia, Times New Roman, serif" font-size="44" letter-spacing="8">UNIVERSITY</text>
+  </g>
+</svg>
