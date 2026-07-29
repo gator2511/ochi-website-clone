@@ -141,6 +141,8 @@
     "items": [
       {
         "title": "Saltwater Pathways",
+        "image": "/industries/ndis.svg",
+        "imageAlt": "Animated preview of the Saltwater Pathways client website",
         "url": "https://www.saltwaterpathways.com.au",
         "eyebrow": "Latest website launch / Early childhood support",
         "location": "Darwin, Northern Territory",
