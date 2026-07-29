@@ -1,7 +1,7 @@
 {
   "type": "WorkPage",
-  "seoTitle": "Industry Marketing Solutions | GT Marketing",
-  "seoDescription": "Explore GT Marketing growth systems for tradies, hospitality, NDIS providers, SMEs, agriculture, finance, real estate, security and events.",
+  "seoTitle": "Industry Marketing Solutions and Client Websites | GT Marketing",
+  "seoDescription": "Explore GT Marketing growth systems and client website launches for tradies, hospitality, NDIS providers, SMEs, agriculture, finance, real estate, security and events.",
   "hero": {
     "heading": "Work",
     "count": "9"
@@ -136,12 +136,22 @@
     ]
   },
   "publication": {
-    "marquee": "Behance",
-    "heading": "Latest publication",
+    "marquee": "Client Websites",
+    "heading": "Websites designed to feel considered, communicate clearly and move visitors towards action.",
     "items": [
-      { "title": "Officevibe presentation template", "image": "/publication1.jpeg", "imageAlt": "Officevibe publication", "url": "/presentation" },
-      { "title": "Trawa Energy pitch deck", "image": "/publication2.png", "imageAlt": "Trawa Energy publication", "url": "/presentation" },
-      { "title": "Tech for Australia", "image": "/publication3.png", "imageAlt": "Australian technology publication", "url": "/presentation" }
+      {
+        "title": "Saltwater Pathways",
+        "url": "https://www.saltwaterpathways.com.au",
+        "eyebrow": "Latest website launch / Early childhood support",
+        "location": "Darwin, Northern Territory",
+        "description": "A calm, accessible website experience for an early childhood intervention specialist supporting children and families across the Northern Territory.",
+        "ctaLabel": "Visit live website",
+        "services": [
+          "Website strategy",
+          "UX and content",
+          "Squarespace development"
+        ]
+      }
     ]
   }
 }
