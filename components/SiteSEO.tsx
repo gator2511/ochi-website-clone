@@ -17,6 +17,14 @@ const SERVICES = [
 	"Analytics and conversion optimisation",
 ];
 
+const LOCAL_SERVICE_AREAS = [
+	{ "@type": "Place", name: "Darwin City, Northern Territory" },
+	{ "@type": "Place", name: "Casuarina, Northern Territory" },
+	{ "@type": "City", name: "Palmerston, Northern Territory" },
+	{ "@type": "AdministrativeArea", name: "Darwin, Northern Territory" },
+	{ "@type": "AdministrativeArea", name: "Northern Territory" },
+];
+
 type PageType =
 	| "WebPage"
 	| "AboutPage"
@@ -24,6 +32,13 @@ type PageType =
 	| "CollectionPage"
 	| "ProfilePage"
 	| "Article";
+
+type LocalArea = {
+	name: string;
+	type: "City" | "Place";
+	region: string;
+	postcode?: string;
+};
 
 type RouteSEO = {
 	title: string;
@@ -35,24 +50,40 @@ type RouteSEO = {
 	publishedDate?: string;
 	modifiedDate?: string;
 	keywords?: string[];
+	location?: LocalArea;
 };
 
 const ROUTES: Record<string, RouteSEO> = {
 	"/": {
-		title: "Marketing Agency Darwin | SEO & Web | GT Marketing",
+		title: "Marketing Agency Darwin, Casuarina & Palmerston | GT Marketing",
 		description:
-			"GT Marketing is a Darwin marketing agency delivering strategy, SEO, social media, websites, automation and lead generation for Australian businesses.",
+			"GT Marketing is a Darwin-based marketing agency providing SEO, websites, social media, strategy and lead generation across Darwin City, Casuarina and Palmerston.",
 		label: "Home",
 		type: "WebPage",
+		keywords: [
+			"marketing agency Darwin",
+			"marketing agency Darwin City",
+			"marketing agency Casuarina",
+			"marketing agency Palmerston",
+			"SEO Darwin",
+			"web design Darwin",
+		],
 	},
 	"/services": {
-		title: "SEO, Social Media & Web Services Darwin | GT Marketing",
+		title: "SEO & Web Design Darwin, Casuarina, Palmerston | GT Marketing",
 		description:
-			"Explore GT Marketing services across marketing strategy, SEO, social media, websites, hosting, email outreach, automation and conversion optimisation.",
+			"Explore marketing strategy, local SEO, social media, websites, automation and lead generation for businesses across Darwin City, Casuarina and Palmerston.",
 		label: "Services",
 		type: "WebPage",
 		image:
 			"https://images.pexels.com/photos/36835822/pexels-photo-36835822.jpeg?auto=compress&cs=tinysrgb&w=2000",
+		keywords: [
+			"SEO Darwin City",
+			"SEO Casuarina",
+			"SEO Palmerston",
+			"website design Darwin",
+			"digital marketing Northern Territory",
+		],
 	},
 	"/presentation": {
 		title: "Industry Marketing Solutions Australia | GT Marketing",
@@ -64,14 +95,14 @@ const ROUTES: Record<string, RouteSEO> = {
 	"/about-us": {
 		title: "About GT Marketing | Darwin Marketing Agency",
 		description:
-			"Learn how GT Marketing combines strategy, creative execution, technology and commercial measurement to help Australian businesses grow.",
+			"Learn how Darwin-based GT Marketing combines strategy, creative execution, technology and commercial measurement for businesses across Darwin City, Casuarina and Palmerston.",
 		label: "About Us",
 		type: "AboutPage",
 	},
 	"/insights": {
-		title: "Marketing Insights & Growth Strategy | GT Marketing",
+		title: "Marketing Insights & Local SEO Darwin | GT Marketing",
 		description:
-			"Read practical GT Marketing insights on brand strategy, digital marketing, local SEO, social media, websites and sustainable business growth.",
+			"Read practical GT Marketing insights on local SEO, websites, brand strategy, social media and sustainable growth for Darwin and Northern Territory businesses.",
 		label: "Insights",
 		type: "CollectionPage",
 	},
@@ -84,7 +115,7 @@ const ROUTES: Record<string, RouteSEO> = {
 		image:
 			"https://images.pexels.com/photos/12759924/pexels-photo-12759924.jpeg?auto=compress&cs=tinysrgb&w=2000",
 		publishedDate: "2026-07-26",
-		modifiedDate: "2026-07-26",
+		modifiedDate: "2026-07-30",
 		keywords: [
 			"trade business website",
 			"website for tradies",
@@ -96,20 +127,81 @@ const ROUTES: Record<string, RouteSEO> = {
 	"/blog/local-seo-checklist-darwin-palmerston-businesses": {
 		title: "Local SEO Checklist for Darwin and Palmerston Businesses | GT Marketing",
 		description:
-			"A practical local SEO checklist for Darwin and Palmerston businesses looking to rank higher on Google and attract more local customers.",
+			"A practical local SEO checklist for Darwin City, Casuarina and Palmerston businesses looking to improve Google visibility and attract local customers.",
 		label: "Local SEO Checklist for Darwin and Palmerston Businesses",
 		type: "Article",
 		image:
 			"https://static.wixstatic.com/media/873fa1_507866ba6fa8409583cf3181c43ddd5a~mv2.jpg",
 		publishedDate: "2026-07-26",
-		modifiedDate: "2026-07-26",
+		modifiedDate: "2026-07-30",
 		keywords: [
 			"local SEO Darwin",
+			"SEO Darwin City",
+			"SEO Casuarina",
 			"SEO Palmerston",
 			"Northern Territory SEO",
-			"local SEO checklist",
 			"Google Business Profile Darwin",
 		],
+	},
+	"/locations/darwin-city": {
+		title: "Marketing Agency Darwin City | SEO & Web Design | GT Marketing",
+		description:
+			"GT Marketing provides local SEO, website development, social media and growth strategy for businesses in Darwin City and central Darwin.",
+		label: "Marketing Agency Darwin City",
+		type: "WebPage",
+		keywords: [
+			"marketing agency Darwin City",
+			"SEO Darwin City",
+			"web design Darwin City",
+			"digital marketing Darwin CBD",
+			"social media marketing Darwin City",
+		],
+		location: {
+			name: "Darwin City",
+			type: "Place",
+			region: "Northern Territory",
+			postcode: "0800",
+		},
+	},
+	"/locations/casuarina": {
+		title: "Marketing Agency Casuarina | Local SEO & Websites | GT Marketing",
+		description:
+			"GT Marketing helps Casuarina and northern suburbs businesses with local SEO, websites, social media, lead generation and marketing strategy.",
+		label: "Marketing Agency Casuarina",
+		type: "WebPage",
+		keywords: [
+			"marketing agency Casuarina",
+			"SEO Casuarina",
+			"web design Casuarina",
+			"digital marketing Casuarina NT",
+			"local SEO northern suburbs Darwin",
+		],
+		location: {
+			name: "Casuarina",
+			type: "Place",
+			region: "Northern Territory",
+			postcode: "0810",
+		},
+	},
+	"/locations/palmerston": {
+		title: "Marketing Agency Palmerston | SEO, Web & Leads | GT Marketing",
+		description:
+			"GT Marketing provides local SEO, websites, lead generation, social media and marketing strategy for businesses across Palmerston, NT.",
+		label: "Marketing Agency Palmerston",
+		type: "WebPage",
+		keywords: [
+			"marketing agency Palmerston",
+			"SEO Palmerston NT",
+			"web design Palmerston",
+			"digital marketing Palmerston",
+			"lead generation Palmerston",
+		],
+		location: {
+			name: "Palmerston",
+			type: "City",
+			region: "Northern Territory",
+			postcode: "0830",
+		},
 	},
 	"/the-vault": {
 		title: "The Vault | Marketing Ideas & Inspiration | GT Marketing",
@@ -119,11 +211,17 @@ const ROUTES: Record<string, RouteSEO> = {
 		type: "CollectionPage",
 	},
 	"/contact": {
-		title: "Contact GT Marketing | Darwin Marketing Agency",
+		title: "Contact GT Marketing | Darwin City Marketing Agency",
 		description:
-			"Contact GT Marketing in Darwin to discuss marketing strategy, SEO, social media, website development, automation and lead generation.",
+			"Contact GT Marketing at 130 Smith Street, Darwin City for SEO, social media, website development and lead generation across Darwin, Casuarina and Palmerston.",
 		label: "Contact Us",
 		type: "ContactPage",
+		keywords: [
+			"GT Marketing Darwin",
+			"marketing agency Darwin City",
+			"marketing services Casuarina",
+			"marketing services Palmerston",
+		],
 	},
 	"/privacy": {
 		title: "Privacy Policy | GT Marketing",
@@ -156,6 +254,7 @@ function absoluteUrl(url?: string) {
 function breadcrumbSchema(path: string, label: string) {
 	if (path === "/") return null;
 	const isBlogArticle = path.startsWith("/blog/");
+	const isLocationPage = path.startsWith("/locations/");
 	const elements: Array<Record<string, unknown>> = [
 		{
 			"@type": "ListItem",
@@ -174,9 +273,18 @@ function breadcrumbSchema(path: string, label: string) {
 		});
 	}
 
+	if (isLocationPage) {
+		elements.push({
+			"@type": "ListItem",
+			position: 2,
+			name: "Services",
+			item: `${SITE_URL}/services`,
+		});
+	}
+
 	elements.push({
 		"@type": "ListItem",
-		position: isBlogArticle ? 3 : 2,
+		position: isBlogArticle || isLocationPage ? 3 : 2,
 		name: label,
 		item: `${SITE_URL}${path}`,
 	});
@@ -204,6 +312,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 	const image = absoluteUrl(page.image);
 	const shouldIndex = isKnownPage && page.index !== false;
 	const isArticle = page.type === "Article";
+	const isLocationPage = Boolean(page.location);
 
 	const address = {
 		"@type": "PostalAddress",
@@ -223,7 +332,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 				"@type": "Service",
 				name: service,
 				provider: { "@id": `${SITE_URL}/#business` },
-				areaServed: { "@type": "Country", name: "Australia" },
+				areaServed: LOCAL_SERVICE_AREAS,
 			},
 		})),
 	};
@@ -232,29 +341,31 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		"@type": "ProfessionalService",
 		"@id": `${SITE_URL}/#business`,
 		name: site.brandName,
-		alternateName: "GT Marketing Darwin",
+		alternateName: ["GT Marketing Darwin", "GT Marketing Northern Territory"],
 		url: SITE_URL,
 		logo: `${SITE_URL}${site.logo}`,
 		image: DEFAULT_IMAGE,
 		description:
-			"Australian marketing agency providing strategy, SEO, social media marketing, website development, automation, outreach and performance optimisation.",
+			"Darwin-based marketing agency providing strategy, local SEO, social media marketing, website development, automation, outreach and performance optimisation across Darwin City, Casuarina and Palmerston.",
 		email: site.email,
 		taxID: "24280902425",
 		address,
-		areaServed: [
-			{ "@type": "City", name: "Darwin" },
-			{ "@type": "City", name: "Palmerston" },
-			{ "@type": "AdministrativeArea", name: "Northern Territory" },
-			{ "@type": "Country", name: "Australia" },
-		],
+		hasMap: site.addressUrl,
+		areaServed: [...LOCAL_SERVICE_AREAS, { "@type": "Country", name: "Australia" }],
 		sameAs: site.socialLinks.map((item) => item.url),
-		knowsAbout: SERVICES,
+		knowsAbout: [
+			...SERVICES,
+			"Darwin City marketing",
+			"Casuarina local SEO",
+			"Palmerston digital marketing",
+			"Northern Territory business growth",
+		],
 		hasOfferCatalog: offerCatalog,
 		contactPoint: {
 			"@type": "ContactPoint",
 			contactType: "sales and customer enquiries",
 			email: site.email,
-			areaServed: "AU",
+			areaServed: ["Darwin City", "Casuarina", "Palmerston", "Northern Territory", "Australia"],
 			availableLanguage: ["English"],
 		},
 	};
@@ -300,6 +411,39 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		pageSchema.keywords = page.keywords?.join(", ");
 	}
 
+	const localServiceSchema = page.location
+		? {
+				"@type": "Service",
+				"@id": `${canonicalUrl}#local-marketing-service`,
+				name: `Marketing agency services in ${page.location.name}`,
+				description: page.description,
+				serviceType: "Marketing strategy, local SEO, website development, social media and lead generation",
+				provider: { "@id": `${SITE_URL}/#business` },
+				url: canonicalUrl,
+				areaServed: {
+					"@type": page.location.type,
+					name: `${page.location.name}, ${page.location.region}`,
+					address: {
+						"@type": "PostalAddress",
+						addressLocality: page.location.name,
+						addressRegion: "NT",
+						postalCode: page.location.postcode,
+						addressCountry: "AU",
+					},
+				},
+				audience: {
+					"@type": "BusinessAudience",
+					audienceType: `Businesses in ${page.location.name} and surrounding Northern Territory areas`,
+				},
+			}
+		: null;
+
+	if (page.location && localServiceSchema) {
+		pageSchema.mainEntity = { "@id": localServiceSchema["@id"] };
+		pageSchema.contentLocation = localServiceSchema.areaServed;
+		pageSchema.spatialCoverage = localServiceSchema.areaServed;
+	}
+
 	const breadcrumb = breadcrumbSchema(canonicalPath, page.label);
 	if (breadcrumb) pageSchema.breadcrumb = { "@id": breadcrumb["@id"] };
 	if (path === "/services") pageSchema.mainEntity = offerCatalog;
@@ -307,7 +451,13 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 
 	const structuredData = {
 		"@context": "https://schema.org",
-		"@graph": [businessSchema, websiteSchema, pageSchema, ...(breadcrumb ? [breadcrumb] : [])],
+		"@graph": [
+			businessSchema,
+			websiteSchema,
+			pageSchema,
+			...(localServiceSchema ? [localServiceSchema] : []),
+			...(breadcrumb ? [breadcrumb] : []),
+		],
 	};
 
 	return (
@@ -316,6 +466,17 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 			<meta key="description" name="description" content={page.description} />
 			<meta key="author" name="author" content="GT Marketing" />
 			{page.keywords && <meta key="keywords" name="keywords" content={page.keywords.join(", ")} />}
+			<meta key="geo-region" name="geo.region" content="AU-NT" />
+			<meta
+				key="geo-placename"
+				name="geo.placename"
+				content={page.location ? `${page.location.name}, Northern Territory` : "Darwin City, Northern Territory"}
+			/>
+			<meta
+				key="dc-coverage"
+				name="DC.coverage"
+				content={page.location ? `${page.location.name}, Northern Territory, Australia` : "Darwin City, Casuarina and Palmerston, Northern Territory, Australia"}
+			/>
 			<meta
 				key="robots"
 				name="robots"
