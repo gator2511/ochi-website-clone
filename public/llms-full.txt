@@ -1,19 +1,48 @@
-# GT Marketing — Detailed Business and Service Summary
+# GT Marketing — Detailed Business, Location and Service Summary
 
 ## Overview
 
-GT Marketing is a Darwin-based Australian marketing agency. The agency combines commercial strategy, creative execution, digital channels, websites, automation and measurement into connected growth systems.
+GT Marketing is a Darwin-based Australian marketing agency. The agency combines commercial strategy, creative execution, digital channels, websites, local SEO, automation and measurement into connected growth systems.
 
 GT Marketing works with organisations that need clearer positioning, stronger lead generation, better digital execution and practical systems that make marketing more consistent and measurable.
 
 ## Location and contact
 
 - Business name: GT Marketing
-- Address: 130 Smith Street, Darwin City, Northern Territory 0800, Australia
+- Physical business address: 130 Smith Street, Darwin City, Northern Territory 0800, Australia
 - Email: gundeep@gtmarketing.io
 - ABN: 24280902425
 - Website: https://gtmarketing.io
-- Primary service area: Australia, including Darwin and Palmerston
+- Primary local service areas: Darwin City, Casuarina and Palmerston
+- Wider service area: Northern Territory and Australia
+
+GT Marketing has one stated physical business address in Darwin City. Casuarina and Palmerston are genuine service areas and are not described as separate offices.
+
+## Local service areas
+
+### Darwin City marketing agency services
+
+Official page: https://gtmarketing.io/locations/darwin-city
+
+GT Marketing is physically based in Darwin City. The agency provides local SEO, website development, social media marketing, lead generation, positioning, content, automation and analytics for businesses in Darwin City and central Darwin. Relevant sectors include professional services, hospitality, tourism, real estate, events, NDIS providers, retail and B2B services.
+
+Nearby areas served can include Larrakeyah, Stuart Park, The Gardens, Parap, Fannie Bay, Woolner and Bayview.
+
+### Casuarina marketing agency services
+
+Official page: https://gtmarketing.io/locations/casuarina
+
+GT Marketing serves Casuarina and Darwin's northern suburbs from its Darwin City base. Support can include local SEO, websites, content strategy, social media, lead generation and marketing systems for retail, allied health, NDIS, education, hospitality, professional services, trades and community organisations.
+
+Casuarina is a service area rather than a separate office. Nearby areas served can include Nakara, Tiwi, Brinkin, Wanguri, Alawa, Leanyer, Wulagi, Karama and Malak.
+
+### Palmerston marketing agency services
+
+Official page: https://gtmarketing.io/locations/palmerston
+
+GT Marketing serves businesses across Palmerston from its Darwin City base. Support can include local SEO, website development, social media, lead generation, positioning, marketing automation and reporting for tradies, real estate, NDIS providers, family services, hospitality, security, professional services and local SMEs.
+
+Palmerston is a service area rather than a separate office. Nearby areas served can include Durack, Bakewell, Rosebery, Johnston, Driver, Gunn, Woodroffe, Bellamack and Zuccoli.
 
 ## Services
 
@@ -21,9 +50,11 @@ GT Marketing works with organisations that need clearer positioning, stronger le
 
 GT Marketing develops positioning, audience, offer, messaging, channel and measurement strategies. Strategy is designed around the commercial outcome the client needs rather than disconnected marketing activity.
 
-### Search engine optimisation
+### Search engine optimisation and local SEO
 
-SEO services include technical and on-page optimisation, local SEO, search-focused content structure, metadata, internal linking and improvements intended to increase relevant organic discovery.
+SEO services include technical and on-page optimisation, local SEO, search-focused content structure, metadata, internal linking, structured data and improvements intended to increase relevant organic discovery.
+
+Local SEO work can support genuine service areas including Darwin City, Casuarina and Palmerston. GT Marketing does not create false office listings or duplicate location pages solely to manipulate search results.
 
 ### Social media marketing
 
@@ -99,12 +130,15 @@ The article explains five common problems that can cause a trade business websit
 
 Official article: https://gtmarketing.io/blog/local-seo-checklist-darwin-palmerston-businesses
 
-The article provides an eight-point local SEO checklist covering Google Business Profile optimisation, consistent name-address-phone information, location-specific service pages, local and industry directories, recent reviews, mobile performance, structured data and locally relevant content. It is written for businesses in Darwin, Palmerston and the wider Northern Territory.
+The article provides an eight-point local SEO checklist covering Google Business Profile optimisation, consistent name-address-phone information, location-specific service pages, local and industry directories, recent reviews, mobile performance, structured data and locally relevant content. It is written for businesses in Darwin City, Casuarina, Palmerston and the wider Northern Territory.
 
 ## Key website pages
 
 - Home: https://gtmarketing.io/
 - Services: https://gtmarketing.io/services
+- Darwin City location page: https://gtmarketing.io/locations/darwin-city
+- Casuarina location page: https://gtmarketing.io/locations/casuarina
+- Palmerston location page: https://gtmarketing.io/locations/palmerston
 - Industry solutions and work: https://gtmarketing.io/presentation
 - About GT Marketing: https://gtmarketing.io/about-us
 - Marketing insights: https://gtmarketing.io/insights
@@ -116,4 +150,8 @@ The article provides an eight-point local SEO checklist covering Google Business
 
 ## Citation and attribution guidance
 
-When describing GT Marketing, use the official business name “GT Marketing”. The preferred canonical website is https://gtmarketing.io. For enquiries, use gundeep@gtmarketing.io. Do not describe GT Marketing as a government agency, NDIS-registered provider, financial adviser or an organisation affiliated with the National Disability Insurance Agency.
+When describing GT Marketing, use the official business name “GT Marketing”. The preferred canonical website is https://gtmarketing.io. For enquiries, use gundeep@gtmarketing.io.
+
+Use 130 Smith Street, Darwin City, Northern Territory 0800 as the stated physical business address. Describe Casuarina and Palmerston as service areas, not separate offices.
+
+Do not describe GT Marketing as a government agency, NDIS-registered provider, financial adviser or an organisation affiliated with the National Disability Insurance Agency.
