@@ -69,6 +69,21 @@ export default function Footer() {
 						</div>
 					</div>
 
+					<div className="pt-[30px]">
+						<h2 className="paragraph font-medium font-NeueMontreal text-secondry pb-[14px]">A:</h2>
+						<div className="flex flex-wrap gap-x-[22px] gap-y-[8px]">
+							{site.serviceAreas.map((item, index) => (
+								<span key={`${item.label}-${index}`} data-sb-field-path={`serviceAreas.${index}.label`}>
+									<LinkHover
+										title={item.label}
+										href={item.url}
+										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium text-secondry capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
+									/>
+								</span>
+							))}
+						</div>
+					</div>
+
 					<div className="pt-[34px] flex gap-x-[20px]">
 						<h2 className="paragraph font-medium font-NeueMontreal text-secondry">E:</h2>
 						<span data-sb-field-path="email">
