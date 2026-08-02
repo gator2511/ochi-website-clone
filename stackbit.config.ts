@@ -50,6 +50,16 @@ const featuredBlogFields = [
 	stringField("ctaLabel"),
 	stringField("url"),
 ];
+const archivedArticleFields = [
+	stringField("eyebrow"),
+	stringField("category"),
+	stringField("readTime"),
+	stringField("title"),
+	textField("summary"),
+	imageField("image"),
+	stringField("imageAlt"),
+	stringField("url"),
+];
 const blogArticleFields = [
 	stringField("slug"),
 	...seoFields,
@@ -370,6 +380,13 @@ const models: any[] = [
 		fields: blogArticleFields,
 	},
 	{
+		name: "MoreEnquiriesArticlePage",
+		type: "page",
+		urlPath: "/blog/how-to-get-more-enquiries-without-spending-more-on-ads",
+		filePath: "content/pages/blog-more-enquiries-without-more-ads.json",
+		fields: blogArticleFields,
+	},
+	{
 		name: "VaultPage",
 		type: "page",
 		urlPath: "/the-vault",
@@ -384,6 +401,7 @@ const models: any[] = [
 				textField("note"),
 			]),
 			stringList("filters"),
+			objectList("articles", archivedArticleFields),
 			objectList("items", [
 				stringField("title"),
 				stringField("category"),
