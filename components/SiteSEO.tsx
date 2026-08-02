@@ -51,6 +51,8 @@ type RouteSEO = {
 	modifiedDate?: string;
 	keywords?: string[];
 	location?: LocalArea;
+	parentLabel?: string;
+	parentPath?: string;
 };
 
 const ROUTES: Record<string, RouteSEO> = {
@@ -100,11 +102,32 @@ const ROUTES: Record<string, RouteSEO> = {
 		type: "AboutPage",
 	},
 	"/insights": {
-		title: "Marketing Insights & Local SEO Darwin | GT Marketing",
+		title: "Marketing Insights & Conversion Advice | GT Marketing",
 		description:
-			"Read practical GT Marketing insights on local SEO, websites, brand strategy, social media and sustainable growth for Darwin and Northern Territory businesses.",
+			"Read practical GT Marketing guidance on conversion optimisation, local SEO, websites, lead generation and sustainable growth for Australian businesses.",
 		label: "Insights",
 		type: "CollectionPage",
+	},
+	"/blog/how-to-get-more-enquiries-without-spending-more-on-ads": {
+		title: "How to Get More Enquiries Without Spending More on Ads | GT Marketing",
+		description:
+			"A practical guide to generating more qualified enquiries from existing traffic, your website, customer data and local visibility before increasing ad spend.",
+		label: "How to Get More Enquiries Without Spending More on Ads",
+		type: "Article",
+		image:
+			"https://images.pexels.com/photos/34775821/pexels-photo-34775821.jpeg?auto=compress&cs=tinysrgb&w=2000",
+		publishedDate: "2026-08-02",
+		modifiedDate: "2026-08-02",
+		parentLabel: "Insights",
+		parentPath: "/insights",
+		keywords: [
+			"get more enquiries",
+			"increase website enquiries",
+			"lead generation without more ad spend",
+			"conversion optimisation Australia",
+			"marketing agency Darwin",
+			"improve lead conversion",
+		],
 	},
 	"/blog/5-signs-your-trade-business-needs-a-better-website": {
 		title: "5 Signs Your Trade Business Needs a Better Website | GT Marketing",
@@ -116,6 +139,8 @@ const ROUTES: Record<string, RouteSEO> = {
 			"https://images.pexels.com/photos/12759924/pexels-photo-12759924.jpeg?auto=compress&cs=tinysrgb&w=2000",
 		publishedDate: "2026-07-26",
 		modifiedDate: "2026-07-30",
+		parentLabel: "The Vault",
+		parentPath: "/the-vault",
 		keywords: [
 			"trade business website",
 			"website for tradies",
@@ -134,6 +159,8 @@ const ROUTES: Record<string, RouteSEO> = {
 			"https://static.wixstatic.com/media/873fa1_507866ba6fa8409583cf3181c43ddd5a~mv2.jpg",
 		publishedDate: "2026-07-26",
 		modifiedDate: "2026-07-30",
+		parentLabel: "The Vault",
+		parentPath: "/the-vault",
 		keywords: [
 			"local SEO Darwin",
 			"SEO Darwin City",
@@ -204,9 +231,9 @@ const ROUTES: Record<string, RouteSEO> = {
 		},
 	},
 	"/the-vault": {
-		title: "The Vault | Marketing Ideas & Inspiration | GT Marketing",
+		title: "The Vault | Marketing Articles & Inspiration | GT Marketing",
 		description:
-			"Explore The Vault, GT Marketing's curated archive of strategy, branding, digital marketing, growth systems, culture and commercial ideas.",
+			"Explore archived GT Marketing articles and a curated collection of strategy, branding, digital marketing, growth systems, culture and commercial ideas.",
 		label: "The Vault",
 		type: "CollectionPage",
 	},
@@ -251,9 +278,8 @@ function absoluteUrl(url?: string) {
 	return url.startsWith("http") ? url : `${SITE_URL}${url.startsWith("/") ? url : `/${url}`}`;
 }
 
-function breadcrumbSchema(path: string, label: string) {
+function breadcrumbSchema(path: string, page: RouteSEO) {
 	if (path === "/") return null;
-	const isBlogArticle = path.startsWith("/blog/");
 	const isLocationPage = path.startsWith("/locations/");
 	const elements: Array<Record<string, unknown>> = [
 		{
@@ -264,16 +290,14 @@ function breadcrumbSchema(path: string, label: string) {
 		},
 	];
 
-	if (isBlogArticle) {
+	if (page.parentLabel && page.parentPath) {
 		elements.push({
 			"@type": "ListItem",
 			position: 2,
-			name: "Insights",
-			item: `${SITE_URL}/insights`,
+			name: page.parentLabel,
+			item: `${SITE_URL}${page.parentPath}`,
 		});
-	}
-
-	if (isLocationPage) {
+	} else if (isLocationPage) {
 		elements.push({
 			"@type": "ListItem",
 			position: 2,
@@ -284,8 +308,8 @@ function breadcrumbSchema(path: string, label: string) {
 
 	elements.push({
 		"@type": "ListItem",
-		position: isBlogArticle || isLocationPage ? 3 : 2,
-		name: label,
+		position: page.parentPath || isLocationPage ? 3 : 2,
+		name: page.label,
 		item: `${SITE_URL}${path}`,
 	});
 
@@ -300,11 +324,11 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 	const path = normalisePath(rawPath);
 	const route = ROUTES[path];
 	const isKnownPage = Boolean(route);
-	const page = route ?? {
+	const page: RouteSEO = route ?? {
 		title: "Page Not Found | GT Marketing",
 		description: "The requested page could not be found on the GT Marketing website.",
 		label: "Page Not Found",
-		type: "WebPage" as PageType,
+		type: "WebPage",
 		index: false,
 	};
 	const canonicalPath = path === "/case" ? "/presentation" : path;
@@ -312,7 +336,6 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 	const image = absoluteUrl(page.image);
 	const shouldIndex = isKnownPage && page.index !== false;
 	const isArticle = page.type === "Article";
-	const isLocationPage = Boolean(page.location);
 
 	const address = {
 		"@type": "PostalAddress",
@@ -411,7 +434,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		pageSchema.keywords = page.keywords?.join(", ");
 	}
 
-	const localServiceSchema = page.location
+	const localServiceSchema: Record<string, unknown> | null = page.location
 		? {
 				"@type": "Service",
 				"@id": `${canonicalUrl}#local-marketing-service`,
@@ -444,7 +467,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		pageSchema.spatialCoverage = localServiceSchema.areaServed;
 	}
 
-	const breadcrumb = breadcrumbSchema(canonicalPath, page.label);
+	const breadcrumb = breadcrumbSchema(canonicalPath, page);
 	if (breadcrumb) pageSchema.breadcrumb = { "@id": breadcrumb["@id"] };
 	if (path === "/services") pageSchema.mainEntity = offerCatalog;
 	if (path === "/contact") pageSchema.mainEntity = { "@id": `${SITE_URL}/#business` };
