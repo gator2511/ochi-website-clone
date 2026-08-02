@@ -109,13 +109,48 @@
       { "label": "Web Hosting", "url": "/contact" }
     ]
   },
-  "gallery": {
-    "eyebrow": "Built as a system",
-    "title": "Strategy and execution working together.",
-    "images": [
-      { "src": "https://images.pexels.com/photos/36835822/pexels-photo-36835822.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange interior with blue geometric skylight" },
-      { "src": "https://images.pexels.com/photos/28963148/pexels-photo-28963148.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange contemporary building facade" },
-      { "src": "https://images.pexels.com/photos/7350058/pexels-photo-7350058.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Abstract red and orange architectural lines" }
+  "commercialClarity": {
+    "eyebrow": "Clear from day one",
+    "heading": "A transparent process with no surprises.",
+    "intro": "Every engagement starts with a documented scope, agreed milestones and a clear commercial structure. You know what is included, what happens next and what the project will cost before work begins.",
+    "marquee": "Clear scope • No hidden costs • 50 / 50 payment • Client portal • Periodic reporting • Australian business friendly • ",
+    "items": [
+      {
+        "number": "01",
+        "title": "No scope creep. No hidden costs.",
+        "description": "Deliverables, inclusions, exclusions, responsibilities and timelines are documented before commencement. Any requested change is discussed and approved in writing before additional work or cost is introduced.",
+        "accent": "Transparent scope"
+      },
+      {
+        "number": "02",
+        "title": "Simple 50 / 50 payment process.",
+        "description": "A 50% advance confirms the project and allows delivery to begin. The remaining 50% is payable upon project completion, before final files, credentials or the completed website are handed over.",
+        "accent": "Clear payments"
+      },
+      {
+        "number": "03",
+        "title": "Your project in one client portal.",
+        "description": "You receive access to a central client portal for project milestones, files, approvals, feedback and key communication. This keeps decisions organised and gives both teams one reliable source of truth.",
+        "accent": "Client portal"
+      },
+      {
+        "number": "04",
+        "title": "Periodic progress and performance reports.",
+        "description": "We provide structured updates throughout delivery. For ongoing marketing work, reporting connects activity to agreed metrics so you can see progress, understand decisions and identify the next priority.",
+        "accent": "Visible progress"
+      },
+      {
+        "number": "05",
+        "title": "Built around Australian businesses.",
+        "description": "Expect plain-English communication, practical timelines, Australian invoicing and a commercially grounded approach shaped by the realities of local SMEs, service providers and growing organisations.",
+        "accent": "Australian friendly"
+      },
+      {
+        "number": "06",
+        "title": "Approvals before assumptions.",
+        "description": "Important decisions are confirmed at defined review points. We do not move critical work forward on guesswork, helping protect quality, timelines and the original commercial objective.",
+        "accent": "Controlled delivery"
+      }
     ]
   },
   "archive": {
