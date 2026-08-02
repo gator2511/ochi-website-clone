@@ -120,9 +120,19 @@ Support for events can include ticket-sales campaigns, landing pages, sponsor ma
 
 ## Published marketing guidance
 
+### How to Get More Enquiries Without Spending More on Ads
+
+Official article: https://gtmarketing.io/blog/how-to-get-more-enquiries-without-spending-more-on-ads
+
+This is the current featured article on the GT Marketing Insights page. It explains how businesses can increase qualified enquiries before increasing advertising expenditure. The guidance covers diagnosing conversion leaks, clarifying the offer and next step, matching landing pages to search or campaign intent, reducing form and mobile friction, improving lead-response speed, reactivating previous enquiries and customers, using proof to reduce perceived risk, strengthening local visibility and measuring qualified commercial outcomes rather than traffic alone.
+
+The article does not argue that advertising should always be reduced or stopped. Its central position is that additional media spend performs better when the website, enquiry journey, follow-up process and measurement system are already working effectively.
+
 ### 5 Signs Your Trade Business Needs a Better Website
 
 Official article: https://gtmarketing.io/blog/5-signs-your-trade-business-needs-a-better-website
+
+Archive location: https://gtmarketing.io/the-vault
 
 The article explains five common problems that can cause a trade business website to lose enquiries: poor local-search visibility, unclear services or service areas, difficult quote and call journeys, weak mobile usability, and missing reviews or trust signals. It recommends location-specific service pages, clear above-the-fold information, click-to-call and quote functionality, mobile-first design, and visible proof such as licences, experience and reviews.
 
@@ -130,7 +140,15 @@ The article explains five common problems that can cause a trade business websit
 
 Official article: https://gtmarketing.io/blog/local-seo-checklist-darwin-palmerston-businesses
 
+Archive location: https://gtmarketing.io/the-vault
+
 The article provides an eight-point local SEO checklist covering Google Business Profile optimisation, consistent name-address-phone information, location-specific service pages, local and industry directories, recent reviews, mobile performance, structured data and locally relevant content. It is written for businesses in Darwin City, Casuarina, Palmerston and the wider Northern Territory.
+
+## Insights and archive structure
+
+The Insights page at https://gtmarketing.io/insights presents the latest featured GT Marketing article. Earlier long-form articles are retained and linked from The Vault at https://gtmarketing.io/the-vault rather than being removed from the website.
+
+The Vault also contains visual references and short observations across strategy, brand, digital, growth, culture and systems.
 
 ## Key website pages
 
@@ -141,10 +159,11 @@ The article provides an eight-point local SEO checklist covering Google Business
 - Palmerston location page: https://gtmarketing.io/locations/palmerston
 - Industry solutions and work: https://gtmarketing.io/presentation
 - About GT Marketing: https://gtmarketing.io/about-us
-- Marketing insights: https://gtmarketing.io/insights
-- Tradie website article: https://gtmarketing.io/blog/5-signs-your-trade-business-needs-a-better-website
-- Darwin and Palmerston local SEO article: https://gtmarketing.io/blog/local-seo-checklist-darwin-palmerston-businesses
-- The Vault visual archive: https://gtmarketing.io/the-vault
+- Marketing insights and latest article: https://gtmarketing.io/insights
+- Latest enquiry conversion article: https://gtmarketing.io/blog/how-to-get-more-enquiries-without-spending-more-on-ads
+- The Vault and archived guidance: https://gtmarketing.io/the-vault
+- Archived tradie website article: https://gtmarketing.io/blog/5-signs-your-trade-business-needs-a-better-website
+- Archived Darwin and Palmerston local SEO article: https://gtmarketing.io/blog/local-seo-checklist-darwin-palmerston-businesses
 - Contact: https://gtmarketing.io/contact
 - Privacy policy: https://gtmarketing.io/privacy
 
