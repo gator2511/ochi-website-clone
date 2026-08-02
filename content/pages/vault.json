@@ -1,15 +1,37 @@
 {
   "type": "VaultPage",
   "seoTitle": "The Vault | GT Marketing Ideas, Inspiration and Growth Thinking",
-  "seoDescription": "Explore The Vault by GT Marketing: a curated visual archive of strategy, branding, digital marketing, culture, systems and commercial ideas.",
+  "seoDescription": "Explore The Vault by GT Marketing: archived marketing articles and a curated visual collection of strategy, branding, digital, culture, systems and commercial ideas.",
   "hero": {
     "eyebrow": "A living archive by GT Marketing",
     "headingLine1": "The",
     "headingLine2": "Vault",
-    "intro": "A growing collection of ideas, references, provocations and visual signals that shape how we think about brands, marketing and growth.",
+    "intro": "A growing collection of articles, references, provocations and visual signals that shape how we think about brands, marketing and growth.",
     "note": "No rigid order. No trend-chasing. Just useful things worth keeping."
   },
   "filters": ["All", "Strategy", "Brand", "Digital", "Growth", "Culture", "Systems"],
+  "articles": [
+    {
+      "eyebrow": "Archived article 01",
+      "category": "Websites for tradies",
+      "readTime": "6 min read",
+      "title": "5 Signs Your Trade Business Needs a Better Website",
+      "summary": "Five practical warning signs that an outdated trade website may be losing qualified local jobs, with clear actions for search visibility, mobile usability, quote journeys and trust.",
+      "image": "https://images.pexels.com/photos/12759924/pexels-photo-12759924.jpeg?auto=compress&cs=tinysrgb&w=2000",
+      "imageAlt": "Two tradespeople wearing safety equipment and working with a mitre saw",
+      "url": "/blog/5-signs-your-trade-business-needs-a-better-website"
+    },
+    {
+      "eyebrow": "Archived article 02",
+      "category": "Local SEO Darwin",
+      "readTime": "7 min read",
+      "title": "Local SEO Checklist for Darwin and Palmerston Businesses",
+      "summary": "An eight-point local visibility checklist covering Google Business Profile, consistent listings, service-area pages, reviews, mobile performance, schema and locally relevant content.",
+      "image": "https://static.wixstatic.com/media/873fa1_507866ba6fa8409583cf3181c43ddd5a~mv2.jpg",
+      "imageAlt": "Aerial view of Darwin city, harbour and coastline at sunset",
+      "url": "/blog/local-seo-checklist-darwin-palmerston-businesses"
+    }
+  ],
   "items": [
     {
       "title": "Less, but louder",
@@ -111,6 +133,6 @@
   "closing": {
     "eyebrow": "Keep looking",
     "heading": "The useful idea is rarely the first one.",
-    "text": "The Vault will continue to evolve as we collect sharper references, stronger questions and practical signals from the world around us."
+    "text": "The Vault will continue to evolve as we collect sharper references, archived guidance, stronger questions and practical signals from the world around us."
   }
 }
