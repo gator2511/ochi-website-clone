@@ -1,7 +1,7 @@
 {
   "type": "InsightsPage",
   "seoTitle": "Marketing Insights | GT Marketing",
-  "seoDescription": "Read practical GT Marketing insights on growth strategy, digital marketing, websites, automation and brand performance.",
+  "seoDescription": "Read practical GT Marketing insights on conversion optimisation, local SEO, websites, digital marketing, automation and sustainable business growth.",
   "hero": {
     "heading": "Insights",
     "latestLabel": "Latest insights:",
@@ -44,27 +44,15 @@
   "featuredBlogs": [
     {
       "eyebrow": "Featured article",
-      "issue": "01",
-      "category": "Websites for tradies",
-      "readTime": "6 min read",
-      "title": "5 Signs Your Trade Business Needs a Better Website",
-      "summary": "A trade website should make the business easy to find, understand and contact. These five warning signs reveal where an outdated website may be costing you qualified local jobs.",
-      "image": "https://images.pexels.com/photos/12759924/pexels-photo-12759924.jpeg?auto=compress&cs=tinysrgb&w=2000",
-      "imageAlt": "Two tradespeople wearing safety equipment and working with a mitre saw",
-      "ctaLabel": "Read the article",
-      "url": "/blog/5-signs-your-trade-business-needs-a-better-website"
-    },
-    {
-      "eyebrow": "Local search guide",
-      "issue": "02",
-      "category": "Local SEO Darwin",
-      "readTime": "7 min read",
-      "title": "Local SEO Checklist for Darwin and Palmerston Businesses",
-      "summary": "A practical eight-point checklist covering Google Business Profile optimisation, consistent listings, local pages, reviews, mobile performance, schema and locally relevant content.",
-      "image": "https://static.wixstatic.com/media/873fa1_507866ba6fa8409583cf3181c43ddd5a~mv2.jpg",
-      "imageAlt": "Aerial view of Darwin city, harbour and coastline at sunset",
-      "ctaLabel": "Open the checklist",
-      "url": "/blog/local-seo-checklist-darwin-palmerston-businesses"
+      "issue": "03",
+      "category": "Conversion optimisation",
+      "readTime": "8 min read",
+      "title": "How to Get More Enquiries Without Spending More on Ads",
+      "summary": "Before increasing your advertising budget, improve the system that turns existing traffic, customer data and local visibility into qualified conversations.",
+      "image": "https://images.pexels.com/photos/34775821/pexels-photo-34775821.jpeg?auto=compress&cs=tinysrgb&w=2000",
+      "imageAlt": "Australian road sign beside a long straight highway representing a clearer path from marketing attention to enquiries",
+      "ctaLabel": "Read the latest article",
+      "url": "/blog/how-to-get-more-enquiries-without-spending-more-on-ads"
     }
   ],
   "publication": {
