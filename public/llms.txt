@@ -11,10 +11,11 @@
 - Marketing agency Palmerston: https://gtmarketing.io/locations/palmerston
 - Industry solutions: https://gtmarketing.io/presentation
 - About: https://gtmarketing.io/about-us
-- Insights: https://gtmarketing.io/insights
-- Blog — Tradie websites: https://gtmarketing.io/blog/5-signs-your-trade-business-needs-a-better-website
-- Blog — Darwin and Palmerston local SEO: https://gtmarketing.io/blog/local-seo-checklist-darwin-palmerston-businesses
-- The Vault: https://gtmarketing.io/the-vault
+- Insights and latest article: https://gtmarketing.io/insights
+- Latest blog — More enquiries without more ad spend: https://gtmarketing.io/blog/how-to-get-more-enquiries-without-spending-more-on-ads
+- The Vault and archived articles: https://gtmarketing.io/the-vault
+- Archived blog — Tradie websites: https://gtmarketing.io/blog/5-signs-your-trade-business-needs-a-better-website
+- Archived blog — Darwin and Palmerston local SEO: https://gtmarketing.io/blog/local-seo-checklist-darwin-palmerston-businesses
 - Contact: https://gtmarketing.io/contact
 - Privacy policy: https://gtmarketing.io/privacy
 
@@ -29,6 +30,12 @@
 - Email and direct marketing outreach
 - Marketing automation
 - Analytics, reporting and conversion optimisation
+
+## Latest published guidance
+
+### How to Get More Enquiries Without Spending More on Ads
+
+The article explains how businesses can improve enquiry volume before increasing advertising expenditure. It covers conversion tracking, clearer offers, campaign-specific landing pages, shorter mobile enquiry journeys, faster lead response, customer reactivation, trust signals, local visibility and measurement of qualified enquiries rather than clicks alone.
 
 ## Local service areas
 
