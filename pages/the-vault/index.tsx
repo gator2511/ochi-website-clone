@@ -4,6 +4,7 @@ import Head from "next/head";
 import { useEffect, useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Curve, Ready } from "@/components";
+import VaultArticleArchive from "@/components/VaultArticleArchive";
 import content from "@/content/pages/vault.json";
 
 const documentId = "content/pages/vault.json";
@@ -43,7 +44,7 @@ export default function TheVault() {
 							<p data-sb-field-path="hero.eyebrow" className="vault-eyebrow">
 								{content.hero.eyebrow}
 							</p>
-							<p className="vault-count">001—{String(content.items.length).padStart(3, "0")}</p>
+							<p className="vault-count">001—{String(content.items.length + content.articles.length).padStart(3, "0")}</p>
 						</div>
 
 						<h1 className="vault-title">
@@ -58,6 +59,8 @@ export default function TheVault() {
 							<p data-sb-field-path="hero.note">{content.hero.note}</p>
 						</div>
 					</section>
+
+					<VaultArticleArchive articles={content.articles} />
 
 					<section className="vault-content">
 						<div className="vault-filter padding-x" aria-label="Filter The Vault">
