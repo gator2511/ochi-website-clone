@@ -90,6 +90,7 @@ const models: any[] = [
 			imageField("logo"),
 			stringField("logoAlt"),
 			objectList("navigation", linkFields),
+			objectList("serviceAreas", linkFields),
 			objectList("socialLinks", linkFields),
 			stringList("addressLines"),
 			stringField("addressUrl"),
@@ -203,7 +204,18 @@ const models: any[] = [
 				stringField("marketingHeading"),
 				objectList("marketingItems", linkFields),
 			]),
-			objectField("gallery", galleryFields),
+			objectField("commercialClarity", [
+				stringField("eyebrow"),
+				stringField("heading"),
+				textField("intro"),
+				stringField("marquee"),
+				objectList("items", [
+					stringField("number"),
+					stringField("title"),
+					textField("description"),
+					stringField("accent"),
+				]),
+			]),
 			objectField("archive", [
 				stringField("heading"),
 				imageField("image"),
