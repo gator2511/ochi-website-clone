@@ -23,6 +23,12 @@ type HeroProps = {
 };
 
 export default function Hero({ content }: HeroProps) {
+	const isLegacyAccentImage = content.accentImage === "/ochi-side.jpg";
+	const accentImage = isLegacyAccentImage ? "/gt-hero-pattern.svg" : content.accentImage;
+	const accentImageAlt = isLegacyAccentImage
+		? "GT Marketing orange brand pattern"
+		: content.accentImageAlt;
+
 	return (
 		<section
 			className="w-full h-screen sm:mb-[-10px] xm:mb-[-10px]"
@@ -44,11 +50,11 @@ export default function Hero({ content }: HeroProps) {
 										className="leading-[130px]">
 										<Image
 											data-sb-field-path="hero.accentImage"
-											width={120}
+											width={180}
 											height={95}
-											src={content.accentImage}
-											alt={content.accentImageAlt}
-											className="w-auto h-[95px] lg:w-auto lg:h-auto md:w-[100px] md:h-[63px] sm:w-[74px] sm:h-[45px] xm:w-[64px] xm:h-[40px] object-cover xl:mt-[15px] mt-[10px] rounded-[10px]"
+											src={accentImage}
+											alt={accentImageAlt}
+											className="w-[180px] h-[95px] lg:w-[155px] lg:h-[82px] md:w-[130px] md:h-[68px] sm:w-[100px] sm:h-[52px] xm:w-[88px] xm:h-[46px] object-cover xl:mt-[15px] mt-[10px] rounded-[10px]"
 										/>
 									</motion.span>
 									<span data-sb-field-path="hero.headingAccent">{content.headingAccent}</span>
