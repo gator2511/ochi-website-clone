@@ -1,12 +1,11 @@
 "use client";
 
 import Head from "next/head";
-import Image from "next/image";
 import { useEffect } from "react";
 import { Button, Curve, Ready } from "@/components";
 
 const CONTACT_URL = "https://gtmarketing.io/contact";
-const HERO_IMAGE = "/industries/real-estate.svg";
+const HERO_IMAGE = "https://images.pexels.com/photos/11588266/pexels-photo-11588266.jpeg?auto=compress&cs=tinysrgb&w=2000";
 
 const services = [
 	{
@@ -174,14 +173,14 @@ export default function RealEstateMarketing() {
 					content="Marketing systems for real estate agents and agencies focused on seller enquiries, stronger local positioning and better property campaign performance."
 				/>
 				<meta property="og:url" content="https://gtmarketing.io/real-estate-marketing" />
-				<meta property="og:image" content="https://gtmarketing.io/industries/real-estate.svg" />
+				<meta property="og:image" content={HERO_IMAGE} />
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:title" content="Real Estate Marketing Agency Australia | GT Marketing" />
 				<meta
 					name="twitter:description"
 					content="Generate seller enquiries and strengthen your local real estate brand with connected digital marketing."
 				/>
-				<meta name="twitter:image" content="https://gtmarketing.io/industries/real-estate.svg" />
+				<meta name="twitter:image" content={HERO_IMAGE} />
 				<script
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{
@@ -212,13 +211,12 @@ export default function RealEstateMarketing() {
 							</div>
 							<div className="col-span-8 md:w-full sm:w-full xm:w-full">
 								<div className="rounded-[14px] overflow-hidden bg-[#fd4402]">
-									<Image
+									<img
 										src={HERO_IMAGE}
-										alt="Real estate marketing and property campaign website concept by GT Marketing"
-										width={1600}
-										height={1000}
-										priority
-										className="w-full aspect-[8/5] object-cover"
+										alt="Woman in a vivid orange suit against a blue architectural wall"
+										className="w-full aspect-[8/5] object-cover object-[center_43%]"
+										loading="eager"
+										fetchPriority="high"
 									/>
 								</div>
 							</div>
