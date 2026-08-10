@@ -21,10 +21,14 @@ type ProjectCardProps = {
 	index?: number;
 };
 
+const industryLandingPages: Record<string, string> = {
+	Hospitality: "/cafe-marketing",
+};
+
 export default function ProjectCard({ item, fieldPath, index = 0 }: ProjectCardProps) {
 	const [hovered, setHovered] = useState(false);
 	const image = item.image ?? item.src;
-	const href = item.url ?? item.href;
+	const href = item.url ?? item.href ?? industryLandingPages[item.title];
 	const mediaClass =
 		"rounded-[10px] overflow-hidden hover:scale-[0.95] transition transform duration-[1s] ease-[.4,0,.2,1] block";
 
