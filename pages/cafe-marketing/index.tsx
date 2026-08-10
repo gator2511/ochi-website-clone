@@ -1,11 +1,11 @@
 "use client";
 
 import Head from "next/head";
-import Image from "next/image";
 import { useEffect } from "react";
 import { Button, Curve, Ready } from "@/components";
 
 const CONTACT_URL = "https://gtmarketing.io/contact";
+const COFFEE_IMAGE = "https://images.pexels.com/photos/27860686/pexels-photo-27860686/free-photo-of-coffee-cup.jpeg?auto=compress&dpr=1&h=1200&w=1920";
 
 const services = [
 	{
@@ -127,7 +127,7 @@ export default function CafeMarketing() {
 				/>
 				<meta property="og:url" content="https://gtmarketing.io/cafe-marketing" />
 				<meta property="og:type" content="website" />
-				<meta property="og:image" content="https://gtmarketing.io/industries/hospitality.svg" />
+				<meta property="og:image" content={COFFEE_IMAGE} />
 				<script
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
@@ -156,13 +156,12 @@ export default function CafeMarketing() {
 							</div>
 							<div className="col-span-8 md:w-full sm:w-full xm:w-full">
 								<div className="rounded-[14px] overflow-hidden bg-[#fd4402]">
-									<Image
-										src="/industries/hospitality.svg"
-										alt="Cafe and coffee shop marketing concept by GT Marketing"
-										width={1600}
-										height={1000}
-										priority
-										className="w-full aspect-[8/5] object-cover"
+									<img
+										src={COFFEE_IMAGE}
+										alt="Cappuccino with latte art on a rustic wooden cafe table"
+										className="w-full aspect-[8/5] object-cover object-[center_43%]"
+										loading="eager"
+										fetchPriority="high"
 									/>
 								</div>
 							</div>
