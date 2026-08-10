@@ -6,6 +6,7 @@ import SiteSEO from "@/components/SiteSEO";
 import { AnimatePresence } from "framer-motion";
 
 const googleMeasurementId = "G-816V9Z644Z";
+const standaloneSeoRoutes = new Set(["/cafe-marketing"]);
 
 export default function App({
 	Component,
@@ -16,6 +17,9 @@ export default function App({
 	pageProps: any;
 	router: any;
 }) {
+	const rawPath = String(router.asPath || "/").split(/[?#]/)[0] || "/";
+	const currentPath = rawPath.length > 1 ? rawPath.replace(/\/+$/, "") : rawPath;
+
 	return (
 		<>
 			<Script
@@ -36,7 +40,7 @@ export default function App({
 			<AnimatePresence mode="wait">
 				<Component key={router.route} {...pageProps} />
 			</AnimatePresence>
-			<SiteSEO path={router.asPath} />
+			{!standaloneSeoRoutes.has(currentPath) && <SiteSEO path={router.asPath} />}
 			<Footer />
 		</>
 	);
