@@ -214,7 +214,7 @@ export default function CafeMarketing() {
 						</div>
 					</section>
 
-					<section className="bg-secondry text-background rounded-t-[20px] padding-x padding-y">
+					<section className="bg-about text-secondry rounded-t-[20px] padding-x padding-y">
 						<div className="grid grid-cols-12 gap-[20px] md:flex md:flex-col sm:flex sm:flex-col xm:flex xm:flex-col">
 							<div className="col-span-5">
 								<p className="small-text uppercase font-NeueMontreal mb-[22px]">Campaign thinking</p>
@@ -230,7 +230,7 @@ export default function CafeMarketing() {
 									{promotions.map((promotion) => (
 										<span
 											key={promotion}
-											className="small-text uppercase font-NeueMontreal border border-[#f1f1f177] rounded-full px-[14px] py-[7px]">
+											className="small-text uppercase font-NeueMontreal border border-[#21212155] rounded-full px-[14px] py-[7px]">
 											{promotion}
 										</span>
 									))}
