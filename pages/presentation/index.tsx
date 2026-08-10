@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { BrandImageGallery, Curve, Ready } from "@/components";
+import { Curve, Ready } from "@/components";
 import CaseStudyGrid from "@/components/CaseStudyGrid";
 import { Heropresentation, Projectspresentation, Publication } from "@/container";
 import content from "@/content/pages/work.json";
@@ -21,7 +21,6 @@ export default function Presentation() {
 			<Curve backgroundColor="#f1f1f1">
 				<Heropresentation content={content.hero} />
 				<Projectspresentation intro={content.intro} projects={content.projects} />
-				<BrandImageGallery content={content.gallery} fieldPath="gallery" />
 				<Publication content={content.publication} />
 				<CaseStudyGrid />
 				<Ready />
