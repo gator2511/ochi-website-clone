@@ -23,6 +23,7 @@ type ProjectCardProps = {
 
 const industryLandingPages: Record<string, string> = {
 	Hospitality: "/cafe-marketing",
+	"Real Estate": "/real-estate-marketing",
 };
 
 export default function ProjectCard({ item, fieldPath, index = 0 }: ProjectCardProps) {
