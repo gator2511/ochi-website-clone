@@ -6,7 +6,7 @@ import SiteSEO from "@/components/SiteSEO";
 import { AnimatePresence } from "framer-motion";
 
 const googleMeasurementId = "G-816V9Z644Z";
-const standaloneSeoRoutes = new Set(["/cafe-marketing"]);
+const standaloneSeoRoutes = new Set(["/cafe-marketing", "/real-estate-marketing"]);
 
 export default function App({
 	Component,
