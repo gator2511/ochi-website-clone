@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { BrandImageGallery, Curve, Ready } from "@/components";
+import CaseStudyGrid from "@/components/CaseStudyGrid";
 import { Heropresentation, Projectspresentation, Publication } from "@/container";
 import content from "@/content/pages/work.json";
 
@@ -22,6 +23,7 @@ export default function Presentation() {
 				<Projectspresentation intro={content.intro} projects={content.projects} />
 				<BrandImageGallery content={content.gallery} fieldPath="gallery" />
 				<Publication content={content.publication} />
+				<CaseStudyGrid />
 				<Ready />
 			</Curve>
 		</div>
