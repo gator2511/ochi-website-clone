@@ -18,9 +18,110 @@ export type CaseStudy = {
 	note: string;
 	seoTitle: string;
 	seoDescription: string;
+	projectUrl?: string;
 };
 
 export const caseStudies: CaseStudy[] = [
+	{
+		slug: "better-life-security",
+		company: "Better Life Security",
+		eyebrow: "Security / Complete website development",
+		headline: "Turning a broad security offering into a clear, credible digital presence.",
+		summary: "Complete website development for a Canadian private security company, structured around service discovery, trust and enquiry generation.",
+		context: "GT Marketing developed the Better Life Security website to give the business a stronger digital foundation and make a broad range of security services easier to understand and access online.",
+		challenge: "A security provider serving multiple customer needs requires clarity and credibility immediately. The website needed to organise a wide service mix without overwhelming users, communicate professionalism and create clear pathways for prospective clients to make contact.",
+		approach: [
+			"Structured the website around individual service categories so users can quickly find the relevant security solution.",
+			"Developed service-led page content designed to explain the offer in practical, customer-focused language.",
+			"Created a consistent visual and information hierarchy to strengthen trust across the website.",
+			"Built clear contact pathways so visitors can move from service research to enquiry.",
+			"Delivered the complete website as a scalable digital base for future search, content and lead-generation activity."
+		],
+		results: [
+			{ value: "10", label: "Security service lines", detail: "The live website presents ten distinct security service categories across Better Life Security's offer." },
+			{ value: "1", label: "Complete website delivered", detail: "One connected digital experience covering service discovery, credibility and enquiry pathways." },
+			{ value: "Canada", label: "Market positioning", detail: "The website positions the company for customers seeking private security services in Canada." }
+		],
+		services: ["Website strategy", "Website development", "Information architecture", "UX", "Content structure", "Lead pathways"],
+		note: "Direct GT Marketing website-development engagement. Post-launch performance percentages are not claimed because campaign analytics have not been supplied.",
+		seoTitle: "Better Life Security Website Case Study | GT Marketing",
+		seoDescription: "See how GT Marketing developed a complete website for Better Life Security, organising 10 security service lines into a clearer customer journey.",
+		projectUrl: "https://www.betterlifesecurity.com/"
+	},
+	{
+		slug: "glow-beauty-spa",
+		company: "Glow Beauty Spa",
+		eyebrow: "Beauty & wellness / Google + social setup",
+		headline: "Building the local discovery foundation before scaling promotion.",
+		summary: "Google and social media setup designed to establish the core digital discovery points for a local beauty business.",
+		context: "GT Marketing established the core digital setup for Glow Beauty Spa, combining a Google business presence with social media foundations so prospective customers have clearer places to discover and engage with the business online.",
+		challenge: "For a local service business, visibility depends on being present where customers actively search and where they discover brands socially. The priority was to establish those channels cleanly before broader promotional activity.",
+		approach: [
+			"Set up the business's Google presence to support local search and map discovery.",
+			"Established social media foundations for ongoing content and customer engagement.",
+			"Aligned core business information across customer-facing digital touchpoints.",
+			"Created a practical base for future reviews, organic content, local campaigns and paid promotion."
+		],
+		results: [
+			{ value: "2", label: "Discovery channels established", detail: "Google and social media were set up as the business's two core digital discovery channels." },
+			{ value: "1", label: "Google business presence", detail: "A dedicated map/search destination gives local customers a direct business discovery point." },
+			{ value: "Local", label: "Visibility foundation", detail: "The setup creates a foundation for local search visibility, reviews and social discovery." }
+		],
+		services: ["Google business setup", "Local discovery", "Social media setup", "Profile optimisation", "Digital foundations"],
+		note: "Direct GT Marketing setup engagement. No fabricated reach, booking or revenue percentages are used; performance metrics can be added when channel analytics are available.",
+		seoTitle: "Glow Beauty Spa Google & Social Setup Case Study | GT Marketing",
+		seoDescription: "GT Marketing established Google and social media foundations for Glow Beauty Spa to strengthen local digital discovery and customer engagement.",
+		projectUrl: "https://maps.app.goo.gl/wojfp2zpm9uEyzmm9"
+	},
+	{
+		slug: "nebula-decor-co",
+		company: "Nebula Decor Co",
+		eyebrow: "Ecommerce / Shopify development",
+		headline: "Building a commerce-ready storefront from product discovery to checkout.",
+		summary: "Shopify store development focused on creating a structured, scalable ecommerce foundation for a decor brand.",
+		context: "GT Marketing developed the Nebula Decor Co Shopify store to give the brand a purpose-built ecommerce environment rather than relying on disconnected social or manual sales pathways.",
+		challenge: "The store needed to turn products into an easy-to-navigate shopping experience while providing a reliable technical foundation for catalogue management, cart activity and checkout.",
+		approach: [
+			"Built the storefront on Shopify to provide a scalable commerce platform.",
+			"Structured product discovery and navigation around a clear customer shopping journey.",
+			"Configured cart and checkout pathways to move customers from browsing towards purchase.",
+			"Developed the experience responsively so customers can browse and shop across device sizes.",
+			"Created a foundation that can support future promotions, analytics and product expansion."
+		],
+		results: [
+			{ value: "1", label: "Shopify storefront delivered", detail: "A dedicated ecommerce store created as the brand's central digital sales environment." },
+			{ value: "3", label: "Core commerce journeys", detail: "Product discovery, cart and checkout form the core customer purchase journey." },
+			{ value: "Shopify", label: "Commerce platform", detail: "A scalable platform gives the business control over products, merchandising and future growth." }
+		],
+		services: ["Shopify development", "Ecommerce UX", "Store architecture", "Product structure", "Responsive design", "Checkout journey"],
+		note: "Direct GT Marketing ecommerce-development engagement. Sales and conversion percentages are not claimed without store analytics.",
+		seoTitle: "Nebula Decor Co Shopify Case Study | GT Marketing",
+		seoDescription: "See how GT Marketing developed a Shopify ecommerce storefront for Nebula Decor Co with structured product discovery, cart and checkout journeys."
+	},
+	{
+		slug: "nt-secondhand-store",
+		company: "NT Secondhand Store",
+		eyebrow: "Darwin retail / Website + social media",
+		headline: "Connecting local retail, digital channels and community promotion.",
+		summary: "Website and social media development supported by an integrated local marketing approach across digital, print, in-store and community channels.",
+		context: "This Darwin retail project combined website and social media development with broader local marketing activity. Customer and sales insights were used to tailor promotions and connect digital visibility with store traffic and sales activity.",
+		challenge: "A local secondhand retailer needed marketing that worked beyond a single channel. The opportunity was to create a stronger digital presence while linking online promotion with in-store and community activity.",
+		approach: [
+			"Developed the business's website presence and strengthened social media activity.",
+			"Connected digital promotion with flyers, in-store campaigns and community channels.",
+			"Used customer and sales insights to tailor offers and promotional messaging.",
+			"Supported local media relationships and sponsorship activity to extend reach and store traffic."
+		],
+		results: [
+			{ value: "+15%", label: "Month-on-month sales", detail: "A consistent 15% month-on-month sales uplift was recorded during the integrated local marketing activity." },
+			{ value: "4", label: "Marketing channel groups", detail: "Digital advertising, flyers, in-store promotion and community channels were used as an integrated local mix." },
+			{ value: "Darwin", label: "Local-market focus", detail: "The strategy was built around local customer behaviour, store traffic and community reach." }
+		],
+		services: ["Website development", "Social media", "Local marketing", "Campaign planning", "Customer insights", "Community promotion"],
+		note: "Portfolio experience from Gundeep Thethy's work with NT Secondhand Store. The 15% sales uplift relates to the integrated local marketing program rather than being attributed to the website alone.",
+		seoTitle: "NT Secondhand Store Marketing Case Study | GT Marketing",
+		seoDescription: "A Darwin retail case study covering website, social media and integrated local marketing activity associated with a 15% month-on-month sales uplift."
+	},
 	{
 		slug: "real-estate-central",
 		company: "Real Estate Central",
