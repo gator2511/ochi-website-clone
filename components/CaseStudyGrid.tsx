@@ -3,23 +3,23 @@ import { caseStudies } from "@/content/caseStudies";
 
 export default function CaseStudyGrid() {
 	return (
-		<section className="w-full bg-[#f1f1f1] text-black border-t border-black/20">
-			<div className="padding-x padding-y">
-				<div className="grid grid-cols-12 gap-y-10 md:grid-cols-1">
-					<div className="col-span-4 md:col-span-1">
-						<p className="text-sm uppercase tracking-[0.18em]">Case studies</p>
-					</div>
-					<div className="col-span-8 md:col-span-1">
-						<h2 className="text-[64px] leading-[0.95] lg:text-[52px] md:text-[42px] sm:text-[34px] max-w-5xl">
-							The performance experience behind GT Marketing.
-						</h2>
-						<p className="mt-6 max-w-3xl text-lg leading-relaxed">
-							Selected results from founder-led consultancy work and previous senior marketing roles, showing the acquisition, conversion and growth methodology now applied through GT Marketing.
-						</p>
-					</div>
+		<section className="relative z-[50] isolate w-full overflow-hidden border-t border-black/20 bg-[#f1f1f1] text-black">
+			<div className="padding-x">
+				<div className="case-study-static-header block w-full pt-[96px] pb-[72px] md:pt-[72px] md:pb-[52px] sm:pt-[58px] sm:pb-[44px]">
+					<p className="case-study-static-text text-sm uppercase tracking-[0.18em]">
+						Case studies
+					</p>
+
+					<h2 className="case-study-static-text mt-8 max-w-5xl text-[64px] leading-[0.95] lg:text-[52px] md:text-[42px] sm:text-[34px]">
+						The performance experience behind GT Marketing.
+					</h2>
+
+					<p className="case-study-static-text mt-6 max-w-3xl text-lg leading-relaxed">
+						Selected results from founder-led consultancy work and previous senior marketing roles, showing the acquisition, conversion and growth methodology now applied through GT Marketing.
+					</p>
 				</div>
 
-				<div className="mt-16 grid grid-cols-3 gap-5 lg:grid-cols-2 md:grid-cols-1">
+				<div className="grid grid-cols-3 gap-5 pb-[96px] lg:grid-cols-2 md:grid-cols-1 md:pb-[72px]">
 					{caseStudies.map((caseStudy) => (
 						<Link
 							key={caseStudy.slug}
@@ -50,10 +50,24 @@ export default function CaseStudyGrid() {
 					))}
 				</div>
 
-				<p className="mt-8 max-w-4xl text-sm leading-relaxed text-black/55">
+				<p className="case-study-static-text -mt-[54px] max-w-4xl pb-[72px] text-sm leading-relaxed text-black/55 md:-mt-[34px]">
 					These case studies distinguish prior founder experience from direct GT Marketing client engagements so the source of each result is clear.
 				</p>
 			</div>
+
+			<style jsx global>{`
+				.case-study-static-header,
+				.case-study-static-text {
+					position: static !important;
+					transform: none !important;
+					translate: none !important;
+					animation: none !important;
+					transition: none !important;
+					opacity: 1 !important;
+					visibility: visible !important;
+					will-change: auto !important;
+				}
+			`}</style>
 		</section>
 	);
 }
