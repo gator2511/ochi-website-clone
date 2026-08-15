@@ -1,11 +1,11 @@
 "use client";
 
 import {
+	BrandKitFeature,
 	Capibilyties,
 	CommercialClarity,
 	Expectations,
 	Process,
-	Archive,
 	Heroservices,
 } from "@/container";
 import { useEffect } from "react";
@@ -29,7 +29,7 @@ export default function Services() {
 				<Process content={content.process} />
 				<Capibilyties content={content.capabilities} />
 				<CommercialClarity content={content.commercialClarity} />
-				<Archive content={content.archive} />
+				<BrandKitFeature content={content.brandKit} />
 				<Expectations content={content.expectations} />
 				<Ready />
 			</Curve>
