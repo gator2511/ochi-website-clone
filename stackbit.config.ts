@@ -226,11 +226,17 @@ const models: any[] = [
 					stringField("accent"),
 				]),
 			]),
-			objectField("archive", [
+			objectField("brandKit", [
+				stringField("eyebrow"),
 				stringField("heading"),
-				imageField("image"),
-				stringField("imageAlt"),
-				objectList("stats", [stringField("value"), stringField("label")]),
+				textField("intro"),
+				stringField("ctaLabel"),
+				stringField("ctaUrl"),
+				objectList("items", [
+					stringField("number"),
+					stringField("title"),
+					textField("description"),
+				]),
 			]),
 			objectField("expectations", [
 				stringField("marquee"),
@@ -241,6 +247,60 @@ const models: any[] = [
 					stringField("buttonLabel"),
 					textField("description"),
 				]),
+			]),
+		],
+	},
+	{
+		name: "BrandKitPage",
+		type: "page",
+		urlPath: "/brand-kit",
+		filePath: "content/pages/brand-kit.json",
+		fields: [
+			...seoFields,
+			objectField("hero", [
+				stringField("eyebrow"),
+				stringField("headingLine1"),
+				stringField("headingLine2"),
+				textField("intro"),
+				stringField("ctaLabel"),
+				stringField("ctaUrl"),
+			]),
+			objectField("why", [
+				stringField("eyebrow"),
+				stringField("heading"),
+				textField("intro"),
+				objectList("items", [
+					stringField("number"),
+					stringField("title"),
+					textField("description"),
+				]),
+			]),
+			objectField("included", [
+				stringField("eyebrow"),
+				stringField("heading"),
+				objectList("items", [stringField("title"), textField("description")]),
+			]),
+			objectField("businessImpact", [
+				stringField("eyebrow"),
+				stringField("heading"),
+				textList("paragraphs"),
+				stringList("signals"),
+			]),
+			objectField("process", [
+				stringField("eyebrow"),
+				stringField("heading"),
+				objectList("items", [
+					stringField("number"),
+					stringField("title"),
+					textField("description"),
+				]),
+			]),
+			objectField("closing", [
+				stringField("eyebrow"),
+				stringField("heading"),
+				textField("text"),
+				stringField("ctaLabel"),
+				stringField("ctaUrl"),
 			]),
 		],
 	},
