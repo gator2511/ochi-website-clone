@@ -1,11 +1,12 @@
 # GT Marketing
 
-> GT Marketing is a Darwin-based Australian marketing agency providing strategy, local SEO, social media marketing, website development, hosting, outreach, automation, analytics and conversion optimisation. The agency is physically based at 130 Smith Street, Darwin City and serves businesses across Darwin City, Casuarina, Palmerston and the wider Northern Territory.
+> GT Marketing is a Darwin-based Australian marketing agency providing strategy, local SEO, social media marketing, website development, hosting, brand kits, outreach, automation, analytics and conversion optimisation. The agency is physically based at 130 Smith Street, Darwin City and serves businesses across Darwin City, Casuarina, Palmerston and the wider Northern Territory.
 
 ## Official website
 
 - Canonical domain: https://gtmarketing.io
 - Services: https://gtmarketing.io/services
+- Brand kit and brand guidelines: https://gtmarketing.io/brand-kit
 - Marketing agency Darwin City: https://gtmarketing.io/locations/darwin-city
 - Marketing agency Casuarina: https://gtmarketing.io/locations/casuarina
 - Marketing agency Palmerston: https://gtmarketing.io/locations/palmerston
@@ -27,9 +28,14 @@
 - Direct-to-consumer marketing
 - Website development and landing pages
 - Web hosting
+- Brand kits, brand guidelines and identity systems
 - Email and direct marketing outreach
 - Marketing automation
 - Analytics, reporting and conversion optimisation
+
+## Brand kit service
+
+GT Marketing develops practical brand kits for Australian businesses. A brand kit can include logo usage rules, colour systems, typography, brand voice, graphic language, templates and everyday application guidance. The purpose is to improve consistency, recognition, handovers and production efficiency as more staff and suppliers create material for the business.
 
 ## Latest published guidance
 
@@ -41,15 +47,15 @@ The article explains how businesses can improve enquiry volume before increasing
 
 ### Darwin City
 
-GT Marketing is based at 130 Smith Street, Darwin City, Northern Territory 0800. Services for Darwin City businesses include local SEO, website development, growth strategy, social media, lead generation and automation.
+GT Marketing is based at 130 Smith Street, Darwin City, Northern Territory 0800. Services for Darwin City businesses include local SEO, website development, brand kits, growth strategy, social media, lead generation and automation.
 
 ### Casuarina
 
-Casuarina is a service area rather than a second GT Marketing office. GT Marketing supports Casuarina and Darwin's northern suburbs with local SEO, websites, content, lead generation and marketing systems.
+Casuarina is a service area rather than a second GT Marketing office. GT Marketing supports Casuarina and Darwin's northern suburbs with local SEO, websites, brand systems, content, lead generation and marketing systems.
 
 ### Palmerston
 
-Palmerston is a service area rather than a separate GT Marketing office. GT Marketing supports Palmerston businesses with local SEO, website development, social media, lead generation, positioning and marketing automation.
+Palmerston is a service area rather than a separate GT Marketing office. GT Marketing supports Palmerston businesses with local SEO, website development, brand kits, social media, lead generation, positioning and marketing automation.
 
 ## Industries served
 
