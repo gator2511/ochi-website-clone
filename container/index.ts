@@ -14,6 +14,7 @@ export { default as Clientsservices } from "./services-page/Clients";
 export { default as Expectations } from "./services-page/Expectations";
 export { default as Archive } from "./services-page/Archive";
 export { default as CommercialClarity } from "./services-page/CommercialClarity";
+export { default as BrandKitFeature } from "./services-page/BrandKitFeature";
 
 // presentation page
 export { default as Heropresentation } from './presentation-page/Hero';
