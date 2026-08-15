@@ -1,0 +1,112 @@
+{
+  "type": "BrandKitPage",
+  "seoTitle": "Brand Kit Design Darwin | Brand Guidelines & Identity Systems | GT Marketing",
+  "seoDescription": "Build a practical brand kit with logo rules, colours, typography, voice, templates and usage guidelines so your business stays consistent across every channel.",
+  "hero": {
+    "eyebrow": "Brand Kit",
+    "headingLine1": "Consistency",
+    "headingLine2": "is a growth asset.",
+    "intro": "A brand kit gives your team one clear system for how the business should look, sound and show up. It reduces guesswork, protects recognition and makes every future piece of marketing faster to produce.",
+    "ctaLabel": "Discuss your brand kit",
+    "ctaUrl": "/contact"
+  },
+  "why": {
+    "eyebrow": "Why it matters",
+    "heading": "Your brand should not restart every time someone opens Canva, builds a proposal or publishes a post.",
+    "intro": "Without clear rules, brands drift. Colours change, logos stretch, typography becomes inconsistent and every supplier makes a different interpretation. A practical brand kit creates a shared standard that protects quality as the business grows.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Recognition compounds",
+        "description": "Repeated use of the same visual and verbal signals makes the business easier to recognise. Consistency helps customers connect separate touchpoints to one brand rather than treating every interaction as something new."
+      },
+      {
+        "number": "02",
+        "title": "Teams move faster",
+        "description": "Staff and suppliers spend less time debating colours, fonts, logo placement and tone. Approved rules and templates turn routine marketing work into a repeatable process."
+      },
+      {
+        "number": "03",
+        "title": "The business looks established",
+        "description": "Consistency across your website, proposals, social media, signage, presentations and email creates a more deliberate impression and reduces the visual friction that can weaken trust."
+      },
+      {
+        "number": "04",
+        "title": "Growth creates less brand drift",
+        "description": "As more people create material for the business, a brand kit provides the reference point that keeps execution aligned without requiring the founder or marketing lead to approve every small decision."
+      }
+    ]
+  },
+  "included": {
+    "eyebrow": "What your kit can include",
+    "heading": "The rules people actually need to use the brand properly.",
+    "items": [
+      {
+        "title": "Logo system",
+        "description": "Primary and secondary logo versions, spacing, minimum size, approved backgrounds and examples of incorrect use."
+      },
+      {
+        "title": "Colour system",
+        "description": "Primary, secondary and supporting colours with HEX, RGB and print-ready values where relevant."
+      },
+      {
+        "title": "Typography",
+        "description": "Headline, body and supporting typefaces with practical hierarchy guidance for digital and business documents."
+      },
+      {
+        "title": "Brand voice",
+        "description": "Tone, messaging principles, language cues and examples that help written communication sound like the same business."
+      },
+      {
+        "title": "Graphic language",
+        "description": "Guidance for shapes, icons, photography, image treatment, layouts and recurring design devices that create recognition."
+      },
+      {
+        "title": "Templates and applications",
+        "description": "Practical starting points for social posts, presentations, proposals, email signatures, documents or other high-use brand touchpoints."
+      }
+    ]
+  },
+  "businessImpact": {
+    "eyebrow": "Built for real business use",
+    "heading": "A brand kit is not a decorative PDF. It is an operating system for communication.",
+    "paragraphs": [
+      "The strongest brand guidelines are specific enough to protect the identity and simple enough that people actually use them. GT Marketing focuses on practical rules, reusable assets and examples that can be handed to internal staff, freelancers, printers, developers and future agencies.",
+      "For Australian SMEs and growing service businesses, this can reduce rework, shorten briefing time, improve consistency across suppliers and give every new campaign a stronger starting point."
+    ],
+    "signals": ["Faster production", "Cleaner handovers", "Stronger recognition", "Less rework", "More consistent customer experience"]
+  },
+  "process": {
+    "eyebrow": "How we build it",
+    "heading": "From scattered assets to one usable system.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Audit",
+        "description": "We review the logo, existing material, customer touchpoints and current inconsistencies to understand what should be preserved, corrected or expanded."
+      },
+      {
+        "number": "02",
+        "title": "Define",
+        "description": "We establish the core visual and verbal rules, including colour, typography, hierarchy, logo behaviour, imagery and tone."
+      },
+      {
+        "number": "03",
+        "title": "Apply",
+        "description": "The system is tested against practical business applications so the guidelines work outside a presentation deck."
+      },
+      {
+        "number": "04",
+        "title": "Package",
+        "description": "You receive an organised set of guidelines and approved assets that can be used by your team and future suppliers."
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Ready for consistency?",
+    "heading": "Give every future piece of marketing a stronger starting point.",
+    "text": "Whether you already have a logo that needs a usable system around it or you are preparing the business for its next stage of growth, a clear brand kit turns individual design choices into one recognisable identity.",
+    "ctaLabel": "Start a brand kit project",
+    "ctaUrl": "/contact"
+  }
+}
