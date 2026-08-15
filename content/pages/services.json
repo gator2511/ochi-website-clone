@@ -1,7 +1,7 @@
 {
   "type": "ServicesPage",
   "seoTitle": "Marketing Services | GT Marketing Darwin",
-  "seoDescription": "Explore GT Marketing services across strategy, social media, DTC marketing, website development, hosting and presentation design.",
+  "seoDescription": "Explore GT Marketing services across strategy, social media, DTC marketing, website development, hosting, brand systems and presentation design.",
   "hero": {
     "heading": "Services",
     "image": "https://images.pexels.com/photos/36835822/pexels-photo-36835822.jpeg?auto=compress&cs=tinysrgb&w=2000",
@@ -93,7 +93,7 @@
       {
         "title": "Additional",
         "items": [
-          { "label": "Branding", "url": "/contact" },
+          { "label": "Branding", "url": "/brand-kit" },
           { "label": "Corporate training", "url": "/contact" },
           { "label": "Redesign", "url": "/contact" },
           { "label": "Marketing review", "url": "/contact" }
@@ -153,15 +153,33 @@
       }
     ]
   },
-  "archive": {
-    "heading": "GT Marketing in numbers:",
-    "image": "/background.png",
-    "imageAlt": "GT Marketing work collage",
-    "stats": [
-      { "value": "100+", "label": "Clients and projects supported" },
-      { "value": "17", "label": "Countries reached through past work" },
-      { "value": "90%", "label": "Repeat-client benchmark" },
-      { "value": "98%", "label": "Net promoter score benchmark" }
+  "brandKit": {
+    "eyebrow": "Brand Kit",
+    "heading": "One system for how your business looks, sounds and shows up.",
+    "intro": "A practical brand kit turns scattered design decisions into a repeatable identity. It gives your staff and suppliers clear rules for logos, colour, typography, voice and everyday applications so the brand stays recognisable as the business grows.",
+    "ctaLabel": "Why a brand kit matters",
+    "ctaUrl": "/brand-kit",
+    "items": [
+      {
+        "number": "01",
+        "title": "Logo system",
+        "description": "Approved versions, spacing, minimum sizes, backgrounds and usage rules that protect the identity."
+      },
+      {
+        "number": "02",
+        "title": "Colour and typography",
+        "description": "A defined palette and type hierarchy that makes digital, print and business documents feel connected."
+      },
+      {
+        "number": "03",
+        "title": "Voice and messaging",
+        "description": "Practical language principles that help the business sound consistent across websites, social media, proposals and customer communication."
+      },
+      {
+        "number": "04",
+        "title": "Templates and applications",
+        "description": "Reusable guidance for the high-use touchpoints your team creates most often, reducing rework and brand drift."
+      }
     ]
   },
   "expectations": {
