@@ -12,6 +12,7 @@ const SERVICES = [
 	"Direct-to-consumer marketing",
 	"Website development",
 	"Web hosting",
+	"Brand kit and brand guidelines",
 	"Email and direct marketing",
 	"Marketing automation",
 	"Analytics and conversion optimisation",
@@ -74,7 +75,7 @@ const ROUTES: Record<string, RouteSEO> = {
 	"/services": {
 		title: "SEO & Web Design Darwin, Casuarina, Palmerston | GT Marketing",
 		description:
-			"Explore marketing strategy, local SEO, social media, websites, automation and lead generation for businesses across Darwin City, Casuarina and Palmerston.",
+			"Explore marketing strategy, local SEO, social media, websites, brand systems, automation and lead generation for businesses across Darwin City, Casuarina and Palmerston.",
 		label: "Services",
 		type: "WebPage",
 		image:
@@ -84,7 +85,26 @@ const ROUTES: Record<string, RouteSEO> = {
 			"SEO Casuarina",
 			"SEO Palmerston",
 			"website design Darwin",
+			"brand kit Darwin",
 			"digital marketing Northern Territory",
+		],
+	},
+	"/brand-kit": {
+		title: "Brand Kit Design Darwin | Brand Guidelines & Identity Systems | GT Marketing",
+		description:
+			"Build a practical brand kit with logo rules, colours, typography, voice, templates and usage guidelines so your business stays consistent across every channel.",
+		label: "Brand Kit",
+		type: "WebPage",
+		parentLabel: "Services",
+		parentPath: "/services",
+		keywords: [
+			"brand kit Darwin",
+			"brand guidelines Darwin",
+			"brand identity Darwin",
+			"branding agency Darwin",
+			"brand kit Australia",
+			"brand guidelines for small business",
+			"brand identity Northern Territory",
 		],
 	},
 	"/presentation": {
@@ -369,7 +389,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		logo: `${SITE_URL}${site.logo}`,
 		image: DEFAULT_IMAGE,
 		description:
-			"Darwin-based marketing agency providing strategy, local SEO, social media marketing, website development, automation, outreach and performance optimisation across Darwin City, Casuarina and Palmerston.",
+			"Darwin-based marketing agency providing strategy, local SEO, social media marketing, website development, brand systems, automation, outreach and performance optimisation across Darwin City, Casuarina and Palmerston.",
 		email: site.email,
 		taxID: "24280902425",
 		address,
@@ -461,10 +481,31 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 			}
 		: null;
 
+	const brandKitServiceSchema: Record<string, unknown> | null = path === "/brand-kit"
+		? {
+				"@type": "Service",
+				"@id": `${SITE_URL}/brand-kit#service`,
+				name: "Brand kit design and brand guidelines",
+				description: page.description,
+				serviceType: "Brand kit design, brand guidelines and identity systems",
+				provider: { "@id": `${SITE_URL}/#business` },
+				url: canonicalUrl,
+				areaServed: [...LOCAL_SERVICE_AREAS, { "@type": "Country", name: "Australia" }],
+				audience: {
+					"@type": "BusinessAudience",
+					audienceType: "Australian SMEs, service businesses and growing organisations",
+				},
+			}
+		: null;
+
 	if (page.location && localServiceSchema) {
 		pageSchema.mainEntity = { "@id": localServiceSchema["@id"] };
 		pageSchema.contentLocation = localServiceSchema.areaServed;
 		pageSchema.spatialCoverage = localServiceSchema.areaServed;
+	}
+
+	if (brandKitServiceSchema) {
+		pageSchema.mainEntity = { "@id": brandKitServiceSchema["@id"] };
 	}
 
 	const breadcrumb = breadcrumbSchema(canonicalPath, page);
@@ -479,6 +520,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 			websiteSchema,
 			pageSchema,
 			...(localServiceSchema ? [localServiceSchema] : []),
+			...(brandKitServiceSchema ? [brandKitServiceSchema] : []),
 			...(breadcrumb ? [breadcrumb] : []),
 		],
 	};
