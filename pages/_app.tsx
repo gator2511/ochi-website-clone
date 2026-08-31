@@ -19,29 +19,34 @@ export default function App({
 }) {
 	const rawPath = String(router.asPath || "/").split(/[?#]/)[0] || "/";
 	const currentPath = rawPath.length > 1 ? rawPath.replace(/\/+$/, "") : rawPath;
+	const isPortalRoute = currentPath === "/client-portal" || currentPath.startsWith("/client-portal/");
 
 	return (
 		<>
-			<Script
-				src={`https://www.googletagmanager.com/gtag/js?id=${googleMeasurementId}`}
-				strategy="afterInteractive"
-			/>
-			<Script id="google-analytics" strategy="afterInteractive">
-				{`
-					window.dataLayer = window.dataLayer || [];
-					function gtag(){dataLayer.push(arguments);}
-					gtag('js', new Date());
-					gtag('config', '${googleMeasurementId}');
-				`}
-			</Script>
+			{!isPortalRoute && (
+				<>
+					<Script
+						src={`https://www.googletagmanager.com/gtag/js?id=${googleMeasurementId}`}
+						strategy="afterInteractive"
+					/>
+					<Script id="google-analytics" strategy="afterInteractive">
+						{`
+							window.dataLayer = window.dataLayer || [];
+							function gtag(){dataLayer.push(arguments);}
+							gtag('js', new Date());
+							gtag('config', '${googleMeasurementId}');
+						`}
+					</Script>
+				</>
+			)}
 			<CustomCursor />
-			<NetlifyFormRouter />
-			<Navbar />
+			{!isPortalRoute && <NetlifyFormRouter />}
+			{!isPortalRoute && <Navbar />}
 			<AnimatePresence mode="wait">
 				<Component key={router.route} {...pageProps} />
 			</AnimatePresence>
-			{!standaloneSeoRoutes.has(currentPath) && <SiteSEO path={router.asPath} />}
-			<Footer />
+			{!isPortalRoute && !standaloneSeoRoutes.has(currentPath) && <SiteSEO path={router.asPath} />}
+			{!isPortalRoute && <Footer />}
 		</>
 	);
 }
