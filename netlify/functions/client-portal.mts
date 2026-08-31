@@ -11,6 +11,7 @@ import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import {
 	createHash,
 	randomBytes,
+	randomUUID,
 	scryptSync,
 	timingSafeEqual,
 } from "node:crypto";
@@ -159,10 +160,11 @@ async function buildDashboard(clientId: string) {
 			email: string;
 			company_name: string;
 			contact_name: string | null;
+			status: "active" | "disabled";
 			created_at: string;
 			last_login_at: string | null;
 		}>`
-			SELECT id, email, company_name, contact_name, created_at, last_login_at
+			SELECT id, email, company_name, contact_name, status, created_at, last_login_at
 			FROM portal_clients WHERE id = ${clientId} LIMIT 1
 		`,
 		db.sql<{
@@ -206,6 +208,8 @@ async function buildDashboard(clientId: string) {
 		`,
 	]);
 
+	if (!clients[0]) throw new Error("Client workspace not found.");
+
 	return {
 		client: clients[0],
 		messages,
@@ -234,6 +238,7 @@ async function createUpload({
 	fileKind: string;
 	title?: string;
 }) {
+	if (!fileName) throw new Error("A file name is required.");
 	if (!Number.isFinite(size) || size <= 0 || size > MAX_FILE_BYTES) {
 		throw new Error("Each file must be 50 MB or smaller.");
 	}
@@ -244,7 +249,7 @@ async function createUpload({
 	if (!storage) throw new Error("Secure file storage has not been configured yet.");
 
 	const safeName = sanitiseFileName(fileName);
-	const storageKey = `client-portal/${clientId}/${new Date().toISOString().slice(0, 10)}/${crypto.randomUUID()}-${safeName}`;
+	const storageKey = `client-portal/${clientId}/${new Date().toISOString().slice(0, 10)}/${randomUUID()}-${safeName}`;
 	const db = getDatabase();
 	const inserted = await db.sql<{ id: string }>`
 		INSERT INTO portal_files (
@@ -313,7 +318,7 @@ async function createDownload(fileId: string, clientId: string) {
 	const command = new GetObjectCommand({
 		Bucket: storage.bucket,
 		Key: rows[0].storage_key,
-		ResponseContentDisposition: `attachment; filename="${rows[0].original_name.replace(/["\\]/g, "_")}"`,
+		ResponseContentDisposition: `attachment; filename="${sanitiseFileName(rows[0].original_name)}"`,
 	});
 	return getSignedUrl(storage.client, command, { expiresIn: 10 * 60 });
 }
@@ -512,7 +517,16 @@ export default async function handler(req: Request, context: Context) {
 		if (message.includes("duplicate key value")) {
 			return json({ error: "That email address is already registered in the portal." }, 409);
 		}
-		return json({ error: message }, 500);
+		const safeMessages = [
+			"Each file must be 50 MB or smaller.",
+			"Secure file storage has not been configured yet.",
+			"Upload record not found.",
+			"The uploaded file exceeded the 50 MB limit or could not be verified.",
+			"File not found.",
+			"Client workspace not found.",
+			"A file name is required.",
+		];
+		return json({ error: safeMessages.includes(message) ? message : "The portal could not complete that request." }, 500);
 	}
 }
 
