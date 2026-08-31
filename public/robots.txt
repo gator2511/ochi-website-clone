@@ -3,18 +3,28 @@ User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /.netlify/
+Disallow: /client-portal
+Disallow: /client-portal/
 
 # Search and answer-engine crawlers
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /client-portal
+Disallow: /client-portal/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /client-portal
+Disallow: /client-portal/
 
 User-agent: Googlebot
 Allow: /
+Disallow: /client-portal
+Disallow: /client-portal/
 
 User-agent: Bingbot
 Allow: /
+Disallow: /client-portal
+Disallow: /client-portal/
 
 Sitemap: https://gtmarketing.io/sitemap.xml
