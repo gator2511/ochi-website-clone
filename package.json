@@ -9,6 +9,8 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@aws-sdk/client-s3": "^3.850.0",
+		"@aws-sdk/s3-request-presigner": "^3.850.0",
 		"@netlify/database": "1.1.0",
 		"@netlify/functions": "5.3.0",
 		"@types/locomotive-scroll": "^4.1.3",
