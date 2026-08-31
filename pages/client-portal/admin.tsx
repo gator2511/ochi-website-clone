@@ -5,7 +5,7 @@ import { FormEvent, useEffect, useMemo, useState } from "react";
 import {
 	ArrowDownToLine,
 	FileText,
-	KeyRound,
+	LogOut,
 	MessageCircle,
 	Plus,
 	RefreshCw,
@@ -48,6 +48,7 @@ function formatBytes(bytes: number) {
 }
 
 export default function PortalAdminPage() {
+	const [unlocked, setUnlocked] = useState(false);
 	const [secret, setSecret] = useState("");
 	const [clients, setClients] = useState<ClientRow[]>([]);
 	const [selectedId, setSelectedId] = useState("");
@@ -69,6 +70,12 @@ export default function PortalAdminPage() {
 		}
 	}, []);
 
+	useEffect(() => {
+		if (!unlocked || !selectedId) return;
+		const timer = window.setInterval(() => void loadDashboard(selectedId, true), 5000);
+		return () => window.clearInterval(timer);
+	}, [unlocked, selectedId, secret]);
+
 	const adminRequest = async <T,>(body: Record<string, unknown>, currentSecret = secret): Promise<T> => {
 		const response = await fetch(API_URL, {
 			method: "POST",
@@ -85,20 +92,22 @@ export default function PortalAdminPage() {
 		try {
 			const result = await adminRequest<{ clients: ClientRow[] }>({ action: "admin_list_clients" }, currentSecret);
 			setClients(result.clients);
+			setUnlocked(true);
 			window.sessionStorage.setItem("gt_portal_admin_secret", currentSecret);
 		} catch (err: any) {
 			setError(err?.message || "Admin access failed.");
 			setClients([]);
+			setUnlocked(false);
 		}
 	};
 
-	const loadDashboard = async (clientId: string) => {
+	const loadDashboard = async (clientId: string, silent = false) => {
 		if (!clientId) return;
 		setSelectedId(clientId);
 		try {
 			setDashboard(await adminRequest<Dashboard>({ action: "admin_dashboard", clientId }));
 		} catch (err: any) {
-			setError(err?.message || "Unable to load client workspace.");
+			if (!silent) setError(err?.message || "Unable to load client workspace.");
 		}
 	};
 
@@ -107,6 +116,15 @@ export default function PortalAdminPage() {
 		setBusy(true);
 		await loadClients(secret);
 		setBusy(false);
+	};
+
+	const lockAdmin = () => {
+		window.sessionStorage.removeItem("gt_portal_admin_secret");
+		setUnlocked(false);
+		setSecret("");
+		setClients([]);
+		setDashboard(null);
+		setSelectedId("");
 	};
 
 	const createClient = async (event: FormEvent) => {
@@ -203,7 +221,7 @@ export default function PortalAdminPage() {
 				<meta name="referrer" content="no-referrer" />
 			</Head>
 			<main className="min-h-screen bg-[#212121] text-white font-NeueMontreal p-[18px] sm:p-[8px] xm:p-[8px]">
-				{clients.length === 0 ? (
+				{!unlocked ? (
 					<div className="min-h-[calc(100vh-36px)] bg-[#f1f1f1] text-[#212121] rounded-[22px] flex items-center justify-center p-[25px]">
 						<form onSubmit={unlock} className="w-full max-w-[560px]">
 							<img src="/logo.svg" alt="GT Marketing" className="h-[70px] w-auto mb-[50px]" />
@@ -217,10 +235,10 @@ export default function PortalAdminPage() {
 				) : (
 					<div className="min-h-[calc(100vh-36px)] grid grid-cols-12 gap-[12px] lg:flex lg:flex-col md:flex md:flex-col sm:flex sm:flex-col xm:flex xm:flex-col">
 						<aside className="col-span-3 bg-[#111] rounded-[20px] p-[22px]">
-							<div className="flex justify-between items-center"><img src="/logo.svg" alt="GT Marketing" className="h-[52px] w-auto brightness-0 invert" /><button onClick={() => loadClients()} className="w-[38px] h-[38px] rounded-full border border-white/20 flex items-center justify-center hover:bg-[#fd4402]"><RefreshCw size={16} /></button></div>
+							<div className="flex justify-between items-center gap-[8px]"><img src="/logo.svg" alt="GT Marketing" className="h-[52px] w-auto brightness-0 invert" /><div className="flex gap-[6px]"><button onClick={() => loadClients()} className="w-[38px] h-[38px] rounded-full border border-white/20 flex items-center justify-center hover:bg-[#fd4402]"><RefreshCw size={16} /></button><button onClick={lockAdmin} className="w-[38px] h-[38px] rounded-full border border-white/20 flex items-center justify-center hover:bg-[#fd4402]" aria-label="Lock admin portal"><LogOut size={16} /></button></div></div>
 							<p className="small-text uppercase text-white/45 pt-[35px]">Registered clients</p>
 							<div className="pt-[12px] space-y-[7px] max-h-[46vh] overflow-y-auto">
-								{clients.map((client) => <button key={client.id} onClick={() => loadDashboard(client.id)} className={`w-full text-left rounded-[10px] p-[12px] ${selectedId === client.id ? "bg-[#fd4402]" : "bg-white/5 hover:bg-white/10"}`}><p className="text-[17px]">{client.company_name}</p><p className="text-[12px] opacity-50 pt-[2px] truncate">{client.email}</p></button>)}
+								{clients.length === 0 ? <p className="text-[13px] text-white/40 py-[12px]">No clients yet. Create the first workspace below.</p> : clients.map((client) => <button key={client.id} onClick={() => loadDashboard(client.id)} className={`w-full text-left rounded-[10px] p-[12px] ${selectedId === client.id ? "bg-[#fd4402]" : "bg-white/5 hover:bg-white/10"}`}><p className="text-[17px]">{client.company_name}</p><p className="text-[12px] opacity-50 pt-[2px] truncate">{client.email}</p></button>)}
 							</div>
 							<form onSubmit={createClient} className="mt-[28px] border-t border-white/15 pt-[20px] space-y-[9px]">
 								<div className="flex items-center gap-[8px] small-text uppercase text-white/55"><Plus size={15} /> Add client</div>
