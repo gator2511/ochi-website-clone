@@ -52,6 +52,25 @@ body {
 	}
 }
 
+/* Client portal admin: inputs sit inside a white-on-dark inherited text context.
+   Force form values to use dark text so entered client details remain readable. */
+input[placeholder="Company name"],
+input[placeholder="Contact name"],
+input[placeholder="Email"],
+input[placeholder="Optional custom code"] {
+	color: #212121 !important;
+	background-color: #f1f1f1 !important;
+	caret-color: #fd4402;
+}
+
+input[placeholder="Company name"]::placeholder,
+input[placeholder="Contact name"]::placeholder,
+input[placeholder="Email"]::placeholder,
+input[placeholder="Optional custom code"]::placeholder {
+	color: rgba(33, 33, 33, 0.48) !important;
+	opacity: 1;
+}
+
 .hover {
 	color: #18272f;
 	position: relative;
