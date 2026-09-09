@@ -7,6 +7,7 @@ import {
 	Marquee,
 	Ready,
 } from "@/components";
+import HomePromotionPopup from "@/components/HomePromotionPopup";
 import { About, Hero, Projects, VideoHome } from "@/container";
 import content from "@/content/pages/home.json";
 
@@ -22,6 +23,7 @@ export default function Home() {
 
 	return (
 		<div data-sb-object-id={documentId}>
+			<HomePromotionPopup content={content.promotion} />
 			<Curve backgroundColor="#f1f1f1">
 				<Hero content={content.hero} />
 				<div className="w-full bg-marquee z-10 relative rounded-t-[20px] padding-y">
