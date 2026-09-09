@@ -10,6 +10,7 @@ import {
 import HomePromotionPopup from "@/components/HomePromotionPopup";
 import { About, Hero, Projects, VideoHome } from "@/container";
 import content from "@/content/pages/home.json";
+import promotion from "@/content/data/promotion.json";
 
 const documentId = "content/pages/home.json";
 
@@ -23,7 +24,7 @@ export default function Home() {
 
 	return (
 		<div data-sb-object-id={documentId}>
-			<HomePromotionPopup content={content.promotion} />
+			<HomePromotionPopup content={promotion} />
 			<Curve backgroundColor="#f1f1f1">
 				<Hero content={content.hero} />
 				<div className="w-full bg-marquee z-10 relative rounded-t-[20px] padding-y">
