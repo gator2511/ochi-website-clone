@@ -1,0 +1,13 @@
+{
+  "type": "PromotionConfig",
+  "enabled": true,
+  "eyebrow": "September offer",
+  "discount": "50%",
+  "heading": "50% off all GT Marketing services.",
+  "description": "Start a new project with GT Marketing before 30 September 2026 and receive 50% off our service fees across strategy, SEO, websites, social media, brand, automation and other GT Marketing services.",
+  "expiresAt": "2026-09-30T23:59:59+09:30",
+  "expiresLabel": "Offer ends 30 September 2026",
+  "ctaLabel": "Claim the offer",
+  "ctaUrl": "/contact",
+  "terms": "Valid for new project scopes confirmed with GT Marketing by 30 September 2026. Discount applies to GT Marketing service fees only and excludes third-party media spend, advertising budgets, domains, hosting charges, software subscriptions and other pass-through costs. Subject to availability and an agreed project scope."
+}
