@@ -143,6 +143,47 @@ const models: any[] = [
 				stringField("scrollLabel"),
 			]),
 			stringField("marqueeText"),
+			objectField("growthSystem", [
+				objectField("problems", [
+					stringField("eyebrow"),
+					stringField("heading"),
+					textField("intro"),
+					objectList("items", [stringField("title"), textField("text")]),
+				]),
+				objectField("system", [
+					stringField("eyebrow"),
+					stringField("heading"),
+					textField("intro"),
+					objectList("steps", [stringField("number"), stringField("title"), textField("text")]),
+				]),
+				objectField("proof", [
+					stringField("eyebrow"),
+					stringField("heading"),
+					textField("note"),
+					objectList("stats", [stringField("value"), textField("label")]),
+				]),
+				objectField("niches", [
+					stringField("eyebrow"),
+					stringField("heading"),
+					stringField("primary"),
+					textField("primaryText"),
+					stringList("also"),
+				]),
+				objectField("offer", [
+					stringField("eyebrow"),
+					stringField("heading"),
+					textField("intro"),
+					stringList("includes"),
+					textField("priceNote"),
+					stringField("ctaLabel"),
+					stringField("ctaUrl"),
+				]),
+				objectField("national", [
+					stringField("eyebrow"),
+					stringField("heading"),
+					textField("text"),
+				]),
+			]),
 			objectField("about", [
 				textField("intro"),
 				stringField("expectationLabel"),
