@@ -1,22 +1,22 @@
 {
   "type": "HomePage",
-  "seoTitle": "GT Marketing | Growth Marketing Agency in Darwin",
-  "seoDescription": "GT Marketing builds strategy, digital execution, automation and performance systems for ambitious Australian businesses.",
+  "seoTitle": "GT Marketing | Lead Generation Systems for Australian Service Businesses",
+  "seoDescription": "GT Marketing helps Australian service businesses generate more qualified enquiries, improve follow-up and turn more leads into booked business through ads, SEO, websites and automation.",
   "hero": {
-    "headingLine1": "We create",
-    "headingAccent": "eye-opening",
-    "headingLine3": "growth systems",
+    "headingLine1": "More enquiries.",
+    "headingAccent": "Faster follow-up.",
+    "headingLine3": "More booked business.",
     "accentImage": "/ochi-side.jpg",
     "accentImageAlt": "GT Marketing creative detail",
-    "badgeImage": "/awwwards.svg",
-    "badgeImageAlt": "Recognition badge",
-    "introLeft": "For ambitious Australian businesses",
-    "introRight": "From positioning to measurable growth",
-    "ctaLabel": "Start the project",
+    "badgeImage": "",
+    "badgeImageAlt": "",
+    "introLeft": "Lead-generation systems for Australian service businesses",
+    "introRight": "Ads, SEO, websites and automated follow-up working as one system",
+    "ctaLabel": "Book a Lead-to-Booking Audit",
     "ctaUrl": "/contact",
-    "scrollLabel": "Scroll down"
+    "scrollLabel": "See how the system works"
   },
-  "marqueeText": "GT Marketing",
+  "marqueeText": "Lead to booking",
   "about": {
     "intro": "GT Marketing is a strategic growth partner for businesses that need stronger positioning, consistent lead generation, better digital execution and practical systems that turn marketing activity into commercial progress.",
     "expectationLabel": "What you can expect",
@@ -35,9 +35,18 @@
     "eyebrow": "Designed to move",
     "title": "Bold ideas. Structured growth.",
     "images": [
-      { "src": "https://images.pexels.com/photos/13788166/pexels-photo-13788166.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange architectural interior with geometric light" },
-      { "src": "https://images.pexels.com/photos/28963148/pexels-photo-28963148.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange contemporary building facade" },
-      { "src": "https://images.pexels.com/photos/7577937/pexels-photo-7577937.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange ink cloud against a white background" }
+      {
+        "src": "https://images.pexels.com/photos/13788166/pexels-photo-13788166.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "alt": "Orange architectural interior with geometric light"
+      },
+      {
+        "src": "https://images.pexels.com/photos/28963148/pexels-photo-28963148.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "alt": "Orange contemporary building facade"
+      },
+      {
+        "src": "https://images.pexels.com/photos/7577937/pexels-photo-7577937.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "alt": "Orange ink cloud against a white background"
+      }
     ]
   },
   "video": {
@@ -84,9 +93,15 @@
         "seoDescription": "Lead generation, local SEO, website development and marketing systems for Australian tradies and service businesses.",
         "description": "Lead-generation websites, local SEO and campaigns designed for electricians, plumbers, builders and service teams that need more qualified jobs.",
         "tags": [
-          { "label": "Local SEO" },
-          { "label": "Lead generation" },
-          { "label": "Website development" }
+          {
+            "label": "Local SEO"
+          },
+          {
+            "label": "Lead generation"
+          },
+          {
+            "label": "Website development"
+          }
         ]
       },
       {
@@ -97,9 +112,15 @@
         "seoDescription": "Hospitality marketing, booking campaigns, social media and local search strategies for restaurants, cafes and venues.",
         "description": "Booking-led websites, local discovery and social campaigns that help restaurants, cafes and venues turn attention into reservations.",
         "tags": [
-          { "label": "Social media" },
-          { "label": "Local search" },
-          { "label": "Bookings" }
+          {
+            "label": "Social media"
+          },
+          {
+            "label": "Local search"
+          },
+          {
+            "label": "Bookings"
+          }
         ]
       },
       {
@@ -110,9 +131,15 @@
         "seoDescription": "Participant-focused NDIS marketing, compliant website content, outreach and lead generation for Australian disability service providers.",
         "description": "Participant-focused websites, outreach and compliant marketing systems that help NDIS providers build trust and generate appropriate enquiries.",
         "tags": [
-          { "label": "Participant outreach" },
-          { "label": "Compliant content" },
-          { "label": "NDIS websites" }
+          {
+            "label": "Participant outreach"
+          },
+          {
+            "label": "Compliant content"
+          },
+          {
+            "label": "NDIS websites"
+          }
         ]
       },
       {
@@ -123,9 +150,15 @@
         "seoDescription": "Integrated marketing strategy, websites, lead generation and automation for Australian small and medium businesses.",
         "description": "Integrated strategy, digital execution and automation for small and medium businesses that need clearer positioning and predictable growth.",
         "tags": [
-          { "label": "Growth strategy" },
-          { "label": "Automation" },
-          { "label": "Performance marketing" }
+          {
+            "label": "Growth strategy"
+          },
+          {
+            "label": "Automation"
+          },
+          {
+            "label": "Performance marketing"
+          }
         ]
       },
       {
@@ -136,9 +169,15 @@
         "seoDescription": "Brand strategy, websites and digital marketing for Australian agriculture, producers and regional businesses.",
         "description": "Regional branding, digital channels and market communication that help producers, suppliers and agricultural businesses reach stronger buyers and partners.",
         "tags": [
-          { "label": "Regional branding" },
-          { "label": "Digital strategy" },
-          { "label": "B2B marketing" }
+          {
+            "label": "Regional branding"
+          },
+          {
+            "label": "Digital strategy"
+          },
+          {
+            "label": "B2B marketing"
+          }
         ]
       },
       {
@@ -149,9 +188,15 @@
         "seoDescription": "Trust-led digital marketing, education content and conversion strategy for finance, fintech and cryptocurrency businesses.",
         "description": "Trust-led messaging, educational content and conversion systems for finance, fintech and crypto brands operating in complex markets.",
         "tags": [
-          { "label": "Trust marketing" },
-          { "label": "Content strategy" },
-          { "label": "Conversion" }
+          {
+            "label": "Trust marketing"
+          },
+          {
+            "label": "Content strategy"
+          },
+          {
+            "label": "Conversion"
+          }
         ]
       },
       {
@@ -162,9 +207,15 @@
         "seoDescription": "Property marketing, agent positioning, campaign strategy and lead generation for Australian real estate businesses.",
         "description": "Property campaigns, agent positioning and digital lead generation that create stronger buyer attention and seller enquiries.",
         "tags": [
-          { "label": "Property campaigns" },
-          { "label": "Agent branding" },
-          { "label": "Lead generation" }
+          {
+            "label": "Property campaigns"
+          },
+          {
+            "label": "Agent branding"
+          },
+          {
+            "label": "Lead generation"
+          }
         ]
       },
       {
@@ -175,9 +226,15 @@
         "seoDescription": "Credibility-led websites, local SEO and B2B campaigns for Australian security companies and service providers.",
         "description": "Credibility-led websites, local search and B2B campaigns for security providers that need stronger trust and better commercial leads.",
         "tags": [
-          { "label": "B2B campaigns" },
-          { "label": "Local SEO" },
-          { "label": "Credibility" }
+          {
+            "label": "B2B campaigns"
+          },
+          {
+            "label": "Local SEO"
+          },
+          {
+            "label": "Credibility"
+          }
         ]
       },
       {
@@ -188,9 +245,15 @@
         "seoDescription": "Event campaigns, sponsor marketing, ticket sales and high-converting landing pages for Australian events and venues.",
         "description": "Event campaigns, ticket-sales funnels and sponsor visibility systems built to increase attendance and commercial value.",
         "tags": [
-          { "label": "Ticket campaigns" },
-          { "label": "Sponsor marketing" },
-          { "label": "Landing pages" }
+          {
+            "label": "Ticket campaigns"
+          },
+          {
+            "label": "Sponsor marketing"
+          },
+          {
+            "label": "Landing pages"
+          }
         ]
       }
     ]
@@ -206,8 +269,14 @@
         "image": "/client01.png",
         "review": "They were transparent about the time and stages of the project. The end product was high quality and the process was managed clearly from initial story through to final design.",
         "tags": [
-          { "label": "Investor deck", "url": "/services" },
-          { "label": "Sales deck", "url": "/services" }
+          {
+            "label": "Investor deck",
+            "url": "/services"
+          },
+          {
+            "label": "Sales deck",
+            "url": "/services"
+          }
         ]
       },
       {
@@ -218,9 +287,18 @@
         "image": "/client02.png",
         "review": "The projects were handled with professionalism and creativity. The team understood the brand and translated it into effective presentation design, resulting in a continued partnership.",
         "tags": [
-          { "label": "Agency", "url": "/services" },
-          { "label": "Branded template", "url": "/services" },
-          { "label": "Investor deck", "url": "/services" }
+          {
+            "label": "Agency",
+            "url": "/services"
+          },
+          {
+            "label": "Branded template",
+            "url": "/services"
+          },
+          {
+            "label": "Investor deck",
+            "url": "/services"
+          }
         ]
       },
       {
@@ -231,8 +309,14 @@
         "image": "/client03.png",
         "review": "GT Marketing brought the professionalism our presentations were missing. The final product created a stronger experience for new employees and clients.",
         "tags": [
-          { "label": "Company presentation", "url": "/services" },
-          { "label": "Onboarding presentation", "url": "/services" }
+          {
+            "label": "Company presentation",
+            "url": "/services"
+          },
+          {
+            "label": "Onboarding presentation",
+            "url": "/services"
+          }
         ]
       },
       {
@@ -243,8 +327,14 @@
         "image": "/client04.png",
         "review": "Fast, effective and attentive to every detail. The resulting template brought clarity, confidence and ease to our presentations.",
         "tags": [
-          { "label": "Branded template", "url": "/services" },
-          { "label": "Illustration", "url": "/services" }
+          {
+            "label": "Branded template",
+            "url": "/services"
+          },
+          {
+            "label": "Illustration",
+            "url": "/services"
+          }
         ]
       },
       {
@@ -255,8 +345,14 @@
         "image": "/client05.png",
         "review": "The attention to narrative, flow and aesthetics exceeded expectations. The visuals, animation and strategic guidance were first-class.",
         "tags": [
-          { "label": "Investor deck", "url": "/services" },
-          { "label": "Startup pitch", "url": "/services" }
+          {
+            "label": "Investor deck",
+            "url": "/services"
+          },
+          {
+            "label": "Startup pitch",
+            "url": "/services"
+          }
         ]
       },
       {
@@ -267,7 +363,10 @@
         "image": "/client06.png",
         "review": "GT Marketing understood what was required for an effective presentation and delivered beyond expectations with a complete, high-quality template.",
         "tags": [
-          { "label": "Branded template deck", "url": "/services" }
+          {
+            "label": "Branded template deck",
+            "url": "/services"
+          }
         ]
       },
       {
@@ -278,8 +377,14 @@
         "image": "/client07.jpeg",
         "review": "The team understood the business problem, iterated thoughtfully and delivered a result we were genuinely excited to use.",
         "tags": [
-          { "label": "Agency", "url": "/services" },
-          { "label": "Product presentation", "url": "/services" }
+          {
+            "label": "Agency",
+            "url": "/services"
+          },
+          {
+            "label": "Product presentation",
+            "url": "/services"
+          }
         ]
       },
       {
@@ -290,8 +395,14 @@
         "image": "/client08.png",
         "review": "The team understood the product, worked through feedback constructively and handled the process professionally from milestones to final delivery.",
         "tags": [
-          { "label": "Review", "url": "/services" },
-          { "label": "Startup pitch", "url": "/services" }
+          {
+            "label": "Review",
+            "url": "/services"
+          },
+          {
+            "label": "Startup pitch",
+            "url": "/services"
+          }
         ]
       },
       {
@@ -302,10 +413,129 @@
         "image": "/client09.png",
         "review": "GT Marketing accurately captured a design language that aligned with our preferences and the vision for our growing company.",
         "tags": [
-          { "label": "Branding", "url": "/services" },
-          { "label": "Investor deck", "url": "/services" }
+          {
+            "label": "Branding",
+            "url": "/services"
+          },
+          {
+            "label": "Investor deck",
+            "url": "/services"
+          }
         ]
       }
     ]
+  },
+  "growthSystem": {
+    "problems": {
+      "eyebrow": "Where revenue leaks",
+      "heading": "Most businesses do not need more marketing noise. They need fewer missed opportunities.",
+      "intro": "More traffic cannot fix slow follow-up, missed calls, weak landing pages or leads sitting in an inbox. We find the leaks between attention and booked business.",
+      "items": [
+        {
+          "title": "Missed calls",
+          "text": "High-intent prospects call once, get no answer and move to the next provider."
+        },
+        {
+          "title": "Slow follow-up",
+          "text": "Enquiries cool down while teams rely on manual replies and scattered inboxes."
+        },
+        {
+          "title": "Wasted ad spend",
+          "text": "Paid traffic lands on pages that do not make the next step obvious or easy."
+        },
+        {
+          "title": "Disconnected systems",
+          "text": "Ads, forms, CRM, email and reporting operate separately instead of moving one lead forward."
+        }
+      ]
+    },
+    "system": {
+      "eyebrow": "The GT Marketing system",
+      "heading": "From first click to booked business.",
+      "intro": "We use the right channels and technology for the job, but the commercial system stays simple: attract the right people, convert them, follow up quickly and measure what became real business.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Attract",
+          "text": "Generate relevant demand through local SEO, Google Ads, content and targeted campaigns."
+        },
+        {
+          "number": "02",
+          "title": "Convert",
+          "text": "Turn attention into calls and enquiries with clear offers, landing pages and low-friction forms."
+        },
+        {
+          "number": "03",
+          "title": "Follow up",
+          "text": "Use CRM, email, SMS and automation so every qualified lead gets a fast, consistent response."
+        },
+        {
+          "number": "04",
+          "title": "Book",
+          "text": "Build a practical handover from marketing enquiry to appointment, quote or sales conversation."
+        },
+        {
+          "number": "05",
+          "title": "Measure",
+          "text": "Report on qualified enquiries, cost per lead, booked opportunities and commercial outcomes—not vanity metrics."
+        }
+      ]
+    },
+    "proof": {
+      "eyebrow": "Performance experience",
+      "heading": "Commercial results, not decorative metrics.",
+      "note": "Selected results from prior marketing roles and campaign experience. Results vary by business, market, budget and offer; these figures are not guarantees of future performance.",
+      "stats": [
+        {
+          "value": "+35%",
+          "label": "ROI improvement achieved on managed campaign activity"
+        },
+        {
+          "value": "-25%",
+          "label": "CPA reduction achieved through optimisation"
+        },
+        {
+          "value": "+30%",
+          "label": "Year-on-year qualified lead growth achieved"
+        },
+        {
+          "value": "$480K",
+          "label": "Annual media budget managed at peak responsibility"
+        }
+      ]
+    },
+    "niches": {
+      "eyebrow": "Who we are built for",
+      "heading": "Service businesses where every missed lead has a real cost.",
+      "primary": "Trades & home services",
+      "primaryText": "Lead generation, local search, conversion-focused websites and follow-up systems for electricians, plumbers, builders, maintenance teams and other service businesses.",
+      "also": [
+        "NDIS & allied services",
+        "Property & real estate",
+        "Hospitality",
+        "Australian SMEs"
+      ]
+    },
+    "offer": {
+      "eyebrow": "Start with the leak",
+      "heading": "Lead-to-Booking Audit",
+      "intro": "A focused review of the journey from traffic to enquiry to follow-up. We identify where opportunities are being lost and what should be fixed before you increase media spend.",
+      "includes": [
+        "Lead sources and tracking",
+        "Website and landing-page conversion",
+        "Missed-call and response process",
+        "CRM, email and follow-up automation",
+        "Local search and Google Business Profile",
+        "Paid-media efficiency and enquiry quality"
+      ],
+      "priceNote": "Fixed scope. Fixed price confirmed before booking. No open-ended discovery or surprise add-ons.",
+      "ctaLabel": "Book the audit",
+      "ctaUrl": "/contact"
+    },
+    "national": {
+      "eyebrow": "Australian delivery",
+      "heading": "Based in Darwin. Working with businesses across Australia.",
+      "text": "GT Marketing delivers strategy, campaigns, websites, automation and reporting remotely across Australia. Darwin City, Casuarina and Palmerston remain dedicated local SEO service areas—not the limit of where we work."
+    }
   }
 }
