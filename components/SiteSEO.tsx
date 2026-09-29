@@ -58,7 +58,7 @@ type RouteSEO = {
 
 const ROUTES: Record<string, RouteSEO> = {
 	"/": {
-		title: "Marketing Agency Darwin, Casuarina & Palmerston |title: "Lead Generation Systems for Australian Service Businesses | GT Marketing",
+		title: "Lead Generation Systems for Australian Service Businesses | GT Marketing",
 		description:
 			"GT Marketing helps Australian service businesses generate more qualified enquiries, improve follow-up and turn more leads into booked business through ads, SEO, websites and automation.",
 		label: "Home",
