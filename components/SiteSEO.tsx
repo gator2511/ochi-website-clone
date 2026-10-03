@@ -5,6 +5,9 @@ const SITE_URL = "https://gtmarketing.io";
 const DEFAULT_IMAGE = `${SITE_URL}/contacthhero.jpg`;
 
 const SERVICES = [
+	"Marketing and communications support for Aboriginal organisations",
+	"Grant and funding communications support",
+	"Remote and regional project support",
 	"Marketing strategy",
 	"Search engine optimisation",
 	"Local SEO",
@@ -515,29 +518,43 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		pageSchema.keywords = page.keywords?.join(", ");
 	}
 
+	const isRegionalRemotePage =
+		path === "/locations/top-end" || path === "/locations/central-australia";
+
 	const localServiceSchema: Record<string, unknown> | null = page.location
 		? {
 				"@type": "Service",
 				"@id": `${canonicalUrl}#local-marketing-service`,
-				name: `Marketing agency services in ${page.location.name}`,
+				name: isRegionalRemotePage
+					? `Marketing and communications support in ${page.location.name}`
+					: `Marketing agency services in ${page.location.name}`,
 				description: page.description,
-				serviceType: "Marketing strategy, local SEO, website development, social media and lead generation",
+				serviceType: isRegionalRemotePage
+					? "Communications, funding support, digital capability and remote project support"
+					: "Marketing strategy, local SEO, website development, social media and lead generation",
 				provider: { "@id": `${SITE_URL}/#business` },
 				url: canonicalUrl,
-				areaServed: {
-					"@type": page.location.type,
-					name: `${page.location.name}, ${page.location.region}`,
-					address: {
-						"@type": "PostalAddress",
-						addressLocality: page.location.name,
-						addressRegion: "NT",
-						postalCode: page.location.postcode,
-						addressCountry: "AU",
-					},
-				},
+				areaServed: page.location.postcode
+					? {
+							"@type": page.location.type,
+							name: `${page.location.name}, ${page.location.region}`,
+							address: {
+								"@type": "PostalAddress",
+								addressLocality: page.location.name,
+								addressRegion: "NT",
+								postalCode: page.location.postcode,
+								addressCountry: "AU",
+							},
+						}
+					: {
+							"@type": page.location.type,
+							name: `${page.location.name}, ${page.location.region}`,
+						},
 				audience: {
-					"@type": "BusinessAudience",
-					audienceType: `Businesses in ${page.location.name} and surrounding Northern Territory areas`,
+					"@type": isRegionalRemotePage ? "Audience" : "BusinessAudience",
+					audienceType: isRegionalRemotePage
+						? `Aboriginal organisations, community-led enterprises and regional organisations in ${page.location.name}`
+						: `Businesses in ${page.location.name} and surrounding Northern Territory areas`,
 				},
 			}
 		: null;
