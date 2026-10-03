@@ -106,16 +106,6 @@ export default function Footer() {
 						{site.abn}
 					</p>
 
-					<div className="pt-[12px] flex items-center justify-start">
-						<Image
-							data-sb-field-path="footerFlags.image"
-							src={site.footerFlags.image}
-							alt={site.footerFlags.alt}
-							width={72}
-							height={113}
-							className="w-[72px] h-auto md:w-[64px] sm:w-[56px] xm:w-[52px] object-contain"
-						/>
-					</div>
 				</div>
 			</div>
 
