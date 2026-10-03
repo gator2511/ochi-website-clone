@@ -28,7 +28,7 @@ export default function Hero({ content }: HeroProps) {
     <section className="w-full min-h-screen bg-[#f1f1f1]" data-scroll data-scroll-speed="-.3">
       <div className="min-h-screen flex flex-col justify-end pt-[130px]">
         <div className="padding-x pb-[48px]">
-          <p className="small-text uppercase text-[#21212188] mb-[28px]">GT Marketing · Australia</p>
+          <p className="small-text uppercase text-[#21212188] mb-[28px]">GT Marketing · Northern Territory & Australia</p>
           <h1 className="tracking-[-2px] text-[#212121] font-semibold font-FoundersGrotesk uppercase text-[132px] leading-[0.78] lg:text-[112px] md:text-[88px] sm:text-[66px] xm:text-[54px]">
             <span data-sb-field-path="hero.headingLine1">{content.headingLine1}</span>
             <br />
