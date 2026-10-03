@@ -1,0 +1,116 @@
+{
+  "type": "AboriginalOrganisationsPage",
+  "seoTitle": "Marketing for Aboriginal Organisations & Remote Communities | GT Marketing",
+  "seoDescription": "Culturally respectful marketing, communications, funding support and digital capability for Aboriginal corporations, art centres, ranger groups, community stores and community-controlled organisations.",
+  "hero": {
+    "eyebrow": "Priority sector / Aboriginal organisations",
+    "headingLine1": "Marketing built around",
+    "headingLine2": "community priorities.",
+    "intro": "GT Marketing supports Aboriginal organisations and community-led enterprises with practical, culturally respectful communications and growth work shaped around local authority, remote operating conditions and the outcomes the organisation needs.",
+    "ctaLabel": "Start a conversation",
+    "ctaUrl": "/contact"
+  },
+  "audiences": {
+    "eyebrow": "Who we support",
+    "heading": "Built for organisations doing important work on Country and in community.",
+    "items": [
+      {
+        "title": "Aboriginal corporations",
+        "description": "Support for organisations balancing community priorities, governance, programs, enterprise activity and external communication."
+      },
+      {
+        "title": "Art centres",
+        "description": "Storytelling, digital presence, e-commerce and campaign support with clear approval pathways around artists, stories, images and cultural material."
+      },
+      {
+        "title": "Ranger groups",
+        "description": "Communications, reporting and public-facing material that can help explain programs, partnerships, outcomes and work on Country."
+      },
+      {
+        "title": "Community stores",
+        "description": "Practical communication and digital support for stores serving remote communities, including simple low-bandwidth customer information."
+      },
+      {
+        "title": "Community-controlled health",
+        "description": "Clear, accessible communications for organisations delivering health and community services across large geographic areas."
+      },
+      {
+        "title": "Tourism & cultural enterprises",
+        "description": "Visitor information, booking journeys, storytelling and digital commerce that respect cultural authority and community direction."
+      }
+    ]
+  },
+  "support": {
+    "eyebrow": "Support areas",
+    "heading": "Practical capability, not a generic agency package.",
+    "intro": "Every scope is agreed around the organisation’s priorities, internal capacity, community approvals and available funding. We can work on one defined need or help connect several pieces into a manageable plan.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Grant & funding support",
+        "description": "Support with grant narratives, capability statements, business plans, project communication, evidence presentation and reporting structure. We do not guarantee funding outcomes and the organisation retains responsibility for eligibility and final submissions."
+      },
+      {
+        "number": "02",
+        "title": "Communications & storytelling",
+        "description": "Clear organisational messaging, campaign material, reports and digital content developed through agreed approval pathways. Cultural stories and community knowledge are not treated as generic marketing assets."
+      },
+      {
+        "number": "03",
+        "title": "Digital presence",
+        "description": "Accessible websites, information pages, e-commerce or booking journeys designed around the organisation’s audience, internal capacity and likely connectivity conditions."
+      },
+      {
+        "number": "04",
+        "title": "Tourism, arts & bush products",
+        "description": "Support for visitor experiences, art sales, cultural enterprises and bush product businesses, with attention to provenance, permissions, cultural authority and appropriate representation."
+      },
+      {
+        "number": "05",
+        "title": "Reporting & capability",
+        "description": "Practical templates, dashboards, handover documentation and communication systems that make it easier for teams to maintain the work after launch."
+      },
+      {
+        "number": "06",
+        "title": "Remote project support",
+        "description": "Remote delivery, scheduled regional visits and on-Country support can be scoped depending on location, timing, connectivity, cultural requirements and travel arrangements."
+      }
+    ]
+  },
+  "principles": {
+    "eyebrow": "Cultural respect & ICIP",
+    "heading": "Approval, ownership and cultural authority are part of the project—not an afterthought.",
+    "paragraphs": [
+      "GT Marketing does not claim authority over Aboriginal culture, stories, language, images or community knowledge. Where a project involves culturally sensitive material, the organisation identifies who has authority to approve its use and how that approval should occur.",
+      "Indigenous Cultural and Intellectual Property considerations are discussed at the start of relevant projects. Client-supplied cultural material is only used for the agreed purpose and publication requires the agreed approval process.",
+      "We do not publish Aboriginal partner names, community case studies, photographs or endorsements without permission. Trust should be earned through the work and relationships, not manufactured through branding."
+    ],
+    "signals": [
+      "Community approval pathways",
+      "Respect for ICIP",
+      "Plain-language handover",
+      "Low-bandwidth options",
+      "Remote-first collaboration",
+      "No assumed cultural authority"
+    ]
+  },
+  "remote": {
+    "eyebrow": "Remote & regional delivery",
+    "heading": "Designed for the Top End, Central Australia and remote working conditions.",
+    "text": "Not every project needs weekly metropolitan-style meetings. We can structure work around phone, video, shared documents, low-bandwidth review options and scheduled visits. Fly-in or on-Country support is available by arrangement where it is useful and appropriate, with travel scope agreed before work begins.",
+    "ctaLabel": "View Top End coverage",
+    "ctaUrl": "/locations/top-end"
+  },
+  "trust": {
+    "eyebrow": "A clear boundary",
+    "heading": "We will not overstate relationships we have not earned.",
+    "text": "GT Marketing is not Aboriginal-owned and does not claim endorsement by Aboriginal organisations or communities unless a specific relationship has been authorised for publication. As genuine partnerships and case studies develop, they will only be shown with permission."
+  },
+  "closing": {
+    "eyebrow": "Start with the organisation’s priorities",
+    "heading": "Tell us what needs to be clearer, stronger or easier to deliver.",
+    "text": "A first conversation can cover the organisation, location, community context, funding timeline, internal capacity, cultural approvals and the outcome you need. We will then recommend a practical next step.",
+    "ctaLabel": "Start a conversation",
+    "ctaUrl": "/contact"
+  }
+}
