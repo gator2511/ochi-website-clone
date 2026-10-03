@@ -1,0 +1,111 @@
+{
+  "type": "TopEndLocationPage",
+  "slug": "top-end",
+  "seoTitle": "Marketing Support Top End NT | Aboriginal & Regional Organisations | GT Marketing",
+  "seoDescription": "Darwin-based marketing and communications support for Aboriginal organisations, community enterprises and regional organisations across the Top End of the Northern Territory.",
+  "keywords": [
+    "Aboriginal organisation marketing Top End",
+    "remote community marketing Northern Territory",
+    "Top End marketing support",
+    "Aboriginal corporation communications NT",
+    "regional marketing Northern Territory"
+  ],
+  "locationName": "Top End",
+  "locationType": "Place",
+  "region": "Northern Territory",
+  "postcode": "",
+  "hero": {
+    "eyebrow": "Darwin-based / Top End service area",
+    "heading": "Practical support across the",
+    "accent": "Top End",
+    "intro": "GT Marketing supports Aboriginal organisations, community-led enterprises and regional organisations across the Top End with flexible remote delivery, scheduled visits and project structures designed around distance, connectivity and local approval processes.",
+    "ctaLabel": "Discuss a Top End project",
+    "ctaUrl": "/contact"
+  },
+  "proofPoints": [
+    "Aboriginal organisations",
+    "Remote collaboration",
+    "Regional visits by arrangement",
+    "Low-bandwidth options",
+    "Community approval pathways",
+    "Darwin-based delivery"
+  ],
+  "servicesHeading": "Support shaped around the organisation, not a metropolitan agency template.",
+  "servicesIntro": "Top End organisations can operate across large distances, multiple communities and changing connectivity. Projects are scoped around the outcome, internal capacity, approval pathway and practical delivery conditions.",
+  "services": [
+    {
+      "title": "Organisational communications",
+      "description": "Clear public-facing and stakeholder communication developed through agreed internal and community approval pathways."
+    },
+    {
+      "title": "Funding readiness",
+      "description": "Support with business plans, capability statements, grant narratives, evidence presentation and reporting structures without guaranteeing funding outcomes."
+    },
+    {
+      "title": "Digital access",
+      "description": "Practical websites and information experiences that consider mobile use, limited bandwidth and the need for straightforward maintenance."
+    },
+    {
+      "title": "Cultural enterprises",
+      "description": "Support for art centres, tourism, cultural experiences and bush product enterprises with attention to permissions, provenance and cultural authority."
+    },
+    {
+      "title": "Regional campaigns",
+      "description": "Campaign planning and communication designed around the geography, audience and real delivery footprint of the organisation."
+    },
+    {
+      "title": "Remote project support",
+      "description": "Remote-first collaboration with scheduled travel or on-Country work available by arrangement where useful and appropriate."
+    }
+  ],
+  "localHeading": "Top End delivery needs flexibility, clear approvals and respect for local authority.",
+  "localParagraphs": [
+    "GT Marketing is physically based in Darwin City and treats the Top End as a genuine service region rather than a collection of invented office locations.",
+    "Remote projects can use phone, video, shared documents and low-bandwidth review options. Where travel adds value, regional visits or on-Country support can be scoped in advance.",
+    "When work involves cultural stories, images, language or community knowledge, the client identifies the appropriate approval pathway and authority for use."
+  ],
+  "industriesHeading": "Priority organisations across the Top End",
+  "industries": [
+    "Aboriginal corporations",
+    "Art centres",
+    "Ranger groups",
+    "Community stores",
+    "Community-controlled health",
+    "Tourism enterprises",
+    "Bush product businesses",
+    "Regional services"
+  ],
+  "nearbyHeading": "Top End coverage",
+  "nearbyAreas": [
+    "Darwin region",
+    "Tiwi Islands",
+    "West Arnhem",
+    "East Arnhem",
+    "Katherine region",
+    "Daly region",
+    "West Daly",
+    "Victoria Daly"
+  ],
+  "serviceAreaNote": "Coverage depends on project requirements, travel feasibility, permissions and timing. GT Marketing does not claim offices outside Darwin City; regional and on-Country work is arranged per engagement.",
+  "faqsHeading": "Top End support FAQs",
+  "faqs": [
+    {
+      "question": "Do you travel to remote communities?",
+      "answer": "Travel and on-Country support can be arranged where it is useful, appropriate and practical. Location, permissions, timing and travel costs are agreed before the project starts."
+    },
+    {
+      "question": "Can you work with limited internet connectivity?",
+      "answer": "Yes. Projects can use low-bandwidth review options, phone-based check-ins, compressed files and simple handover formats where connectivity is limited."
+    },
+    {
+      "question": "Do you provide grant-writing support?",
+      "answer": "GT Marketing can assist with grant narratives, capability statements, business plans, evidence presentation and reporting structure. Funding eligibility, final submissions and outcomes remain the responsibility of the organisation, and funding cannot be guaranteed."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Top End organisations",
+    "heading": "Work with a Darwin-based partner that can adapt to regional reality.",
+    "ctaLabel": "Start a conversation",
+    "ctaUrl": "/contact"
+  }
+}
