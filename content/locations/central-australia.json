@@ -1,0 +1,109 @@
+{
+  "type": "CentralAustraliaLocationPage",
+  "slug": "central-australia",
+  "seoTitle": "Marketing Support Central Australia | Aboriginal Organisations | GT Marketing",
+  "seoDescription": "Remote marketing and communications support for Aboriginal organisations, art centres, tourism enterprises and regional organisations across Central Australia.",
+  "keywords": [
+    "Aboriginal organisation marketing Central Australia",
+    "remote community communications Central Australia",
+    "Aboriginal corporation marketing Alice Springs region",
+    "art centre marketing Central Australia",
+    "regional marketing Northern Territory"
+  ],
+  "locationName": "Central Australia",
+  "locationType": "Place",
+  "region": "Northern Territory",
+  "postcode": "",
+  "hero": {
+    "eyebrow": "Remote delivery / Central Australia service area",
+    "heading": "Community-led support for",
+    "accent": "Central Australia",
+    "intro": "GT Marketing supports Aboriginal organisations, art centres, tourism and regional enterprises across Central Australia through remote-first collaboration, low-bandwidth options and scheduled travel by arrangement.",
+    "ctaLabel": "Discuss a Central Australia project",
+    "ctaUrl": "/contact"
+  },
+  "proofPoints": [
+    "Aboriginal organisations",
+    "Art centres",
+    "Remote-first support",
+    "Cultural approvals",
+    "Low-bandwidth delivery",
+    "Travel by arrangement"
+  ],
+  "servicesHeading": "Communications and digital support designed for distance, culture and organisational capacity.",
+  "servicesIntro": "Central Australian organisations often work across remote communities, cultural responsibilities, funding programs and dispersed audiences. The project structure needs to reflect that reality from the beginning.",
+  "services": [
+    {
+      "title": "Community communications",
+      "description": "Plain-language and public-facing communication developed with clear review and approval pathways."
+    },
+    {
+      "title": "Funding & reporting support",
+      "description": "Help with grant narratives, business planning, capability material and reporting structures without promising funding outcomes."
+    },
+    {
+      "title": "Art & cultural enterprise",
+      "description": "Digital presence, e-commerce and storytelling support for art centres and cultural enterprises with attention to provenance and cultural authority."
+    },
+    {
+      "title": "Tourism journeys",
+      "description": "Visitor information, booking pathways and practical digital content for experiences that need clear expectations and culturally appropriate representation."
+    },
+    {
+      "title": "Remote digital access",
+      "description": "Simple, mobile-friendly digital experiences and review processes designed to work under constrained connectivity."
+    },
+    {
+      "title": "Capability handover",
+      "description": "Templates, documentation and training designed so internal teams can maintain the work without permanent agency dependence."
+    }
+  ],
+  "localHeading": "Central Australia is a service region, not a claimed office location.",
+  "localParagraphs": [
+    "GT Marketing remains based in Darwin City. Central Australia is supported remotely and through agreed travel rather than being represented as a physical GT Marketing office.",
+    "Project plans can account for time zones, community schedules, travel, limited connectivity and the need for multiple levels of approval.",
+    "Where cultural material is involved, use is guided by the organisation and relevant cultural authority. GT Marketing does not assume ownership or permission."
+  ],
+  "industriesHeading": "Priority organisations in Central Australia",
+  "industries": [
+    "Aboriginal corporations",
+    "Art centres",
+    "Community services",
+    "Ranger programs",
+    "Tourism enterprises",
+    "Bush products",
+    "Community stores",
+    "Regional businesses"
+  ],
+  "nearbyHeading": "Central Australia coverage",
+  "nearbyAreas": [
+    "Alice Springs region",
+    "MacDonnell region",
+    "Barkly region",
+    "Remote communities",
+    "Tourism routes",
+    "Regional enterprises"
+  ],
+  "serviceAreaNote": "Remote delivery is available across Central Australia. In-person and on-Country work is subject to project need, permission, timing and agreed travel arrangements.",
+  "faqsHeading": "Central Australia support FAQs",
+  "faqs": [
+    {
+      "question": "Do you have an office in Central Australia?",
+      "answer": "No. GT Marketing is based in Darwin City. Central Australia is a remote service region and is not represented as a separate office."
+    },
+    {
+      "question": "Can you support an art centre or cultural tourism enterprise?",
+      "answer": "Yes. Work can include digital presence, e-commerce or booking journeys, storytelling and communications, with client-led approval processes for cultural material and intellectual property."
+    },
+    {
+      "question": "Can the project be run mostly remotely?",
+      "answer": "Yes. Remote-first collaboration is available, using phone, video, shared documents and low-bandwidth options. Travel can be added where it is useful and appropriate."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Central Australia",
+    "heading": "Build practical communications around the organisation and the community—not the other way around.",
+    "ctaLabel": "Start a conversation",
+    "ctaUrl": "/contact"
+  }
+}
