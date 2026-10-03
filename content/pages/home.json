@@ -1,22 +1,22 @@
 {
   "type": "HomePage",
-  "seoTitle": "GT Marketing | Lead Generation Systems for Australian Service Businesses",
-  "seoDescription": "GT Marketing helps Australian service businesses generate more qualified enquiries, improve follow-up and turn more leads into booked business through ads, SEO, websites and automation.",
+  "seoTitle": "GT Marketing | Marketing Support for Aboriginal Organisations & Regional Australia",
+  "seoDescription": "GT Marketing supports Aboriginal organisations, community-led enterprises and regional Australian organisations with culturally respectful marketing, communications and practical growth support.",
   "hero": {
-    "headingLine1": "More enquiries.",
-    "headingAccent": "Faster follow-up.",
-    "headingLine3": "More booked business.",
+    "headingLine1": "Community-led.",
+    "headingAccent": "Culturally respectful.",
+    "headingLine3": "Built for regional Australia.",
     "accentImage": "/ochi-side.jpg",
     "accentImageAlt": "GT Marketing creative detail",
     "badgeImage": "",
     "badgeImageAlt": "",
-    "introLeft": "Lead-generation systems for Australian service businesses",
-    "introRight": "Ads, SEO, websites and automated follow-up working as one system",
-    "ctaLabel": "Book a Lead-to-Booking Audit",
-    "ctaUrl": "/contact",
-    "scrollLabel": "See how the system works"
+    "introLeft": "Marketing and communications support for Aboriginal organisations and community-led enterprises",
+    "introRight": "Based in Darwin. Supporting the Top End, Central Australia and organisations across Australia.",
+    "ctaLabel": "Explore Aboriginal organisations",
+    "ctaUrl": "/aboriginal-organisations",
+    "scrollLabel": "See how we work"
   },
-  "marqueeText": "Lead to booking",
+  "marqueeText": "Community-led growth",
   "about": {
     "intro": "GT Marketing is a strategic growth partner for businesses that need stronger positioning, consistent lead generation, better digital execution and practical systems that turn marketing activity into commercial progress.",
     "expectationLabel": "What you can expect",
@@ -427,57 +427,57 @@
   },
   "growthSystem": {
     "problems": {
-      "eyebrow": "Where revenue leaks",
-      "heading": "Most businesses do not need more marketing noise. They need fewer missed opportunities.",
-      "intro": "More traffic cannot fix slow follow-up, missed calls, weak landing pages or leads sitting in an inbox. We find the leaks between attention and booked business.",
+      "eyebrow": "Built around real operating conditions",
+      "heading": "Good marketing starts by understanding the organisation, community and context.",
+      "intro": "Aboriginal corporations and regional organisations often work across large service areas, limited internal capacity, funding cycles and remote communities. The work needs to be practical, respectful and easy to maintain.",
       "items": [
         {
-          "title": "Missed calls",
-          "text": "High-intent prospects call once, get no answer and move to the next provider."
+          "title": "Limited capacity",
+          "text": "Small teams can be responsible for programs, reporting, communications and community engagement at the same time."
         },
         {
-          "title": "Slow follow-up",
-          "text": "Enquiries cool down while teams rely on manual replies and scattered inboxes."
+          "title": "Remote delivery",
+          "text": "Distance, connectivity and travel can change how information needs to be created, shared and maintained."
         },
         {
-          "title": "Wasted ad spend",
-          "text": "Paid traffic lands on pages that do not make the next step obvious or easy."
+          "title": "Funding pressure",
+          "text": "Clear plans, evidence and reporting matter when organisations are applying for funding or demonstrating outcomes."
         },
         {
-          "title": "Disconnected systems",
-          "text": "Ads, forms, CRM, email and reporting operate separately instead of moving one lead forward."
+          "title": "Cultural authority",
+          "text": "Stories, images, language and community knowledge need clear approval pathways and respect for cultural ownership."
         }
       ]
     },
     "system": {
-      "eyebrow": "The GT Marketing system",
-      "heading": "From first click to booked business.",
-      "intro": "We use the right channels and technology for the job, but the commercial system stays simple: attract the right people, convert them, follow up quickly and measure what became real business.",
+      "eyebrow": "Our working approach",
+      "heading": "Listen first. Build with the organisation. Leave something useful behind.",
+      "intro": "We start with the organisation’s priorities and the people who hold authority over the work. The goal is not to impose an agency process, but to create practical systems your team can understand, approve and continue using.",
       "steps": [
         {
           "number": "01",
-          "title": "Attract",
-          "text": "Generate relevant demand through local SEO, Google Ads, content and targeted campaigns."
+          "title": "Listen",
+          "text": "Understand the organisation, community context, decision-makers, priorities and any cultural protocols before recommending work."
         },
         {
           "number": "02",
-          "title": "Convert",
-          "text": "Turn attention into calls and enquiries with clear offers, landing pages and low-friction forms."
+          "title": "Plan",
+          "text": "Agree on the purpose, audience, approvals, responsibilities, timeline and practical measures of success."
         },
         {
           "number": "03",
-          "title": "Follow up",
-          "text": "Use CRM, email, SMS and automation so every qualified lead gets a fast, consistent response."
+          "title": "Build",
+          "text": "Create the agreed work in a way that is clear, accessible and appropriate for the people who will use it."
         },
         {
           "number": "04",
-          "title": "Book",
-          "text": "Build a practical handover from marketing enquiry to appointment, quote or sales conversation."
+          "title": "Support",
+          "text": "Provide handover, documentation and ongoing support suited to internal capacity and remote working conditions."
         },
         {
           "number": "05",
-          "title": "Measure",
-          "text": "Report on qualified enquiries, cost per lead, booked opportunities and commercial outcomes—not vanity metrics."
+          "title": "Review",
+          "text": "Check what is working, what needs to change and whether the work remains useful to the organisation and community."
         }
       ]
     },
@@ -505,37 +505,32 @@
       ]
     },
     "niches": {
-      "eyebrow": "Who we are built for",
-      "heading": "Service businesses where every missed lead has a real cost.",
-      "primary": "Trades & home services",
-      "primaryText": "Lead generation, local search, conversion-focused websites and follow-up systems for electricians, plumbers, builders, maintenance teams and other service businesses.",
+      "eyebrow": "Priority sector",
+      "heading": "Aboriginal organisations and community-led enterprises come first.",
+      "primary": "Aboriginal organisations",
+      "primaryText": "We are prioritising work with Aboriginal corporations, art centres, ranger groups, community stores, community-controlled health services and other community-led organisations across the Northern Territory and regional Australia.",
       "also": [
-        "NDIS & allied services",
-        "Property & real estate",
-        "Hospitality",
-        "Australian SMEs"
-      ]
+        "Regional & remote organisations",
+        "NDIS & community services",
+        "Tourism & cultural enterprises",
+        "Selected Australian SMEs"
+      ],
+      "ctaLabel": "View Aboriginal sector support",
+      "ctaUrl": "/aboriginal-organisations"
     },
     "offer": {
-      "eyebrow": "Start with the leak",
-      "heading": "Lead-to-Booking Audit",
-      "intro": "A focused review of the journey from traffic to enquiry to follow-up. We identify where opportunities are being lost and what should be fixed before you increase media spend.",
-      "includes": [
-        "Lead sources and tracking",
-        "Website and landing-page conversion",
-        "Missed-call and response process",
-        "CRM, email and follow-up automation",
-        "Local search and Google Business Profile",
-        "Paid-media efficiency and enquiry quality"
-      ],
-      "priceNote": "Fixed scope. Fixed price confirmed before booking. No open-ended discovery or surprise add-ons.",
-      "ctaLabel": "Book the audit",
+      "eyebrow": "Start with a practical conversation",
+      "heading": "Tell us what your organisation is trying to achieve.",
+      "intro": "We can begin with a short discovery conversation to understand the challenge, the people involved, the location, the approval process and the outcome you need. From there we recommend a clear scope rather than presenting a menu of services.",
+      "includes": [],
+      "priceNote": "Scopes are agreed before work starts. Remote and on-Country support can be discussed depending on location, timing and project needs.",
+      "ctaLabel": "Start a conversation",
       "ctaUrl": "/contact"
     },
     "national": {
-      "eyebrow": "Australian delivery",
-      "heading": "Based in Darwin. Working with businesses across Australia.",
-      "text": "GT Marketing delivers strategy, campaigns, websites, automation and reporting remotely across Australia. Darwin City, Casuarina and Palmerston remain dedicated local SEO service areas—not the limit of where we work."
+      "eyebrow": "Northern Territory & regional Australia",
+      "heading": "Darwin-based, with remote support across the Top End, Central Australia and beyond.",
+      "text": "Projects can be delivered remotely, through scheduled regional visits or with a mixed model depending on the organisation, community, connectivity and travel requirements. Travel and on-Country work are agreed in advance."
     }
   }
 }
