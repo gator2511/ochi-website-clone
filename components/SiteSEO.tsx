@@ -95,9 +95,9 @@ const ROUTES: Record<string, RouteSEO> = {
 		],
 	},
 	"/services": {
-		title: "SEO & Web Design Darwin, Casuarina, Palmerston | GT Marketing",
+		title: "Marketing & Communications Support NT & Australia | GT Marketing",
 		description:
-			"Explore marketing strategy, local SEO, social media, websites, brand systems, automation and lead generation for businesses across Darwin City, Casuarina and Palmerston.",
+			"Explore GT Marketing support across communications, digital capability, funding readiness, websites, growth systems and regional delivery for organisations across the Northern Territory and Australia.",
 		label: "Services",
 		type: "WebPage",
 		image:
@@ -318,16 +318,17 @@ const ROUTES: Record<string, RouteSEO> = {
 		type: "CollectionPage",
 	},
 	"/contact": {
-		title: "Contact GT Marketing | Darwin City Marketing Agency",
+		title: "Contact GT Marketing | Aboriginal & Regional Marketing Support",
 		description:
-			"Contact GT Marketing at 130 Smith Street, Darwin City for SEO, social media, website development and lead generation across Darwin, Casuarina and Palmerston.",
+			"Contact Darwin-based GT Marketing about Aboriginal organisation, Top End, Central Australia and regional communications or marketing projects.",
 		label: "Contact Us",
 		type: "ContactPage",
 		keywords: [
 			"GT Marketing Darwin",
-			"marketing agency Darwin City",
-			"marketing services Casuarina",
-			"marketing services Palmerston",
+			"Aboriginal organisation marketing",
+			"Top End marketing support",
+			"Central Australia communications support",
+			"regional marketing Northern Territory",
 		],
 	},
 	"/privacy": {
@@ -643,12 +644,12 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 			<meta
 				key="geo-placename"
 				name="geo.placename"
-				content={page.location ? `${page.location.name}, Northern Territory` : path === "/" || path === "/aboriginal-organisations" ? "Northern Territory, Australia" : "Darwin City, Northern Territory"}
+				content={page.location ? `${page.location.name}, Northern Territory` : ["/", "/aboriginal-organisations", "/services", "/presentation", "/about-us", "/contact"].includes(path) ? "Northern Territory, Australia" : "Darwin City, Northern Territory"}
 			/>
 			<meta
 				key="dc-coverage"
 				name="DC.coverage"
-				content={page.location ? `${page.location.name}, Northern Territory, Australia` : path === "/" || path === "/aboriginal-organisations" ? "Top End, Central Australia, Northern Territory and Australia" : "Darwin City, Top End and Northern Territory, Australia"}
+				content={page.location ? `${page.location.name}, Northern Territory, Australia` : ["/", "/aboriginal-organisations", "/services", "/presentation", "/about-us", "/contact"].includes(path) ? "Top End, Central Australia, Northern Territory and Australia" : "Darwin City, Top End and Northern Territory, Australia"}
 			/>
 			<meta
 				key="robots"
