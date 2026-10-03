@@ -2,18 +2,18 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Check, PhoneMissed, TimerReset, TrendingDown, Workflow } from "lucide-react";
+import { ArrowUpRight, HeartHandshake, MapPinned, FileCheck2, ShieldCheck } from "lucide-react";
 
 type GrowthContent = {
   problems: { eyebrow: string; heading: string; intro: string; items: Array<{ title: string; text: string }> };
   system: { eyebrow: string; heading: string; intro: string; steps: Array<{ number: string; title: string; text: string }> };
   proof: { eyebrow: string; heading: string; note: string; stats: Array<{ value: string; label: string }> };
-  niches: { eyebrow: string; heading: string; primary: string; primaryText: string; also: string[] };
+  niches: { eyebrow: string; heading: string; primary: string; primaryText: string; also: string[]; ctaLabel: string; ctaUrl: string };
   offer: { eyebrow: string; heading: string; intro: string; includes: string[]; priceNote: string; ctaLabel: string; ctaUrl: string };
   national: { eyebrow: string; heading: string; text: string };
 };
 
-const problemIcons = [PhoneMissed, TimerReset, TrendingDown, Workflow];
+const problemIcons = [HeartHandshake, MapPinned, FileCheck2, ShieldCheck];
 
 export default function LeadBookingSystem({ content }: { content: GrowthContent }) {
   return (
@@ -87,7 +87,7 @@ export default function LeadBookingSystem({ content }: { content: GrowthContent 
             <p className="small-text uppercase text-[#fd4402]">Primary focus</p>
             <div>
               <h3 className="text-[78px] leading-[0.82] md:text-[64px] sm:text-[54px] xm:text-[46px] font-FoundersGrotesk font-semibold uppercase" data-sb-field-path="niches.primary">{content.niches.primary}</h3>
-              <p className="paragraph text-white/65 max-w-[640px] pt-[20px]" data-sb-field-path="niches.primaryText">{content.niches.primaryText}</p>
+              <p className="paragraph text-white/65 max-w-[640px] pt-[20px]" data-sb-field-path="niches.primaryText">{content.niches.primaryText}</p>\n              <Link href={content.niches.ctaUrl} className="mt-[26px] inline-flex items-center gap-[12px] rounded-full bg-[#fd4402] text-white px-[20px] py-[13px] small-text uppercase hover:bg-white hover:text-[#212121] transition-colors"><span data-sb-field-path="niches.ctaLabel">{content.niches.ctaLabel}</span><ArrowUpRight size={18}/></Link>
             </div>
           </div>
           <div className="col-span-5 border border-[#21212133] rounded-[18px] p-[28px]">
@@ -107,11 +107,9 @@ export default function LeadBookingSystem({ content }: { content: GrowthContent 
             <p className="paragraph text-white/65 max-w-[720px] pt-[28px]" data-sb-field-path="offer.intro">{content.offer.intro}</p>
           </div>
           <div className="col-span-5 bg-white text-[#212121] rounded-[18px] p-[28px]">
-            <p className="small-text uppercase text-[#21212177]">What we review</p>
-            <div className="pt-[20px] space-y-[14px]">
-              {content.offer.includes.map((item, index) => <div key={item} className="flex gap-[10px] items-start"><Check className="text-[#fd4402] mt-[2px]" size={18}/><p className="text-[17px] leading-[1.35]" data-sb-field-path={`offer.includes.${index}`}>{item}</p></div>)}
-            </div>
-            <p className="text-[13px] text-[#21212188] pt-[24px]" data-sb-field-path="offer.priceNote">{content.offer.priceNote}</p>
+            <p className="small-text uppercase text-[#21212177]">How we begin</p>
+            <p className="text-[28px] leading-[1.05] font-FoundersGrotesk font-semibold uppercase pt-[28px]">One clear conversation. One agreed scope. No generic service menu.</p>
+            <p className="text-[14px] leading-[1.5] text-[#21212188] pt-[28px]" data-sb-field-path="offer.priceNote">{content.offer.priceNote}</p>
             <Link href={content.offer.ctaUrl} className="mt-[28px] inline-flex items-center gap-[12px] rounded-full bg-[#fd4402] text-white px-[20px] py-[13px] small-text uppercase hover:bg-[#212121] transition-colors">
               <span data-sb-field-path="offer.ctaLabel">{content.offer.ctaLabel}</span><ArrowUpRight size={18}/>
             </Link>
