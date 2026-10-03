@@ -87,7 +87,8 @@ export default function LeadBookingSystem({ content }: { content: GrowthContent 
             <p className="small-text uppercase text-[#fd4402]">Primary focus</p>
             <div>
               <h3 className="text-[78px] leading-[0.82] md:text-[64px] sm:text-[54px] xm:text-[46px] font-FoundersGrotesk font-semibold uppercase" data-sb-field-path="niches.primary">{content.niches.primary}</h3>
-              <p className="paragraph text-white/65 max-w-[640px] pt-[20px]" data-sb-field-path="niches.primaryText">{content.niches.primaryText}</p>\n              <Link href={content.niches.ctaUrl} className="mt-[26px] inline-flex items-center gap-[12px] rounded-full bg-[#fd4402] text-white px-[20px] py-[13px] small-text uppercase hover:bg-white hover:text-[#212121] transition-colors"><span data-sb-field-path="niches.ctaLabel">{content.niches.ctaLabel}</span><ArrowUpRight size={18}/></Link>
+              <p className="paragraph text-white/65 max-w-[640px] pt-[20px]" data-sb-field-path="niches.primaryText">{content.niches.primaryText}</p>
+              <Link href={content.niches.ctaUrl} className="mt-[26px] inline-flex items-center gap-[12px] rounded-full bg-[#fd4402] text-white px-[20px] py-[13px] small-text uppercase hover:bg-white hover:text-[#212121] transition-colors"><span data-sb-field-path="niches.ctaLabel">{content.niches.ctaLabel}</span><ArrowUpRight size={18}/></Link>
             </div>
           </div>
           <div className="col-span-5 border border-[#21212133] rounded-[18px] p-[28px]">
