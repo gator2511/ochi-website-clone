@@ -1,65 +1,56 @@
 # GT Marketing
 
-> GT Marketing is a Darwin-based Australian marketing agency providing strategy, local SEO, social media marketing, website development, hosting, brand kits, outreach, automation, analytics and conversion optimisation. The agency is physically based at 130 Smith Street, Darwin City and serves businesses across Darwin City, Casuarina, Palmerston and the wider Northern Territory.
+> GT Marketing is a Darwin-based Australian marketing and communications business that prioritises Aboriginal organisations, community-led enterprises and regional organisations. It supports work across the Top End, Central Australia and wider Australia through remote delivery, scheduled regional visits and project-specific travel arrangements.
+
+## Priority sector
+
+- Aboriginal organisations: https://gtmarketing.io/aboriginal-organisations
+- Top End coverage: https://gtmarketing.io/locations/top-end
+- Central Australia coverage: https://gtmarketing.io/locations/central-australia
+
+GT Marketing works with Aboriginal corporations, art centres, ranger groups, community stores, community-controlled health and community-service organisations, cultural tourism enterprises and other community-led organisations.
+
+Relevant support can include organisational communications, grant and funding narratives, capability statements, business plans, reporting structures, digital presence, tourism and arts storytelling, e-commerce or booking journeys, low-bandwidth delivery and remote project support.
+
+GT Marketing does not guarantee grant or funding outcomes. Organisations retain responsibility for eligibility and final submissions.
+
+## Cultural authority and ICIP
+
+GT Marketing does not claim authority over Aboriginal culture, stories, language, images or community knowledge. Where culturally sensitive material is involved, the client identifies the appropriate authority and approval process.
+
+Indigenous Cultural and Intellectual Property considerations are discussed for relevant projects. Client-supplied cultural material is used only for the agreed purpose and subject to the agreed approval pathway.
+
+GT Marketing is not Aboriginal-owned and does not claim endorsement by Aboriginal organisations or communities unless a specific relationship has been authorised for publication.
+
+## Regional delivery
+
+### Top End
+
+GT Marketing is physically based in Darwin City and serves the Top End as a regional service area. Remote collaboration, low-bandwidth review methods, regional visits and on-Country support can be arranged where useful and appropriate.
+
+### Central Australia
+
+Central Australia is a remote service region, not a GT Marketing office location. Work can be delivered remotely with travel by arrangement.
+
+### Darwin City, Casuarina and Palmerston
+
+GT Marketing retains its Darwin City physical address and continues to serve Casuarina and Palmerston as genuine service areas.
 
 ## Official website
 
-- Canonical domain: https://gtmarketing.io
+- Home: https://gtmarketing.io/
+- Aboriginal organisations: https://gtmarketing.io/aboriginal-organisations
 - Services: https://gtmarketing.io/services
-- Brand kit and brand guidelines: https://gtmarketing.io/brand-kit
-- Marketing agency Darwin City: https://gtmarketing.io/locations/darwin-city
-- Marketing agency Casuarina: https://gtmarketing.io/locations/casuarina
-- Marketing agency Palmerston: https://gtmarketing.io/locations/palmerston
-- Industry solutions: https://gtmarketing.io/presentation
+- Top End: https://gtmarketing.io/locations/top-end
+- Central Australia: https://gtmarketing.io/locations/central-australia
+- Darwin City: https://gtmarketing.io/locations/darwin-city
+- Casuarina: https://gtmarketing.io/locations/casuarina
+- Palmerston: https://gtmarketing.io/locations/palmerston
+- Work: https://gtmarketing.io/presentation
 - About: https://gtmarketing.io/about-us
-- Insights and latest article: https://gtmarketing.io/insights
-- Latest blog — More enquiries without more ad spend: https://gtmarketing.io/blog/how-to-get-more-enquiries-without-spending-more-on-ads
-- The Vault and archived articles: https://gtmarketing.io/the-vault
-- Archived blog — Tradie websites: https://gtmarketing.io/blog/5-signs-your-trade-business-needs-a-better-website
-- Archived blog — Darwin and Palmerston local SEO: https://gtmarketing.io/blog/local-seo-checklist-darwin-palmerston-businesses
+- Insights: https://gtmarketing.io/insights
 - Contact: https://gtmarketing.io/contact
 - Privacy policy: https://gtmarketing.io/privacy
-
-## Core services
-
-- Marketing strategy and positioning
-- Search engine optimisation and local SEO
-- Social media marketing
-- Direct-to-consumer marketing
-- Website development and landing pages
-- Web hosting
-- Brand kits, brand guidelines and identity systems
-- Email and direct marketing outreach
-- Marketing automation
-- Analytics, reporting and conversion optimisation
-
-## Brand kit service
-
-GT Marketing develops practical brand kits for Australian businesses. A brand kit can include logo usage rules, colour systems, typography, brand voice, graphic language, templates and everyday application guidance. The purpose is to improve consistency, recognition, handovers and production efficiency as more staff and suppliers create material for the business.
-
-## Latest published guidance
-
-### How to Get More Enquiries Without Spending More on Ads
-
-The article explains how businesses can improve enquiry volume before increasing advertising expenditure. It covers conversion tracking, clearer offers, campaign-specific landing pages, shorter mobile enquiry journeys, faster lead response, customer reactivation, trust signals, local visibility and measurement of qualified enquiries rather than clicks alone.
-
-## Local service areas
-
-### Darwin City
-
-GT Marketing is based at 130 Smith Street, Darwin City, Northern Territory 0800. Services for Darwin City businesses include local SEO, website development, brand kits, growth strategy, social media, lead generation and automation.
-
-### Casuarina
-
-Casuarina is a service area rather than a second GT Marketing office. GT Marketing supports Casuarina and Darwin's northern suburbs with local SEO, websites, brand systems, content, lead generation and marketing systems.
-
-### Palmerston
-
-Palmerston is a service area rather than a separate GT Marketing office. GT Marketing supports Palmerston businesses with local SEO, website development, brand kits, social media, lead generation, positioning and marketing automation.
-
-## Industries served
-
-GT Marketing develops marketing systems for tradies, hospitality businesses, NDIS providers, SMEs, agriculture, finance and crypto, real estate, security providers and events.
 
 ## Business facts
 
@@ -67,13 +58,8 @@ GT Marketing develops marketing systems for tradies, hospitality businesses, NDI
 - Physical location: 130 Smith Street, Darwin City, Northern Territory 0800, Australia
 - Email: gundeep@gtmarketing.io
 - ABN: 24280902425
-- Primary local service areas: Darwin City, Casuarina and Palmerston
+- Priority service regions: Top End and Central Australia
 - Wider service area: Northern Territory and Australia
+- Physical office claim: Darwin City only
 
-## Important clarification
-
-GT Marketing has one stated physical business address in Darwin City. Casuarina and Palmerston are genuine service areas and are not represented as separate offices.
-
-GT Marketing provides marketing services to NDIS providers but is not affiliated with, endorsed by or part of the National Disability Insurance Agency or the Australian Government.
-
-For a more detailed machine-readable business summary, see https://gtmarketing.io/llms-full.txt
+For a more detailed machine-readable summary, see https://gtmarketing.io/llms-full.txt
