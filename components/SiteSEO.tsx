@@ -22,6 +22,8 @@ const LOCAL_SERVICE_AREAS = [
 	{ "@type": "Place", name: "Darwin City, Northern Territory" },
 	{ "@type": "Place", name: "Casuarina, Northern Territory" },
 	{ "@type": "City", name: "Palmerston, Northern Territory" },
+	{ "@type": "Place", name: "Top End, Northern Territory" },
+	{ "@type": "Place", name: "Central Australia, Northern Territory" },
 	{ "@type": "AdministrativeArea", name: "Darwin, Northern Territory" },
 	{ "@type": "AdministrativeArea", name: "Northern Territory" },
 ];
@@ -58,18 +60,35 @@ type RouteSEO = {
 
 const ROUTES: Record<string, RouteSEO> = {
 	"/": {
-		title: "Lead Generation Systems for Australian Service Businesses | GT Marketing",
+		title: "Marketing Support for Aboriginal Organisations & Regional Australia | GT Marketing",
 		description:
-			"GT Marketing helps Australian service businesses generate more qualified enquiries, improve follow-up and turn more leads into booked business through ads, SEO, websites and automation.",
+			"GT Marketing supports Aboriginal organisations, community-led enterprises and regional Australian organisations with culturally respectful marketing, communications and practical growth support.",
 		label: "Home",
 		type: "WebPage",
 		keywords: [
-			"lead generation Australia",
-			"service business marketing Australia",
-			"marketing automation Australia",
-			"lead follow up automation",
-			"tradie marketing Australia",
-			"marketing agency Darwin",
+			"marketing for Aboriginal organisations",
+			"Aboriginal corporation marketing",
+			"remote community communications",
+			"regional marketing Northern Territory",
+			"Top End marketing support",
+			"Central Australia marketing support",
+		],
+	},
+	"/aboriginal-organisations": {
+		title: "Marketing for Aboriginal Organisations & Remote Communities | GT Marketing",
+		description:
+			"Culturally respectful marketing, communications, funding support and digital capability for Aboriginal corporations, art centres, ranger groups, community stores and community-controlled organisations.",
+		label: "Aboriginal Organisations",
+		type: "WebPage",
+		keywords: [
+			"marketing for Aboriginal organisations",
+			"Aboriginal corporation communications",
+			"grant support Aboriginal organisations",
+			"art centre marketing Australia",
+			"ranger group communications",
+			"remote community marketing",
+			"community controlled organisation marketing",
+			"Indigenous cultural intellectual property marketing",
 		],
 	},
 	"/services": {
@@ -110,14 +129,14 @@ const ROUTES: Record<string, RouteSEO> = {
 	"/presentation": {
 		title: "Industry Marketing Solutions Australia | GT Marketing",
 		description:
-			"Explore marketing systems designed for tradies, hospitality, NDIS providers, SMEs, agriculture, finance, real estate, security and events.",
+			"Explore GT Marketing work across Aboriginal organisations, community-led enterprises, regional organisations and selected Australian service sectors.",
 		label: "Our Work",
 		type: "CollectionPage",
 	},
 	"/about-us": {
 		title: "About GT Marketing | Darwin Marketing Agency",
 		description:
-			"Learn how Darwin-based GT Marketing combines strategy, creative execution, technology and commercial measurement for businesses across Darwin City, Casuarina and Palmerston.",
+			"Learn how Darwin-based GT Marketing supports Aboriginal organisations, regional communities and Australian organisations with practical communications and growth work.",
 		label: "About Us",
 		type: "AboutPage",
 	},
@@ -248,6 +267,44 @@ const ROUTES: Record<string, RouteSEO> = {
 			type: "City",
 			region: "Northern Territory",
 			postcode: "0830",
+		},
+	},
+	"/locations/top-end": {
+		title: "Marketing Support Top End NT | Aboriginal & Regional Organisations | GT Marketing",
+		description:
+			"Darwin-based marketing and communications support for Aboriginal organisations, community enterprises and regional organisations across the Top End of the Northern Territory.",
+		label: "Top End Marketing Support",
+		type: "WebPage",
+		keywords: [
+			"Aboriginal organisation marketing Top End",
+			"remote community marketing Northern Territory",
+			"Top End marketing support",
+			"Aboriginal corporation communications NT",
+			"regional marketing Northern Territory",
+		],
+		location: {
+			name: "Top End",
+			type: "Place",
+			region: "Northern Territory",
+		},
+	},
+	"/locations/central-australia": {
+		title: "Marketing Support Central Australia | Aboriginal Organisations | GT Marketing",
+		description:
+			"Remote marketing and communications support for Aboriginal organisations, art centres, tourism enterprises and regional organisations across Central Australia.",
+		label: "Central Australia Marketing Support",
+		type: "WebPage",
+		keywords: [
+			"Aboriginal organisation marketing Central Australia",
+			"remote community communications Central Australia",
+			"Aboriginal corporation marketing Alice Springs region",
+			"art centre marketing Central Australia",
+			"regional marketing Northern Territory",
+		],
+		location: {
+			name: "Central Australia",
+			type: "Place",
+			region: "Northern Territory",
 		},
 	},
 	"/the-vault": {
@@ -389,7 +446,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		logo: `${SITE_URL}${site.logo}`,
 		image: DEFAULT_IMAGE,
 		description:
-			"Darwin-based marketing agency providing strategy, local SEO, social media marketing, website development, brand systems, automation, outreach and performance optimisation across Darwin City, Casuarina and Palmerston.",
+			"Darwin-based marketing and communications business prioritising Aboriginal organisations, community-led enterprises and regional organisations across the Top End, Central Australia and wider Australia.",
 		email: site.email,
 		taxID: "24280902425",
 		address,
@@ -398,9 +455,13 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		sameAs: site.socialLinks.map((item) => item.url),
 		knowsAbout: [
 			...SERVICES,
-			"Darwin City marketing",
-			"Casuarina local SEO",
-			"Palmerston digital marketing",
+			"Marketing for Aboriginal organisations",
+			"Aboriginal corporation communications",
+			"Remote community communications",
+			"Indigenous Cultural and Intellectual Property considerations",
+			"Grant and funding communications support",
+			"Top End regional marketing",
+			"Central Australia regional marketing",
 			"Northern Territory business growth",
 		],
 		hasOfferCatalog: offerCatalog,
@@ -408,7 +469,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 			"@type": "ContactPoint",
 			contactType: "sales and customer enquiries",
 			email: site.email,
-			areaServed: ["Darwin City", "Casuarina", "Palmerston", "Northern Territory", "Australia"],
+			areaServed: ["Darwin City", "Top End", "Central Australia", "Northern Territory", "Australia"],
 			availableLanguage: ["English"],
 		},
 	};
@@ -481,6 +542,31 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 			}
 		: null;
 
+	const aboriginalOrganisationsServiceSchema: Record<string, unknown> | null =
+		path === "/aboriginal-organisations"
+			? {
+					"@type": "Service",
+					"@id": `${SITE_URL}/aboriginal-organisations#service`,
+					name: "Marketing and communications support for Aboriginal organisations",
+					description: page.description,
+					serviceType:
+						"Culturally respectful communications, funding support, digital capability, regional and remote project support",
+					provider: { "@id": `${SITE_URL}/#business` },
+					url: canonicalUrl,
+					areaServed: [
+						{ "@type": "Place", name: "Top End, Northern Territory" },
+						{ "@type": "Place", name: "Central Australia, Northern Territory" },
+						{ "@type": "AdministrativeArea", name: "Northern Territory" },
+						{ "@type": "Country", name: "Australia" },
+					],
+					audience: {
+						"@type": "Audience",
+						audienceType:
+							"Aboriginal corporations, art centres, ranger groups, community stores, community-controlled organisations and regional community enterprises",
+					},
+				}
+			: null;
+
 	const brandKitServiceSchema: Record<string, unknown> | null = path === "/brand-kit"
 		? {
 				"@type": "Service",
@@ -508,6 +594,10 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		pageSchema.mainEntity = { "@id": brandKitServiceSchema["@id"] };
 	}
 
+	if (aboriginalOrganisationsServiceSchema) {
+		pageSchema.mainEntity = { "@id": aboriginalOrganisationsServiceSchema["@id"] };
+	}
+
 	const breadcrumb = breadcrumbSchema(canonicalPath, page);
 	if (breadcrumb) pageSchema.breadcrumb = { "@id": breadcrumb["@id"] };
 	if (path === "/services") pageSchema.mainEntity = offerCatalog;
@@ -521,6 +611,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 			pageSchema,
 			...(localServiceSchema ? [localServiceSchema] : []),
 			...(brandKitServiceSchema ? [brandKitServiceSchema] : []),
+			...(aboriginalOrganisationsServiceSchema ? [aboriginalOrganisationsServiceSchema] : []),
 			...(breadcrumb ? [breadcrumb] : []),
 		],
 	};
@@ -535,12 +626,12 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 			<meta
 				key="geo-placename"
 				name="geo.placename"
-				content={page.location ? `${page.location.name}, Northern Territory` : "Darwin City, Northern Territory"}
+				content={page.location ? `${page.location.name}, Northern Territory` : path === "/" || path === "/aboriginal-organisations" ? "Northern Territory, Australia" : "Darwin City, Northern Territory"}
 			/>
 			<meta
 				key="dc-coverage"
 				name="DC.coverage"
-				content={page.location ? `${page.location.name}, Northern Territory, Australia` : "Darwin City, Casuarina and Palmerston, Northern Territory, Australia"}
+				content={page.location ? `${page.location.name}, Northern Territory, Australia` : path === "/" || path === "/aboriginal-organisations" ? "Top End, Central Australia, Northern Territory and Australia" : "Darwin City, Top End and Northern Territory, Australia"}
 			/>
 			<meta
 				key="robots"
