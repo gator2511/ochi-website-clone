@@ -65,10 +65,11 @@
     "label": "Our Capabilities:",
     "groups": [
       {
-        "title": "Raise funds",
+        "title": "Local SEO and SEO",
         "items": [
-          { "label": "Investor deck", "url": "/contact" },
-          { "label": "Startup pitch", "url": "/contact" }
+          { "label": "Local SEO", "url": "/contact" },
+          { "label": "SEO", "url": "/contact" },
+          { "label": "Lead generation", "url": "/contact" }
         ]
       },
       {
@@ -97,6 +98,13 @@
           { "label": "Corporate training", "url": "/contact" },
           { "label": "Redesign", "url": "/contact" },
           { "label": "Marketing review", "url": "/contact" }
+        ]
+      },
+      {
+        "title": "Raise funds",
+        "items": [
+          { "label": "Investor deck", "url": "/contact" },
+          { "label": "Startup pitch", "url": "/contact" }
         ]
       }
     ],

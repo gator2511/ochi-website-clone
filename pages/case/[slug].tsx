@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import type { GetStaticPaths, GetStaticProps } from "next";
 import { Curve, Ready } from "@/components";
+import TopicLine from "@/components/TopicLine";
 import {
 	caseStudies,
 	getCaseStudyBySlug,
@@ -30,6 +31,7 @@ export default function CaseStudyPage({ caseStudy }: CaseStudyPageProps) {
 							{caseStudy.eyebrow}
 						</p>
 						<h1 className="mt-5 max-w-6xl text-[96px] leading-[0.9] lg:text-[76px] md:text-[58px] sm:text-[44px]">
+							<TopicLine>{caseStudy.company} case study, Darwin</TopicLine>
 							{caseStudy.company}
 						</h1>
 						<p className="mt-8 max-w-4xl text-3xl leading-tight md:text-2xl">

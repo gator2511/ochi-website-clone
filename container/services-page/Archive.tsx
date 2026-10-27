@@ -30,9 +30,9 @@ export default function Archive({ content }: ArchiveProps) {
 					<div className="w-[65%] sm:w-full xm:w-full grid grid-cols-2 sm:grid-cols-1 xm:grid-cols-1 gap-[20px]">
 						{content.stats.map((stat, index) => (
 							<div key={`${stat.value}-${index}`} className="bg-[#E1E1E1] w-full flex flex-col gap-y-[150px] rounded-[20px] px-[30px] py-[20px]">
-								<h1 data-sb-field-path={`archive.stats.${index}.value`} className="sub-heading font-normal font-NeueMontreal">
+								<div data-sb-field-path={`archive.stats.${index}.value`} className="sub-heading font-normal font-NeueMontreal">
 									<TextMask>{[stat.value]}</TextMask>
-								</h1>
+								</div>
 								<p data-sb-field-path={`archive.stats.${index}.label`} className="paragraph font-normal font-NeueMontreal">
 									{stat.label}
 								</p>

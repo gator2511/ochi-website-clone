@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FormEvent, useState } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { Rounded } from "@/components";
+import { trackGenerateLead } from "@/lib/analytics";
 
 type SubmitState = "idle" | "submitting" | "success" | "error";
 type FormContent = {
@@ -51,6 +52,7 @@ export default function Form({ content }: { content: FormContent }) {
 			});
 			if (!response.ok) throw new Error("The enquiry could not be submitted.");
 			form.reset();
+			trackGenerateLead();
 			setSubmitState("success");
 		} catch (error) {
 			setSubmitState("error");
@@ -80,34 +82,34 @@ export default function Form({ content }: { content: FormContent }) {
 				<div className="w-full flex flex-col gap-[15px]">
 					<div className="w-full flex gap-[15px] sm:flex-col xm:flex-col">
 						<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
-							<h2 data-sb-field-path="form.nameLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.nameLabel}</h2>
+							<p data-sb-field-path="form.nameLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.nameLabel}</p>
 							<input type="text" name="name" placeholder={content.namePlaceholder} required autoComplete="name" data-sb-field-path="form.namePlaceholder" className={inputClass} />
 						</div>
 						<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
-							<h2 data-sb-field-path="form.companyLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.companyLabel}</h2>
+							<p data-sb-field-path="form.companyLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.companyLabel}</p>
 							<input type="text" name="company" placeholder={content.companyPlaceholder} required autoComplete="organization" data-sb-field-path="form.companyPlaceholder" className={inputClass} />
 						</div>
 					</div>
 
 					<div className="w-full flex gap-[10px] sm:flex-col xm:flex-col">
-						<h2 data-sb-field-path="form.goalLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.goalLabel}</h2>
+						<p data-sb-field-path="form.goalLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.goalLabel}</p>
 						<input type="text" name="goal" placeholder={content.goalPlaceholder} required data-sb-field-path="form.goalPlaceholder" className={inputClass} />
 					</div>
 					<div className="w-full flex gap-[10px] sm:flex-col xm:flex-col">
-						<h2 data-sb-field-path="form.deadlineLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.deadlineLabel}</h2>
+						<p data-sb-field-path="form.deadlineLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.deadlineLabel}</p>
 						<input type="text" name="deadline" placeholder={content.deadlinePlaceholder} required data-sb-field-path="form.deadlinePlaceholder" className={inputClass} />
 					</div>
 					<div className="w-full flex gap-[10px] sm:flex-col xm:flex-col">
-						<h2 data-sb-field-path="form.budgetLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.budgetLabel}</h2>
+						<p data-sb-field-path="form.budgetLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.budgetLabel}</p>
 						<input type="text" name="budget" placeholder={content.budgetPlaceholder} required data-sb-field-path="form.budgetPlaceholder" className={inputClass} />
 					</div>
 					<div className="w-full flex gap-[10px] sm:flex-col xm:flex-col">
-						<h2 data-sb-field-path="form.emailLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.emailLabel}</h2>
+						<p data-sb-field-path="form.emailLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.emailLabel}</p>
 						<input type="email" name="email" placeholder={content.emailPlaceholder} required autoComplete="email" data-sb-field-path="form.emailPlaceholder" className={inputClass} />
-						<h2 data-sb-field-path="form.emailSuffix" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.emailSuffix}</h2>
+						<p data-sb-field-path="form.emailSuffix" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.emailSuffix}</p>
 					</div>
 					<div className="w-full flex gap-[10px] sm:flex-col xm:flex-col">
-						<h2 data-sb-field-path="form.detailsLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.detailsLabel}</h2>
+						<p data-sb-field-path="form.detailsLabel" className={`${labelClass} xl:min-w-max lg:min-w-max md:min-w-max`}>{content.detailsLabel}</p>
 						<input type="text" name="details" placeholder={content.detailsPlaceholder} data-sb-field-path="form.detailsPlaceholder" className={inputClass} />
 					</div>
 				</div>

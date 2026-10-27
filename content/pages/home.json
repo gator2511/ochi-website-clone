@@ -12,8 +12,10 @@
     "badgeImageAlt": "",
     "introLeft": "Marketing and communications support for Aboriginal organisations and community-led enterprises",
     "introRight": "Based in Darwin. Supporting the Top End, Central Australia and organisations across Australia.",
-    "ctaLabel": "Explore Aboriginal organisations",
-    "ctaUrl": "/aboriginal-organisations",
+    "ctaLabel": "Book a call",
+    "ctaUrl": "/contact",
+    "secondaryCtaLabel": "Aboriginal organisations",
+    "secondaryCtaUrl": "/aboriginal-organisations",
     "scrollLabel": "See how we work"
   },
   "marqueeText": "Community-led growth",

@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import TopicLine from "@/components/TopicLine";
 
 type HeroProps = {
 	content: {
@@ -23,6 +24,7 @@ export default function Hero({ content }: HeroProps) {
 						<h1
 							data-sb-field-path="hero.heading"
 							className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
+							<TopicLine>SEO and local SEO for Darwin and regional NT businesses</TopicLine>
 							{content.heading}
 						</h1>
 					</div>

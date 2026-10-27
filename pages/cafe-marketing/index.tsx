@@ -3,6 +3,7 @@
 import Head from "next/head";
 import { useEffect } from "react";
 import { Button, Curve, Ready } from "@/components";
+import TopicLine from "@/components/TopicLine";
 
 const CONTACT_URL = "https://gtmarketing.io/contact";
 const COFFEE_IMAGE = "https://images.pexels.com/photos/27860686/pexels-photo-27860686/free-photo-of-coffee-cup.jpeg?auto=compress&dpr=1&h=1200&w=1920";
@@ -100,9 +101,18 @@ export default function CafeMarketing() {
 		description:
 			"Marketing services for cafes and coffee shops including local SEO, social media, websites, paid advertising, customer retention and analytics.",
 		provider: {
-			"@type": "ProfessionalService",
+			"@type": ["ProfessionalService", "LocalBusiness"],
 			name: "GT Marketing",
 			url: "https://gtmarketing.io",
+			telephone: "+61405312275",
+			address: {
+				"@type": "PostalAddress",
+				streetAddress: "130 Smith Street",
+				addressLocality: "Darwin City",
+				addressRegion: "NT",
+				postalCode: "0800",
+				addressCountry: "AU",
+			},
 		},
 		areaServed: {
 			"@type": "Country",
@@ -142,6 +152,7 @@ export default function CafeMarketing() {
 								Cafe & coffee shop marketing
 							</p>
 							<h1 className="heading uppercase font-bold font-FoundersGrotesk tracking-[-2px] max-w-[1500px]">
+								<TopicLine>Cafe marketing in Darwin</TopicLine>
 								Turn local searches into
 								<span className="text-[#fd4402]"> customers at your counter.</span>
 							</h1>

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
+import TopicLine from "@/components/TopicLine";
+import site from "@/content/data/site.json";
 
 type HeroProps = {
 	content: {
@@ -17,6 +19,7 @@ export default function Hero({ content }: HeroProps) {
 			<div className="w-full flex flex-col">
 				<div className="w-full margin">
 					<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
+						<TopicLine>Contact GT Marketing in Darwin</TopicLine>
 						<span className="flex items-center gap-[5px]">
 							<motion.span
 								initial={{ width: 0 }}
@@ -36,10 +39,13 @@ export default function Hero({ content }: HeroProps) {
 						<span data-sb-field-path="hero.headingLine2">{content.headingLine2}</span>
 					</h1>
 				</div>
-				<div className="w-full pb-[15px]">
-					<h3 data-sb-field-path="hero.formIntro" className="paragraph font-medium text-secondry font-NeueMontreal">
+				<div className="w-full pb-[15px] flex flex-wrap items-center gap-x-[28px] gap-y-[10px]">
+					<h2 data-sb-field-path="hero.formIntro" className="paragraph font-medium text-secondry font-NeueMontreal">
 						{content.formIntro}
-					</h3>
+					</h2>
+					<a href={`tel:${site.phoneTel}`} className="paragraph font-medium font-NeueMontreal text-secondry underline underline-offset-4 hover:text-[#fd4402]">
+						{site.phoneDisplay}
+					</a>
 				</div>
 			</div>
 		</section>

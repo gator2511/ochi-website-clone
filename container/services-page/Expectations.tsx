@@ -40,9 +40,9 @@ export default function Expectations({ content }: ExpectationsProps) {
 						{content.items.map((item, index) => (
 							<div className="w-[345px] flex justify-between gap-x-[20px] sm:flex-col xm:flex-col gap-[20px]" key={`${item.number}-${index}`}>
 								<div className="bg-[#145B52] w-full flex flex-col rounded-[20px] px-[30px] py-[20px]">
-									<h1 data-sb-field-path={`expectations.items.${index}.number`} className="sub-heading font-normal font-NeueMontreal text-white mb-[100px]">
+									<p data-sb-field-path={`expectations.items.${index}.number`} className="sub-heading font-normal font-NeueMontreal text-white mb-[100px]">
 										{item.number}
-									</h1>
+									</p>
 									<div className="w-full flex justify-between items-center">
 										<span data-sb-field-path={`expectations.items.${index}.title`} className="small-text font-normal font-NeueMontreal text-white">
 											<TextHover titile1={item.title} titile2={item.title} />

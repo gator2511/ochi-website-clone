@@ -25,7 +25,7 @@ export default function Navbar() {
 				variants={navVariants}
 				className="w-full h-[8vh] padding-x fixed top-0 left-0 z-50 backdrop-blur-[7px] flex items-center justify-between sm:hidden xm:hidden md:hidden"
 				animate={hidden ? "hidden" : "vissible"}>
-				<div className="w-[36%]">
+				<div className="w-[36%] flex items-center gap-[22px]">
 					<Link href="/" aria-label={`${site.brandName} home`}>
 						<Image
 							data-sb-field-path="logo"
@@ -37,6 +37,12 @@ export default function Navbar() {
 							priority
 						/>
 					</Link>
+					<a
+						data-sb-field-path="phoneDisplay"
+						href={`tel:${site.phoneTel}`}
+						className="paragraph font-medium font-NeueMontreal text-secondry whitespace-nowrap hover:text-[#fd4402] transition-colors">
+						{site.phoneDisplay}
+					</a>
 				</div>
 				<div className="flex gap-x-[16px] w-[64%] items-center">
 					{site.navigation.map((item, index) => (

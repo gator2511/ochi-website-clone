@@ -6,9 +6,9 @@ export default function Heading({
 	className?: string;
 }) {
 	return (
-		<h1
+		<h2
 			className={`sub-heading font-medium font-NeueMontreal text-secondry ${className}`}>
 			{title}
-		</h1>
+		</h2>
 	);
 }

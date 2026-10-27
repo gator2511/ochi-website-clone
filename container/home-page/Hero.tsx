@@ -16,6 +16,8 @@ type HeroProps = {
     introRight: string;
     ctaLabel: string;
     ctaUrl: string;
+    secondaryCtaLabel?: string;
+    secondaryCtaUrl?: string;
     scrollLabel: string;
   };
 };
@@ -28,8 +30,12 @@ export default function Hero({ content }: HeroProps) {
     <section className="w-full min-h-screen bg-[#f1f1f1]" data-scroll data-scroll-speed="-.3">
       <div className="min-h-screen flex flex-col justify-end pt-[130px]">
         <div className="padding-x pb-[48px]">
-          <p className="small-text uppercase text-[#21212188] mb-[28px]">GT Marketing · Northern Territory & Australia</p>
-          <h1 className="tracking-[-2px] text-[#212121] font-semibold font-FoundersGrotesk uppercase text-[132px] leading-[0.78] lg:text-[112px] md:text-[88px] sm:text-[66px] xm:text-[54px]">
+          <p className="small-text uppercase text-[#21212188] mb-[28px]">GT Marketing · Darwin and regional NT</p>
+          <h1>
+            <span className="block max-w-[920px] pb-[18px] font-NeueMontreal font-medium normal-case tracking-normal text-[28px] leading-[1.3] md:text-[22px] sm:text-[18px] xm:text-[18px] text-[#212121]">
+              Local SEO and lead-generation systems for Darwin and regional NT businesses
+            </span>
+            <span className="block tracking-[-2px] text-[#212121] font-semibold font-FoundersGrotesk uppercase text-[132px] leading-[0.78] lg:text-[112px] md:text-[88px] sm:text-[66px] xm:text-[54px]">
             <span data-sb-field-path="hero.headingLine1">{content.headingLine1}</span>
             <br />
             <span className="flex items-center gap-[12px] sm:gap-[8px] xm:gap-[7px]">
@@ -39,17 +45,23 @@ export default function Hero({ content }: HeroProps) {
               <span data-sb-field-path="hero.headingAccent">{content.headingAccent}</span>
             </span>
             <span data-sb-field-path="hero.headingLine3" className="text-[#fd4402]">{content.headingLine3}</span>
+            </span>
           </h1>
         </div>
 
         <div className="border-t border-[#21212144] padding-x py-[24px] grid grid-cols-12 gap-[24px] sm:flex sm:flex-col xm:flex xm:flex-col">
           <p data-sb-field-path="hero.introLeft" className="col-span-4 paragraph">{content.introLeft}</p>
           <p data-sb-field-path="hero.introRight" className="col-span-5 paragraph text-[#212121aa]">{content.introRight}</p>
-          <div className="col-span-3 flex justify-end sm:justify-start xm:justify-start">
+          <div className="col-span-3 flex flex-col items-end gap-[14px] sm:items-start xm:items-start">
             <Link href={content.ctaUrl} className="inline-flex items-center gap-[12px] rounded-full bg-[#212121] text-white px-[20px] py-[13px] small-text uppercase hover:bg-[#fd4402] transition-colors">
               <span data-sb-field-path="hero.ctaLabel">{content.ctaLabel}</span>
               <ArrowUpRight size={18} />
             </Link>
+            {content.secondaryCtaLabel && content.secondaryCtaUrl && (
+              <Link href={content.secondaryCtaUrl} className="small-text uppercase underline underline-offset-4 decoration-[#21212155] hover:text-[#fd4402] hover:decoration-[#fd4402] transition-colors">
+                <span data-sb-field-path="hero.secondaryCtaLabel">{content.secondaryCtaLabel}</span>
+              </Link>
+            )}
           </div>
         </div>
 

@@ -2,6 +2,7 @@
 
 import Head from "next/head";
 import Link from "next/link";
+import site from "@/content/data/site.json";
 import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
 import {
 	ArrowDownToLine,
@@ -265,11 +266,12 @@ export default function ClientPortalPage() {
 						<div className="col-span-7 bg-[#212121] text-white p-[55px] md:p-[36px] sm:p-[25px] xm:p-[22px] flex flex-col justify-between min-h-screen md:min-h-[48vh] sm:min-h-[45vh] xm:min-h-[42vh]">
 							<div className="flex justify-between items-start gap-[20px]">
 								<img src="/logo.svg" alt="GT Marketing" className="h-[72px] sm:h-[58px] xm:h-[52px] w-auto brightness-0 invert" />
-								<span className="small-text uppercase text-white/45">Private workspace</span>
+								<a href={`tel:${site.phoneTel}`} className="small-text uppercase text-white/80">{site.phoneDisplay}</a>
 							</div>
 							<div>
 								<p className="small-text uppercase text-[#fd4402] pb-[22px]">Client portal</p>
 								<h1 className="font-FoundersGrotesk font-semibold uppercase text-[126px] leading-[0.76] lg:text-[102px] md:text-[82px] sm:text-[70px] xm:text-[58px] tracking-[-3px]">
+									<span className="block max-w-[920px] pb-[16px] font-NeueMontreal font-medium normal-case tracking-normal text-[22px] leading-[1.35] text-white/75">Client portal for GT Marketing Darwin</span>
 									One place.<br /><span className="text-[#fd4402]">Your project.</span>
 								</h1>
 								<p className="paragraph text-white/62 max-w-[650px] pt-[35px]">
@@ -310,11 +312,11 @@ export default function ClientPortalPage() {
 								<div>
 									<div className="flex justify-between items-start gap-[20px]">
 										<img src="/logo.svg" alt="GT Marketing" className="h-[58px] w-auto brightness-0 invert" />
-										<span className="w-[9px] h-[9px] rounded-full bg-[#fd4402] mt-[5px]" />
+										<a href={`tel:${site.phoneTel}`} className="small-text uppercase text-white/70">{site.phoneDisplay}</a>
 									</div>
 									<div className="pt-[45px] lg:pt-[28px] md:pt-[28px] sm:pt-[24px] xm:pt-[22px]">
 										<p className="small-text uppercase text-white/45">Client workspace</p>
-										<h1 className="font-FoundersGrotesk font-semibold uppercase text-[48px] leading-[0.9] pt-[10px]">{dashboard.client.company_name}</h1>
+										<h1 className="font-FoundersGrotesk font-semibold uppercase text-[48px] leading-[0.9] pt-[10px]"><span className="block pb-[8px] font-NeueMontreal font-medium normal-case tracking-normal text-[16px] leading-[1.35] text-white/60">Darwin client workspace</span>{dashboard.client.company_name}</h1>
 										<p className="text-[14px] text-white/45 pt-[10px] break-all">{dashboard.client.email}</p>
 									</div>
 									<nav className="pt-[38px] lg:flex lg:flex-wrap lg:gap-[8px] md:flex md:flex-wrap md:gap-[8px] sm:flex sm:overflow-x-auto sm:gap-[8px] xm:flex xm:overflow-x-auto xm:gap-[8px]">

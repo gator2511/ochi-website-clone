@@ -21,13 +21,13 @@ export default function Socials({
 		<section className="w-full min-h-screen sm:h-screen xm:h-screen bg-about padding-y relative" ref={container}>
 			<div className="w-full h-full flex justify-center gap-[50px] items-center flex-col">
 				<div className="flex flex-col gap-[10px] pb-[50px]">
-					<h1 className="text-[277px] leading-[207px] lg:text-[230px] lg:leading-[170px] md:text-[150px] md:leading-[100px] sm:text-[74px] sm:leading-[68px] xm:text-[64px] xm:leading-[48px] text-center font-bold font-FoundersGrotesk text-secondry uppercase pointer-events-none">
+					<div className="text-[277px] leading-[207px] lg:text-[230px] lg:leading-[170px] md:text-[150px] md:leading-[100px] sm:text-[74px] sm:leading-[68px] xm:text-[64px] xm:leading-[48px] text-center font-bold font-FoundersGrotesk text-secondry uppercase pointer-events-none">
 						{content.headingLines.map((line, index) => (
 							<span key={`${line}-${index}`} data-sb-field-path={`socials.headingLines.${index}`}>
 								<TextMask>{[line]}</TextMask>
 							</span>
 						))}
-					</h1>
+					</div>
 				</div>
 				<div className="w-full border-t border-[#21212155] pt-[20px]">
 					<div className="w-full flex sm:flex-col xm:flex-col justify-between gap-y-[20px] padding-x">
@@ -45,7 +45,11 @@ export default function Socials({
 						</div>
 						<div data-sb-object-id="content/data/site.json" className="w-[50%] sm:w-full xm:w-full flex sm:flex-col xm:flex-col justify-between gap-y-[20px]">
 							<div>
-								<h1 className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">L:</h1>
+								<p className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">P:</p>
+								<div className="pb-[20px]">
+									<LinkHover title={site.phoneDisplay} href={`tel:${site.phoneTel}`} className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium flex flex-col before:bottom-[1px] after:bottom-[1px]" />
+								</div>
+								<p className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">L:</p>
 								<div className="flex flex-col gap-y-[10px]">
 									{site.addressLines.map((line, index) => (
 										<span key={`${line}-${index}`} data-sb-field-path={`addressLines.${index}`}>

@@ -27,10 +27,18 @@ export default function MobileNav() {
 						priority
 					/>
 				</Link>
-				<HiOutlineMenuAlt4
-					onClick={() => setToggle(true)}
-					className="text-3xl cursor-pointer text-black"
-				/>
+				<div className="flex items-center gap-[14px]">
+					<a
+						data-sb-field-path="phoneDisplay"
+						href={`tel:${site.phoneTel}`}
+						className="paragraph font-medium font-NeueMontreal text-black whitespace-nowrap">
+						{site.phoneDisplay}
+					</a>
+					<HiOutlineMenuAlt4
+						onClick={() => setToggle(true)}
+						className="text-3xl cursor-pointer text-black"
+					/>
+				</div>
 			</div>
 			<AnimatePresence mode="wait">
 				{toggle && (
@@ -57,6 +65,11 @@ export default function MobileNav() {
 							/>
 						</div>
 						<ul className="h-full w-full flex justify-center text-left flex-col gap-[10px] padding-x">
+							<a
+								href={`tel:${site.phoneTel}`}
+								className="text-[42px] leading-[1] font-FoundersGrotesk uppercase font-bold tracking-[-.9] text-[#fd4402]">
+								{site.phoneDisplay}
+							</a>
 							{site.navigation.map((item, index) => (
 								<Link
 									href={item.url}

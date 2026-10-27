@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Curve, Ready } from "@/components";
 import VaultArticleArchive from "@/components/VaultArticleArchive";
+import TopicLine from "@/components/TopicLine";
 import content from "@/content/pages/vault.json";
 
 const documentId = "content/pages/vault.json";
@@ -48,6 +49,7 @@ export default function TheVault() {
 						</div>
 
 						<h1 className="vault-title">
+							<TopicLine>The Vault, Darwin marketing ideas</TopicLine>
 							<span data-sb-field-path="hero.headingLine1">{content.hero.headingLine1}</span>
 							<span data-sb-field-path="hero.headingLine2" className="vault-title__accent">
 								{content.hero.headingLine2}

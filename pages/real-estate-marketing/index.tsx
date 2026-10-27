@@ -3,6 +3,7 @@
 import Head from "next/head";
 import { useEffect } from "react";
 import { Button, Curve, Ready } from "@/components";
+import TopicLine from "@/components/TopicLine";
 
 const CONTACT_URL = "https://gtmarketing.io/contact";
 const HERO_IMAGE = "https://images.pexels.com/photos/11588266/pexels-photo-11588266.jpeg?auto=compress&cs=tinysrgb&w=2000";
@@ -114,9 +115,18 @@ export default function RealEstateMarketing() {
 					"Real estate marketing for Australian agents and agencies including seller lead generation, property campaigns, local SEO, websites, paid media and database nurture.",
 				serviceType: "Real estate marketing and lead generation",
 				provider: {
-					"@type": "ProfessionalService",
+					"@type": ["ProfessionalService", "LocalBusiness"],
 					name: "GT Marketing",
 					url: "https://gtmarketing.io",
+					telephone: "+61405312275",
+					address: {
+						"@type": "PostalAddress",
+						streetAddress: "130 Smith Street",
+						addressLocality: "Darwin City",
+						addressRegion: "NT",
+						postalCode: "0800",
+						addressCountry: "AU",
+					},
 				},
 				areaServed: {
 					"@type": "Country",
@@ -197,6 +207,7 @@ export default function RealEstateMarketing() {
 								Real estate marketing
 							</p>
 							<h1 className="heading uppercase font-bold font-FoundersGrotesk tracking-[-2px] max-w-[1500px]">
+								<TopicLine>Real estate lead generation in Darwin</TopicLine>
 								Turn property attention into
 								<span className="text-[#fd4402]"> seller enquiries.</span>
 							</h1>

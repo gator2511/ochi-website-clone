@@ -1,4 +1,5 @@
 import { Eyes } from "@/components";
+import TopicLine from "@/components/TopicLine";
 
 export default function Hero({ content }: { content: { heading: string; count: string } }) {
 	return (
@@ -6,6 +7,7 @@ export default function Hero({ content }: { content: { heading: string; count: s
 			<div className="w-full pt-[170px] pb-[20px]">
 				<div className="w-fit relative">
 					<h1 data-sb-field-path="hero.heading" className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
+						<TopicLine>Marketing work from Darwin</TopicLine>
 						{content.heading}
 						<sup data-sb-field-path="hero.count" className="paragraph font-normal absolute top-[20px] ml-[10px] font-NeueMontreal">
 							({content.count})

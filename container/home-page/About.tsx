@@ -56,12 +56,12 @@ export default function About({ content }: AboutProps) {
 							<div
 								data-sb-object-id="content/data/site.json"
 								className="w-[45%] flex justify-end flex-col sm:w-full xm:w-full">
-								<h1
+								<p
 									data-sb-object-id="content/pages/home.json"
 									data-sb-field-path="about.socialLabel"
 									className="sub-paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
 									{content.socialLabel}:
-								</h1>
+								</p>
 								<div className="flex flex-col">
 									{site.socialLinks.map((item, index) => (
 										<span key={`${item.label}-${index}`} data-sb-field-path={`socialLinks.${index}.label`}>

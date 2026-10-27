@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Curve } from "@/components";
+import TopicLine from "@/components/TopicLine";
 import content from "@/content/pages/privacy.json";
 import site from "@/content/data/site.json";
 
@@ -15,6 +16,7 @@ export default function PrivacyPolicy() {
 							{content.eyebrow}
 						</p>
 						<h1 className="text-[150px] leading-[0.82] lg:text-[120px] md:text-[92px] sm:text-[64px] xm:text-[54px] font-semibold font-FoundersGrotesk uppercase tracking-[-2px]">
+							<TopicLine>Privacy policy for GT Marketing Darwin</TopicLine>
 							{content.headingLines.map((line, index) => (
 								<span key={`${line}-${index}`} data-sb-field-path={`headingLines.${index}`}>
 									{line}{index < content.headingLines.length - 1 && <br />}

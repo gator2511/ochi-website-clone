@@ -30,11 +30,11 @@ export default function Clients({ content }: ClientsProps) {
 
 	return (
 		<section className="w-full padding-y">
-			<h1
+			<h2
 				data-sb-field-path="reviews.heading"
 				className="sub-heading padding-x font-medium font-NeueMontreal text-[#fd4402] pb-[50px]">
 				{content.heading}
-			</h1>
+			</h2>
 			{content.items.map((item, index) => (
 				<div
 					key={`${item.website}-${index}`}

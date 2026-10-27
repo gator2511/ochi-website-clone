@@ -25,9 +25,9 @@ export default function Publication() {
 										className="w-[400px] h-[400px] rounded-[20px]"
 									/>
 									<div>
-										<h1 className="paragraph font-normal tracking-wider font-NeueMontreal text-white">
+										<h3 className="paragraph font-normal tracking-wider font-NeueMontreal text-white">
 											{item.title}
-										</h1>
+										</h3>
 									</div>
 								</div>
 							</div>

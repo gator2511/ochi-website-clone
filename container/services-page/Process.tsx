@@ -21,9 +21,9 @@ export default function Process({ content }: ProcessProps) {
 	return (
 		<section className="w-full padding-y">
 			<div className="w-full padding-x mb-[40px]">
-				<h1 data-sb-field-path="process.heading" className="sub-heading font-medium font-NeueMontreal text-secondry">
+				<h2 data-sb-field-path="process.heading" className="sub-heading font-medium font-NeueMontreal text-secondry">
 					{content.heading}
-				</h1>
+				</h2>
 			</div>
 			{content.items.map((item, index) => (
 				<div

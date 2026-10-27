@@ -442,7 +442,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 	};
 
 	const businessSchema = {
-		"@type": "ProfessionalService",
+		"@type": ["ProfessionalService", "LocalBusiness"],
 		"@id": `${SITE_URL}/#business`,
 		name: site.brandName,
 		alternateName: ["GT Marketing Darwin", "GT Marketing Northern Territory"],
@@ -452,6 +452,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		description:
 			"Darwin-based marketing and communications business prioritising Aboriginal organisations, community-led enterprises and regional organisations across the Top End, Central Australia and wider Australia.",
 		email: site.email,
+		telephone: site.phoneTel,
 		taxID: "24280902425",
 		address,
 		hasMap: site.addressUrl,
@@ -472,6 +473,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		contactPoint: {
 			"@type": "ContactPoint",
 			contactType: "sales and customer enquiries",
+			telephone: site.phoneTel,
 			email: site.email,
 			areaServed: ["Darwin City", "Top End", "Central Australia", "Northern Territory", "Australia"],
 			availableLanguage: ["English"],

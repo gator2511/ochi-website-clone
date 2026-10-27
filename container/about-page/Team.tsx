@@ -38,14 +38,14 @@ export default function Team() {
 						</div>
 						<div className="flex justify-between items-end sm:flex-col xm:flex-col sm:items-start xm:items-start">
 							<div>
-								<h1 className="heading font-bold font-FoundersGrotesk text-secondry">
+								<h2 className="heading font-bold font-FoundersGrotesk text-secondry">
 									IHOR <br /> HULYAHRODSKYY
-								</h1>
+								</h2>
 							</div>
 							<div>
-								<h1 className="heading font-bold font-FoundersGrotesk text-secondry">
+								<p className="heading font-bold font-FoundersGrotesk text-secondry">
 									1 / 4
-								</h1>
+								</p>
 							</div>
 						</div>
 					</div>
