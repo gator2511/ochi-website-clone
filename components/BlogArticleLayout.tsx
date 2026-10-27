@@ -6,6 +6,7 @@ import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion"
 import { useEffect, useRef, useState } from "react";
 import { Curve, Ready } from "@/components";
 import FAQStructuredData from "@/components/FAQStructuredData";
+import TopicLine from "@/components/TopicLine";
 
 type BlogArticleContent = {
 	type: string;
@@ -91,6 +92,7 @@ export default function BlogArticleLayout({
 								<h1
 									data-sb-field-path="title"
 									className="max-w-[1450px] text-[150px] leading-[0.78] lg:text-[122px] md:text-[94px] sm:text-[66px] xm:text-[54px] font-semibold font-FoundersGrotesk uppercase tracking-[-2px]">
+									{!/darwin/i.test(content.title) && <TopicLine>GT Marketing, Darwin</TopicLine>}
 									{content.title}
 								</h1>
 							</motion.div>

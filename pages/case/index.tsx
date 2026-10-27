@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Curve, Ready } from "@/components";
 import CaseStudyGrid from "@/components/CaseStudyGrid";
+import TopicLine from "@/components/TopicLine";
 
 export default function CaseStudiesPage() {
 	return (
@@ -17,6 +18,7 @@ export default function CaseStudiesPage() {
 					<section className="padding-x pt-[150px] pb-20 border-b border-black/20">
 						<p className="text-sm uppercase tracking-[0.18em] text-black/60">GT Marketing</p>
 						<h1 className="mt-5 text-[96px] leading-[0.9] lg:text-[76px] md:text-[58px] sm:text-[44px]">
+							<TopicLine>Marketing case studies from Darwin</TopicLine>
 							Case Studies
 						</h1>
 						<p className="mt-8 max-w-4xl text-2xl leading-relaxed md:text-xl">

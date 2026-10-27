@@ -105,6 +105,8 @@ const models: any[] = [
 			stringList("addressLines"),
 			stringField("addressUrl"),
 			stringField("email"),
+			stringField("phoneDisplay"),
+			stringField("phoneTel"),
 			textField("acknowledgement"),
 			stringField("abn"),
 			objectField("footerFlags", [imageField("image"), stringField("alt")]),

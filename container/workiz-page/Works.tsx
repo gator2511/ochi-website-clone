@@ -32,9 +32,9 @@ export default function Works({ content }: RelatedProps) {
 					<div className="w-[49%] sm:w-full xm:w-full" key={`${item.title}-${index}`}>
 						<div className="flex gap-x-[10px] items-center pb-[10px]">
 							<span className="w-[10px] h-[10px] rounded-full bg-white" />
-							<h1 data-sb-field-path={`related.projects.${index}.title`} className="text-[18px] leading-[21px] uppercase font-medium font-NeueMontreal text-white">
+							<h3 data-sb-field-path={`related.projects.${index}.title`} className="text-[18px] leading-[21px] uppercase font-medium font-NeueMontreal text-white">
 								{item.title}
-							</h1>
+							</h3>
 						</div>
 						<ProjectCard item={item} index={index} fieldPath={`related.projects.${index}`} />
 						<div className="flex items-center gap-[10px] mt-[20px] flex-wrap">

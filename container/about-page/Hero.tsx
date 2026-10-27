@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import TopicLine from "@/components/TopicLine";
 
 type HeroProps = {
 	content: {
@@ -20,6 +21,7 @@ export default function Hero({ content }: HeroProps) {
 			<div className="w-full flex flex-col">
 				<div className="w-full pb-[70px] lg:pb-[60px] md:pb-[50px] sm:pb-[40px] xm:pb-[40px]">
 					<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
+						<TopicLine>About the Darwin marketing agency</TopicLine>
 						<span data-sb-field-path="hero.headingLine1">{content.headingLine1}</span>
 						<br />
 						<span data-sb-field-path="hero.headingLine2">{content.headingLine2}</span>

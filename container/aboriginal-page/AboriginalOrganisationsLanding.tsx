@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import TopicLine from "@/components/TopicLine";
 import { ArrowUpRight, CheckCircle2 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -21,6 +22,7 @@ export default function AboriginalOrganisationsLanding({content,documentId}:{con
         <div>
           <p data-sb-field-path="hero.eyebrow" className="small-text uppercase tracking-[0.12em] text-[#21212199]">{content.hero.eyebrow}</p>
           <h1 className="pt-[25px] uppercase font-FoundersGrotesk font-semibold text-[150px] leading-[0.78] lg:text-[124px] md:text-[98px] sm:text-[72px] xm:text-[58px] tracking-[-2px]">
+            <TopicLine>Marketing for Aboriginal organisations, from Darwin</TopicLine>
             <span data-sb-field-path="hero.headingLine1" className="block">{content.hero.headingLine1}</span>
             <span data-sb-field-path="hero.headingLine2" className="block text-[#fd4402]">{content.hero.headingLine2}</span>
           </h1>

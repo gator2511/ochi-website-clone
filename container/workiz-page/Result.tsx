@@ -13,9 +13,9 @@ export default function Result({ content }: ResultProps) {
 	return (
 		<section className="w-full padding-y">
 			<div className="w-full flex flex-col">
-				<h1 data-sb-field-path="result.heading" className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
+				<h2 data-sb-field-path="result.heading" className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
 					{content.heading}
-				</h1>
+				</h2>
 				<div className="w-full border-t border-[#21212155] pt-[20px]">
 					<div className="w-full flex sm:flex-col xm:flex-col justify-between gap-y-[20px] padding-x">
 						<h3 data-sb-field-path="result.label" className="w-1/2 sm:w-full xm:w-full paragraph font-medium text-secondry font-NeueMontreal">

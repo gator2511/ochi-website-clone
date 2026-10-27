@@ -11,6 +11,15 @@
   node_bundler = "esbuild"
 
 [[redirects]]
+  from = "/*"
+  to = "https://gtmarketing.io/:splat"
+  status = 301
+  force = true
+
+  [redirects.conditions]
+    Host = ["gtmarketingio.netlify.app", "www.gtmarketingio.netlify.app"]
+
+[[redirects]]
   from = "http://www.gtmarketing.io/*"
   to = "https://gtmarketing.io/:splat"
   status = 301

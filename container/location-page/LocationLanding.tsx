@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import TopicLine from "@/components/TopicLine";
 import { ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -55,6 +56,7 @@ export default function LocationLanding({
 						{content.hero.eyebrow}
 					</p>
 					<h1 className="pt-[26px] uppercase font-FoundersGrotesk font-semibold text-[168px] leading-[0.77] lg:text-[135px] md:text-[105px] sm:text-[78px] xm:text-[64px]">
+						<TopicLine className="normal-case">Local SEO and lead-generation systems from Darwin</TopicLine>
 						<span data-sb-field-path="hero.heading" className="block">
 							{content.hero.heading}
 						</span>

@@ -28,8 +28,12 @@ export default function Hero({ content }: HeroProps) {
     <section className="w-full min-h-screen bg-[#f1f1f1]" data-scroll data-scroll-speed="-.3">
       <div className="min-h-screen flex flex-col justify-end pt-[130px]">
         <div className="padding-x pb-[48px]">
-          <p className="small-text uppercase text-[#21212188] mb-[28px]">GT Marketing · Northern Territory & Australia</p>
-          <h1 className="tracking-[-2px] text-[#212121] font-semibold font-FoundersGrotesk uppercase text-[132px] leading-[0.78] lg:text-[112px] md:text-[88px] sm:text-[66px] xm:text-[54px]">
+          <p className="small-text uppercase text-[#21212188] mb-[28px]">GT Marketing · Darwin and regional NT</p>
+          <h1>
+            <span className="block max-w-[920px] pb-[18px] font-NeueMontreal font-medium normal-case tracking-normal text-[28px] leading-[1.3] md:text-[22px] sm:text-[18px] xm:text-[18px] text-[#212121]">
+              Local SEO and lead-generation systems for Darwin and regional NT businesses
+            </span>
+            <span className="block tracking-[-2px] text-[#212121] font-semibold font-FoundersGrotesk uppercase text-[132px] leading-[0.78] lg:text-[112px] md:text-[88px] sm:text-[66px] xm:text-[54px]">
             <span data-sb-field-path="hero.headingLine1">{content.headingLine1}</span>
             <br />
             <span className="flex items-center gap-[12px] sm:gap-[8px] xm:gap-[7px]">
@@ -39,6 +43,7 @@ export default function Hero({ content }: HeroProps) {
               <span data-sb-field-path="hero.headingAccent">{content.headingAccent}</span>
             </span>
             <span data-sb-field-path="hero.headingLine3" className="text-[#fd4402]">{content.headingLine3}</span>
+            </span>
           </h1>
         </div>
 

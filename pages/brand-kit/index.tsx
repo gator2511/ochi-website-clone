@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { Curve, Ready } from "@/components";
+import TopicLine from "@/components/TopicLine";
 import content from "@/content/pages/brand-kit.json";
 
 const documentId = "content/pages/brand-kit.json";
@@ -32,6 +33,7 @@ export default function BrandKitPage() {
 
 					<div className="py-[70px] sm:py-[50px] xm:py-[45px]">
 						<h1 className="font-FoundersGrotesk font-semibold uppercase text-[185px] leading-[0.72] lg:text-[150px] md:text-[115px] sm:text-[86px] xm:text-[70px] tracking-[-4px] text-secondry">
+							<TopicLine>Brand kit design in Darwin</TopicLine>
 							<span data-sb-field-path="hero.headingLine1" className="block">{content.hero.headingLine1}</span>
 							<span data-sb-field-path="hero.headingLine2" className="block text-[#fd4402] text-right">{content.hero.headingLine2}</span>
 						</h1>

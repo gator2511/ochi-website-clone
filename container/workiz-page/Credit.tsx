@@ -10,9 +10,9 @@ export default function Credit({ content }: CreditProps) {
 	return (
 		<section className="w-full pb-[100px] lg:pb-[80px] md:pb-[60px] sm:pb-[40px] xm:pb-[40px]">
 			<div className="w-full flex flex-col">
-				<h1 data-sb-field-path="credit.heading" className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
+				<h2 data-sb-field-path="credit.heading" className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
 					{content.heading}
-				</h1>
+				</h2>
 				<div className="w-full border-t border-[#21212155] pt-[20px]">
 					<div className="w-full flex sm:flex-col xm:flex-col justify-between gap-y-[15px] padding-x">
 						<h3 data-sb-field-path="credit.label" className="w-1/2 sm:w-full xm:w-full paragraph font-medium text-secondry font-NeueMontreal">

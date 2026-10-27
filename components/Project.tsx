@@ -16,9 +16,9 @@ export default function Project({ item }: { item: any }) {
 					key={item.id}>
 					<div className="flex gap-x-[10px] items-center pb-[10px]">
 						<span className="w-[10px] h-[10px] rounded-full bg-white" />
-						<h1 className="text-[18px] leading-[21px] uppercase font-medium font-NeueMontreal text-white">
+						<h3 className="text-[18px] leading-[21px] uppercase font-medium font-NeueMontreal text-white">
 							{item.title}
-						</h1>
+						</h3>
 					</div>
 					<div className="relative w-full group">
 						<div

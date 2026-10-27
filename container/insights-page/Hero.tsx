@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Tags } from "@/components";
+import TopicLine from "@/components/TopicLine";
 
 type Article = {
 	title: string;
@@ -27,6 +28,7 @@ export default function Hero({ content }: HeroProps) {
 				<div className="w-full flex flex-col">
 					<div className="w-full margin padding-x">
 						<h1 data-sb-field-path="hero.heading" className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
+							<TopicLine>Marketing insights from Darwin</TopicLine>
 							{content.heading}
 						</h1>
 					</div>

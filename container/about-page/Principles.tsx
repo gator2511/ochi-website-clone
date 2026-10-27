@@ -5,10 +5,10 @@ export default function Principles() {
 	return (
 		<section className="w-full padding-y rounded-t-[20px] bg-background">
 			<div>
-				<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry mb-[50px]">
+				<h2 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry mb-[50px]">
 					Two principles we stand behind in
 					<br className="sm:hidden xm:hidden" /> every part of our work:
-				</h1>
+				</h2>
 			</div>
 			<div className="w-full border-t border-[#21212155]">
 				<div className="w-full padding-x mt-[50px] flex justify-between gap-[30px] items-center sm:flex-col xm:flex-col">

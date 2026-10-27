@@ -23,6 +23,7 @@ export default function Hero({ content }: HeroProps) {
 				<div className="w-full flex flex-col">
 					<div className="w-full margin padding-x">
 						<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
+							<span className="block max-w-[920px] pb-[16px] font-NeueMontreal font-medium normal-case tracking-normal text-[22px] leading-[1.35]">Case study from Darwin</span>
 							<span className="flex items-center gap-[5px]">
 								<motion.span initial={{ width: 0 }} animate={{ width: "auto" }} transition={{ ease: [0.86, 0, 0.07, 0.995], duration: 1, delay: 1.5 }} className="leading-[130px]">
 									<Image data-sb-field-path="hero.accentImage" width={120} height={95} src={content.accentImage} alt={content.accentImageAlt} className="w-auto h-[95px] lg:w-auto lg:h-auto md:w-[100px] md:h-[63px] sm:w-[74px] sm:h-[45px] xm:w-[64px] xm:h-[40px] object-cover xl:mt-[15px] mt-[10px] rounded-[10px]" />

@@ -212,7 +212,10 @@ export default function BrandKitFeature({ content }: BrandKitFeatureProps) {
 							</motion.div>
 						))}
 
-						<div className="pt-[28px] pb-[12px] flex justify-end">
+						<div className="pt-[28px] pb-[12px] flex justify-end items-center gap-[18px] flex-wrap">
+							<Link href="/contact" className="small-text font-NeueMontreal uppercase text-white underline underline-offset-4 hover:text-[#fd4402] transition-colors">
+								Book a call
+							</Link>
 							<Link href={content.ctaUrl} data-cursor="interactive" className="group flex items-center gap-[8px]">
 								<span data-sb-field-path="brandKit.ctaLabel" className="px-[18px] py-[10px] border border-white rounded-full small-text font-NeueMontreal uppercase group-hover:bg-[#fd4402] group-hover:border-[#fd4402] transition-colors duration-300">
 									{content.ctaLabel}

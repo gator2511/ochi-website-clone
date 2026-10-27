@@ -20,15 +20,15 @@ export default function Faq({ content }: FaqProps) {
 	const [activeAccordion, setActiveAccordion] = useState(0);
 	return (
 		<section className="w-full padding-y mt-[-10px] bg-background z-30 relative rounded-t-[20px]">
-			<h1 data-sb-field-path="faq.heading" className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
+			<h2 data-sb-field-path="faq.heading" className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
 				{content.heading}
-			</h1>
+			</h2>
 			{content.items.map((item, index) => (
 				<div key={`${item.question}-${index}`} className={`w-full flex py-[10px] flex-col ${index === 0 ? "border-y" : "border-b"} border-[#21212155]`}>
 					<div className="w-full flex items-center justify-between sm:gap-[15px] xm:gap-[15px] py-[10px] padding-x">
-						<h1 data-sb-field-path={`faq.items.${index}.question`} className="w-[50%] paragraph font-normal font-NeueMontreal text-secondry">
+						<h3 data-sb-field-path={`faq.items.${index}.question`} className="w-[50%] paragraph font-normal font-NeueMontreal text-secondry">
 							{item.question}
-						</h1>
+						</h3>
 						<div className="w-[50%] flex items-center justify-between">
 							<h3 data-sb-field-path={`faq.items.${index}.title`} className="paragraph font-normal font-NeueMontreal text-secondry">
 								{item.title}

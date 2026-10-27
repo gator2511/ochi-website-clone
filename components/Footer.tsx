@@ -12,22 +12,22 @@ export default function Footer() {
 			className="w-full padding-x z-30 relative pt-[32px] pb-[24px] bg-background rounded-t-[20px] mt-[-20px]">
 			<div className="w-full flex justify-between sm:flex-col xm:flex-col sm:gap-[28px] xm:gap-[28px]">
 				<div className="sm:w-full xm:w-full w-1/2">
-					<h1
+					<div
 						data-sb-field-path="footerHeading"
 						className="text-[150px] leading-[115px] lg:text-[130px] lg:leading-[98px] md:text-[100px] md:leading-[75px] sm:text-[74px] sm:leading-[68px] xm:text-[64px] xm:leading-[48px] font-semibold font-FoundersGrotesk text-secondry uppercase">
 						<TextMask>{[site.footerHeading]}</TextMask>
-					</h1>
+					</div>
 				</div>
 
 				<div className="sm:w-full xm:w-full w-1/2">
-					<h1
+					<div
 						data-sb-field-path="footerHeadingAccent"
 						className="text-[150px] leading-[115px] lg:text-[130px] lg:leading-[98px] md:text-[100px] md:leading-[75px] sm:text-[74px] sm:leading-[68px] xm:text-[64px] xm:leading-[48px] font-semibold font-FoundersGrotesk text-[#fd4402] uppercase">
 						<TextMask>{[site.footerHeadingAccent]}</TextMask>
-					</h1>
+					</div>
 
 					<div className="pt-[34px]">
-						<h2 className="paragraph font-medium font-NeueMontreal text-secondry pb-[14px]">S:</h2>
+						<p className="paragraph font-medium font-NeueMontreal text-secondry pb-[14px]">S:</p>
 						{site.socialLinks.map((item, index) => (
 							<span key={`${item.label}-${index}`} data-sb-field-path={`socialLinks.${index}.label`}>
 								<LinkHover
@@ -41,7 +41,7 @@ export default function Footer() {
 
 					<div className="flex justify-between pt-[34px] sm:flex-col xm:flex-col sm:gap-[28px] xm:gap-[28px]">
 						<div>
-							<h2 className="paragraph font-medium font-NeueMontreal text-secondry pb-[14px]">L:</h2>
+							<p className="paragraph font-medium font-NeueMontreal text-secondry pb-[14px]">L:</p>
 							<div className="flex flex-col gap-y-[8px]">
 								{site.addressLines.map((line, index) => (
 									<span key={`${line}-${index}`} data-sb-field-path={`addressLines.${index}`}>
@@ -56,7 +56,7 @@ export default function Footer() {
 						</div>
 
 						<div>
-							<h2 className="paragraph font-medium font-NeueMontreal text-secondry pb-[14px]">M:</h2>
+							<p className="paragraph font-medium font-NeueMontreal text-secondry pb-[14px]">M:</p>
 							{site.navigation.map((item, index) => (
 								<span key={`${item.label}-${index}`} data-sb-field-path={`navigation.${index}.label`}>
 									<LinkHover
@@ -70,7 +70,7 @@ export default function Footer() {
 					</div>
 
 					<div className="pt-[30px]">
-						<h2 className="paragraph font-medium font-NeueMontreal text-secondry pb-[14px]">A:</h2>
+						<p className="paragraph font-medium font-NeueMontreal text-secondry pb-[14px]">A:</p>
 						<div className="flex flex-wrap gap-x-[22px] gap-y-[8px]">
 							{site.serviceAreas.map((item, index) => (
 								<span key={`${item.label}-${index}`} data-sb-field-path={`serviceAreas.${index}.label`}>
@@ -85,7 +85,18 @@ export default function Footer() {
 					</div>
 
 					<div className="pt-[34px] flex gap-x-[20px]">
-						<h2 className="paragraph font-medium font-NeueMontreal text-secondry">E:</h2>
+						<p className="paragraph font-medium font-NeueMontreal text-secondry">P:</p>
+						<span data-sb-field-path="phoneDisplay">
+							<LinkHover
+								title={site.phoneDisplay}
+								href={`tel:${site.phoneTel}`}
+								className="before:h-[1px] after:h-[1px] paragraph font-medium before:bottom-[-3px] after:bottom-[-3px]"
+							/>
+						</span>
+					</div>
+
+					<div className="pt-[20px] flex gap-x-[20px]">
+						<p className="paragraph font-medium font-NeueMontreal text-secondry">E:</p>
 						<span data-sb-field-path="email">
 							<LinkHover
 								title={site.email}
