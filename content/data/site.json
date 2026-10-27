@@ -5,10 +5,6 @@
   "logoAlt": "GT Marketing logo",
   "navigation": [
     {
-      "label": "Aboriginal Organisations",
-      "url": "/aboriginal-organisations"
-    },
-    {
       "label": "Services",
       "url": "/services"
     },
@@ -88,8 +84,8 @@
     "image": "/footer-flags.svg",
     "alt": "Aboriginal, Torres Strait Islander and Larrakia flags"
   },
-  "footerHeading": "Community-led",
-  "footerHeadingAccent": "Growth",
+  "footerHeading": "Darwin",
+  "footerHeadingAccent": "local",
   "copyright": "© GT Marketing 2026",
   "privacyLabel": "Privacy Policy",
   "websiteCredit": "Website by GT Marketing",
@@ -99,7 +95,7 @@
       "to start",
       "a conversation"
     ],
-    "primaryLabel": "Contact GT Marketing",
+    "primaryLabel": "Book a call",
     "primaryUrl": "/contact",
     "orLabel": "OR"
   }
