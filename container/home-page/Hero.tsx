@@ -16,6 +16,8 @@ type HeroProps = {
     introRight: string;
     ctaLabel: string;
     ctaUrl: string;
+    secondaryCtaLabel?: string;
+    secondaryCtaUrl?: string;
     scrollLabel: string;
   };
 };
@@ -50,11 +52,16 @@ export default function Hero({ content }: HeroProps) {
         <div className="border-t border-[#21212144] padding-x py-[24px] grid grid-cols-12 gap-[24px] sm:flex sm:flex-col xm:flex xm:flex-col">
           <p data-sb-field-path="hero.introLeft" className="col-span-4 paragraph">{content.introLeft}</p>
           <p data-sb-field-path="hero.introRight" className="col-span-5 paragraph text-[#212121aa]">{content.introRight}</p>
-          <div className="col-span-3 flex justify-end sm:justify-start xm:justify-start">
+          <div className="col-span-3 flex flex-col items-end gap-[14px] sm:items-start xm:items-start">
             <Link href={content.ctaUrl} className="inline-flex items-center gap-[12px] rounded-full bg-[#212121] text-white px-[20px] py-[13px] small-text uppercase hover:bg-[#fd4402] transition-colors">
               <span data-sb-field-path="hero.ctaLabel">{content.ctaLabel}</span>
               <ArrowUpRight size={18} />
             </Link>
+            {content.secondaryCtaLabel && content.secondaryCtaUrl && (
+              <Link href={content.secondaryCtaUrl} className="small-text uppercase underline underline-offset-4 decoration-[#21212155] hover:text-[#fd4402] hover:decoration-[#fd4402] transition-colors">
+                <span data-sb-field-path="hero.secondaryCtaLabel">{content.secondaryCtaLabel}</span>
+              </Link>
+            )}
           </div>
         </div>
 

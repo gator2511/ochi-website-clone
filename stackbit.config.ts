@@ -142,6 +142,8 @@ const models: any[] = [
 				stringField("introRight"),
 				stringField("ctaLabel"),
 				stringField("ctaUrl"),
+				stringField("secondaryCtaLabel", false),
+				stringField("secondaryCtaUrl", false),
 				stringField("scrollLabel"),
 			]),
 			stringField("marqueeText"),
