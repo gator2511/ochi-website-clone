@@ -6,6 +6,7 @@ const nextConfig = {
 				source: "/aboriginal-organisations",
 				destination: "/",
 				permanent: true,
+				statusCode: 301,
 			},
 		];
 	},
