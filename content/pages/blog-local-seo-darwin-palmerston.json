@@ -39,7 +39,10 @@
       "number": "03",
       "heading": "Create location-specific pages instead of one generic services page",
       "paragraphs": [
-        "When a business services both Darwin and Palmerston, one generic services page makes it harder to demonstrate relevance for either location. Dedicated service-area pages can answer local questions and target the language customers actually use."
+        "When a business services both Darwin and Palmerston, one generic services page makes it harder to demonstrate relevance for either location. Dedicated service-area pages can answer local questions and target the language customers actually use. GT Marketing’s own search offer for Darwin businesses is written up separately, so a location checklist and a service page are not the same URL."
+      ],
+      "links": [
+        { "label": "SEO in Darwin", "url": "/seo-darwin" }
       ],
       "fix": "Create useful pages for each important service and location combination. Avoid duplicate pages with only the suburb name changed; include genuinely local information and customer needs."
     },
@@ -63,7 +66,10 @@
       "number": "06",
       "heading": "Make sure your website works well on mobile",
       "paragraphs": [
-        "Most local and ‘near me’ searches happen on a phone. Slow loading, difficult navigation or forms that are hard to complete can send a ready-to-buy customer straight to another result."
+        "Most local and ‘near me’ searches happen on a phone. Slow loading, difficult navigation or forms that are hard to complete can send a ready-to-buy customer straight to another result. Speed, enquiry forms and click-to-call are website decisions as well as SEO checks."
+      ],
+      "links": [
+        { "label": "Web design in Darwin", "url": "/web-design-darwin" }
       ],
       "fix": "Test important pages on multiple phones. Check speed, menu usability, text size, tap targets, click-to-call links and enquiry forms."
     },

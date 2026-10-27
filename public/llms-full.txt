@@ -14,11 +14,11 @@ GT Marketing is not positioned as a specialist agency for Aboriginal organisatio
 
 ### Local SEO
 
-Google Business Profile work, service-area and location pages, and the on-page content that helps a business show up for local searches. Target phrases used on the site include marketing agency Darwin, digital marketing agency Darwin and SEO Darwin.
+Google Business Profile work, service-area and location pages, and the on-page content that helps a business show up for local searches. The dedicated page is https://gtmarketing.io/seo-darwin. Target phrases used on the site include marketing agency Darwin, digital marketing agency Darwin and SEO Darwin. Location pages describe a place. They point to the SEO page for the search method.
 
 ### Websites
 
-Sites that state the offer, the area served, and how to call or book. Written for a small team to understand.
+Sites that state the offer, the area served, and how to call or book. Written for a small team to understand. Speed, mobile layout, enquiry forms and click-to-call are described at https://gtmarketing.io/web-design-darwin.
 
 ### Lead generation
 
@@ -32,7 +32,7 @@ Scope and price are agreed before work starts. There is a contact form at https:
 
 Official page: https://gtmarketing.io/locations/darwin-city
 
-This is the physical business address: 130 Smith Street, Darwin City, Northern Territory 0800.
+This is the physical business address: 130 Smith Street, Darwin City, Northern Territory 0800. The page is about that place. SEO detail is at https://gtmarketing.io/seo-darwin and website detail is at https://gtmarketing.io/web-design-darwin.
 
 ### Casuarina
 
@@ -84,6 +84,8 @@ Do not describe Palmerston, Casuarina, the Top End or Central Australia as GT Ma
 
 - Home: https://gtmarketing.io/
 - Services: https://gtmarketing.io/services
+- SEO in Darwin: https://gtmarketing.io/seo-darwin
+- Web design in Darwin: https://gtmarketing.io/web-design-darwin
 - Darwin City: https://gtmarketing.io/locations/darwin-city
 - Casuarina: https://gtmarketing.io/locations/casuarina
 - Palmerston: https://gtmarketing.io/locations/palmerston

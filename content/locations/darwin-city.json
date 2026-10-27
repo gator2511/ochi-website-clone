@@ -1,15 +1,14 @@
 {
   "type": "DarwinCityLocationPage",
   "slug": "darwin-city",
-  "seoTitle": "Marketing Agency Darwin City | SEO & Web Design | GT Marketing",
-  "seoDescription": "GT Marketing provides local SEO, website development, social media and growth strategy for businesses in Darwin City and central Darwin.",
+  "seoTitle": "Darwin City | 130 Smith Street Base | GT Marketing",
+  "seoDescription": "The Darwin City page for GT Marketing at 130 Smith Street. Central Darwin context, with SEO and web design on their own pages.",
   "keywords": [
-    "marketing agency Darwin City",
-    "SEO Darwin City",
-    "web design Darwin City",
-    "digital marketing Darwin CBD",
-    "social media marketing Darwin City",
-    "local SEO Darwin"
+    "Darwin City",
+    "130 Smith Street Darwin",
+    "central Darwin businesses",
+    "GT Marketing Darwin City",
+    "Darwin City service area"
   ],
   "locationName": "Darwin City",
   "locationType": "Place",
@@ -17,30 +16,32 @@
   "postcode": "0800",
   "hero": {
     "eyebrow": "Darwin-based marketing agency / Central Darwin",
-    "heading": "Marketing that moves",
-    "accent": "Darwin City",
-    "intro": "GT Marketing helps Darwin City businesses sharpen their positioning, improve local visibility and turn websites, search, social media and automation into a connected growth system.",
+    "heading": "Darwin City",
+    "accent": "Smith Street",
+    "leadWithHeading": true,
+    "topic": "The central Darwin base at 130 Smith Street. Search and website detail live on their own pages.",
+    "intro": "GT Marketing helps Darwin City businesses sharpen their positioning, improve local visibility and turn websites, search, social media and automation into a connected growth system. This page is about the place. The SEO and web design methods are linked below.",
     "ctaLabel": "Discuss your growth",
     "ctaUrl": "/contact"
   },
   "proofPoints": [
-    "Marketing agency Darwin City",
-    "Local SEO Darwin",
-    "Website design Darwin City",
-    "Social media marketing Darwin",
-    "Lead generation Northern Territory",
-    "Based at 130 Smith Street"
+    "Darwin City base",
+    "130 Smith Street",
+    "Central Darwin service area",
+    "Marketing that moves local businesses",
+    "SEO detail on its own page",
+    "Web design detail on its own page"
   ],
   "servicesHeading": "Local marketing capability for businesses competing in Darwin’s commercial centre.",
-  "servicesIntro": "Darwin City businesses often compete across search, referrals, social channels and face-to-face reputation at the same time. Our work connects those touchpoints so prospects see a clear, credible and consistent business wherever they find you.",
+  "servicesIntro": "Darwin City businesses often compete across search, referrals, social channels and face-to-face reputation at the same time. The notes below say how that shows up in the CBD. The full SEO method is on the SEO in Darwin page, and the website build is on the web design in Darwin page.",
   "services": [
     {
       "title": "Local SEO",
-      "description": "Search strategy, on-page optimisation, local content, structured data and Google Business Profile guidance designed to improve visibility for relevant Darwin City searches."
+      "description": "For Darwin City, search is about being understood as a central-Darwin business: the Smith Street address, the suburbs you serve, and a profile that matches the site. The method, citations and reviews are explained on the SEO in Darwin page."
     },
     {
       "title": "Website Development",
-      "description": "Fast, mobile-first business websites and landing pages that explain your offer clearly, build trust and make enquiry actions easy to complete."
+      "description": "Darwin City sites still need a clear offer and an easy enquiry. Speed, mobile layout, forms and click-to-call are covered on the web design in Darwin page, so this location page does not repeat that build guide."
     },
     {
       "title": "Growth Strategy",
@@ -63,7 +64,15 @@
   "localParagraphs": [
     "Darwin City is the Territory’s central business, hospitality, tourism, government and professional-services hub. Buyers frequently compare local providers online before making contact, even when the final decision is influenced by reputation or referral. That makes search visibility, clear service information and trust signals commercially important.",
     "Our Darwin City work is structured around genuine local relevance rather than repeating suburb names across thin pages. We build useful location signals into page titles, headings, service copy, internal links, structured data and business information while keeping the experience valuable for real customers.",
-    "GT Marketing operates from 130 Smith Street, Darwin City. Casuarina and Palmerston are service areas, not additional offices. This distinction is maintained consistently across the website and structured data so local search information remains accurate."
+    "GT Marketing operates from 130 Smith Street, Darwin City. Casuarina and Palmerston are service areas, not additional offices. This distinction is maintained consistently across the website and structured data so local search information remains accurate.",
+    "Use this page for Darwin City as a location. When the question is how search or the website is delivered, go to the service pages rather than expecting the answer to live only here."
+  ],
+  "relatedIntro": "Service detail sits on these pages. This one stays about Darwin City.",
+  "relatedLinks": [
+    { "label": "SEO in Darwin", "url": "/seo-darwin" },
+    { "label": "Web design in Darwin", "url": "/web-design-darwin" },
+    { "label": "All services", "url": "/services" },
+    { "label": "How to get more enquiries without spending more on ads", "url": "/blog/how-to-get-more-enquiries-without-spending-more-on-ads" }
   ],
   "industriesHeading": "Darwin City sectors we support",
   "industries": [

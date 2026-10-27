@@ -1,0 +1,143 @@
+{
+  "type": "WebDesignDarwinPage",
+  "seoTitle": "Web Design Darwin | Sites That Get Enquiries | GT Marketing",
+  "seoDescription": "Web design in Darwin for small and medium businesses. Fast mobile sites with enquiry forms and click-to-call. GT Marketing, NT.",
+  "hero": {
+    "eyebrow": "Darwin websites",
+    "h1": "Web design in Darwin",
+    "intro": "GT Marketing builds websites for small and medium businesses in Darwin, Palmerston and Casuarina. The site should say what you do, where you work, and how to get in touch, on a phone, without a hunt. This page covers speed, mobile layout, enquiry forms and click-to-call. It does not quote a price or promise a number of leads. Scope and price are agreed before work starts.",
+    "ctaLabel": "Book a call",
+    "ctaUrl": "/contact"
+  },
+  "included": {
+    "eyebrow": "What is included",
+    "heading": "A site people can use when they are ready to enquire.",
+    "intro": "The build assumes the visitor is on a phone, often between jobs or while comparing two businesses. The page has to open, read clearly, and offer a call or a short form.",
+    "items": [
+      {
+        "title": "Speed",
+        "description": "Pages are kept light enough to open on a mobile network. Images are sized for the screen, and the offer is in the text. We do not publish a made-up speed score."
+      },
+      {
+        "title": "Mobile layout",
+        "description": "Text should be readable without pinching. Buttons should be easy to tap. The phone number and the main action sit where a thumb can reach them, and the menu still lists the services and the suburbs."
+      },
+      {
+        "title": "Enquiry forms",
+        "description": "Name, phone, suburb and a short note is enough for many tradies and clinics. The message has to reach a person who answers. A form that lands in an unattended inbox does not help."
+      },
+      {
+        "title": "Click-to-call",
+        "description": "The phone number is a tel link, the same number as the Google Business Profile and the footer. On a phone, tapping it starts a call. Trade and hospitality enquiries in Darwin often start that way."
+      },
+      {
+        "title": "A clear offer",
+        "description": "The first screen names the service and the area. One H1, plain headings, and pages for real services. Suburb lists match where you actually work."
+      },
+      {
+        "title": "Handover",
+        "description": "You can change a phone number, an hour or a service line, or you know who does that for you. Pages, the form destination and hosting are documented before the project ends."
+      }
+    ]
+  },
+  "audiences": {
+    "eyebrow": "Who it is for",
+    "heading": "Local businesses whose website is the step before a call.",
+    "intro": "The same four groups come up most often. The page structure changes with the way each one is chosen.",
+    "items": [
+      {
+        "title": "Tradies",
+        "description": "Show the trades you actually do, the suburbs you travel, and a tap-to-call number. Photos of real work help. A quote form can sit beside the phone for jobs that are not urgent. Licence and insurance details should be easy to find if customers ask for them."
+      },
+      {
+        "title": "Hospitality",
+        "description": "Hours, location, menu or offer, and a way to book or call. A Darwin cafe page that hides the hours will lose the person checking on a phone outside. The hours on the site and the Google profile need to be the same, including public holidays when you change them."
+      },
+      {
+        "title": "Health and NDIS",
+        "description": "Name the service, who it is for, the suburb, and how to enquire or be referred. Forms should be short enough to finish on a phone. Parking, access and the area you visit can matter as much as the list of therapies."
+      },
+      {
+        "title": "Professional services",
+        "description": "Darwin City and Palmerston firms are often compared before a meeting. The site should say who you help, what the first conversation covers, and how to book it. Long slogans do less than a clear service list and a working contact path."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Process",
+    "heading": "How a website project runs.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Listen",
+        "description": "What you sell, who it is for, which suburbs you cover, and what should happen after an enquiry. We look at the current site only to see what already works. The new structure follows the jobs you want, not a generic template label."
+      },
+      {
+        "number": "02",
+        "title": "Structure",
+        "description": "Page list, the words on the first screen, the form fields, and where the phone number sits. Search titles are planned with the pages so the site and the SEO work are not two separate piles. Scope and price are agreed here."
+      },
+      {
+        "number": "03",
+        "title": "Build",
+        "description": "Pages, mobile layout, tel links, the enquiry form and the basic on-page structure. Content is written in plain language. We do not add sections that repeat the suburb name without saying something useful about the service."
+      },
+      {
+        "number": "04",
+        "title": "Hand over",
+        "description": "You can see a test version before launch. After launch we check the form delivery, the phone links and the important page titles. Ongoing edits can be part of a later agreement. They are not assumed."
+      }
+    ]
+  },
+  "local": {
+    "eyebrow": "Darwin and the NT",
+    "heading": "Designed for how people in the Territory actually enquire.",
+    "paragraphs": [
+      "GT Marketing works from 130 Smith Street, Darwin City. Websites for Palmerston and Casuarina businesses are delivered from that office. We do not pretend to have a studio in those suburbs. If your customers are in Durack, Gunn, Nakara or the CBD, the site can say so because that is where you work, not because a suburb name is useful decoration.",
+      "A tradie will tap the number when it is obvious. A hospitality customer checks hours before driving across town. A clinic needs the service and the referral path. A professional firm needs enough detail to justify a meeting. The pages differ. The build is the same: readable, and pointed at one next step.",
+      "Design on its own does not create demand. If the problem is being found, start with the SEO in Darwin page. If people already arrive and then go quiet, the guide on enquiries without more ad spend is the closer fit. The services page lists the rest of the work, including lead follow-up."
+    ]
+  },
+  "related": {
+    "heading": "Related pages",
+    "intro": "The website is one part of being chosen. These pages cover search, the service list, each local area, and follow-up.",
+    "links": [
+      { "label": "SEO in Darwin", "url": "/seo-darwin" },
+      { "label": "All services", "url": "/services" },
+      { "label": "Darwin City", "url": "/locations/darwin-city" },
+      { "label": "Casuarina", "url": "/locations/casuarina" },
+      { "label": "Palmerston", "url": "/locations/palmerston" },
+      { "label": "How to get more enquiries without spending more on ads", "url": "/blog/how-to-get-more-enquiries-without-spending-more-on-ads" }
+    ]
+  },
+  "faqsHeading": "Web design in Darwin questions",
+  "faqs": [
+    {
+      "question": "Do you publish website prices on this page?",
+      "answer": "No. Price depends on the number of pages, the writing, the forms and whether ongoing edits are included. Scope and price are agreed before work starts. This page does not list a package cost."
+    },
+    {
+      "question": "Will the site include click-to-call?",
+      "answer": "Yes, when the business wants phone enquiries. The number is a tel link and should match the Google Business Profile and the rest of the site. Tapping it on a phone starts a call."
+    },
+    {
+      "question": "Can you build for Palmerston or Casuarina from Darwin?",
+      "answer": "Yes. The office is in Darwin City. Palmerston and Casuarina are service areas. The site should name the suburbs you actually cover. It should not claim an office you do not have."
+    },
+    {
+      "question": "Do you guarantee a number of enquiries?",
+      "answer": "No. A clear site makes the next step easier for people who already arrive. How many people arrive depends on search, referrals, reviews and demand. We do not promise a lead count."
+    },
+    {
+      "question": "How do we start?",
+      "answer": "Book a call or phone the Darwin office. We will ask what you do, where you work, and what should happen when someone enquires. You can see the scope before anything is built."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Start with the work you want",
+    "heading": "A website that tells people how to reach you.",
+    "text": "There is no obligation. To talk it through, call",
+    "ctaLabel": "Book a call",
+    "ctaUrl": "/contact"
+  }
+}

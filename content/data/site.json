@@ -31,6 +31,14 @@
   ],
   "serviceAreas": [
     {
+      "label": "SEO Darwin",
+      "url": "/seo-darwin"
+    },
+    {
+      "label": "Web design Darwin",
+      "url": "/web-design-darwin"
+    },
+    {
       "label": "Top End",
       "url": "/locations/top-end"
     },

@@ -526,6 +526,37 @@
       "ctaLabel": "Book a call",
       "ctaUrl": "/contact"
     },
+    "services": {
+      "eyebrow": "Services",
+      "heading": "Search, websites, and the pages behind them.",
+      "intro": "The Darwin office is on Smith Street. These pages explain the work, the full service list, and how to get more enquiries without spending more on ads.",
+      "items": [
+        {
+          "title": "SEO in Darwin",
+          "text": "Local search for Darwin, Palmerston and Casuarina: Google Business Profile, citations, reviews and pages that match real services.",
+          "url": "/seo-darwin",
+          "label": "SEO Darwin"
+        },
+        {
+          "title": "Web design in Darwin",
+          "text": "Websites for NT small businesses: speed, mobile layout, enquiry forms and click-to-call.",
+          "url": "/web-design-darwin",
+          "label": "Web design Darwin"
+        },
+        {
+          "title": "All services",
+          "text": "Local SEO, websites, lead follow-up and the rest of the Darwin offer, in one place.",
+          "url": "/services",
+          "label": "View services"
+        },
+        {
+          "title": "More enquiries, same ad budget",
+          "text": "A guide to getting more enquiries from the site and the follow-up you already have, before spending more on ads.",
+          "url": "/blog/how-to-get-more-enquiries-without-spending-more-on-ads",
+          "label": "Read the guide"
+        }
+      ]
+    },
     "national": {
       "eyebrow": "Darwin and the NT",
       "heading": "Based in Darwin. Working across Palmerston, Casuarina and the Territory.",
