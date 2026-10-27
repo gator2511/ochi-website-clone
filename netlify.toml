@@ -10,14 +10,43 @@
   directory = "netlify/functions"
   node_bundler = "esbuild"
 
+# Absolute-URL rules, same shape as the working www.gtmarketing.io redirects.
+# A Host condition on /* does not run: the Next.js runtime serves gtmarketingio.netlify.app with 200.
 [[redirects]]
-  from = "/*"
+  from = "https://gtmarketingio.netlify.app/*"
   to = "https://gtmarketing.io/:splat"
   status = 301
   force = true
 
-  [redirects.conditions]
-    Host = ["gtmarketingio.netlify.app", "www.gtmarketingio.netlify.app"]
+[[redirects]]
+  from = "http://gtmarketingio.netlify.app/*"
+  to = "https://gtmarketing.io/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.gtmarketingio.netlify.app/*"
+  to = "https://gtmarketing.io/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.gtmarketingio.netlify.app/*"
+  to = "https://gtmarketing.io/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aboriginal-organisations"
+  to = "https://gtmarketing.io/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aboriginal-organisations/"
+  to = "https://gtmarketing.io/"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "http://www.gtmarketing.io/*"

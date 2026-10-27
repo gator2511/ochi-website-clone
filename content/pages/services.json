@@ -1,13 +1,13 @@
 {
   "type": "ServicesPage",
-  "seoTitle": "Marketing Services | GT Marketing Darwin",
-  "seoDescription": "Explore GT Marketing services across strategy, social media, DTC marketing, website development, hosting, brand systems and presentation design.",
+  "seoTitle": "SEO Darwin | Websites & Lead Generation | GT Marketing",
+  "seoDescription": "Local SEO, websites and lead-generation systems for small and medium businesses in Darwin, Palmerston, Casuarina and across the NT.",
   "hero": {
     "heading": "Services",
     "image": "https://images.pexels.com/photos/36835822/pexels-photo-36835822.jpeg?auto=compress&cs=tinysrgb&w=2000",
     "imageAlt": "Bold orange architecture representing structured business growth",
     "imageCaption": "Strategy, creative execution and technology working as one growth system.",
-    "intro": "We create clear, commercially focused marketing systems that educate audiences, strengthen positioning and influence action.",
+    "intro": "Local SEO, websites and lead-generation systems for small and medium businesses in Darwin, Palmerston, Casuarina and across the NT.",
     "approachLabel": "We do this by following a simple approach:",
     "approachItems": [
       {
@@ -121,7 +121,7 @@
     "eyebrow": "Clear from day one",
     "heading": "A transparent process with no surprises.",
     "intro": "Every engagement starts with a documented scope, agreed milestones and a clear commercial structure. You know what is included, what happens next and what the project will cost before work begins.",
-    "marquee": "Clear scope • No hidden costs • 50 / 50 payment • Client portal • Periodic reporting • Australian business friendly • ",
+    "marquee": "Clear scope • No hidden costs • 50 / 50 payment • Client portal • Periodic reporting • Darwin and NT businesses • ",
     "items": [
       {
         "number": "01",
@@ -149,9 +149,9 @@
       },
       {
         "number": "05",
-        "title": "Built around Australian businesses.",
-        "description": "Expect plain-English communication, practical timelines, Australian invoicing and a commercially grounded approach shaped by the realities of local SMEs, service providers and growing organisations.",
-        "accent": "Australian friendly"
+        "title": "Built around Darwin businesses.",
+        "description": "Plain-English communication, practical timelines and Australian invoicing, shaped around small and medium businesses in Darwin, Palmerston, Casuarina and the NT.",
+        "accent": "Darwin friendly"
       },
       {
         "number": "06",
@@ -202,9 +202,9 @@
       },
       {
         "number": "02",
-        "title": "Australian business",
+        "title": "Darwin business",
         "buttonLabel": "Read",
-        "description": "We are an Australian-based business working with local and international clients. Our Northern Territory perspective produces a practical, resilient and commercially focused approach."
+        "description": "We are based in Darwin and work with small and medium businesses across the NT. The work stays practical: local search, the website, and a clear way for people to enquire."
       },
       {
         "number": "03",

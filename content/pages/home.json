@@ -1,24 +1,22 @@
 {
   "type": "HomePage",
-  "seoTitle": "GT Marketing | Marketing Support for Aboriginal Organisations & Regional Australia",
-  "seoDescription": "GT Marketing supports Aboriginal organisations, community-led enterprises and regional Australian organisations with culturally respectful marketing, communications and practical growth support.",
+  "seoTitle": "Marketing Agency Darwin | Local SEO & Leads | GT Marketing",
+  "seoDescription": "Marketing agency in Darwin for local SEO, websites and lead generation. For small businesses in Palmerston, Casuarina and the NT.",
   "hero": {
-    "headingLine1": "Community-led.",
-    "headingAccent": "Culturally respectful.",
-    "headingLine3": "Built for regional Australia.",
+    "headingLine1": "Darwin-based.",
+    "headingAccent": "Small business.",
+    "headingLine3": "SEO, sites and leads.",
     "accentImage": "/ochi-side.jpg",
     "accentImageAlt": "GT Marketing creative detail",
     "badgeImage": "",
     "badgeImageAlt": "",
-    "introLeft": "Marketing and communications support for Aboriginal organisations and community-led enterprises",
-    "introRight": "Based in Darwin. Supporting the Top End, Central Australia and organisations across Australia.",
+    "introLeft": "Local SEO, websites and lead-generation systems for tradies, hospitality, health and professional services.",
+    "introRight": "Based in Darwin. Working with businesses in Palmerston, Casuarina and across the NT.",
     "ctaLabel": "Book a call",
     "ctaUrl": "/contact",
-    "secondaryCtaLabel": "Aboriginal organisations",
-    "secondaryCtaUrl": "/aboriginal-organisations",
     "scrollLabel": "See how we work"
   },
-  "marqueeText": "Community-led growth",
+  "marqueeText": "Darwin small business",
   "about": {
     "intro": "GT Marketing is a strategic growth partner for businesses that need stronger positioning, consistent lead generation, better digital execution and practical systems that turn marketing activity into commercial progress.",
     "expectationLabel": "What you can expect",
@@ -429,57 +427,57 @@
   },
   "growthSystem": {
     "problems": {
-      "eyebrow": "Built around real operating conditions",
-      "heading": "Good marketing starts by understanding the organisation, community and context.",
-      "intro": "Aboriginal corporations and regional organisations often work across large service areas, limited internal capacity, funding cycles and remote communities. The work needs to be practical, respectful and easy to maintain.",
+      "eyebrow": "What gets in the way",
+      "heading": "Good marketing starts with how your business actually gets work.",
+      "intro": "A lot of Darwin businesses still rely on word of mouth, a website that does not explain the offer, or ads that never turn into a call. The useful work is being found locally, saying clearly what you do, and following up.",
       "items": [
         {
-          "title": "Limited capacity",
-          "text": "Small teams can be responsible for programs, reporting, communications and community engagement at the same time."
+          "title": "Hard to be found",
+          "text": "People search for a tradie, a cafe, a clinic or a local firm, and the business does not show up for Darwin, Palmerston or Casuarina."
         },
         {
-          "title": "Remote delivery",
-          "text": "Distance, connectivity and travel can change how information needs to be created, shared and maintained."
+          "title": "A quiet website",
+          "text": "The site is online, but it does not spell out the service, the area you cover, or the simplest way to get in touch."
         },
         {
-          "title": "Funding pressure",
-          "text": "Clear plans, evidence and reporting matter when organisations are applying for funding or demonstrating outcomes."
+          "title": "Leads that go cold",
+          "text": "Enquiries arrive by phone, form or message, and there is no simple way to reply, qualify them and book the work."
         },
         {
-          "title": "Cultural authority",
-          "text": "Stories, images, language and community knowledge need clear approval pathways and respect for cultural ownership."
+          "title": "Scattered activity",
+          "text": "Social posts, ads and a Google listing all exist, but they do not point at the same offer or the same next step."
         }
       ]
     },
     "system": {
-      "eyebrow": "Our working approach",
-      "heading": "Listen first. Build with the organisation. Leave something useful behind.",
-      "intro": "We start with the organisation’s priorities and the people who hold authority over the work. The goal is not to impose an agency process, but to create practical systems your team can understand, approve and continue using.",
+      "eyebrow": "How we work",
+      "heading": "Start with the work you want. Then build the system that brings it in.",
+      "intro": "We work with the owner, or whoever looks after marketing. The aim is a clear plan your team can run, not a pile of activity that only an agency understands.",
       "steps": [
         {
           "number": "01",
           "title": "Listen",
-          "text": "Understand the organisation, community context, decision-makers, priorities and any cultural protocols before recommending work."
+          "text": "How you get work now, who you want more of, and what people in Darwin, Palmerston and Casuarina actually search for."
         },
         {
           "number": "02",
           "title": "Plan",
-          "text": "Agree on the purpose, audience, approvals, responsibilities, timeline and practical measures of success."
+          "text": "Agree the offer, the service area, the pages, the Google profile and the follow-up before anything is built."
         },
         {
           "number": "03",
           "title": "Build",
-          "text": "Create the agreed work in a way that is clear, accessible and appropriate for the people who will use it."
+          "text": "Local SEO, the website and the path from enquiry to booking, written in plain language for the customers you want."
         },
         {
           "number": "04",
-          "title": "Support",
-          "text": "Provide handover, documentation and ongoing support suited to internal capacity and remote working conditions."
+          "title": "Hand over",
+          "text": "You can see where enquiries come from and what to do with them. Ongoing help is there if you want it."
         },
         {
           "number": "05",
           "title": "Review",
-          "text": "Check what is working, what needs to change and whether the work remains useful to the organisation and community."
+          "text": "Look at what is bringing enquiries and what is not. Rankings and lead numbers are not guaranteed."
         }
       ]
     },
@@ -507,32 +505,31 @@
       ]
     },
     "niches": {
-      "eyebrow": "Priority sector",
-      "heading": "Aboriginal organisations and community-led enterprises come first.",
-      "primary": "Aboriginal organisations",
-      "primaryText": "We are prioritising work with Aboriginal corporations, art centres, ranger groups, community stores, community-controlled health services and other community-led organisations across the Northern Territory and regional Australia.",
+      "eyebrow": "Who we work with",
+      "heading": "Darwin small and medium businesses that need more of the right enquiries.",
+      "primary": "Tradies",
+      "primaryText": "Electricians, plumbers, builders and other trade businesses that want to be found in Darwin, Palmerston and Casuarina, and want calls for work they can actually do.",
       "also": [
-        "Regional & remote organisations",
-        "NDIS & community services",
-        "Tourism & cultural enterprises",
-        "Selected Australian SMEs"
+        "Hospitality",
+        "Health and NDIS providers",
+        "Professional services"
       ],
-      "ctaLabel": "View Aboriginal sector support",
-      "ctaUrl": "/aboriginal-organisations"
+      "ctaLabel": "Book a call",
+      "ctaUrl": "/contact"
     },
     "offer": {
-      "eyebrow": "Start with a practical conversation",
-      "heading": "Tell us what your organisation is trying to achieve.",
-      "intro": "We can begin with a short discovery conversation to understand the challenge, the people involved, the location, the approval process and the outcome you need. From there we recommend a clear scope rather than presenting a menu of services.",
+      "eyebrow": "Start with a call",
+      "heading": "Tell us what work you want more of.",
+      "intro": "A short call covers your business, where you work, how enquiries come in now, and what you want to change. We then suggest a clear scope. There is no obligation.",
       "includes": [],
-      "priceNote": "Scopes are agreed before work starts. Remote and on-Country support can be discussed depending on location, timing and project needs.",
-      "ctaLabel": "Start a conversation",
+      "priceNote": "Scope and price are agreed before work starts. We are based in Darwin and work with businesses across the NT.",
+      "ctaLabel": "Book a call",
       "ctaUrl": "/contact"
     },
     "national": {
-      "eyebrow": "Northern Territory & regional Australia",
-      "heading": "Darwin-based, with remote support across the Top End, Central Australia and beyond.",
-      "text": "Projects can be delivered remotely, through scheduled regional visits or with a mixed model depending on the organisation, community, connectivity and travel requirements. Travel and on-Country work are agreed in advance."
+      "eyebrow": "Darwin and the NT",
+      "heading": "Based in Darwin. Working across Palmerston, Casuarina and the Territory.",
+      "text": "Most of the work happens from Darwin, online or in person. If you are in Palmerston, Casuarina, the Top End or Central Australia, we can still help. We do not claim offices in those places."
     }
   }
 }

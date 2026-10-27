@@ -1,36 +1,13 @@
 {
   "type": "WorkPage",
-  "seoTitle": "Aboriginal, Regional & Industry Marketing Work | GT Marketing",
-  "seoDescription": "Explore GT Marketing work and sector support for Aboriginal organisations, regional enterprises, community services and selected Australian industries.",
+  "seoTitle": "Our Work | Darwin Local SEO & Websites | GT Marketing",
+  "seoDescription": "See how GT Marketing helps Darwin and NT businesses with local SEO, websites and lead generation for tradies, hospitality, health and professional services.",
   "hero": {
     "heading": "Work",
-    "count": "9"
+    "count": "8"
   },
-  "intro": "We prioritise Aboriginal organisations and regional enterprises, while continuing to support selected Australian service sectors where we can add practical value.",
+  "intro": "Local SEO, websites and lead generation for Darwin and NT businesses, including tradies, hospitality, health and NDIS providers, and professional services.",
   "projects": [
-    {
-      "title": "Aboriginal Organisations",
-      "url": "/aboriginal-organisations",
-      "image": "/gt-hero-pattern.svg",
-      "imageAlt": "GT Marketing brand pattern representing the Aboriginal organisations priority sector",
-      "seoTitle": "Marketing for Aboriginal Organisations & Remote Communities | GT Marketing",
-      "seoDescription": "Culturally respectful marketing, communications, funding support and digital capability for Aboriginal organisations and regional communities.",
-      "description": "Practical support for Aboriginal corporations, art centres, ranger groups, community stores, community-controlled services and cultural enterprises.",
-      "tags": [
-        {
-          "label": "Community-led",
-          "url": "/aboriginal-organisations"
-        },
-        {
-          "label": "Remote support",
-          "url": "/locations/top-end"
-        },
-        {
-          "label": "Funding readiness",
-          "url": "/aboriginal-organisations"
-        }
-      ]
-    },
     {
       "title": "Tradies",
       "image": "/industries/tradies.svg",
