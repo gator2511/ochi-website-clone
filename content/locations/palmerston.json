@@ -1,15 +1,15 @@
 {
   "type": "PalmerstonLocationPage",
   "slug": "palmerston",
-  "seoTitle": "Marketing Agency Palmerston | SEO, Web & Leads | GT Marketing",
-  "seoDescription": "GT Marketing provides local SEO, websites, lead generation, social media and marketing strategy for businesses across Palmerston, NT.",
+  "seoTitle": "SEO Palmerston | Local SEO & Websites | GT Marketing",
+  "seoDescription": "SEO for Palmerston businesses. Local search, websites and enquiry follow-up for local services, from GT Marketing in Darwin.",
   "keywords": [
-    "marketing agency Palmerston",
+    "SEO Palmerston",
     "SEO Palmerston NT",
-    "web design Palmerston",
-    "digital marketing Palmerston",
     "local SEO Palmerston",
-    "lead generation Palmerston"
+    "web design Palmerston",
+    "Palmerston service area",
+    "marketing agency Palmerston"
   ],
   "locationName": "Palmerston",
   "locationType": "City",
@@ -17,9 +17,11 @@
   "postcode": "0830",
   "hero": {
     "eyebrow": "Darwin marketing agency / Palmerston service area",
-    "heading": "Growth systems for",
+    "heading": "SEO",
     "accent": "Palmerston",
-    "intro": "GT Marketing helps Palmerston businesses build a stronger local presence through SEO, websites, social media, lead generation and follow-up systems designed around real customer demand.",
+    "leadWithHeading": true,
+    "topic": "Palmerston service area, delivered from the Darwin City office.",
+    "intro": "GT Marketing helps Palmerston businesses build a stronger local presence through SEO, websites, social media, lead generation and follow-up systems designed around real customer demand. This page is about Palmerston. Search and website detail are on the service pages.",
     "ctaLabel": "Build your growth plan",
     "ctaUrl": "/contact"
   },
@@ -64,6 +66,13 @@
     "Palmerston customers often search by service and location before comparing reviews, websites, response times and proof of experience. Businesses with vague pages, slow mobile experiences or unclear service areas can lose enquiries even when they provide an excellent service offline.",
     "Our approach connects local SEO with conversion. That means the page title and heading matter, but so do service clarity, location coverage, click-to-call actions, quote forms, reviews, trust signals, page speed and follow-up after an enquiry is submitted.",
     "GT Marketing is based in Darwin City and serves Palmerston as a genuine service area. We do not claim a Palmerston office or create duplicate pages solely to occupy more search results. The content is written to provide distinct local value for businesses and customers in the city."
+  ],
+  "relatedIntro": "Palmerston is the area. These pages cover SEO, web design, the wider service list, and enquiries that do not depend on more ad spend.",
+  "relatedLinks": [
+    { "label": "SEO in Darwin", "url": "/seo-darwin" },
+    { "label": "Web design in Darwin", "url": "/web-design-darwin" },
+    { "label": "All services", "url": "/services" },
+    { "label": "How to get more enquiries without spending more on ads", "url": "/blog/how-to-get-more-enquiries-without-spending-more-on-ads" }
   ],
   "industriesHeading": "Palmerston sectors we support",
   "industries": [

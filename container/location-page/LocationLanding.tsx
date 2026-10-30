@@ -17,7 +17,11 @@ type LocationContent = {
 		intro: string;
 		ctaLabel: string;
 		ctaUrl: string;
+		leadWithHeading?: boolean;
+		topic?: string;
 	};
+	relatedIntro?: string;
+	relatedLinks?: Array<{ label: string; url: string }>;
 	proofPoints: string[];
 	servicesHeading: string;
 	servicesIntro: string;
@@ -56,13 +60,20 @@ export default function LocationLanding({
 						{content.hero.eyebrow}
 					</p>
 					<h1 className="pt-[26px] uppercase font-FoundersGrotesk font-semibold text-[168px] leading-[0.77] lg:text-[135px] md:text-[105px] sm:text-[78px] xm:text-[64px]">
-						<TopicLine className="normal-case">Local SEO and lead-generation systems from Darwin</TopicLine>
+						{!content.hero.leadWithHeading && (
+							<TopicLine className="normal-case">Local SEO and lead-generation systems from Darwin</TopicLine>
+						)}
 						<span data-sb-field-path="hero.heading" className="block">
 							{content.hero.heading}
 						</span>
 						<span data-sb-field-path="hero.accent" className="block text-[#fd4402]">
 							{content.hero.accent}
 						</span>
+						{content.hero.leadWithHeading && (
+							<TopicLine className="normal-case">
+								{content.hero.topic || "Local SEO and lead-generation systems from Darwin"}
+							</TopicLine>
+						)}
 					</h1>
 				</div>
 
@@ -143,6 +154,27 @@ export default function LocationLanding({
 								{paragraph}
 							</p>
 						))}
+						{content.relatedLinks && content.relatedLinks.length > 0 && (
+							<div className="border-t border-white/20 pt-[22px]">
+								{content.relatedIntro && (
+									<p data-sb-field-path="relatedIntro" className="paragraph font-NeueMontreal text-white/85">
+										{content.relatedIntro}
+									</p>
+								)}
+								<ul className="flex flex-col gap-[10px] pt-[16px]">
+									{content.relatedLinks.map((link, index) => (
+										<li key={link.url}>
+											<Link
+												href={link.url}
+												data-sb-field-path={`relatedLinks.${index}.label`}
+												className="paragraph font-NeueMontreal underline underline-offset-4 decoration-white/50 hover:text-[#fd4402] hover:decoration-[#fd4402]">
+												{link.label}
+											</Link>
+										</li>
+									))}
+								</ul>
+							</div>
+						)}
 					</div>
 				</div>
 

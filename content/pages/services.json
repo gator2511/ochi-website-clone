@@ -1,6 +1,6 @@
 {
   "type": "ServicesPage",
-  "seoTitle": "SEO Darwin | Websites & Lead Generation | GT Marketing",
+  "seoTitle": "Marketing Services Darwin | Websites & Leads | GT Marketing",
   "seoDescription": "Local SEO, websites and lead-generation systems for small and medium businesses in Darwin, Palmerston, Casuarina and across the NT.",
   "hero": {
     "heading": "Services",
@@ -67,8 +67,8 @@
       {
         "title": "Local SEO and SEO",
         "items": [
-          { "label": "Local SEO", "url": "/contact" },
-          { "label": "SEO", "url": "/contact" },
+          { "label": "SEO Darwin", "url": "/seo-darwin" },
+          { "label": "Local SEO", "url": "/seo-darwin" },
           { "label": "Lead generation", "url": "/contact" }
         ]
       },
@@ -113,7 +113,8 @@
       { "label": "Social Media Marketing", "url": "/contact" },
       { "label": "DTC Marketing", "url": "/contact" },
       { "label": "Marketing Strategy", "url": "/contact" },
-      { "label": "Website Development", "url": "/contact" },
+      { "label": "Web design Darwin", "url": "/web-design-darwin" },
+      { "label": "Website Development", "url": "/web-design-darwin" },
       { "label": "Web Hosting", "url": "/contact" }
     ]
   },

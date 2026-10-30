@@ -1,0 +1,143 @@
+{
+  "type": "SeoDarwinPage",
+  "seoTitle": "SEO Darwin | Local SEO for NT Businesses | GT Marketing",
+  "seoDescription": "Local SEO in Darwin for tradies, hospitality, health, NDIS and professional services. Google Business Profile, citations and reviews.",
+  "hero": {
+    "eyebrow": "Darwin local SEO",
+    "h1": "SEO in Darwin",
+    "intro": "GT Marketing is based at 130 Smith Street, Darwin City. This page is the search offer for small and medium businesses in Darwin, Palmerston and Casuarina. It sets out what local SEO includes, how a project runs, and which businesses it suits. A ranking cannot be booked in advance. The aim is a business Google can understand: the service, the area, and how to enquire.",
+    "ctaLabel": "Book a call",
+    "ctaUrl": "/contact"
+  },
+  "included": {
+    "eyebrow": "What is included",
+    "heading": "Local search work for a real service area.",
+    "intro": "Local SEO means the public information about the business agrees with itself, and the website answers the search a nearby customer just typed. Scope and price are agreed before work starts.",
+    "items": [
+      {
+        "title": "Google Business Profile",
+        "description": "The profile is often the first Darwin result on the map. We align the name, address and phone with the website, then check the category, hours, services and photos. Posts should describe real work. Reviews are not bought or invented."
+      },
+      {
+        "title": "Service and area pages",
+        "description": "A useful page names a real service and a real area, says what is included, and gives one way to enquire. Darwin and Palmerston need their own detail when you genuinely work in both. Pages that only swap a suburb name are not part of the work."
+      },
+      {
+        "title": "On-page structure",
+        "description": "Titles, the single H1 and internal links should follow how people search. Related pages link to each other, including the contact page and the location page for the area you serve."
+      },
+      {
+        "title": "Citations",
+        "description": "Name, address and phone should match the website, the Google profile and the directories that matter for the trade, including NT industry associations and local business listings."
+      },
+      {
+        "title": "Reviews",
+        "description": "Ask after a finished job, with a direct review link and a way to reply to praise and to criticism. The words have to come from the customer."
+      },
+      {
+        "title": "Technical checks",
+        "description": "Indexing, mobile use, speed, structured data and the sitemap are checked so the site can be read. That supports the pages. A clear offer and a current profile still have to be there."
+      }
+    ]
+  },
+  "audiences": {
+    "eyebrow": "Who it is for",
+    "heading": "Businesses already trading in Darwin and the Top End.",
+    "intro": "The usual fit is an owner who wants more of the right enquiries from people nearby. Other local businesses can still be a fit when the service area is genuine.",
+    "items": [
+      {
+        "title": "Tradies",
+        "description": "Electricians, plumbers, builders and other trade businesses in Darwin, Palmerston and Casuarina. Customers search the job and the place, then call the business that looks current. The page should name the work you take and the suburbs you travel to."
+      },
+      {
+        "title": "Hospitality",
+        "description": "Cafes, restaurants and venues around Darwin City and the northern suburbs. People check the map, the hours, the photos and whether they can call before they visit. Hours and the phone number need to match the Google profile."
+      },
+      {
+        "title": "Health and NDIS",
+        "description": "Clinics, allied health practices and NDIS providers. The service, the suburb and how to enquire should be plain. A family comparing providers should not have to hunt for the phone number or guess the suburbs you cover."
+      },
+      {
+        "title": "Professional services",
+        "description": "Accountants, lawyers, consultants and other firms in Darwin City and Palmerston. People often read the website before they follow a referral. The page should say who the firm helps and what the first conversation is for."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Process",
+    "heading": "How an SEO project runs.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Listen",
+        "description": "How you get work now, which suburbs you cover, and which jobs you want more of. Darwin, Palmerston and Casuarina do not produce the same searches. A Casuarina clinic and a Palmerston builder should not share one vague page."
+      },
+      {
+        "number": "02",
+        "title": "Plan",
+        "description": "The pages, the Google profile and the citations, in an order that matches the business. Scope and price are agreed before anything is built. A position on Google is not part of the promise."
+      },
+      {
+        "number": "03",
+        "title": "Build",
+        "description": "Pages, profile updates, internal links, and a way to see calls and form enquiries. The contact path is a tel link, a form, or both, depending on how your team actually answers."
+      },
+      {
+        "number": "04",
+        "title": "Review",
+        "description": "Look at queries, pages and the enquiries that arrived. Positions move for reasons outside any one page, including competitors and how often the profile is updated. We report what changed and do not invent a result."
+      }
+    ]
+  },
+  "local": {
+    "eyebrow": "Darwin, Palmerston, Casuarina",
+    "heading": "The office is in Darwin City. The service area is wider.",
+    "paragraphs": [
+      "GT Marketing’s only office is 130 Smith Street, Darwin City, Northern Territory 0800. Palmerston and Casuarina are service areas, not extra offices. A Palmerston business should say it serves Palmerston. A Casuarina business should not claim a CBD shopfront it does not have. The Darwin City, Casuarina and Palmerston pages describe each place. This page stays on the search work.",
+      "Darwin searches often pair a service with Darwin. Palmerston searches are more likely to name Palmerston or a suburb such as Durack, Bakewell or Gunn. Casuarina shows up for retail, health and local services around the centre, including Nakara, Tiwi and Leanyer. Pages should name only the places you work.",
+      "Search sends a person to a page. The page still has to make the next step obvious. Speed, mobile layout, enquiry forms and click-to-call are set out on the web design page. The wider list of work is on the services page. If people already find you and the gap is follow-up, the enquiries guide is the better place to start."
+    ]
+  },
+  "related": {
+    "heading": "Where to go next",
+    "intro": "Location pages describe the place. Service pages describe the work. Use the list below to move between them.",
+    "links": [
+      { "label": "Web design in Darwin", "url": "/web-design-darwin" },
+      { "label": "All services", "url": "/services" },
+      { "label": "Darwin City", "url": "/locations/darwin-city" },
+      { "label": "Casuarina", "url": "/locations/casuarina" },
+      { "label": "Palmerston", "url": "/locations/palmerston" },
+      { "label": "How to get more enquiries without spending more on ads", "url": "/blog/how-to-get-more-enquiries-without-spending-more-on-ads" }
+    ]
+  },
+  "faqsHeading": "SEO in Darwin questions",
+  "faqs": [
+    {
+      "question": "Can you guarantee the top spot for SEO in Darwin?",
+      "answer": "No. Competition, the age of the site, reviews and how often your details change all affect what Google shows. The work improves the information Google has. It cannot reserve a position."
+    },
+    {
+      "question": "Do you only work inside Darwin City?",
+      "answer": "The office is in Darwin City. SEO work covers businesses in Darwin, Palmerston and Casuarina, and other Northern Territory businesses when the service area is real. We do not claim offices we do not have."
+    },
+    {
+      "question": "Is a Google Business Profile enough on its own?",
+      "answer": "It is the first asset to get right, and it is not the whole job. A website gives room to explain services, suburbs and how to enquire. The profile and the site should show the same name, address and phone."
+    },
+    {
+      "question": "Will you write customer reviews?",
+      "answer": "No. Reviews need to come from customers. We can help you ask at the right time, provide a direct link, and reply in a straightforward tone. We do not draft fake reviews."
+    },
+    {
+      "question": "How does a project start?",
+      "answer": "Book a call or phone the Darwin office. The first conversation covers what you do, where you work, and how enquiries arrive now. Scope and price are agreed before work starts."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Talk it through",
+    "heading": "Tell us which jobs you want to be found for.",
+    "text": "There is no obligation. To talk it through, call",
+    "ctaLabel": "Book a call",
+    "ctaUrl": "/contact"
+  }
+}

@@ -1,15 +1,15 @@
 {
   "type": "CasuarinaLocationPage",
   "slug": "casuarina",
-  "seoTitle": "Marketing Agency Casuarina | Local SEO & Websites | GT Marketing",
-  "seoDescription": "GT Marketing helps Casuarina and northern suburbs businesses with local SEO, websites, social media, lead generation and marketing strategy.",
+  "seoTitle": "SEO Agency Casuarina | Local SEO & Websites | GT Marketing",
+  "seoDescription": "SEO agency support for Casuarina and the northern suburbs: local search, websites and enquiry follow-up, delivered from Darwin City.",
   "keywords": [
-    "marketing agency Casuarina",
+    "SEO agency Casuarina",
     "SEO Casuarina",
-    "web design Casuarina",
-    "digital marketing Casuarina NT",
     "local SEO northern suburbs Darwin",
-    "social media marketing Casuarina"
+    "web design Casuarina",
+    "Casuarina service area",
+    "marketing agency Casuarina"
   ],
   "locationName": "Casuarina",
   "locationType": "Place",
@@ -17,9 +17,11 @@
   "postcode": "0810",
   "hero": {
     "eyebrow": "Darwin marketing agency / Casuarina service area",
-    "heading": "Local growth for",
+    "heading": "SEO Agency",
     "accent": "Casuarina",
-    "intro": "GT Marketing supports Casuarina and northern suburbs businesses with local SEO, websites, content, lead generation and practical systems designed to turn local attention into enquiries.",
+    "leadWithHeading": true,
+    "topic": "Northern suburbs service area, delivered from the Darwin City office.",
+    "intro": "GT Marketing supports Casuarina and northern suburbs businesses with local SEO, websites, content, lead generation and practical systems designed to turn local attention into enquiries. This page is the Casuarina area. The search method and the website build are on the service pages.",
     "ctaLabel": "Plan your local growth",
     "ctaUrl": "/contact"
   },
@@ -64,6 +66,13 @@
     "Casuarina serves a broad northern suburbs catchment and attracts customers for retail, health, education, community services, hospitality and professional support. Search behaviour commonly includes suburb names, service terms and nearby-area modifiers, so a business must communicate both what it does and where it can serve customers.",
     "A strong Casuarina search presence comes from accurate business information, genuinely useful location content, relevant service pages, reviews, local citations and a website that performs well on mobile. We do not create duplicate doorway pages or pretend to operate from locations where GT Marketing has no office.",
     "The Casuarina page is therefore written as a service-area resource. It provides unique local context, links the location to relevant services and clearly identifies GT Marketing’s actual business address in Darwin City."
+  ],
+  "relatedIntro": "Casuarina is the area. These pages explain the work, the full service list, and how to get more from enquiries you already receive.",
+  "relatedLinks": [
+    { "label": "SEO in Darwin", "url": "/seo-darwin" },
+    { "label": "Web design in Darwin", "url": "/web-design-darwin" },
+    { "label": "All services", "url": "/services" },
+    { "label": "How to get more enquiries without spending more on ads", "url": "/blog/how-to-get-more-enquiries-without-spending-more-on-ads" }
   ],
   "industriesHeading": "Casuarina and northern suburbs sectors",
   "industries": [

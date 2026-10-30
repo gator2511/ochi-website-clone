@@ -10,6 +10,12 @@ type GrowthContent = {
   proof: { eyebrow: string; heading: string; note: string; stats: Array<{ value: string; label: string }> };
   niches: { eyebrow: string; heading: string; primary: string; primaryText: string; also: string[]; ctaLabel: string; ctaUrl: string };
   offer: { eyebrow: string; heading: string; intro: string; includes: string[]; priceNote: string; ctaLabel: string; ctaUrl: string };
+  services: {
+    eyebrow: string;
+    heading: string;
+    intro: string;
+    items: Array<{ title: string; text: string; url: string; label: string }>;
+  };
   national: { eyebrow: string; heading: string; text: string };
 };
 
@@ -115,6 +121,23 @@ export default function LeadBookingSystem({ content }: { content: GrowthContent 
               <span data-sb-field-path="offer.ctaLabel">{content.offer.ctaLabel}</span><ArrowUpRight size={18}/>
             </Link>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-[#f1f1f1] text-[#212121] padding-x py-[110px] border-b border-[#21212122]">
+        <p className="small-text uppercase text-[#21212188]" data-sb-field-path="services.eyebrow">{content.services.eyebrow}</p>
+        <h2 className="text-[96px] leading-[0.84] lg:text-[80px] md:text-[66px] sm:text-[54px] xm:text-[46px] font-FoundersGrotesk font-semibold uppercase pt-[18px] max-w-[1100px]" data-sb-field-path="services.heading">{content.services.heading}</h2>
+        <p className="paragraph max-w-[760px] pt-[24px]" data-sb-field-path="services.intro">{content.services.intro}</p>
+        <div className="grid grid-cols-2 gap-[12px] pt-[40px] sm:grid-cols-1 xm:grid-cols-1">
+          {content.services.items.map((item, index) => (
+            <Link key={item.url} href={item.url} className="rounded-[16px] border border-[#21212133] p-[24px] min-h-[220px] flex flex-col justify-between hover:bg-[#212121] hover:text-white transition-colors duration-500 group">
+              <h3 className="text-[42px] leading-[0.92] font-FoundersGrotesk font-semibold uppercase group-hover:text-[#fd4402]" data-sb-field-path={`services.items.${index}.title`}>{item.title}</h3>
+              <div>
+                <p className="paragraph text-[#21212199] group-hover:text-white/70" data-sb-field-path={`services.items.${index}.text`}>{item.text}</p>
+                <span className="mt-[16px] inline-flex items-center gap-[8px] small-text uppercase" data-sb-field-path={`services.items.${index}.label`}>{item.label}<ArrowUpRight size={16} /></span>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
 

@@ -28,6 +28,7 @@ type BlogArticleContent = {
 		heading: string;
 		paragraphs: string[];
 		fix: string;
+		links?: Array<{ label: string; url: string }>;
 	}>;
 	bottomLineHeading: string;
 	bottomLine: string;
@@ -152,6 +153,14 @@ export default function BlogArticleLayout({
 														className="paragraph font-NeueMontreal leading-[1.45]">
 														{paragraph}
 													</p>
+												))}
+												{section.links?.map((link) => (
+													<Link
+														key={link.url}
+														href={link.url}
+														className="mt-[16px] block w-fit paragraph font-NeueMontreal underline underline-offset-4 text-[#fd4402]">
+														{link.label}
+													</Link>
 												))}
 												<div className="mt-[28px] rounded-[14px] bg-[#fd4402] p-[26px] text-white">
 													<p className="small-text font-NeueMontreal uppercase pb-[12px]">Checklist action</p>
