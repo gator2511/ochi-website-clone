@@ -25,6 +25,18 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://gtmarketing.io/cafe-marketing</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gtmarketing.io/real-estate-marketing</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://gtmarketing.io/brand-kit</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>

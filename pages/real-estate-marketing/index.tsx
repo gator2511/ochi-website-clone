@@ -1,12 +1,11 @@
 "use client";
 
-import Head from "next/head";
 import { useEffect } from "react";
 import { Button, Curve, Ready } from "@/components";
 import TopicLine from "@/components/TopicLine";
 
-const CONTACT_URL = "https://gtmarketing.io/contact";
-const HERO_IMAGE = "https://images.pexels.com/photos/11588266/pexels-photo-11588266.jpeg?auto=compress&cs=tinysrgb&w=2000";
+const CONTACT_URL = "/contact";
+const HERO_IMAGE = "https://images.pexels.com/photos/11588266/pexels-photo-11588266.jpeg?auto=compress&cs=tinysrgb&w=1200";
 
 const services = [
 	{
@@ -103,120 +102,26 @@ export default function RealEstateMarketing() {
 		})();
 	}, []);
 
-	const structuredData = {
-		"@context": "https://schema.org",
-		"@graph": [
-			{
-				"@type": "Service",
-				"@id": "https://gtmarketing.io/real-estate-marketing#service",
-				name: "Real Estate Marketing",
-				url: "https://gtmarketing.io/real-estate-marketing",
-				description:
-					"Real estate marketing for Australian agents and agencies including seller lead generation, property campaigns, local SEO, websites, paid media and database nurture.",
-				serviceType: "Real estate marketing and lead generation",
-				provider: {
-					"@type": ["ProfessionalService", "LocalBusiness"],
-					name: "GT Marketing",
-					url: "https://gtmarketing.io",
-					telephone: "+61405312275",
-					address: {
-						"@type": "PostalAddress",
-						streetAddress: "130 Smith Street",
-						addressLocality: "Darwin City",
-						addressRegion: "NT",
-						postalCode: "0800",
-						addressCountry: "AU",
-					},
-				},
-				areaServed: {
-					"@type": "Country",
-					name: "Australia",
-				},
-				audience: {
-					"@type": "BusinessAudience",
-					audienceType: "Real estate agents, agencies and property businesses",
-				},
-			},
-			{
-				"@type": "BreadcrumbList",
-				"@id": "https://gtmarketing.io/real-estate-marketing#breadcrumb",
-				itemListElement: [
-					{
-						"@type": "ListItem",
-						position: 1,
-						name: "Home",
-						item: "https://gtmarketing.io",
-					},
-					{
-						"@type": "ListItem",
-						position: 2,
-						name: "Real Estate Marketing",
-						item: "https://gtmarketing.io/real-estate-marketing",
-					},
-				],
-			},
-		],
-	};
-
 	return (
 		<>
-			<Head>
-				<title>Real Estate Marketing Agency Australia | GT Marketing</title>
-				<meta
-					name="description"
-					content="Real estate marketing for agents and agencies. Generate seller enquiries, strengthen agent branding and market property with SEO, websites, social media, paid campaigns and database nurture."
-				/>
-				<meta
-					name="keywords"
-					content="real estate marketing agency, real estate marketing Australia, real estate lead generation, seller leads, real estate digital marketing, agent marketing, property marketing"
-				/>
-				<meta
-					name="robots"
-					content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
-				/>
-				<link rel="canonical" href="https://gtmarketing.io/real-estate-marketing" />
-				<meta property="og:type" content="website" />
-				<meta property="og:site_name" content="GT Marketing" />
-				<meta property="og:title" content="Real Estate Marketing Agency Australia | GT Marketing" />
-				<meta
-					property="og:description"
-					content="Marketing systems for real estate agents and agencies focused on seller enquiries, stronger local positioning and better property campaign performance."
-				/>
-				<meta property="og:url" content="https://gtmarketing.io/real-estate-marketing" />
-				<meta property="og:image" content={HERO_IMAGE} />
-				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:title" content="Real Estate Marketing Agency Australia | GT Marketing" />
-				<meta
-					name="twitter:description"
-					content="Generate seller enquiries and strengthen your local real estate brand with connected digital marketing."
-				/>
-				<meta name="twitter:image" content={HERO_IMAGE} />
-				<script
-					type="application/ld+json"
-					dangerouslySetInnerHTML={{
-						__html: JSON.stringify(structuredData).replace(/</g, "\\u003c"),
-					}}
-				/>
-			</Head>
-
 			<Curve backgroundColor="#f1f1f1">
 				<main className="w-full bg-background text-secondry overflow-hidden">
 					<section className="min-h-screen padding-x pt-[170px] lg:pt-[150px] md:pt-[130px] sm:pt-[120px] xm:pt-[110px] pb-[70px] flex flex-col justify-between gap-[70px]">
 						<div>
 							<p className="small-text uppercase font-NeueMontreal mb-[28px]">
-								Real estate marketing
+								Darwin and Palmerston agents
 							</p>
 							<h1 className="heading uppercase font-bold font-FoundersGrotesk tracking-[-2px] max-w-[1500px]">
-								<TopicLine>Real estate lead generation in Darwin</TopicLine>
-								Turn property attention into
-								<span className="text-[#fd4402]"> seller enquiries.</span>
+								<TopicLine>Listings, appraisals and local search</TopicLine>
+								Real estate marketing for
+								<span className="text-[#fd4402]"> Darwin and Palmerston agents.</span>
 							</h1>
 						</div>
 
 						<div className="grid grid-cols-12 gap-[20px] items-end md:flex md:flex-col sm:flex sm:flex-col xm:flex xm:flex-col">
 							<div className="col-span-4 md:w-full sm:w-full xm:w-full">
 								<p className="sub-paragraph font-NeueMontreal max-w-[560px] mb-[28px]">
-									GT Marketing helps real estate agents and agencies build stronger local brands, generate appraisal opportunities, market listings and create clearer pathways from attention to enquiry.
+									Real estate marketing for Darwin and Palmerston agents covers the brand people see before they book an appraisal. GT Marketing helps local agents and agencies support listings, show up in local search, and give vendors a clear way to enquire.
 								</p>
 								<Button href={CONTACT_URL} title="Generate more enquiries" />
 							</div>
@@ -225,6 +130,8 @@ export default function RealEstateMarketing() {
 									<img
 										src={HERO_IMAGE}
 										alt="Woman in a vivid orange suit against a blue architectural wall"
+										width={1200}
+										height={750}
 										className="w-full aspect-[8/5] object-cover object-[center_43%]"
 										loading="eager"
 										fetchPriority="high"

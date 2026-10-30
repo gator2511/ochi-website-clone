@@ -1,7 +1,7 @@
 {
   "type": "HomePage",
   "seoTitle": "Marketing Agency Darwin | Local SEO & Leads | GT Marketing",
-  "seoDescription": "Marketing agency in Darwin for local SEO, websites and lead generation. For small businesses in Palmerston, Casuarina and the NT.",
+  "seoDescription": "A digital marketing agency in Darwin for local SEO, websites and lead generation. For small businesses in Palmerston, Casuarina and the NT.",
   "hero": {
     "headingLine1": "Darwin-based.",
     "headingAccent": "Small business.",
@@ -10,7 +10,7 @@
     "accentImageAlt": "GT Marketing creative detail",
     "badgeImage": "",
     "badgeImageAlt": "",
-    "introLeft": "Local SEO, websites and lead-generation systems for tradies, hospitality, health and professional services.",
+    "introLeft": "A digital marketing agency in Darwin for local SEO, websites and lead generation, built for tradies, hospitality, health and professional services.",
     "introRight": "Based in Darwin. Working with businesses in Palmerston, Casuarina and across the NT.",
     "ctaLabel": "Book a call",
     "ctaUrl": "/contact",
@@ -50,32 +50,33 @@
     ]
   },
   "video": {
-    "src": "/homevideo.mp4"
+    "src": "/homevideo.mp4",
+    "poster": "/homevideo-poster.jpg"
   },
   "vision": {
     "eyebrow": "A clearer growth perspective",
     "title": "Marketing should create momentum, not more noise.",
     "items": [
       {
-        "src": "https://images.pexels.com/photos/8763898/pexels-photo-8763898.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "src": "https://images.pexels.com/photos/8763898/pexels-photo-8763898.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "alt": "Fashion portrait in an orange suit with a circular light installation",
         "label": "Distinct positioning",
         "title": "Stand apart before you scale."
       },
       {
-        "src": "https://images.pexels.com/photos/6923559/pexels-photo-6923559.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "src": "https://images.pexels.com/photos/6923559/pexels-photo-6923559.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "alt": "Creative fashion portrait in vivid orange",
         "label": "Bold creative",
         "title": "Make the brand impossible to ignore."
       },
       {
-        "src": "https://images.pexels.com/photos/9836458/pexels-photo-9836458.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "src": "https://images.pexels.com/photos/9836458/pexels-photo-9836458.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "alt": "Three businesswomen overlooking a calm landscape",
         "label": "One direction",
         "title": "Align strategy, execution and growth."
       },
       {
-        "src": "https://images.pexels.com/photos/3761137/pexels-photo-3761137.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "src": "https://images.pexels.com/photos/3761137/pexels-photo-3761137.jpeg?auto=compress&cs=tinysrgb&w=1200",
         "alt": "Woman wearing virtual reality goggles against an orange background",
         "label": "Future-focused systems",
         "title": "See the opportunity before the market does."
@@ -429,7 +430,7 @@
     "problems": {
       "eyebrow": "What gets in the way",
       "heading": "Good marketing starts with how your business actually gets work.",
-      "intro": "A lot of Darwin businesses still rely on word of mouth, a website that does not explain the offer, or ads that never turn into a call. The useful work is being found locally, saying clearly what you do, and following up.",
+      "intro": "GT Marketing is a digital marketing agency in Darwin. Many local businesses still rely on word of mouth, a website that does not explain the offer, or ads that never turn into a call. The useful work is being found locally, saying clearly what you do, and following up.",
       "items": [
         {
           "title": "Hard to be found",
