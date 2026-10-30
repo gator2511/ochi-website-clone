@@ -63,7 +63,7 @@ const ROUTES: Record<string, RouteSEO> = {
 	"/": {
 		title: "Marketing Agency Darwin | Local SEO & Leads | GT Marketing",
 		description:
-			"Marketing agency in Darwin for local SEO, websites and lead generation. For small businesses in Palmerston, Casuarina and the NT.",
+			"A digital marketing agency in Darwin for local SEO, websites and lead generation. For small businesses in Palmerston, Casuarina and the NT.",
 		label: "Home",
 		type: "WebPage",
 		keywords: [
@@ -108,6 +108,42 @@ const ROUTES: Record<string, RouteSEO> = {
 			"Google Business Profile Darwin",
 		],
 	},
+	"/cafe-marketing": {
+		title: "Cafe Marketing Darwin | Hospitality | GT Marketing",
+		description:
+			"Cafe and hospitality marketing in Darwin. Local SEO, websites and campaigns that help venues in Darwin and Palmerston get found.",
+		label: "Cafe marketing",
+		type: "WebPage",
+		parentLabel: "Services",
+		parentPath: "/services",
+		image:
+			"https://images.pexels.com/photos/27860686/pexels-photo-27860686/free-photo-of-coffee-cup.jpeg?auto=compress&cs=tinysrgb&w=1200",
+		keywords: [
+			"cafe marketing Darwin",
+			"hospitality marketing Darwin",
+			"coffee shop marketing Darwin",
+			"cafe SEO Darwin",
+			"hospitality marketing NT",
+		],
+	},
+	"/real-estate-marketing": {
+		title: "Real Estate Marketing Darwin | Palmerston | GT Marketing",
+		description:
+			"Real estate marketing for Darwin and Palmerston agents. Local SEO, listing campaigns and websites that support seller enquiries.",
+		label: "Real estate marketing",
+		type: "WebPage",
+		parentLabel: "Services",
+		parentPath: "/services",
+		image:
+			"https://images.pexels.com/photos/11588266/pexels-photo-11588266.jpeg?auto=compress&cs=tinysrgb&w=1200",
+		keywords: [
+			"real estate marketing Darwin",
+			"real estate marketing Palmerston",
+			"Darwin real estate agent marketing",
+			"property marketing Darwin",
+			"seller leads Darwin",
+		],
+	},
 	"/web-design-darwin": {
 		title: "Web Design Darwin | Sites That Get Enquiries | GT Marketing",
 		description:
@@ -127,7 +163,7 @@ const ROUTES: Record<string, RouteSEO> = {
 	"/brand-kit": {
 		title: "Brand Kit Design Darwin | Brand Guidelines & Identity Systems | GT Marketing",
 		description:
-			"Build a practical brand kit with logo rules, colours, typography, voice, templates and usage guidelines so your business stays consistent across every channel.",
+			"A practical brand kit: logo rules, colours, typography, voice and templates so a Darwin business stays consistent on every channel.",
 		label: "Brand Kit",
 		type: "WebPage",
 		parentLabel: "Services",
@@ -145,7 +181,7 @@ const ROUTES: Record<string, RouteSEO> = {
 	"/presentation": {
 		title: "Our Work | Darwin Local SEO & Websites | GT Marketing",
 		description:
-			"See how GT Marketing helps Darwin and NT businesses with local SEO, websites and lead generation for tradies, hospitality, health and professional services.",
+			"How GT Marketing helps Darwin and NT businesses with local SEO, websites and leads for tradies, hospitality, health and professional services.",
 		label: "Our Work",
 		type: "CollectionPage",
 	},
@@ -166,7 +202,7 @@ const ROUTES: Record<string, RouteSEO> = {
 	"/blog/how-to-get-more-enquiries-without-spending-more-on-ads": {
 		title: "How to Get More Enquiries Without Spending More on Ads | GT Marketing",
 		description:
-			"A practical guide to generating more qualified enquiries from existing traffic, your website, customer data and local visibility before increasing ad spend.",
+			"A practical guide to more qualified enquiries from existing traffic, your website, customer data and local visibility, before raising ad spend.",
 		label: "How to Get More Enquiries Without Spending More on Ads",
 		type: "Article",
 		image:
@@ -210,8 +246,7 @@ const ROUTES: Record<string, RouteSEO> = {
 			"A practical local SEO checklist for Darwin City, Casuarina and Palmerston businesses looking to improve Google visibility and attract local customers.",
 		label: "Local SEO Checklist for Darwin and Palmerston Businesses",
 		type: "Article",
-		image:
-			"https://static.wixstatic.com/media/873fa1_507866ba6fa8409583cf3181c43ddd5a~mv2.jpg",
+		image: "/blog/local-seo-checklist-darwin-palmerston.jpg",
 		publishedDate: "2026-07-26",
 		modifiedDate: "2026-07-30",
 		parentLabel: "The Vault",
@@ -367,6 +402,18 @@ function normalisePath(inputPath: string) {
 	return cleanPath;
 }
 
+const TRACKING_PARAMS = ["viewAsMember", "trk", "trackingId", "utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
+
+function cleanSameAsUrl(url: string) {
+	try {
+		const parsed = new URL(url);
+		for (const key of TRACKING_PARAMS) parsed.searchParams.delete(key);
+		return parsed.toString();
+	} catch {
+		return url;
+	}
+}
+
 function absoluteUrl(url?: string) {
 	if (!url) return DEFAULT_IMAGE;
 	return url.startsWith("http") ? url : `${SITE_URL}${url.startsWith("/") ? url : `/${url}`}`;
@@ -468,9 +515,14 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		telephone: site.phoneTel,
 		taxID: "24280902425",
 		address,
+		geo: {
+			"@type": "GeoCoordinates",
+			latitude: -12.4569014,
+			longitude: 130.8356565,
+		},
 		hasMap: site.addressUrl,
 		areaServed: LOCAL_SERVICE_AREAS,
-		sameAs: site.socialLinks.map((item) => item.url),
+		sameAs: site.socialLinks.map((item) => cleanSameAsUrl(item.url)),
 		knowsAbout: [
 			...SERVICES,
 			"Marketing agency Darwin",
@@ -591,6 +643,14 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		"/web-design-darwin": {
 			name: "Web design in Darwin",
 			serviceType: "Website design and development",
+		},
+		"/cafe-marketing": {
+			name: "Cafe and hospitality marketing in Darwin",
+			serviceType: "Cafe, coffee shop and hospitality marketing",
+		},
+		"/real-estate-marketing": {
+			name: "Real estate marketing for Darwin and Palmerston agents",
+			serviceType: "Real estate marketing and lead generation",
 		},
 	};
 	const dedicatedService = dedicatedServiceCopy[path];

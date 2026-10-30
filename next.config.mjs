@@ -8,6 +8,12 @@ const nextConfig = {
 				permanent: true,
 				statusCode: 301,
 			},
+			{
+				source: "/blog",
+				destination: "/insights",
+				permanent: true,
+				statusCode: 301,
+			},
 		];
 	},
 };

@@ -23,6 +23,8 @@ type BlogArticleContent = {
 	intro: string;
 	heroImage: string;
 	heroImageAlt: string;
+	heroImageWidth?: number;
+	heroImageHeight?: number;
 	sections: Array<{
 		number: string;
 		heading: string;
@@ -111,6 +113,8 @@ export default function BlogArticleLayout({
 									data-sb-field-path="heroImage"
 									src={content.heroImage}
 									alt={content.heroImageAlt}
+									width={content.heroImageWidth}
+									height={content.heroImageHeight}
 									className="absolute inset-[-7%] w-[114%] h-[114%] object-cover"
 								/>
 								<div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />

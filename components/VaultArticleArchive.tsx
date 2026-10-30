@@ -12,6 +12,8 @@ type VaultArticle = {
 	summary: string;
 	image: string;
 	imageAlt: string;
+	imageWidth?: number;
+	imageHeight?: number;
 	url: string;
 };
 
@@ -45,6 +47,8 @@ export default function VaultArticleArchive({ articles }: { articles: VaultArtic
 								<img
 									src={article.image}
 									alt={article.imageAlt}
+									width={article.imageWidth}
+									height={article.imageHeight}
 									loading="lazy"
 									className="w-full h-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(.4,0,.2,1)] group-hover:scale-[1.055]"
 								/>

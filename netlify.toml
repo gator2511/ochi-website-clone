@@ -37,6 +37,18 @@
   force = true
 
 [[redirects]]
+  from = "/blog"
+  to = "/insights"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/"
+  to = "/insights"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/aboriginal-organisations"
   to = "https://gtmarketing.io/"
   status = 301

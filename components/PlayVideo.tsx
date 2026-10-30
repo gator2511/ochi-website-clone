@@ -4,7 +4,17 @@ import { eyes } from "@/public";
 import { useEffect, useRef, useState } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 
-export default function PlayVideo({ videosrc }: { videosrc: string }) {
+export default function PlayVideo({
+	videosrc,
+	poster,
+	width,
+	height,
+}: {
+	videosrc: string;
+	poster?: string;
+	width?: number;
+	height?: number;
+}) {
 	const [rotate, setRotate] = useState(0);
 	const [isPlaying, setIsPlaying] = useState(false);
 	const videoRef = useRef<HTMLVideoElement>(null);
@@ -53,6 +63,11 @@ export default function PlayVideo({ videosrc }: { videosrc: string }) {
 				<video
 					className="w-full h-full"
 					loop
+					playsInline
+					preload="none"
+					poster={poster}
+					width={width}
+					height={height}
 					ref={videoRef}
 					src={videosrc}
 				/>

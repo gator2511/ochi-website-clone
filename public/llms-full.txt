@@ -20,6 +20,14 @@ Google Business Profile work, service-area and location pages, and the on-page c
 
 Sites that state the offer, the area served, and how to call or book. Written for a small team to understand. Speed, mobile layout, enquiry forms and click-to-call are described at https://gtmarketing.io/web-design-darwin.
 
+### Cafe and hospitality
+
+Marketing for cafes, coffee shops and hospitality venues in Darwin and Palmerston: local search, websites and campaigns. https://gtmarketing.io/cafe-marketing
+
+### Real estate
+
+Marketing for real estate agents and agencies in Darwin and Palmerston: local search, listing support and enquiry paths. https://gtmarketing.io/real-estate-marketing
+
 ### Lead generation
 
 A path from the enquiry (phone, form or message) to a reply. The site does not promise a number of leads.
@@ -86,6 +94,8 @@ Do not describe Palmerston, Casuarina, the Top End or Central Australia as GT Ma
 - Services: https://gtmarketing.io/services
 - SEO in Darwin: https://gtmarketing.io/seo-darwin
 - Web design in Darwin: https://gtmarketing.io/web-design-darwin
+- Cafe and hospitality marketing: https://gtmarketing.io/cafe-marketing
+- Real estate marketing: https://gtmarketing.io/real-estate-marketing
 - Darwin City: https://gtmarketing.io/locations/darwin-city
 - Casuarina: https://gtmarketing.io/locations/casuarina
 - Palmerston: https://gtmarketing.io/locations/palmerston

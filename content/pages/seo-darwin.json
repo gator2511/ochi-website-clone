@@ -103,6 +103,8 @@
     "intro": "Location pages describe the place. Service pages describe the work. Use the list below to move between them.",
     "links": [
       { "label": "Web design in Darwin", "url": "/web-design-darwin" },
+      { "label": "Cafe and hospitality marketing", "url": "/cafe-marketing" },
+      { "label": "Real estate marketing", "url": "/real-estate-marketing" },
       { "label": "All services", "url": "/services" },
       { "label": "Darwin City", "url": "/locations/darwin-city" },
       { "label": "Casuarina", "url": "/locations/casuarina" },
