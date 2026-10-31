@@ -43,7 +43,7 @@ export default function Hero({ content }: HeroProps) {
 					<h2 data-sb-field-path="hero.formIntro" className="paragraph font-medium text-secondry font-NeueMontreal">
 						{content.formIntro}
 					</h2>
-					<a href={`tel:${site.phoneTel}`} className="paragraph font-medium font-NeueMontreal text-secondry underline underline-offset-4 hover:text-[#fd4402]">
+					<a href={`tel:${site.phoneTel}`} data-track-location="contact_hero" className="paragraph font-medium font-NeueMontreal text-secondry underline underline-offset-4 hover:text-[#fd4402]">
 						{site.phoneDisplay}
 					</a>
 				</div>

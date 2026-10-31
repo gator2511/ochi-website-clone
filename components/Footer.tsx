@@ -90,6 +90,7 @@ export default function Footer() {
 							<LinkHover
 								title={site.phoneDisplay}
 								href={`tel:${site.phoneTel}`}
+								trackLocation="footer"
 								className="before:h-[1px] after:h-[1px] paragraph font-medium before:bottom-[-3px] after:bottom-[-3px]"
 							/>
 						</span>

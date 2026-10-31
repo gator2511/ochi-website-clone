@@ -53,7 +53,7 @@ type ServiceContent = {
 
 function PhoneLink({ className = "" }: { className?: string }) {
 	return (
-		<a href={`tel:${site.phoneTel}`} className={`underline underline-offset-4 hover:text-[#fd4402] transition-colors ${className}`}>
+		<a href={`tel:${site.phoneTel}`} data-track-location="service_page" className={`underline underline-offset-4 hover:text-[#fd4402] transition-colors ${className}`}>
 			{site.phoneDisplay}
 		</a>
 	);

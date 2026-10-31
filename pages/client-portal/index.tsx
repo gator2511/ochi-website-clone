@@ -266,7 +266,7 @@ export default function ClientPortalPage() {
 						<div className="col-span-7 bg-[#212121] text-white p-[55px] md:p-[36px] sm:p-[25px] xm:p-[22px] flex flex-col justify-between min-h-screen md:min-h-[48vh] sm:min-h-[45vh] xm:min-h-[42vh]">
 							<div className="flex justify-between items-start gap-[20px]">
 								<img src="/logo.svg" alt="GT Marketing" className="h-[72px] sm:h-[58px] xm:h-[52px] w-auto brightness-0 invert" />
-								<a href={`tel:${site.phoneTel}`} className="small-text uppercase text-white/80">{site.phoneDisplay}</a>
+								<a href={`tel:${site.phoneTel}`} data-track-location="client_portal" className="small-text uppercase text-white/80">{site.phoneDisplay}</a>
 							</div>
 							<div>
 								<p className="small-text uppercase text-[#fd4402] pb-[22px]">Client portal</p>
@@ -312,7 +312,7 @@ export default function ClientPortalPage() {
 								<div>
 									<div className="flex justify-between items-start gap-[20px]">
 										<img src="/logo.svg" alt="GT Marketing" className="h-[58px] w-auto brightness-0 invert" />
-										<a href={`tel:${site.phoneTel}`} className="small-text uppercase text-white/70">{site.phoneDisplay}</a>
+										<a href={`tel:${site.phoneTel}`} data-track-location="client_portal" className="small-text uppercase text-white/70">{site.phoneDisplay}</a>
 									</div>
 									<div className="pt-[45px] lg:pt-[28px] md:pt-[28px] sm:pt-[24px] xm:pt-[22px]">
 										<p className="small-text uppercase text-white/45">Client workspace</p>

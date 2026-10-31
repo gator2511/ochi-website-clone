@@ -69,6 +69,7 @@
         "items": [
           { "label": "SEO Darwin", "url": "/seo-darwin" },
           { "label": "Local SEO", "url": "/seo-darwin" },
+          { "label": "Google Ads Darwin", "url": "/google-ads-darwin" },
           { "label": "Lead generation", "url": "/contact" }
         ]
       },
@@ -120,6 +121,7 @@
       { "label": "Social Media Marketing", "url": "/contact" },
       { "label": "DTC Marketing", "url": "/contact" },
       { "label": "Marketing Strategy", "url": "/contact" },
+      { "label": "Google Ads Darwin", "url": "/google-ads-darwin" },
       { "label": "Web design Darwin", "url": "/web-design-darwin" },
       { "label": "Website Development", "url": "/web-design-darwin" },
       { "label": "Web Hosting", "url": "/contact" }

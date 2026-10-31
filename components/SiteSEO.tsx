@@ -160,6 +160,37 @@ const ROUTES: Record<string, RouteSEO> = {
 			"click to call website Darwin",
 		],
 	},
+	"/google-ads-darwin": {
+		title: "Google Ads Management Darwin | PPC | GT Marketing",
+		description:
+			"Google Ads and pay-per-click management for small businesses in Darwin and Palmerston. Setup, local targeting, tracking and monthly reporting.",
+		label: "Google Ads in Darwin",
+		type: "WebPage",
+		parentLabel: "Services",
+		parentPath: "/services",
+		keywords: [
+			"Google Ads Darwin",
+			"Google Ads management Darwin",
+			"PPC Darwin",
+			"pay per click Darwin",
+			"Google Ads Palmerston",
+		],
+	},
+	"/marketing-packages-darwin": {
+		title: "Marketing Packages Darwin | $595 a Month | GT Marketing",
+		description:
+			"Darwin marketing from $595 a month until the end of November 2026. Local SEO, websites and a monthly report. Ad spend is separate.",
+		label: "Monthly marketing offer",
+		type: "WebPage",
+		parentLabel: "Services",
+		parentPath: "/services",
+		keywords: [
+			"marketing packages Darwin",
+			"marketing agency Darwin",
+			"local SEO Darwin",
+			"$595 a month marketing",
+		],
+	},
 	"/brand-kit": {
 		title: "Brand Kit Design Darwin | Brand Guidelines & Identity Systems | GT Marketing",
 		description:
@@ -261,7 +292,7 @@ const ROUTES: Record<string, RouteSEO> = {
 		],
 	},
 	"/locations/darwin-city": {
-		title: "Darwin City | 130 Smith Street Base | GT Marketing",
+		title: "Marketing Agency Darwin City | 130 Smith St | GT Marketing",
 		description:
 			"The Darwin City page for GT Marketing at 130 Smith Street. Central Darwin context, with SEO and web design on their own pages.",
 		label: "Darwin City",
@@ -640,6 +671,10 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 			name: "SEO in Darwin",
 			serviceType: "Local SEO and search engine optimisation",
 		},
+		"/google-ads-darwin": {
+			name: "Google Ads management in Darwin",
+			serviceType: "Google Ads and pay-per-click management",
+		},
 		"/web-design-darwin": {
 			name: "Web design in Darwin",
 			serviceType: "Website design and development",
@@ -690,6 +725,50 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		pageSchema.mainEntity = { "@id": dedicatedServiceSchema["@id"] };
 	}
 
+	const monthlyOfferSchema: Record<string, unknown> | null =
+		path === "/marketing-packages-darwin"
+			? {
+					"@type": "Service",
+					"@id": `${canonicalUrl}#service`,
+					name: "All Your Marketing. One Simple Monthly Fee.",
+					serviceType: "Monthly marketing for Darwin and Northern Territory small businesses",
+					description:
+						"From $595 AUD a month until the end of November 2026. Includes local SEO, Google Business Profile optimisation, website updates, a monthly performance report, lead capture, a monthly growth strategy and action plan, social media content, basic automation and ad campaign guidance. Ad spend is separate. There is a 3-month minimum commitment, which is the time it takes to see visible results.",
+					provider: { "@id": `${SITE_URL}/#business` },
+					url: canonicalUrl,
+					areaServed: [
+						{ "@type": "City", name: "Darwin" },
+						{ "@type": "City", name: "Palmerston" },
+						{ "@type": "Place", name: "Casuarina" },
+						{ "@type": "AdministrativeArea", name: "Northern Territory" },
+					],
+					offers: {
+						"@type": "Offer",
+						name: "All Your Marketing. One Simple Monthly Fee.",
+						price: "595",
+						priceCurrency: "AUD",
+						availability: "https://schema.org/InStock",
+						validThrough: "2026-11-30",
+						url: canonicalUrl,
+						priceSpecification: {
+							"@type": "UnitPriceSpecification",
+							price: "595",
+							priceCurrency: "AUD",
+							unitText: "MONTH",
+							referenceQuantity: {
+								"@type": "QuantitativeValue",
+								value: "1",
+								unitCode: "MON",
+							},
+						},
+					},
+				}
+			: null;
+
+	if (monthlyOfferSchema) {
+		pageSchema.mainEntity = { "@id": monthlyOfferSchema["@id"] };
+	}
+
 	const breadcrumb = breadcrumbSchema(canonicalPath, page);
 	if (breadcrumb) pageSchema.breadcrumb = { "@id": breadcrumb["@id"] };
 	if (path === "/services") pageSchema.mainEntity = offerCatalog;
@@ -704,6 +783,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 			...(localServiceSchema ? [localServiceSchema] : []),
 			...(brandKitServiceSchema ? [brandKitServiceSchema] : []),
 			...(dedicatedServiceSchema ? [dedicatedServiceSchema] : []),
+			...(monthlyOfferSchema ? [monthlyOfferSchema] : []),
 			...(breadcrumb ? [breadcrumb] : []),
 		],
 	};

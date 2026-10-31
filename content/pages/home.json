@@ -430,7 +430,7 @@
     "problems": {
       "eyebrow": "What gets in the way",
       "heading": "Good marketing starts with how your business actually gets work.",
-      "intro": "GT Marketing is a digital marketing agency in Darwin. Many local businesses still rely on word of mouth, a website that does not explain the offer, or ads that never turn into a call. The useful work is being found locally, saying clearly what you do, and following up.",
+      "intro": "GT Marketing is a marketing company in Darwin. Many local businesses still rely on word of mouth, a website that does not explain the offer, or ads that never turn into a call. The useful work is being found locally, saying clearly what you do, and following up.",
       "items": [
         {
           "title": "Hard to be found",
@@ -533,6 +533,12 @@
       "intro": "The Darwin office is on Smith Street. These pages explain the work, the full service list, and how to get more enquiries without spending more on ads.",
       "items": [
         {
+          "title": "All Your Marketing. One Simple Monthly Fee.",
+          "text": "From $595 a month until the end of November 2026. Local SEO, Google Business Profile, website updates and a monthly report. Ad spend is separate.",
+          "url": "/marketing-packages-darwin",
+          "label": "See the monthly offer"
+        },
+        {
           "title": "SEO in Darwin",
           "text": "Local search for Darwin, Palmerston and Casuarina: Google Business Profile, citations, reviews and pages that match real services.",
           "url": "/seo-darwin",
@@ -563,5 +569,26 @@
       "heading": "Based in Darwin. Working across Palmerston, Casuarina and the Territory.",
       "text": "Most of the work happens from Darwin, online or in person. If you are in Palmerston, Casuarina, the Top End or Central Australia, we can still help. We do not claim offices in those places."
     }
+  },
+  "faq": {
+    "heading": "Questions before you call",
+    "items": [
+      {
+        "question": "Where is GT Marketing based?",
+        "answer": "GT Marketing operates from 130 Smith Street, Darwin City. Casuarina and Palmerston are service areas, not additional offices."
+      },
+      {
+        "question": "What does the Darwin work cover?",
+        "answer": "Local SEO, websites and lead generation for Darwin small businesses, including tradies, hospitality, health and professional services in Palmerston, Casuarina and the NT."
+      },
+      {
+        "question": "Do you guarantee rankings or a set number of leads?",
+        "answer": "No. Rankings and lead numbers are not guaranteed."
+      },
+      {
+        "question": "How do I reach the Darwin office?",
+        "answer": "Call 0405 312 275 or use the contact form. The office is at 130 Smith Street, Darwin City NT 0800."
+      }
+    ]
   }
 }
