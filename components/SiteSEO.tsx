@@ -177,9 +177,9 @@ const ROUTES: Record<string, RouteSEO> = {
 		],
 	},
 	"/marketing-packages-darwin": {
-		title: "Marketing Packages Darwin | $595 a Month | GT Marketing",
+		title: "Marketing Packages Darwin | $595/month + GST | GT Marketing",
 		description:
-			"Darwin marketing from $595 a month until the end of November 2026. Local SEO, websites and a monthly report. Ad spend is separate.",
+			"Darwin marketing from $595 + GST a month until the end of November 2026. Local SEO, websites and a monthly report. Ad spend is separate.",
 		label: "Monthly marketing offer",
 		type: "WebPage",
 		parentLabel: "Services",
@@ -188,7 +188,7 @@ const ROUTES: Record<string, RouteSEO> = {
 			"marketing packages Darwin",
 			"marketing agency Darwin",
 			"local SEO Darwin",
-			"$595 a month marketing",
+			"$595 + GST a month marketing",
 		],
 	},
 	"/brand-kit": {
@@ -733,7 +733,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 					name: "All Your Marketing. One Simple Monthly Fee.",
 					serviceType: "Monthly marketing for Darwin and Northern Territory small businesses",
 					description:
-						"From $595 AUD a month until the end of November 2026. Includes local SEO, Google Business Profile optimisation, website updates, a monthly performance report, lead capture, a monthly growth strategy and action plan, social media content, basic automation and ad campaign guidance. Ad spend is separate. There is a 3-month minimum commitment, which is the time it takes to see visible results.",
+						"From $595 + GST a month until the end of November 2026. The $595 is only the management fee. Includes local SEO, Google Business Profile optimisation, website updates, a monthly performance report, lead capture, a monthly growth strategy and action plan, social media content, basic automation and ad campaign guidance. Ad spend is paid separately, directly to Google. There is a 3-month minimum commitment, which is the time it takes to see visible results.",
 					provider: { "@id": `${SITE_URL}/#business` },
 					url: canonicalUrl,
 					areaServed: [
@@ -754,6 +754,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 							"@type": "UnitPriceSpecification",
 							price: "595",
 							priceCurrency: "AUD",
+							valueAddedTaxIncluded: false,
 							unitText: "MONTH",
 							referenceQuantity: {
 								"@type": "QuantitativeValue",

@@ -5,14 +5,14 @@
   "hero": {
     "eyebrow": "Darwin pay-per-click",
     "h1": "Google Ads in Darwin",
-    "intro": "GT Marketing manages Google Ads for small businesses in Darwin and Palmerston. The work covers campaign setup, keyword and local targeting, ad copy, conversion tracking, landing pages and a monthly report. The media budget is not part of the management fee. Ad spend is paid separately. A number of leads, a cost per enquiry, or a position on the page is not promised.",
+    "intro": "GT Marketing manages Google Ads for small businesses in Darwin and Palmerston. The work covers campaign setup, keyword and local targeting, ad copy, conversion tracking, landing pages and a monthly report. The management fee is $595 + GST a month until the end of November 2026. That $595 is only the management fee. Ad spend is paid separately, directly to Google. A number of leads, a cost per enquiry, or a position on the page is not promised.",
     "ctaLabel": "Book a call",
     "ctaUrl": "/contact"
   },
   "included": {
     "eyebrow": "What is included",
     "heading": "The practical work of a Google Ads account.",
-    "intro": "Scope and the management fee are agreed before work starts. Ad spend is paid separately, to Google, on top of that fee.",
+    "intro": "The management fee is $595 + GST a month until the end of November 2026. That $595 is only the management fee. Ad spend is paid separately, directly to Google.",
     "items": [
       {
         "title": "Campaign setup",
@@ -71,7 +71,7 @@
       {
         "number": "02",
         "title": "Plan",
-        "description": "The campaigns, the landing page and the way calls and forms will be counted. Scope and the management fee are agreed before the account is changed. Ad spend is paid separately."
+        "description": "The campaigns, the landing page and the way calls and forms will be counted. The management fee is $595 + GST a month until the end of November 2026. Ad spend is paid separately, directly to Google."
       },
       {
         "number": "03",
@@ -90,7 +90,7 @@
     "heading": "The office is in Darwin City. Palmerston is a service area.",
     "paragraphs": [
       "GT Marketing’s only office is 130 Smith Street, Darwin City, Northern Territory 0800. Palmerston is a service area, not a second office. A Palmerston business should say it serves Palmerston. Ads and location settings should name only the places you work.",
-      "Ad campaign guidance is part of the monthly plan, All Your Marketing. One Simple Monthly Fee., from $595 a month until the end of November 2026. That plan is linked below. Managing a Google Ads account is agreed as its own scope. Ad spend is paid separately either way.",
+      "Ad campaign guidance is part of the monthly plan, All Your Marketing. One Simple Monthly Fee., from $595 + GST a month until the end of November 2026. That plan is linked below. The $595 is only the management fee. Ad spend is paid separately, directly to Google.",
       "Local SEO, including the Google Business Profile, is a different job and has its own page. A website that can take the enquiry is described on the web design page. If the gap is follow-up after the lead arrives, start with the contact page."
     ]
   },
@@ -111,15 +111,15 @@
   "faqs": [
     {
       "question": "Is the Google Ads budget included in your fee?",
-      "answer": "No. Ad spend is paid separately. The management scope and fee are agreed before work starts."
+      "answer": "No. $595 + GST a month is only the management fee. Ad spend is paid separately, directly to Google."
     },
     {
       "question": "Do you guarantee leads or a cost per enquiry?",
       "answer": "No. Lead numbers are not guaranteed. The monthly report shows what the account spent and which enquiries arrived. It does not promise the next month."
     },
     {
-      "question": "Is Google Ads management the same as the $595 monthly plan?",
-      "answer": "No. Ad campaign guidance is part of All Your Marketing. One Simple Monthly Fee., from $595 a month until the end of November 2026. Managing a Google Ads account is agreed as its own scope. Ad spend is paid separately."
+      "question": "What does the $595 cover?",
+      "answer": "$595 + GST a month, until the end of November 2026, is only the management fee. Ad spend is paid separately, directly to Google. Ad campaign guidance is part of All Your Marketing. One Simple Monthly Fee."
     },
     {
       "question": "Do you only work inside Darwin City?",
@@ -133,7 +133,7 @@
   "closing": {
     "eyebrow": "Talk it through",
     "heading": "Tell us which jobs the ads should ask for.",
-    "text": "There is no obligation. Ad spend is paid separately. To talk it through, call",
+    "text": "There is no obligation. The management fee is $595 + GST a month. Ad spend is paid separately, directly to Google. To talk it through, call",
     "ctaLabel": "Book a call",
     "ctaUrl": "/contact"
   }

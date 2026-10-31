@@ -8,13 +8,12 @@ import site from "@/content/data/site.json";
 
 /**
  * GT still to confirm on this page:
- * - Start date. Not stated. Visible copy: "Talk to us about start dates."
+ * - Start date. Visible copy: "Talk to us about start dates."
  * - What happens after November 2026, beyond the stated price window.
- * - Whether $595 is inclusive or exclusive of GST. The page does not say.
  * Not stated, and not to be invented: a guarantee or a results figure.
- * Confirmed by GT: every item in INCLUDED is included. Ad spend is separate.
- * Confirmed by GT: 3-month minimum commitment, framed as the time it takes to see visible results.
- * That minimum is not part of the price.
+ * Confirmed by GT: $595 a month excludes GST. Ad spend is paid separately, directly to Google.
+ * The $595 is only the management fee. Confirmed: 3-month minimum commitment, framed as the
+ * time it takes to see visible results. That minimum is not part of the price.
  */
 
 const INCLUDED = [
@@ -46,10 +45,10 @@ export default function MarketingPackagesDarwin() {
 						All Your Marketing. One Simple Monthly Fee.
 					</h1>
 					<p className="pt-[22px] max-w-[760px] text-[28px] leading-[1.25] md:text-[24px] sm:text-[20px] xm:text-[18px] font-NeueMontreal">
-						From $595 a month until the end of November 2026.
+						From $595 + GST a month until the end of November 2026.
 					</p>
 					<p className="paragraph max-w-[760px] pt-[18px]">
-						A monthly marketing offer for small businesses in Darwin, Palmerston, Casuarina and the NT. There is a 3-month minimum commitment. That is the time it takes to see visible results. Ad spend is separate.
+						A monthly marketing offer for small businesses in Darwin, Palmerston, Casuarina and the NT. There is a 3-month minimum commitment. That is the time it takes to see visible results. The $595 is only the management fee. Ad spend is paid separately, directly to Google.
 					</p>
 					<div className="pt-[28px] flex flex-wrap items-center gap-[16px]">
 						<a
@@ -74,7 +73,7 @@ export default function MarketingPackagesDarwin() {
 							</li>
 						))}
 					</ul>
-					<p className="paragraph pt-[18px] font-medium">Ad spend is separate.</p>
+					<p className="paragraph pt-[18px] font-medium">The $595 is only the management fee. Ad spend is paid separately, directly to Google.</p>
 				</section>
 
 				<section className="padding-x pb-[80px]">
