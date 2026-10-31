@@ -360,6 +360,58 @@ const models: any[] = [
 		],
 	},
 	{
+		name: "GoogleAdsDarwinPage",
+		type: "page",
+		urlPath: "/google-ads-darwin",
+		filePath: "content/pages/google-ads-darwin.json",
+		fields: [
+			...seoFields,
+			objectField("hero", [
+				stringField("eyebrow"),
+				stringField("h1"),
+				textField("intro"),
+				stringField("ctaLabel"),
+				stringField("ctaUrl"),
+			]),
+			objectField("included", [
+				stringField("eyebrow"),
+				stringField("heading"),
+				textField("intro"),
+				objectList("items", [stringField("title"), textField("description")]),
+			]),
+			objectField("audiences", [
+				stringField("eyebrow"),
+				stringField("heading"),
+				textField("intro"),
+				objectList("items", [stringField("title"), textField("description")]),
+			]),
+			objectField("process", [
+				stringField("eyebrow"),
+				stringField("heading"),
+				objectList("items", [stringField("number"), stringField("title"), textField("description")]),
+			]),
+			objectField("local", [
+				stringField("eyebrow"),
+				stringField("heading"),
+				textList("paragraphs"),
+			]),
+			objectField("related", [
+				stringField("heading"),
+				textField("intro"),
+				objectList("links", linkFields),
+			]),
+			stringField("faqsHeading"),
+			objectList("faqs", [stringField("question"), textField("answer")]),
+			objectField("closing", [
+				stringField("eyebrow"),
+				stringField("heading"),
+				textField("text"),
+				stringField("ctaLabel"),
+				stringField("ctaUrl"),
+			]),
+		],
+	},
+	{
 		name: "WebDesignDarwinPage",
 		type: "page",
 		urlPath: "/web-design-darwin",
@@ -653,7 +705,7 @@ const models: any[] = [
 				stringField("formIntro"),
 			]),
 			objectField("form", [
-				...["nameLabel", "namePlaceholder", "companyLabel", "companyPlaceholder", "goalLabel", "goalPlaceholder", "deadlineLabel", "deadlinePlaceholder", "budgetLabel", "budgetPlaceholder", "emailLabel", "emailPlaceholder", "emailSuffix", "detailsLabel", "detailsPlaceholder", "consentLabel", "privacyLabel", "submitLabel", "sendingLabel", "successHeading"].map((name) => stringField(name)),
+				...["nameLabel", "namePlaceholder", "phoneLabel", "phonePlaceholder", "needLabel", "needPlaceholder", "emailLabel", "emailPlaceholder", "privacyNote", "privacyLabel", "submitLabel", "sendingLabel", "successHeading", "auditLine", "offerLinkLabel", "offerLinkNote"].map((name) => stringField(name)),
 				textField("successMessage"),
 				textField("errorFallback"),
 			]),

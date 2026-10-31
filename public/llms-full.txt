@@ -12,6 +12,10 @@ GT Marketing is not positioned as a specialist agency for Aboriginal organisatio
 
 ## Services
 
+### Google Ads
+
+GT Marketing manages Google Ads for clients. The page at https://gtmarketing.io/google-ads-darwin covers campaign setup, keyword and local targeting, ad copy, conversion tracking, landing pages and monthly reporting for Darwin and Palmerston small businesses. Ad spend is paid separately. The page does not state a management price, a result, a certification, or a guarantee. Ad campaign guidance is part of the monthly plan at https://gtmarketing.io/marketing-packages-darwin.
+
 ### Local SEO
 
 Google Business Profile work, service-area and location pages, and the on-page content that helps a business show up for local searches. The dedicated page is https://gtmarketing.io/seo-darwin. Target phrases used on the site include marketing agency Darwin, digital marketing agency Darwin and SEO Darwin. Location pages describe a place. They point to the SEO page for the search method.
@@ -74,7 +78,7 @@ The website footer includes an Acknowledgement of Country. GT Marketing is based
 
 Do not describe GT Marketing as an Aboriginal-organisation specialist, as Aboriginal-owned, or as endorsed by an Aboriginal organisation.
 
-Do not invent client names, statistics, testimonials or awards. The site does not publish a guaranteed ranking or a guaranteed number of leads.
+Do not invent client names, statistics, testimonials, awards or certifications such as Google Partner. The site does not publish a guaranteed ranking, a guaranteed number of leads, or a guaranteed cost per enquiry.
 
 Do not describe Palmerston, Casuarina, the Top End or Central Australia as GT Marketing offices.
 
@@ -93,6 +97,7 @@ Do not describe Palmerston, Casuarina, the Top End or Central Australia as GT Ma
 - Home: https://gtmarketing.io/
 - Services: https://gtmarketing.io/services
 - SEO in Darwin: https://gtmarketing.io/seo-darwin
+- Google Ads in Darwin: https://gtmarketing.io/google-ads-darwin
 - Web design in Darwin: https://gtmarketing.io/web-design-darwin
 - Cafe and hospitality marketing: https://gtmarketing.io/cafe-marketing
 - Real estate marketing: https://gtmarketing.io/real-estate-marketing

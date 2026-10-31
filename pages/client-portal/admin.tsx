@@ -226,7 +226,7 @@ export default function PortalAdminPage() {
 					<div className="min-h-[calc(100vh-36px)] bg-[#f1f1f1] text-[#212121] rounded-[22px] flex items-center justify-center p-[25px]">
 						<form onSubmit={unlock} className="w-full max-w-[560px]">
 							<img src="/logo.svg" alt="GT Marketing" className="h-[70px] w-auto mb-[20px]" />
-							<a href={`tel:${site.phoneTel}`} className="small-text uppercase text-[#212121] mb-[30px] inline-block">{site.phoneDisplay}</a>
+							<a href={`tel:${site.phoneTel}`} data-track-location="client_portal" className="small-text uppercase text-[#212121] mb-[30px] inline-block">{site.phoneDisplay}</a>
 							<p className="small-text uppercase text-[#21212166]">Private administration</p>
 							<h1 className="text-[74px] leading-[0.85] font-FoundersGrotesk font-semibold uppercase pt-[12px]"><span className="block pb-[10px] font-NeueMontreal font-medium normal-case tracking-normal text-[18px] leading-[1.35]">Darwin client portal</span>Client portal<br /><span className="text-[#fd4402]">control room</span></h1>
 							<label className="block pt-[40px]"><span className="small-text uppercase">Admin secret</span><input type="password" value={secret} onChange={(e) => setSecret(e.target.value)} required className="w-full mt-[8px] py-[14px] bg-transparent border-b border-[#21212155] outline-none focus:border-[#fd4402] text-[22px]" /></label>

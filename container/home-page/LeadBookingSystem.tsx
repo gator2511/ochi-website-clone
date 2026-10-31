@@ -128,6 +128,9 @@ export default function LeadBookingSystem({ content }: { content: GrowthContent 
         <p className="small-text uppercase text-[#21212188]" data-sb-field-path="services.eyebrow">{content.services.eyebrow}</p>
         <h2 className="text-[96px] leading-[0.84] lg:text-[80px] md:text-[66px] sm:text-[54px] xm:text-[46px] font-FoundersGrotesk font-semibold uppercase pt-[18px] max-w-[1100px]" data-sb-field-path="services.heading">{content.services.heading}</h2>
         <p className="paragraph max-w-[760px] pt-[24px]" data-sb-field-path="services.intro">{content.services.intro}</p>
+        <p className="paragraph max-w-[760px] pt-[14px]">
+          Read <Link href="/seo-darwin" className="underline underline-offset-4 hover:text-[#fd4402]">SEO in Darwin</Link> for local search, and <Link href="/web-design-darwin" className="underline underline-offset-4 hover:text-[#fd4402]">web design in Darwin</Link> for enquiry-led websites.
+        </p>
         <div className="grid grid-cols-2 gap-[12px] pt-[40px] sm:grid-cols-1 xm:grid-cols-1">
           {content.services.items.map((item, index) => (
             <Link key={item.url} href={item.url} className="rounded-[16px] border border-[#21212133] p-[24px] min-h-[220px] flex flex-col justify-between hover:bg-[#212121] hover:text-white transition-colors duration-500 group">

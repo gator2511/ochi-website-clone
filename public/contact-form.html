@@ -2,7 +2,17 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>GT Marketing contact endpoint</title>
+		<title>GT Marketing contact form</title>
 	</head>
-	<body></body>
+	<body>
+		<form name="gt-marketing-contact" method="POST" action="/__forms.html" data-netlify="true" netlify-honeypot="bot-field" hidden>
+			<input type="hidden" name="form-name" value="gt-marketing-contact" />
+			<input type="hidden" name="subject" />
+			<input type="text" name="name" />
+			<input type="tel" name="phone" />
+			<textarea name="need"></textarea>
+			<input type="email" name="email" />
+			<input name="bot-field" />
+		</form>
+	</body>
 </html>

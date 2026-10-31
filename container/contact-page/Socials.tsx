@@ -47,7 +47,7 @@ export default function Socials({
 							<div>
 								<p className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">P:</p>
 								<div className="pb-[20px]">
-									<LinkHover title={site.phoneDisplay} href={`tel:${site.phoneTel}`} className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium flex flex-col before:bottom-[1px] after:bottom-[1px]" />
+									<LinkHover title={site.phoneDisplay} href={`tel:${site.phoneTel}`} trackLocation="contact_socials" className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium flex flex-col before:bottom-[1px] after:bottom-[1px]" />
 								</div>
 								<p className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">L:</p>
 								<div className="flex flex-col gap-y-[10px]">

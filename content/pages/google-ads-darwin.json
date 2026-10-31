@@ -1,0 +1,140 @@
+{
+  "type": "GoogleAdsDarwinPage",
+  "seoTitle": "Google Ads Management Darwin | PPC | GT Marketing",
+  "seoDescription": "Google Ads and pay-per-click management for small businesses in Darwin and Palmerston. Setup, local targeting, tracking and monthly reporting.",
+  "hero": {
+    "eyebrow": "Darwin pay-per-click",
+    "h1": "Google Ads in Darwin",
+    "intro": "GT Marketing manages Google Ads for small businesses in Darwin and Palmerston. The work covers campaign setup, keyword and local targeting, ad copy, conversion tracking, landing pages and a monthly report. The media budget is not part of the management fee. Ad spend is paid separately. A number of leads, a cost per enquiry, or a position on the page is not promised.",
+    "ctaLabel": "Book a call",
+    "ctaUrl": "/contact"
+  },
+  "included": {
+    "eyebrow": "What is included",
+    "heading": "The practical work of a Google Ads account.",
+    "intro": "Scope and the management fee are agreed before work starts. Ad spend is paid separately, to Google, on top of that fee.",
+    "items": [
+      {
+        "title": "Campaign setup",
+        "description": "The account is organised around the services you actually sell and the places you actually work. Search is the usual starting point. A campaign is not launched until the offer, the area and the page someone lands on are clear."
+      },
+      {
+        "title": "Keyword and local targeting",
+        "description": "Keywords follow the jobs people search for in Darwin and Palmerston. Location settings should match the suburbs you serve, not a map of the whole Territory if you do not travel that far. Terms that waste spend are reviewed as the account runs."
+      },
+      {
+        "title": "Ad copy",
+        "description": "Ads say what the business does, where it works, and how to get in touch. They use the same name, phone number and offer as the website. Claims that cannot be supported are left out."
+      },
+      {
+        "title": "Conversion tracking",
+        "description": "Calls and form enquiries are what the account should be judged on. Tracking is set up so those actions can be seen. A click on its own is not treated as a lead."
+      },
+      {
+        "title": "Landing pages",
+        "description": "The page after the click should name the service, the area, and one way to enquire. If the current site does not do that, the page is part of the work. Website build detail lives on the web design page."
+      },
+      {
+        "title": "Monthly reporting",
+        "description": "A monthly report covers spend, enquiries and what changed in the account. It does not invent a result, and it does not treat a ranking or a cost figure as a promise for the next month."
+      }
+    ]
+  },
+  "audiences": {
+    "eyebrow": "Who it is for",
+    "heading": "Darwin and Palmerston businesses that can answer the phone.",
+    "intro": "Paid search suits a business that already knows the work it wants more of, and that can respond when someone calls or fills in a form.",
+    "items": [
+      {
+        "title": "Tradies",
+        "description": "Electricians, plumbers, builders and other trade businesses in Darwin and Palmerston. People search the job and the suburb, then call. The ad and the page should name the work you take."
+      },
+      {
+        "title": "Hospitality",
+        "description": "Cafes, restaurants and venues. A search ad is useful when the offer, the hours and the phone number match the website and the Google profile."
+      },
+      {
+        "title": "Professional services",
+        "description": "Firms in Darwin City and Palmerston whose customers compare a short list before they enquire. The ad should say who the firm helps and what the first conversation is for."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Process",
+    "heading": "How a Google Ads engagement runs.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Listen",
+        "description": "What you sell, which suburbs you cover, and how enquiries are answered today. Darwin and Palmerston do not produce the same searches."
+      },
+      {
+        "number": "02",
+        "title": "Plan",
+        "description": "The campaigns, the landing page and the way calls and forms will be counted. Scope and the management fee are agreed before the account is changed. Ad spend is paid separately."
+      },
+      {
+        "number": "03",
+        "title": "Build",
+        "description": "Campaigns, ads, location settings, conversion tracking and the page the ad points to. Nothing goes live until the enquiry path works on a phone."
+      },
+      {
+        "number": "04",
+        "title": "Report",
+        "description": "Each month, look at spend and the enquiries that arrived, then adjust keywords, ads and the page. The report describes what changed. It does not guarantee the next month."
+      }
+    ]
+  },
+  "local": {
+    "eyebrow": "Darwin and Palmerston",
+    "heading": "The office is in Darwin City. Palmerston is a service area.",
+    "paragraphs": [
+      "GT Marketing’s only office is 130 Smith Street, Darwin City, Northern Territory 0800. Palmerston is a service area, not a second office. A Palmerston business should say it serves Palmerston. Ads and location settings should name only the places you work.",
+      "Ad campaign guidance is part of the monthly plan, All Your Marketing. One Simple Monthly Fee., from $595 a month until the end of November 2026. That plan is linked below. Managing a Google Ads account is agreed as its own scope. Ad spend is paid separately either way.",
+      "Local SEO, including the Google Business Profile, is a different job and has its own page. A website that can take the enquiry is described on the web design page. If the gap is follow-up after the lead arrives, start with the contact page."
+    ]
+  },
+  "related": {
+    "heading": "Where to go next",
+    "intro": "Paid search, local SEO and the website are separate pieces of work. Use the list below to move between them.",
+    "links": [
+      { "label": "All Your Marketing. One Simple Monthly Fee.", "url": "/marketing-packages-darwin" },
+      { "label": "SEO in Darwin", "url": "/seo-darwin" },
+      { "label": "Web design in Darwin", "url": "/web-design-darwin" },
+      { "label": "All services", "url": "/services" },
+      { "label": "Darwin City", "url": "/locations/darwin-city" },
+      { "label": "Palmerston", "url": "/locations/palmerston" },
+      { "label": "Contact", "url": "/contact" }
+    ]
+  },
+  "faqsHeading": "Google Ads in Darwin questions",
+  "faqs": [
+    {
+      "question": "Is the Google Ads budget included in your fee?",
+      "answer": "No. Ad spend is paid separately. The management scope and fee are agreed before work starts."
+    },
+    {
+      "question": "Do you guarantee leads or a cost per enquiry?",
+      "answer": "No. Lead numbers are not guaranteed. The monthly report shows what the account spent and which enquiries arrived. It does not promise the next month."
+    },
+    {
+      "question": "Is Google Ads management the same as the $595 monthly plan?",
+      "answer": "No. Ad campaign guidance is part of All Your Marketing. One Simple Monthly Fee., from $595 a month until the end of November 2026. Managing a Google Ads account is agreed as its own scope. Ad spend is paid separately."
+    },
+    {
+      "question": "Do you only work inside Darwin City?",
+      "answer": "The office is at 130 Smith Street, Darwin City. Google Ads work covers businesses in Darwin and Palmerston when that is a real service area. Palmerston is not a second office."
+    },
+    {
+      "question": "How does a project start?",
+      "answer": "Book a call or phone 0405 312 275. The first conversation covers what you sell, where you work, and how enquiries arrive now."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Talk it through",
+    "heading": "Tell us which jobs the ads should ask for.",
+    "text": "There is no obligation. Ad spend is paid separately. To talk it through, call",
+    "ctaLabel": "Book a call",
+    "ctaUrl": "/contact"
+  }
+}

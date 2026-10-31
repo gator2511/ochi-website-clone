@@ -18,6 +18,7 @@ export type TLinkHoverProps = {
    title: string;
    href: string;
    className?: string;
+   trackLocation?: string;
 };
 
 export type TButtonProps = {

@@ -2,6 +2,9 @@
 
 import { useEffect } from "react";
 import { Curve, Marquee, Ready } from "@/components";
+import FAQStructuredData from "@/components/FAQStructuredData";
+import HomeFaq from "@/components/HomeFaq";
+import TrustSignals from "@/components/TrustSignals";
 import { Hero, LeadBookingSystem } from "@/container";
 import HomePromotionPopup from "@/components/HomePromotionPopup";
 import promotion from "@/content/data/promotion.json";
@@ -19,9 +22,11 @@ export default function Home() {
 
   return (
     <div data-sb-object-id={documentId}>
+      <FAQStructuredData items={content.faq.items.map((item) => ({ question: item.question, description: item.answer }))} />
       <HomePromotionPopup content={promotion} />
       <Curve backgroundColor="#f1f1f1">
         <Hero content={content.hero} />
+        <TrustSignals />
         <div className="w-full bg-marquee z-10 relative rounded-t-[20px] padding-y">
           <Marquee
             title={content.marqueeText}
@@ -30,6 +35,7 @@ export default function Home() {
           />
         </div>
         <LeadBookingSystem content={content.growthSystem} />
+        <HomeFaq heading={content.faq.heading} items={content.faq.items} />
         <Ready />
       </Curve>
     </div>

@@ -95,13 +95,14 @@
     "paragraphs": [
       "GT Marketing’s only office is 130 Smith Street, Darwin City, Northern Territory 0800. Palmerston and Casuarina are service areas, not extra offices. A Palmerston business should say it serves Palmerston. A Casuarina business should not claim a CBD shopfront it does not have. The Darwin City, Casuarina and Palmerston pages describe each place. This page stays on the search work.",
       "Darwin searches often pair a service with Darwin. Palmerston searches are more likely to name Palmerston or a suburb such as Durack, Bakewell or Gunn. Casuarina shows up for retail, health and local services around the centre, including Nakara, Tiwi and Leanyer. Pages should name only the places you work.",
-      "Search sends a person to a page. The page still has to make the next step obvious. Speed, mobile layout, enquiry forms and click-to-call are set out on the web design page. The wider list of work is on the services page. If people already find you and the gap is follow-up, the enquiries guide is the better place to start."
+      "Search sends a person to a page. The page still has to make the next step obvious. Speed, mobile layout, enquiry forms and click-to-call are set out on the web design page. Paid search is separate: Google Ads management for Darwin and Palmerston businesses is on its own page. The wider list of work is on the services page. If people already find you and the gap is follow-up, the enquiries guide is the better place to start."
     ]
   },
   "related": {
     "heading": "Where to go next",
     "intro": "Location pages describe the place. Service pages describe the work. Use the list below to move between them.",
     "links": [
+      { "label": "Google Ads in Darwin", "url": "/google-ads-darwin" },
       { "label": "Web design in Darwin", "url": "/web-design-darwin" },
       { "label": "Cafe and hospitality marketing", "url": "/cafe-marketing" },
       { "label": "Real estate marketing", "url": "/real-estate-marketing" },

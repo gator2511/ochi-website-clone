@@ -39,6 +39,7 @@ export default function Navbar() {
 					</Link>
 					<a
 						data-sb-field-path="phoneDisplay"
+						data-track-location="header"
 						href={`tel:${site.phoneTel}`}
 						className="paragraph font-medium font-NeueMontreal text-secondry whitespace-nowrap hover:text-[#fd4402] transition-colors">
 						{site.phoneDisplay}

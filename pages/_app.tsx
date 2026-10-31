@@ -1,6 +1,7 @@
 import Script from "next/script";
 import "@/styles/globals.css";
-import { Footer, Navbar, NetlifyFormRouter } from "@/components";
+import { Footer, Navbar } from "@/components";
+import PhoneClickTracker from "@/components/PhoneClickTracker";
 import CustomCursor from "@/components/CustomCursor";
 import SiteSEO from "@/components/SiteSEO";
 import { AnimatePresence } from "framer-motion";
@@ -39,7 +40,7 @@ export default function App({
 				</>
 			)}
 			<CustomCursor />
-			{!isPortalRoute && <NetlifyFormRouter />}
+			<PhoneClickTracker />
 			{!isPortalRoute && <Navbar />}
 			<AnimatePresence mode="wait">
 				<Component key={router.route} {...pageProps} />

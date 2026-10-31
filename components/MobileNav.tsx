@@ -30,6 +30,7 @@ export default function MobileNav() {
 				<div className="flex items-center gap-[14px]">
 					<a
 						data-sb-field-path="phoneDisplay"
+						data-track-location="mobile_header"
 						href={`tel:${site.phoneTel}`}
 						className="paragraph font-medium font-NeueMontreal text-black whitespace-nowrap">
 						{site.phoneDisplay}
@@ -67,6 +68,7 @@ export default function MobileNav() {
 						<ul className="h-full w-full flex justify-center text-left flex-col gap-[10px] padding-x">
 							<a
 								href={`tel:${site.phoneTel}`}
+								data-track-location="mobile_menu"
 								className="text-[42px] leading-[1] font-FoundersGrotesk uppercase font-bold tracking-[-.9] text-[#fd4402]">
 								{site.phoneDisplay}
 							</a>
