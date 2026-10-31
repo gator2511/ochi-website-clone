@@ -6,7 +6,6 @@ import SiteSEO from "@/components/SiteSEO";
 import { AnimatePresence } from "framer-motion";
 
 const googleMeasurementId = "G-816V9Z644Z";
-const standaloneSeoRoutes = new Set(["/cafe-marketing", "/real-estate-marketing"]);
 
 export default function App({
 	Component,
@@ -45,7 +44,7 @@ export default function App({
 			<AnimatePresence mode="wait">
 				<Component key={router.route} {...pageProps} />
 			</AnimatePresence>
-			{!isPortalRoute && !standaloneSeoRoutes.has(currentPath) && <SiteSEO path={router.asPath} />}
+			{!isPortalRoute && <SiteSEO path={router.asPath} />}
 			{!isPortalRoute && <Footer />}
 		</>
 	);

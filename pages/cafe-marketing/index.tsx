@@ -1,12 +1,11 @@
 "use client";
 
-import Head from "next/head";
 import { useEffect } from "react";
 import { Button, Curve, Ready } from "@/components";
 import TopicLine from "@/components/TopicLine";
 
-const CONTACT_URL = "https://gtmarketing.io/contact";
-const COFFEE_IMAGE = "https://images.pexels.com/photos/27860686/pexels-photo-27860686/free-photo-of-coffee-cup.jpeg?auto=compress&dpr=1&h=1200&w=1920";
+const CONTACT_URL = "/contact";
+const COFFEE_IMAGE = "https://images.pexels.com/photos/27860686/pexels-photo-27860686/free-photo-of-coffee-cup.jpeg?auto=compress&cs=tinysrgb&w=1200";
 
 const services = [
 	{
@@ -93,75 +92,26 @@ export default function CafeMarketing() {
 		})();
 	}, []);
 
-	const serviceSchema = {
-		"@context": "https://schema.org",
-		"@type": "Service",
-		name: "Cafe and Coffee Shop Marketing",
-		url: "https://gtmarketing.io/cafe-marketing",
-		description:
-			"Marketing services for cafes and coffee shops including local SEO, social media, websites, paid advertising, customer retention and analytics.",
-		provider: {
-			"@type": ["ProfessionalService", "LocalBusiness"],
-			name: "GT Marketing",
-			url: "https://gtmarketing.io",
-			telephone: "+61405312275",
-			address: {
-				"@type": "PostalAddress",
-				streetAddress: "130 Smith Street",
-				addressLocality: "Darwin City",
-				addressRegion: "NT",
-				postalCode: "0800",
-				addressCountry: "AU",
-			},
-		},
-		areaServed: {
-			"@type": "Country",
-			name: "Australia",
-		},
-	};
-
 	return (
 		<>
-			<Head>
-				<title>Cafe Marketing Agency Australia | GT Marketing</title>
-				<meta
-					name="description"
-					content="Marketing for cafes and coffee shops. Grow local visibility, foot traffic and repeat customers with SEO, social media, websites, Google Ads and digital campaigns."
-				/>
-				<meta name="robots" content="index,follow" />
-				<link rel="canonical" href="https://gtmarketing.io/cafe-marketing" />
-				<meta property="og:title" content="Cafe Marketing Agency Australia | GT Marketing" />
-				<meta
-					property="og:description"
-					content="Grow local visibility, foot traffic and repeat customers with connected marketing for cafes and coffee shops."
-				/>
-				<meta property="og:url" content="https://gtmarketing.io/cafe-marketing" />
-				<meta property="og:type" content="website" />
-				<meta property="og:image" content={COFFEE_IMAGE} />
-				<script
-					type="application/ld+json"
-					dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-				/>
-			</Head>
-
 			<Curve backgroundColor="#f1f1f1">
 				<main className="w-full bg-background text-secondry overflow-hidden">
 					<section className="min-h-screen padding-x pt-[170px] lg:pt-[150px] md:pt-[130px] sm:pt-[120px] xm:pt-[110px] pb-[70px] flex flex-col justify-between gap-[70px]">
 						<div>
 							<p className="small-text uppercase font-NeueMontreal mb-[28px]">
-								Cafe & coffee shop marketing
+								Darwin cafes and hospitality
 							</p>
 							<h1 className="heading uppercase font-bold font-FoundersGrotesk tracking-[-2px] max-w-[1500px]">
-								<TopicLine>Cafe marketing in Darwin</TopicLine>
-								Turn local searches into
-								<span className="text-[#fd4402]"> customers at your counter.</span>
+								<TopicLine>For cafes, coffee shops and hospitality venues</TopicLine>
+								Cafe and hospitality
+								<span className="text-[#fd4402]"> marketing in Darwin.</span>
 							</h1>
 						</div>
 
 						<div className="grid grid-cols-12 gap-[20px] items-end md:flex md:flex-col sm:flex sm:flex-col xm:flex xm:flex-col">
 							<div className="col-span-4 md:w-full sm:w-full xm:w-full">
 								<p className="sub-paragraph font-NeueMontreal max-w-[560px] mb-[28px]">
-									Great coffee gets people talking. Great marketing gets them through the door. GT Marketing helps cafes build stronger local visibility, attract new customers and turn occasional visitors into regulars.
+									Cafe and hospitality marketing in Darwin starts with being found by people already nearby. GT Marketing helps cafes, coffee shops and venues in Darwin and Palmerston show up locally, explain the offer, and give customers a clear way to visit, book or order.
 								</p>
 								<Button href={CONTACT_URL} title="Get more customers" />
 							</div>
@@ -170,6 +120,8 @@ export default function CafeMarketing() {
 									<img
 										src={COFFEE_IMAGE}
 										alt="Cappuccino with latte art on a rustic wooden cafe table"
+										width={1200}
+										height={750}
 										className="w-full aspect-[8/5] object-cover object-[center_43%]"
 										loading="eager"
 										fetchPriority="high"
