@@ -1,0 +1,162 @@
+{
+  "type": "AboriginalOrganisationsPage",
+  "seoTitle": "Marketing for Aboriginal Organisations | GT Marketing",
+  "seoDescription": "Practical marketing support for Aboriginal corporations, community-controlled organisations, art centres, ranger groups, community stores and regional enterprises across the NT and Australia.",
+  "hero": {
+    "eyebrow": "Aboriginal organisations · Remote and regional Australia",
+    "h1": "Marketing support that starts with community context.",
+    "intro": "GT Marketing supports Aboriginal corporations, community-controlled organisations and regional enterprises with websites, digital communications, e-commerce and booking systems, funding communications and practical marketing systems. We do not claim cultural authority: protocols, approvals and intellectual-property boundaries are agreed with the organisation and relevant knowledge holders.",
+    "ctaLabel": "Discuss your organisation",
+    "ctaUrl": "/contact"
+  },
+  "included": {
+    "eyebrow": "Practical support",
+    "heading": "Useful systems, clear communication and work your team can keep using.",
+    "intro": "The scope is shaped around the organisation rather than a generic package. Work can be delivered remotely from Darwin, with travel scoped separately where being on Country or in community is important.",
+    "items": [
+      {
+        "title": "Websites & digital communication",
+        "description": "Clear, mobile-first websites and information architecture for community members, funders, partners, customers and staff, with low-bandwidth use considered from the start."
+      },
+      {
+        "title": "Funding communications",
+        "description": "Support with the structure, writing and presentation of grant applications, funding submissions, progress reports and acquittal communications. Specialist legal, financial and eligibility advice remains with the organisation and its advisers."
+      },
+      {
+        "title": "Business plans & reports",
+        "description": "Plain-language business plans, capability statements, annual-report content and stakeholder materials that organise evidence and explain the organisation’s work clearly."
+      },
+      {
+        "title": "Tourism, arts & cultural enterprise",
+        "description": "Storytelling, e-commerce, booking journeys and visitor information for art centres, tourism operators, cultural enterprises and bush-food businesses, subject to agreed permissions and cultural IP protocols."
+      },
+      {
+        "title": "Community campaigns",
+        "description": "Campaign planning, social media, email, local search and communications designed around the audience, geography and approval process rather than a standard content calendar."
+      },
+      {
+        "title": "Low-bandwidth & remote delivery",
+        "description": "Mobile-first pages, compressed media, simple navigation and practical handover processes for teams and communities working with slower connections or dispersed locations."
+      }
+    ]
+  },
+  "audiences": {
+    "eyebrow": "Who this is for",
+    "heading": "Community-led organisations across the Territory and beyond.",
+    "intro": "The strongest fit is an organisation that needs clearer communication, better digital access or a practical system that supports existing community, commercial or funding work.",
+    "items": [
+      {
+        "title": "Aboriginal corporations",
+        "description": "Corporate websites, stakeholder communications, capability materials, reports, campaigns and practical digital systems."
+      },
+      {
+        "title": "Community-controlled organisations",
+        "description": "Health, disability, family, education and community-service organisations that need clear information for community members, staff, partners and funders."
+      },
+      {
+        "title": "Art centres & cultural enterprises",
+        "description": "Artist and product presentation, online stores, exhibitions, tourism information and storytelling governed by the organisation’s cultural and IP protocols."
+      },
+      {
+        "title": "Ranger groups & community enterprises",
+        "description": "Program communication, recruitment, project updates, reports, tourism, bush foods and enterprise content that works across remote and regional settings."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "heading": "No cultural assumptions. No one-size-fits-all template.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Listen",
+        "description": "Understand the organisation, community priorities, audiences, Country, existing approvals and the internal team who will own the work."
+      },
+      {
+        "number": "02",
+        "title": "Agree protocols",
+        "description": "Document who approves content, what can be published, attribution requirements, image permissions, language use and any cultural or intellectual-property restrictions."
+      },
+      {
+        "number": "03",
+        "title": "Build",
+        "description": "Develop the agreed website, communication, campaign, application, report, e-commerce or booking system in formats that suit the organisation and its users."
+      },
+      {
+        "number": "04",
+        "title": "Review together",
+        "description": "Use the organisation’s approval process before publication. Changes are made against agreed feedback rather than assumptions about community or culture."
+      },
+      {
+        "number": "05",
+        "title": "Hand over",
+        "description": "Provide practical files, guidance and access so the team can continue the work. Ongoing support and travel can be scoped when needed."
+      }
+    ]
+  },
+  "local": {
+    "eyebrow": "Cultural and regional practice",
+    "heading": "Country, culture and intellectual property are not marketing assets by default.",
+    "paragraphs": [
+      "GT Marketing is based in Darwin on Larrakia Country. Working with an Aboriginal organisation does not make GT Marketing a cultural authority. Local protocols vary between communities, and the organisation determines who should guide approvals and what material can be shared.",
+      "Stories, names, images, artworks, language, knowledge and other cultural material are used only within the permissions agreed for the project. Where the organisation identifies restrictions, those restrictions take priority over marketing convenience.",
+      "Remote delivery is available across the Top End, Central Australia and other Australian regions. Projects can be run through phone, video and shared documents. Travel can be included when useful, with timing, access and cost agreed before the visit."
+    ]
+  },
+  "related": {
+    "heading": "Regional and remote support",
+    "intro": "These pages explain how GT Marketing works outside Darwin without pretending to have offices in those regions.",
+    "links": [
+      {
+        "label": "Top End remote and regional support",
+        "url": "/locations/top-end"
+      },
+      {
+        "label": "Central Australia remote and regional support",
+        "url": "/locations/central-australia"
+      },
+      {
+        "label": "Darwin City",
+        "url": "/locations/darwin-city"
+      },
+      {
+        "label": "About GT Marketing",
+        "url": "/about-us"
+      },
+      {
+        "label": "Start a conversation",
+        "url": "/contact"
+      }
+    ]
+  },
+  "faqsHeading": "Questions from organisations",
+  "faqs": [
+    {
+      "question": "Do you work with Aboriginal-owned or community-controlled organisations?",
+      "answer": "Yes. GT Marketing can support Aboriginal corporations, community-controlled organisations, art centres, ranger groups, community stores, tourism and cultural enterprises, subject to fit, scope and capacity."
+    },
+    {
+      "question": "Can you help with grants and funding applications?",
+      "answer": "GT Marketing can help structure, write and present funding communications, applications, progress reports and business-plan material. We do not guarantee funding outcomes and do not replace specialist legal, financial or eligibility advice."
+    },
+    {
+      "question": "Can you travel to remote communities?",
+      "answer": "Travel can be included when the project requires it. Access, timing, accommodation, permissions and travel costs are agreed with the organisation before travel is booked."
+    },
+    {
+      "question": "How do you protect cultural intellectual property?",
+      "answer": "The organisation sets the permissions and approval process. GT Marketing does not assume that stories, artwork, language, images or cultural knowledge can be published. Restrictions and attribution requirements are documented in the scope."
+    },
+    {
+      "question": "Can you build a site for slower internet connections?",
+      "answer": "Yes. Low-bandwidth delivery can include compressed media, restrained animation, simple page structures, mobile-first layouts and alternative ways to access key information."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Start with context",
+    "heading": "Tell us what the organisation needs to communicate, fund or grow.",
+    "text": "There is no obligation. To discuss the organisation and the right scope, call",
+    "ctaLabel": "Start the conversation",
+    "ctaUrl": "/contact"
+  }
+}
