@@ -5,6 +5,10 @@
   "logoAlt": "GT Marketing logo",
   "navigation": [
     {
+      "label": "Aboriginal Organisations",
+      "url": "/aboriginal-organisations"
+    },
+    {
       "label": "Services",
       "url": "/services"
     },
@@ -86,24 +90,24 @@
   "email": "gundeep@gtmarketing.io",
   "phoneDisplay": "0405 312 275",
   "phoneTel": "+61405312275",
-  "acknowledgement": "GT Marketing is based on Larrakia Country in Darwin. We acknowledge the Larrakia people as the Traditional Owners of the Darwin region and pay our respects to Elders past and present. We extend that respect to Aboriginal and Torres Strait Islander peoples and communities wherever we work.",
+  "acknowledgement": "GT Marketing operates from Darwin on Larrakia Country. We acknowledge the Larrakia people as the Traditional Owners of the Darwin region and pay our respects to Elders past and present. We recognise that cultural protocols differ between communities and seek local guidance when working on Country.",
   "abn": "ABN: 24280902425",
   "footerFlags": {
     "image": "/footer-flags.svg",
     "alt": "Aboriginal, Torres Strait Islander and Larrakia flags"
   },
-  "footerHeading": "Darwin",
-  "footerHeadingAccent": "local",
+  "footerHeading": "Clear",
+  "footerHeadingAccent": "Connection",
   "copyright": "© GT Marketing 2026",
   "privacyLabel": "Privacy Policy",
   "websiteCredit": "Website by GT Marketing",
   "ready": {
     "headingLines": [
-      "Ready",
-      "to start",
-      "a conversation"
+      "Start",
+      "with a",
+      "conversation"
     ],
-    "primaryLabel": "Book a call",
+    "primaryLabel": "Start the conversation",
     "primaryUrl": "/contact",
     "orLabel": "OR"
   }
