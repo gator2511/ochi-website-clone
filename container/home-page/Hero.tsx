@@ -7,6 +7,7 @@ import { ArrowUpRight } from "lucide-react";
 
 type HeroProps = {
   content: {
+    eyebrow?: string;
     headingLine1: string;
     headingAccent: string;
     headingLine3: string;
@@ -16,30 +17,49 @@ type HeroProps = {
     introRight: string;
     ctaLabel: string;
     ctaUrl: string;
+    secondaryLabel?: string;
+    secondaryUrl?: string;
     scrollLabel: string;
   };
 };
 
 export default function Hero({ content }: HeroProps) {
-  const accentImage = content.accentImage === "/ochi-side.jpg" ? "/gt-hero-pattern.svg" : content.accentImage;
-  const accentImageAlt = content.accentImage === "/ochi-side.jpg" ? "GT Marketing orange brand pattern" : content.accentImageAlt;
-
   return (
     <section className="w-full min-h-screen bg-[#f1f1f1]" data-scroll data-scroll-speed="-.3">
       <div className="min-h-screen flex flex-col justify-end pt-[130px]">
         <div className="padding-x pb-[48px]">
-          <p className="small-text uppercase text-[#21212188] mb-[28px]">GT Marketing · Darwin, NT</p>
-          <motion.span initial={{ width: 0, opacity: 0 }} animate={{ width: "auto", opacity: 1 }} transition={{ ease: [0.86, 0, 0.07, 0.995], duration: 1, delay: .8 }} className="mb-[22px] inline-block overflow-hidden">
-            <Image data-sb-field-path="hero.accentImage" width={180} height={92} src={accentImage} alt={accentImageAlt} className="w-[180px] h-[92px] lg:w-[150px] lg:h-[76px] md:w-[120px] md:h-[60px] sm:w-[88px] sm:h-[46px] xm:w-[74px] xm:h-[40px] object-cover rounded-[10px]" />
-          </motion.span>
-          <h1 className="max-w-[1100px] text-[#212121]">
-            <span className="block pb-[14px] font-NeueMontreal font-medium normal-case tracking-normal text-[28px] leading-[1.3] md:text-[22px] sm:text-[18px] xm:text-[18px]">
-              Darwin marketing agency
-            </span>
-            <span className="block font-FoundersGrotesk font-semibold uppercase tracking-[-2px] text-[72px] leading-[0.9] lg:text-[60px] md:text-[48px] sm:text-[36px] xm:text-[32px]">
-              for local SEO, websites and lead generation for Darwin small businesses
-            </span>
-          </h1>
+          <p data-sb-field-path="hero.eyebrow" className="small-text uppercase text-[#21212188] mb-[26px]">
+            {content.eyebrow || "GT Marketing · Darwin, NT"}
+          </p>
+
+          <div className="grid grid-cols-12 gap-[24px] items-end sm:flex sm:flex-col xm:flex xm:flex-col">
+            <h1 className="col-span-9 text-[#212121] font-FoundersGrotesk font-semibold uppercase tracking-[-2px] text-[112px] leading-[0.82] lg:text-[94px] md:text-[74px] sm:text-[56px] xm:text-[47px]">
+              <span data-sb-field-path="hero.headingLine1" className="block">{content.headingLine1}</span>
+              <span data-sb-field-path="hero.headingAccent" className="block text-[#fd4402]">{content.headingAccent}</span>
+              <span data-sb-field-path="hero.headingLine3" className="block">{content.headingLine3}</span>
+            </h1>
+
+            <motion.div
+              initial={{ clipPath: "inset(0 100% 0 0)", opacity: 0 }}
+              animate={{ clipPath: "inset(0 0% 0 0)", opacity: 1 }}
+              transition={{ ease: [0.86, 0, 0.07, 0.995], duration: 1.15, delay: .55 }}
+              className="col-span-3 justify-self-end w-full max-w-[330px] sm:max-w-full xm:max-w-full overflow-hidden rounded-[16px]">
+              <motion.div
+                initial={{ scale: 1.08 }}
+                animate={{ scale: 1 }}
+                transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1], delay: .4 }}>
+                <Image
+                  data-sb-field-path="hero.accentImage"
+                  width={900}
+                  height={600}
+                  src={content.accentImage}
+                  alt={content.accentImageAlt}
+                  className="w-full h-[220px] lg:h-[190px] md:h-[165px] sm:h-[220px] xm:h-[190px] object-cover object-center"
+                  priority
+                />
+              </motion.div>
+            </motion.div>
+          </div>
         </div>
 
         <div className="border-t border-[#21212144] padding-x py-[24px] grid grid-cols-12 gap-[24px] sm:flex sm:flex-col xm:flex xm:flex-col">
@@ -50,9 +70,11 @@ export default function Hero({ content }: HeroProps) {
               <span data-sb-field-path="hero.ctaLabel">{content.ctaLabel}</span>
               <ArrowUpRight size={18} />
             </Link>
-            <Link href="/marketing-packages-darwin" className="paragraph underline underline-offset-4 hover:text-[#fd4402] text-right sm:text-left xm:text-left">
-              All Your Marketing. One Simple Monthly Fee.
-            </Link>
+            {content.secondaryLabel && content.secondaryUrl ? (
+              <Link href={content.secondaryUrl} data-sb-field-path="hero.secondaryLabel" className="paragraph underline underline-offset-4 hover:text-[#fd4402] text-right sm:text-left xm:text-left">
+                {content.secondaryLabel}
+              </Link>
+            ) : null}
           </div>
         </div>
 
