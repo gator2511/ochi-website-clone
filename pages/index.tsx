@@ -2,10 +2,8 @@
 
 import { useEffect } from "react";
 import { Curve, Marquee, Ready } from "@/components";
-import FAQStructuredData from "@/components/FAQStructuredData";
-import HomeFaq from "@/components/HomeFaq";
-import TrustSignals from "@/components/TrustSignals";
-import { Hero, LeadBookingSystem } from "@/container";
+import HomeVisionShowcase from "@/components/HomeVisionShowcase";
+import { Hero, About, PlayVideo, Projects } from "@/container";
 import HomePromotionPopup from "@/components/HomePromotionPopup";
 import promotion from "@/content/data/promotion.json";
 import content from "@/content/pages/home.json";
@@ -22,11 +20,9 @@ export default function Home() {
 
   return (
     <div data-sb-object-id={documentId}>
-      <FAQStructuredData items={content.faq.items.map((item) => ({ question: item.question, description: item.answer }))} />
       <HomePromotionPopup content={promotion} />
       <Curve backgroundColor="#f1f1f1">
         <Hero content={content.hero} />
-        <TrustSignals />
         <div className="w-full bg-marquee z-10 relative rounded-t-[20px] padding-y">
           <Marquee
             title={content.marqueeText}
@@ -34,8 +30,10 @@ export default function Home() {
             className="pb-[50px] lg:pb-[40px] md:pb-[30px] sm:pb-[20px] xm:pb-[15px] text-[420px] leading-[270px] lg:text-[330px] lg:leading-[210px] md:text-[260px] md:leading-[160px] sm:text-[190px] sm:leading-[120px] xm:text-[115px] xm:leading-[75px]"
           />
         </div>
-        <LeadBookingSystem content={content.growthSystem} />
-        <HomeFaq heading={content.faq.heading} items={content.faq.items} />
+        <About content={content.about} />
+        <PlayVideo content={content.video} />
+        <HomeVisionShowcase content={content.vision} fieldPath="vision" />
+        <Projects content={content.projects} />
         <Ready />
       </Curve>
     </div>
