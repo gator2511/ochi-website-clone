@@ -4,9 +4,10 @@
   "seoTitle": "Central Australia Digital Marketing & Web Design | GT Marketing",
   "seoDescription": "Digital marketing, websites, SEO, advertising and lead generation for businesses across Central Australia, delivered remotely from Darwin.",
   "keywords": [
-    "remote community marketing Central Australia",
-    "funding communications NT",
-    "marketing Central Australia"
+    "digital marketing Central Australia",
+    "marketing Central Australia",
+    "web design Central Australia",
+    "SEO Central Australia"
   ],
   "locationName": "Central Australia",
   "locationType": "Place",
@@ -17,54 +18,57 @@
     "heading": "Marketing support for",
     "accent": "Central Australia",
     "intro": "GT Marketing supports businesses in Central Australia through remote digital marketing delivery, with strategy, websites, SEO, advertising and lead-generation support.",
-    "ctaLabel": "Discuss your organisation",
+    "ctaLabel": "Discuss your marketing",
     "ctaUrl": "/contact"
   },
   "proofPoints": [
-    "Remote delivery",
-    "Low-bandwidth websites",
-    "Funding communications",
-    "Tourism & arts",
-    "No claimed local office"
+    "Digital strategy",
+    "Web design",
+    "SEO & local search",
+    "Paid advertising",
+    "Lead generation"
   ],
-  "servicesHeading": "Digital and communication support that works across distance.",
-  "servicesIntro": "Central Australian organisations often work across remote communities, multiple stakeholders and variable connectivity. The project model needs to fit that reality rather than assuming metropolitan access or a large internal marketing team.",
+  "servicesHeading": "Digital marketing support for businesses across Central Australia.",
+  "servicesIntro": "We combine strategy, websites, SEO, advertising, content and lead generation to help businesses improve visibility, attract customers and create measurable growth.",
   "services": [
-    {},
     {
-      "title": "Funding communications",
-      "description": "Structure and writing support for applications, reports, business plans and stakeholder communications."
+      "title": "Digital strategy",
+      "description": "Clear marketing priorities, channel planning and campaigns aligned to your commercial goals."
     },
     {
-      "title": "Low-bandwidth websites",
-      "description": "Mobile-first sites, compressed media and straightforward navigation for remote users and slower connections."
+      "title": "Websites & landing pages",
+      "description": "Conversion-focused websites and landing pages designed to turn traffic into enquiries."
     },
     {
-      "title": "Tourism, arts & cultural enterprise",
-      "description": "Booking, e-commerce and storytelling systems built within the organisation’s permissions and cultural IP protocols."
+      "title": "SEO & local search",
+      "description": "Search optimisation and local visibility to help customers find your business when they are ready to buy."
     },
     {
-      "title": "Remote collaboration",
-      "description": "Phone, video and shared-document workflows designed around the organisation’s capacity and approval process."
+      "title": "Paid advertising",
+      "description": "Google and Meta campaigns focused on qualified traffic, enquiries and measurable performance."
     },
     {
-      "title": "Regional businesses",
-      "description": "Practical marketing and digital systems for enterprises serving local and visitor markets across Central Australia."
+      "title": "Content & social media",
+      "description": "Campaign content and social execution that keeps your brand visible, consistent and relevant."
+    },
+    {
+      "title": "Lead generation",
+      "description": "Connected acquisition systems that turn digital attention into trackable business opportunities."
     }
   ],
-  "localHeading": "Central Australia is a remote service region, not a GT Marketing office.",
+  "localHeading": "Darwin-based marketing with remote delivery across Central Australia.",
   "localParagraphs": [
-    "GT Marketing’s stated office is 130 Smith Street, Darwin City. Alice Springs and other Central Australian locations are not represented as GT Marketing offices.",
-    "Most work can be delivered remotely. Where a project requires travel, access, permissions, timing, accommodation and travel cost are agreed before the visit."
+    "GT Marketing is based at 130 Smith Street, Darwin City and supports Central Australian businesses through remote digital delivery.",
+    "Projects are scoped around business goals, marketing priorities and the channels most likely to generate measurable results."
   ],
-  "industriesHeading": "Organisations and enterprises we can support",
+  "industriesHeading": "Businesses we can support",
   "industries": [
-    "Community-controlled organisations",
-    "Art centres",
-    "Ranger groups",
-    "Tourism operators",
-    "Bush-food enterprises",
-    "Health & community services",
+    "Tradies",
+    "Hospitality",
+    "Real estate",
+    "Professional services",
+    "Retail & e-commerce",
+    "NDIS providers",
     "Regional businesses"
   ],
   "nearbyHeading": "Central Australia coverage",
@@ -76,7 +80,7 @@
     "Tourism routes",
     "Remote service areas"
   ],
-  "serviceAreaNote": "Remote delivery is available across Central Australia. Travel is scoped separately. GT Marketing does not claim an office in Alice Springs or elsewhere in the region.",
+  "serviceAreaNote": "Digital marketing services are available across Central Australia, delivered from GT Marketing's Darwin City office.",
   "faqsHeading": "Central Australia marketing FAQs",
   "faqs": [
     {
