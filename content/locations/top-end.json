@@ -1,79 +1,79 @@
 {
   "type": "TopEndLocationPage",
   "slug": "top-end",
-  "seoTitle": "Top End Marketing Agency | Local SEO | GT Marketing",
-  "seoDescription": "Darwin-based local SEO, websites and lead generation for small and medium businesses across the Top End of the Northern Territory.",
+  "seoTitle": "Top End Marketing for Aboriginal & Regional Organisations | GT Marketing",
+  "seoDescription": "Darwin-based marketing, websites, funding communications and remote delivery for Aboriginal organisations, community enterprises and regional businesses across the Top End.",
   "keywords": [
+    "Aboriginal organisation marketing Top End",
+    "remote community marketing NT",
+    "Aboriginal corporation website",
     "marketing agency Top End",
-    "SEO Top End NT",
-    "digital marketing agency Darwin",
-    "local SEO Northern Territory",
-    "lead generation Top End"
+    "funding communications Northern Territory"
   ],
   "locationName": "Top End",
   "locationType": "Place",
   "region": "Northern Territory",
   "postcode": "",
   "hero": {
-    "eyebrow": "Darwin-based / Top End service area",
-    "heading": "Local marketing across the",
+    "eyebrow": "Darwin-based / Top End remote delivery",
+    "heading": "Marketing support across the",
     "accent": "Top End",
-    "intro": "GT Marketing is based in Darwin and helps small and medium businesses across the Top End with local SEO, websites and lead-generation systems. We do not claim an office outside Darwin City.",
-    "ctaLabel": "Book a call",
+    "intro": "GT Marketing supports Aboriginal organisations, community enterprises and regional businesses across the Top End from Darwin, with remote delivery and planned travel where a project benefits from being in community.",
+    "ctaLabel": "Discuss your organisation",
     "ctaUrl": "/contact"
   },
   "proofPoints": [
-    "Local SEO",
-    "Websites",
-    "Lead generation",
-    "Darwin-based",
-    "Tradies and hospitality",
-    "Health and professional services"
+    "Aboriginal organisations",
+    "Remote delivery",
+    "Low-bandwidth websites",
+    "Funding communications",
+    "Tourism & arts",
+    "Darwin-based"
   ],
-  "servicesHeading": "The same practical offer, set up for businesses outside the CBD.",
-  "servicesIntro": "Top End businesses still need to be found when someone nearby searches, and they still need a website that makes the next step obvious. Distance does not change that. It just means most of the work can be done from Darwin.",
+  "servicesHeading": "Practical digital and communication support for organisations working across distance.",
+  "servicesIntro": "Top End organisations can serve communities, funders, customers, visitors and staff across large geographic areas. The work needs to be clear, accessible on mobile and realistic about connectivity, approvals and local context.",
   "services": [
     {
-      "title": "Local SEO",
-      "description": "Google Business Profile, service-area pages and the on-page basics so searches for your trade or service can find you."
+      "title": "Aboriginal organisations",
+      "description": "Websites, communications and practical marketing systems for Aboriginal corporations and community-controlled organisations."
     },
     {
-      "title": "Websites",
-      "description": "A clear site that says what you do, where you work, and how to call or book. Built to be looked after without a large marketing team."
+      "title": "Funding communications",
+      "description": "Support for grant applications, reports, business plans and stakeholder material, without promising funding outcomes."
     },
     {
-      "title": "Lead generation",
-      "description": "A simple path from the enquiry to a reply, so calls, forms and messages do not sit unanswered."
+      "title": "Remote-ready websites",
+      "description": "Mobile-first pages, compressed media and simple navigation designed with slower connections and remote users in mind."
     },
     {
-      "title": "Tradies",
-      "description": "Electricians, plumbers, builders and other trade businesses that want local jobs, not a generic national campaign."
+      "title": "Tourism, arts & bush foods",
+      "description": "E-commerce, booking systems and storytelling governed by the organisation’s cultural and intellectual-property protocols."
     },
     {
-      "title": "Hospitality",
-      "description": "Cafes, restaurants and venues that need to show up locally and make booking or visiting straightforward."
+      "title": "Community campaigns",
+      "description": "Digital and print-ready communication planned around local audiences, approvals, language and practical distribution."
     },
     {
-      "title": "Health and professional services",
-      "description": "Clinics, NDIS providers and professional firms that need a clear offer and a trusted way for people to make contact."
+      "title": "Regional enterprises",
+      "description": "Marketing and digital systems for local businesses and enterprises operating outside Darwin."
     }
   ],
-  "localHeading": "Darwin is the office. The Top End is a service area.",
+  "localHeading": "Darwin is the office. Remote and regional work is planned with the organisation.",
   "localParagraphs": [
-    "GT Marketing is at 130 Smith Street, Darwin City. Katherine, the rural area and other Top End towns are places we can work with, not extra offices.",
-    "Projects are usually run from Darwin by phone, video and shared documents. Travel can be added when it is useful and the cost is agreed first.",
-    "We do not promise rankings or a set number of leads. The scope is agreed before work starts."
+    "GT Marketing is based at 130 Smith Street, Darwin City. Katherine, Arnhem Land, the Tiwi Islands, the Daly region and other Top End communities are not represented as GT Marketing offices.",
+    "Projects can be run by phone, video and shared documents. Where a visit is useful, access, permissions, timing, accommodation and travel cost are agreed before travel.",
+    "For Aboriginal organisations, local cultural protocols and approval processes are set by the organisation and relevant knowledge holders. GT Marketing does not claim cultural authority."
   ],
-  "industriesHeading": "Businesses we can help across the Top End",
+  "industriesHeading": "Organisations and enterprises we can support",
   "industries": [
-    "Tradies",
-    "Hospitality",
-    "Health providers",
-    "NDIS providers",
-    "Professional services",
-    "Local retail",
+    "Aboriginal corporations",
+    "Community-controlled organisations",
+    "Art centres",
+    "Ranger groups",
+    "Community stores",
     "Tourism operators",
-    "Other NT small businesses"
+    "Bush-food enterprises",
+    "Regional businesses"
   ],
   "nearbyHeading": "Top End coverage",
   "nearbyAreas": [
@@ -86,7 +86,7 @@
     "Arnhem region",
     "Daly region"
   ],
-  "serviceAreaNote": "Coverage depends on the project. GT Marketing does not claim offices outside Darwin City.",
+  "serviceAreaNote": "Remote delivery is available across the Top End. Travel is scoped only where it adds value and is agreed with the organisation. GT Marketing does not claim offices outside Darwin City.",
   "faqsHeading": "Top End marketing FAQs",
   "faqs": [
     {
