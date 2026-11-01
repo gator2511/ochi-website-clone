@@ -1,11 +1,9 @@
 {
   "type": "CentralAustraliaLocationPage",
   "slug": "central-australia",
-  "seoTitle": "Central Australia Marketing for Aboriginal Organisations | GT Marketing",
-  "seoDescription": "Remote marketing, websites, funding communications and digital support for Aboriginal organisations, community enterprises and regional businesses across Central Australia.",
+  "seoTitle": "Central Australia Digital Marketing & Web Design | GT Marketing",
+  "seoDescription": "Digital marketing, websites, SEO, advertising and lead generation for businesses across Central Australia, delivered remotely from Darwin.",
   "keywords": [
-    "Aboriginal organisation marketing Central Australia",
-    "Aboriginal corporation website Alice Springs",
     "remote community marketing Central Australia",
     "funding communications NT",
     "marketing Central Australia"
@@ -18,12 +16,11 @@
     "eyebrow": "Darwin-based / Central Australia remote delivery",
     "heading": "Marketing support for",
     "accent": "Central Australia",
-    "intro": "GT Marketing supports Aboriginal organisations, community enterprises and regional businesses in Central Australia through remote delivery from Darwin, with travel scoped where being in community is important to the work.",
+    "intro": "GT Marketing supports businesses in Central Australia through remote digital marketing delivery, with strategy, websites, SEO, advertising and lead-generation support.",
     "ctaLabel": "Discuss your organisation",
     "ctaUrl": "/contact"
   },
   "proofPoints": [
-    "Aboriginal organisations",
     "Remote delivery",
     "Low-bandwidth websites",
     "Funding communications",
@@ -33,10 +30,7 @@
   "servicesHeading": "Digital and communication support that works across distance.",
   "servicesIntro": "Central Australian organisations often work across remote communities, multiple stakeholders and variable connectivity. The project model needs to fit that reality rather than assuming metropolitan access or a large internal marketing team.",
   "services": [
-    {
-      "title": "Aboriginal organisations",
-      "description": "Websites, communications and practical marketing systems for Aboriginal corporations and community-controlled organisations."
-    },
+    {},
     {
       "title": "Funding communications",
       "description": "Structure and writing support for applications, reports, business plans and stakeholder communications."
@@ -61,12 +55,10 @@
   "localHeading": "Central Australia is a remote service region, not a GT Marketing office.",
   "localParagraphs": [
     "GT Marketing’s stated office is 130 Smith Street, Darwin City. Alice Springs and other Central Australian locations are not represented as GT Marketing offices.",
-    "Most work can be delivered remotely. Where a project requires travel, access, permissions, timing, accommodation and travel cost are agreed before the visit.",
-    "When working with Aboriginal organisations, the organisation determines cultural approvals, attribution and what can be published. GT Marketing does not claim cultural authority."
+    "Most work can be delivered remotely. Where a project requires travel, access, permissions, timing, accommodation and travel cost are agreed before the visit."
   ],
   "industriesHeading": "Organisations and enterprises we can support",
   "industries": [
-    "Aboriginal corporations",
     "Community-controlled organisations",
     "Art centres",
     "Ranger groups",
