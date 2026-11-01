@@ -1,16 +1,5 @@
 import site from "@/content/data/site.json";
 
-/**
- * GT still needs to supply, before any of this is shown as proof:
- * - testimonial text, with the person's name and business
- * - results figures
- * - a headshot (initials are used until then)
- * No review quote is rendered. The Google link is the URL GT supplied.
- * Case-study percentages in content/caseStudies.ts are not repeated here.
- * Ochi-template reviews in home.json are not used.
- */
-const SHOW_RESULT_PLACEHOLDER = true;
-
 export default function TrustSignals({ variant = "home" }: { variant?: "home" | "contact" }) {
 	const compact = variant === "contact";
 	const phoneLocation = compact ? "contact_trust" : "home_trust";
@@ -52,16 +41,6 @@ export default function TrustSignals({ variant = "home" }: { variant?: "home" | 
 					</a>
 				</div>
 
-				{SHOW_RESULT_PLACEHOLDER && (
-					<div className={compact ? "pt-[22px]" : "col-span-7"} data-trust-placeholder="results-and-testimonials">
-						<div className="rounded-[16px] border border-dashed border-[#21212188] bg-[#fff8f4] p-[16px]">
-							<p className="small-text uppercase text-[#fd4402]">Placeholder — not a testimonial or a result</p>
-							<p className="text-[15px] leading-[1.5] pt-[8px]">
-								No client testimonial and no results figure are published here. This note is not a customer quote. GT still needs to supply testimonial text with a name and business, results figures, and a headshot.
-							</p>
-						</div>
-					</div>
-				)}
 			</div>
 		</section>
 	);
