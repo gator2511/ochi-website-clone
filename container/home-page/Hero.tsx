@@ -27,39 +27,37 @@ export default function Hero({ content }: HeroProps) {
   return (
     <section className="w-full min-h-screen bg-[#f1f1f1]" data-scroll data-scroll-speed="-.3">
       <div className="min-h-screen flex flex-col justify-end pt-[130px]">
-        <div className="padding-x pb-[48px]">
+        <div className="padding-x pb-[34px]">
           <p data-sb-field-path="hero.eyebrow" className="small-text uppercase text-[#21212188] mb-[26px]">
             {content.eyebrow || "GT Marketing · Darwin, NT"}
           </p>
 
-          <div className="grid grid-cols-12 gap-[24px] items-end sm:flex sm:flex-col xm:flex xm:flex-col">
-            <h1 className="col-span-9 text-[#212121] font-FoundersGrotesk font-semibold uppercase tracking-[-2px] text-[112px] leading-[0.82] lg:text-[94px] md:text-[74px] sm:text-[56px] xm:text-[47px]">
-              <span data-sb-field-path="hero.headingLine1" className="block">{content.headingLine1}</span>
-              <span data-sb-field-path="hero.headingAccent" className="block text-[#fd4402]">{content.headingAccent}</span>
-              <span data-sb-field-path="hero.headingLine3" className="block">{content.headingLine3}</span>
-            </h1>
+          <h1 className="text-[#212121] font-FoundersGrotesk font-semibold uppercase tracking-[-2px] text-[112px] leading-[0.82] lg:text-[94px] md:text-[74px] sm:text-[56px] xm:text-[47px] max-w-[1450px]">
+            <span data-sb-field-path="hero.headingLine1" className="block">{content.headingLine1}</span>
+            <span data-sb-field-path="hero.headingAccent" className="block text-[#fd4402]">{content.headingAccent}</span>
+            <span data-sb-field-path="hero.headingLine3" className="block">{content.headingLine3}</span>
+          </h1>
 
+          <motion.div
+            initial={{ clipPath: "inset(0 100% 0 0)", opacity: 0 }}
+            animate={{ clipPath: "inset(0 0% 0 0)", opacity: 1 }}
+            transition={{ ease: [0.86, 0, 0.07, 0.995], duration: 1.15, delay: .45 }}
+            className="w-full overflow-hidden rounded-[18px] mt-[42px]">
             <motion.div
-              initial={{ clipPath: "inset(0 100% 0 0)", opacity: 0 }}
-              animate={{ clipPath: "inset(0 0% 0 0)", opacity: 1 }}
-              transition={{ ease: [0.86, 0, 0.07, 0.995], duration: 1.15, delay: .55 }}
-              className="col-span-3 justify-self-end w-full max-w-[330px] sm:max-w-full xm:max-w-full overflow-hidden rounded-[16px]">
-              <motion.div
-                initial={{ scale: 1.08 }}
-                animate={{ scale: 1 }}
-                transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1], delay: .4 }}>
-                <Image
-                  data-sb-field-path="hero.accentImage"
-                  width={900}
-                  height={600}
-                  src={content.accentImage}
-                  alt={content.accentImageAlt}
-                  className="w-full h-[220px] lg:h-[190px] md:h-[165px] sm:h-[220px] xm:h-[190px] object-cover object-center"
-                  priority
-                />
-              </motion.div>
+              initial={{ scale: 1.06 }}
+              animate={{ scale: 1 }}
+              transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1], delay: .35 }}>
+              <Image
+                data-sb-field-path="hero.accentImage"
+                width={1800}
+                height={950}
+                src={content.accentImage}
+                alt={content.accentImageAlt}
+                className="w-full h-[560px] lg:h-[500px] md:h-[420px] sm:h-[340px] xm:h-[300px] object-cover object-center"
+                priority
+              />
             </motion.div>
-          </div>
+          </motion.div>
         </div>
 
         <div className="border-t border-[#21212144] padding-x py-[24px] grid grid-cols-12 gap-[24px] sm:flex sm:flex-col xm:flex xm:flex-col">
