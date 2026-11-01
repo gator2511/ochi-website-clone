@@ -1,22 +1,25 @@
 {
   "type": "HomePage",
-  "seoTitle": "Marketing Agency Darwin | Local SEO & Leads | GT Marketing",
-  "seoDescription": "A digital marketing agency in Darwin for local SEO, websites and lead generation. For small businesses in Palmerston, Casuarina and the NT.",
+  "seoTitle": "Marketing for Aboriginal Organisations & Regional Australia | GT Marketing",
+  "seoDescription": "GT Marketing supports Aboriginal corporations, community-controlled organisations and regional businesses with practical marketing, websites, digital systems, funding communications and remote delivery across the NT and Australia.",
   "hero": {
-    "headingLine1": "Darwin-based.",
-    "headingAccent": "Small business.",
-    "headingLine3": "SEO, sites and leads.",
-    "accentImage": "/ochi-side.jpg",
-    "accentImageAlt": "GT Marketing creative detail",
+    "eyebrow": "Darwin-based · Remote and regional delivery",
+    "headingLine1": "Marketing for",
+    "headingAccent": "Aboriginal organisations",
+    "headingLine3": "& regional businesses.",
+    "accentImage": "https://images.pexels.com/photos/28963148/pexels-photo-28963148.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "accentImageAlt": "Warm orange architectural facade reflecting the GT Marketing brand palette",
     "badgeImage": "",
     "badgeImageAlt": "",
-    "introLeft": "A digital marketing agency in Darwin for local SEO, websites and lead generation, built for tradies, hospitality, health and professional services.",
-    "introRight": "Based in Darwin. Working with businesses in Palmerston, Casuarina and across the NT.",
-    "ctaLabel": "Book a call",
+    "introLeft": "Practical marketing support for Aboriginal corporations, community-controlled organisations and regional enterprises.",
+    "introRight": "Clear websites, digital communications, funding support and systems designed for local, remote and low-bandwidth environments.",
+    "ctaLabel": "Discuss your organisation",
     "ctaUrl": "/contact",
+    "secondaryLabel": "Marketing for Aboriginal organisations",
+    "secondaryUrl": "/aboriginal-organisations",
     "scrollLabel": "See how we work"
   },
-  "marqueeText": "Darwin small business",
+  "marqueeText": "Community · Country · Growth",
   "about": {
     "intro": "GT Marketing is a strategic growth partner for businesses that need stronger positioning, consistent lead generation, better digital execution and practical systems that turn marketing activity into commercial progress.",
     "expectationLabel": "What you can expect",
@@ -428,57 +431,57 @@
   },
   "growthSystem": {
     "problems": {
-      "eyebrow": "What gets in the way",
-      "heading": "Good marketing starts with how your business actually gets work.",
-      "intro": "GT Marketing is a marketing company in Darwin. Many local businesses still rely on word of mouth, a website that does not explain the offer, or ads that never turn into a call. The useful work is being found locally, saying clearly what you do, and following up.",
+      "eyebrow": "What organisations need",
+      "heading": "Useful communication starts with context, trust and practical delivery.",
+      "intro": "Aboriginal and regional organisations often work across community priorities, funding requirements, remote delivery and multiple audiences. Marketing should make that work easier to understand without flattening culture, community ownership or local context.",
       "items": [
         {
-          "title": "Hard to be found",
-          "text": "People search for a tradie, a cafe, a clinic or a local firm, and the business does not show up for Darwin, Palmerston or Casuarina."
+          "title": "Complex audiences",
+          "text": "Community members, funders, government, customers and partners may all need different information from the same organisation."
         },
         {
-          "title": "A quiet website",
-          "text": "The site is online, but it does not spell out the service, the area you cover, or the simplest way to get in touch."
+          "title": "Remote access",
+          "text": "Websites and digital systems need to work on mobile devices, slower connections and across dispersed communities."
         },
         {
-          "title": "Leads that go cold",
-          "text": "Enquiries arrive by phone, form or message, and there is no simple way to reply, qualify them and book the work."
+          "title": "Funding pressure",
+          "text": "Applications, reporting and business plans need clear evidence, structure and language that reflects the organisation’s actual work."
         },
         {
-          "title": "Scattered activity",
-          "text": "Social posts, ads and a Google listing all exist, but they do not point at the same offer or the same next step."
+          "title": "Cultural IP",
+          "text": "Stories, images, names and cultural knowledge need agreed permissions, attribution and boundaries before they are used in marketing."
         }
       ]
     },
     "system": {
       "eyebrow": "How we work",
-      "heading": "Start with the work you want. Then build the system that brings it in.",
-      "intro": "We work with the owner, or whoever looks after marketing. The aim is a clear plan your team can run, not a pile of activity that only an agency understands.",
+      "heading": "Listen first. Agree the boundaries. Then build what is useful.",
+      "intro": "We do not claim cultural authority. Project protocols, approvals, language, imagery and intellectual-property boundaries are agreed with the organisation and relevant knowledge holders before publication.",
       "steps": [
         {
           "number": "01",
           "title": "Listen",
-          "text": "How you get work now, who you want more of, and what people in Darwin, Palmerston and Casuarina actually search for."
+          "text": "Understand the organisation, community priorities, audiences, approvals, funding context and what success actually means."
         },
         {
           "number": "02",
-          "title": "Plan",
-          "text": "Agree the offer, the service area, the pages, the Google profile and the follow-up before anything is built."
+          "title": "Scope",
+          "text": "Agree what can be shared, who approves it, what must stay private and how cultural and intellectual property will be handled."
         },
         {
           "number": "03",
           "title": "Build",
-          "text": "Local SEO, the website and the path from enquiry to booking, written in plain language for the customers you want."
+          "text": "Create the website, communications, campaign, e-commerce, booking or reporting system in plain language and practical formats."
         },
         {
           "number": "04",
-          "title": "Hand over",
-          "text": "You can see where enquiries come from and what to do with them. Ongoing help is there if you want it."
+          "title": "Deliver remotely",
+          "text": "Support projects from Darwin with online collaboration and planned regional or remote travel where the engagement requires it."
         },
         {
           "number": "05",
-          "title": "Review",
-          "text": "Look at what is bringing enquiries and what is not. Rankings and lead numbers are not guaranteed."
+          "title": "Hand over",
+          "text": "Provide clear files, guidance and systems your team can keep using, with ongoing support available when needed."
         }
       ]
     },
@@ -506,88 +509,51 @@
       ]
     },
     "niches": {
-      "eyebrow": "Who we work with",
-      "heading": "Darwin small and medium businesses that need more of the right enquiries.",
-      "primary": "Tradies",
-      "primaryText": "Electricians, plumbers, builders and other trade businesses that want to be found in Darwin, Palmerston and Casuarina, and want calls for work they can actually do.",
+      "eyebrow": "Priority sector",
+      "heading": "Built to support Aboriginal organisations and remote communities.",
+      "primary": "Aboriginal organisations",
+      "primaryText": "Aboriginal corporations, community-controlled health and service organisations, art centres, ranger groups, community stores, tourism operators, bush-food enterprises and other community-led organisations.",
       "also": [
-        "Hospitality",
-        "Health and NDIS providers",
-        "Professional services"
+        "Remote & regional businesses",
+        "Tourism & arts organisations",
+        "Community services"
       ],
-      "ctaLabel": "Book a call",
-      "ctaUrl": "/contact"
+      "ctaLabel": "Explore this support",
+      "ctaUrl": "/aboriginal-organisations"
     },
     "offer": {
-      "eyebrow": "Start with a call",
-      "heading": "Tell us what work you want more of.",
-      "intro": "A short call covers your business, where you work, how enquiries come in now, and what you want to change. We then suggest a clear scope. There is no obligation.",
+      "eyebrow": "Start with a conversation",
+      "heading": "Tell us what your organisation needs to communicate, fund or grow.",
+      "intro": "We begin by understanding the audience, approvals, delivery environment and internal capacity. From there, we agree a clear scope rather than pushing a standard package.",
       "includes": [],
-      "priceNote": "Scope and price are agreed before work starts. We are based in Darwin and work with businesses across the NT.",
-      "ctaLabel": "Book a call",
+      "priceNote": "Scopes are agreed before work starts. Remote delivery, travel requirements and third-party costs are quoted separately where relevant.",
+      "ctaLabel": "Start the conversation",
       "ctaUrl": "/contact"
     },
-    "services": {
-      "eyebrow": "Services",
-      "heading": "Search, websites, and the pages behind them.",
-      "intro": "The Darwin office is on Smith Street. These pages explain the work, the full service list, and how to get more enquiries without spending more on ads.",
-      "items": [
-        {
-          "title": "All Your Marketing. One Simple Monthly Fee.",
-          "text": "From $595 + GST a month until the end of November 2026. Local SEO, Google Business Profile, website updates and a monthly report. The $595 is only the management fee. Ad spend is paid separately, directly to Google.",
-          "url": "/marketing-packages-darwin",
-          "label": "See the monthly offer"
-        },
-        {
-          "title": "SEO in Darwin",
-          "text": "Local search for Darwin, Palmerston and Casuarina: Google Business Profile, citations, reviews and pages that match real services.",
-          "url": "/seo-darwin",
-          "label": "SEO Darwin"
-        },
-        {
-          "title": "Web design in Darwin",
-          "text": "Websites for NT small businesses: speed, mobile layout, enquiry forms and click-to-call.",
-          "url": "/web-design-darwin",
-          "label": "Web design Darwin"
-        },
-        {
-          "title": "All services",
-          "text": "Local SEO, websites, lead follow-up and the rest of the Darwin offer, in one place.",
-          "url": "/services",
-          "label": "View services"
-        },
-        {
-          "title": "More enquiries, same ad budget",
-          "text": "A guide to getting more enquiries from the site and the follow-up you already have, before spending more on ads.",
-          "url": "/blog/how-to-get-more-enquiries-without-spending-more-on-ads",
-          "label": "Read the guide"
-        }
-      ]
-    },
     "national": {
-      "eyebrow": "Darwin and the NT",
-      "heading": "Based in Darwin. Working across Palmerston, Casuarina and the Territory.",
-      "text": "Most of the work happens from Darwin, online or in person. If you are in Palmerston, Casuarina, the Top End or Central Australia, we can still help. We do not claim offices in those places."
+      "eyebrow": "Remote and regional delivery",
+      "heading": "Based in Darwin. Supporting the Top End, Central Australia and organisations across Australia.",
+      "text": "Most work can be delivered remotely. Where a project benefits from being on Country or in community, travel can be scoped in advance. We do not claim offices outside Darwin and we do not present remote communities as generic service areas."
     }
   },
   "faq": {
-    "heading": "Questions before you call",
+    "heading": "Questions before we begin",
     "items": [
       {
-        "question": "Where is GT Marketing based?",
-        "answer": "GT Marketing operates from 130 Smith Street, Darwin City. Casuarina and Palmerston are service areas, not additional offices."
+        "question": "Do you work with Aboriginal corporations and community-controlled organisations?",
+        "answer": "Yes. GT Marketing can support websites, digital communications, campaigns, e-commerce and booking systems, funding communications and practical marketing systems. Scope, approvals and cultural protocols are agreed with the organisation before work begins."
       },
       {
-        "question": "What does the Darwin work cover?",
-        "answer": "Local SEO, websites and lead generation for Darwin small businesses, including tradies, hospitality, health and professional services in Palmerston, Casuarina and the NT."
+        "question": "Can you work with organisations in remote communities?",
+        "answer": "Yes. Projects can be delivered remotely from Darwin, with low-bandwidth and mobile access considered in the design. Where in-person work is useful, travel can be scoped separately."
       },
       {
-        "question": "Do you guarantee rankings or a set number of leads?",
-        "answer": "No. Rankings and lead numbers are not guaranteed."
+        "question": "Do you provide grant and funding support?",
+        "answer": "GT Marketing can support the communication and presentation of grant applications, funding submissions, reports and business plans, including structure, evidence presentation and plain-language writing. Eligibility, legal, financial and specialist grant advice remains with the organisation and its advisers."
       },
       {
-        "question": "How do I reach the Darwin office?",
-        "answer": "Call 0405 312 275 or use the contact form. The office is at 130 Smith Street, Darwin City NT 0800."
+        "question": "How do you handle cultural stories, images and intellectual property?",
+        "answer": "GT Marketing does not assume permission to use cultural material. The organisation determines approvals, attribution, access restrictions and what can or cannot be published. These boundaries are documented in the project scope."
       }
     ]
   }
