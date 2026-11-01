@@ -1,45 +1,51 @@
 # GT Marketing
 
-> GT Marketing is a Darwin marketing agency. It builds local SEO, websites and lead-generation systems for small and medium businesses in Darwin, Palmerston, Casuarina and across the Northern Territory.
+> GT Marketing is a Darwin-based Australian marketing agency prioritising practical marketing support for Aboriginal corporations, community-controlled organisations and regional businesses. Work can include websites, digital communications, funding communications, marketing systems, e-commerce and booking journeys, with remote delivery across the Northern Territory and Australia.
 
-## Who it is for
+## Priority sector
 
-Tradies, hospitality businesses, health and NDIS providers, and professional services.
+- Marketing for Aboriginal organisations: https://gtmarketing.io/aboriginal-organisations
+- Aboriginal corporations
+- Community-controlled health and service organisations
+- Art centres and cultural enterprises
+- Ranger groups and community enterprises
+- Community stores
+- Tourism and bush-food enterprises
+- Remote and regional organisations
 
-GT Marketing does not position itself around Aboriginal organisations, community-led enterprises, or a regional Australia brief. Older pages that did have been removed. /aboriginal-organisations redirects to the homepage.
+GT Marketing does not claim cultural authority, Aboriginal ownership, or endorsement by an Aboriginal organisation unless explicitly and verifiably stated. Project protocols, approvals, language, images and cultural-intellectual-property boundaries are set with the client organisation and relevant knowledge holders.
 
-## Services
+## Remote and regional delivery
 
-- Local SEO, including Google Business Profile and service-area pages: https://gtmarketing.io/seo-darwin
-- Google Ads and pay-per-click management for Darwin and Palmerston small businesses. The management fee is $595 + GST a month. That $595 is only the management fee. Ad spend is paid separately, directly to Google. No lead numbers are guaranteed: https://gtmarketing.io/google-ads-darwin
-- Websites that explain the offer, load on a phone, and make it easy to call or enquire: https://gtmarketing.io/web-design-darwin
-- Cafe and hospitality marketing in Darwin: https://gtmarketing.io/cafe-marketing
-- Real estate marketing for Darwin and Palmerston agents: https://gtmarketing.io/real-estate-marketing
-- Lead-generation systems so enquiries can be followed up
+- Top End: https://gtmarketing.io/locations/top-end
+- Central Australia: https://gtmarketing.io/locations/central-australia
+- Darwin City: https://gtmarketing.io/locations/darwin-city
+- Casuarina: https://gtmarketing.io/locations/casuarina
+- Palmerston: https://gtmarketing.io/locations/palmerston
 
-Rankings and lead numbers are not guaranteed. Scope and price are agreed before work starts.
+GT Marketing has one stated physical office: 130 Smith Street, Darwin City, Northern Territory 0800. Other regions are service areas, not offices. Projects can be delivered remotely, with travel scoped separately when useful.
 
-## Service area
+## Relevant support
 
-The only office is 130 Smith Street, Darwin City, Northern Territory 0800. Palmerston, Casuarina, the Top End and Central Australia are service areas, not extra offices.
+- Websites and digital communication
+- Low-bandwidth and mobile-first delivery
+- Funding application and reporting communications
+- Business plans and stakeholder materials
+- E-commerce and booking systems
+- Tourism, arts and cultural-enterprise marketing
+- Local SEO and search visibility
+- Campaigns, content and practical marketing systems
+
+Funding outcomes, search rankings and lead volumes are not guaranteed.
 
 ## Official website
 
 - Home: https://gtmarketing.io/
+- Aboriginal organisations: https://gtmarketing.io/aboriginal-organisations
 - Services: https://gtmarketing.io/services
-- SEO in Darwin: https://gtmarketing.io/seo-darwin
-- Google Ads in Darwin: https://gtmarketing.io/google-ads-darwin
-- Web design in Darwin: https://gtmarketing.io/web-design-darwin
-- Cafe and hospitality marketing: https://gtmarketing.io/cafe-marketing
-- Real estate marketing: https://gtmarketing.io/real-estate-marketing
-- Darwin City: https://gtmarketing.io/locations/darwin-city
-- Casuarina: https://gtmarketing.io/locations/casuarina
-- Palmerston: https://gtmarketing.io/locations/palmerston
 - Top End: https://gtmarketing.io/locations/top-end
 - Central Australia: https://gtmarketing.io/locations/central-australia
-- Work: https://gtmarketing.io/presentation
-- About: https://gtmarketing.io/about-us
-- Insights: https://gtmarketing.io/insights
+- Darwin City: https://gtmarketing.io/locations/darwin-city
 - Contact: https://gtmarketing.io/contact
 - Privacy policy: https://gtmarketing.io/privacy
 
@@ -50,7 +56,7 @@ The only office is 130 Smith Street, Darwin City, Northern Territory 0800. Palme
 - Phone: 0405 312 275
 - Email: gundeep@gtmarketing.io
 - ABN: 24280902425
-- Service area: Darwin, Palmerston, Casuarina and the Northern Territory
 - Physical office claim: Darwin City only
+- Wider delivery: Northern Territory and Australia
 
-For a more detailed summary, see https://gtmarketing.io/llms-full.txt
+For a detailed business summary, see https://gtmarketing.io/llms-full.txt
