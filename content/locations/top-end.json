@@ -1,12 +1,10 @@
 {
   "type": "TopEndLocationPage",
   "slug": "top-end",
-  "seoTitle": "Top End Marketing for Aboriginal & Regional Organisations | GT Marketing",
-  "seoDescription": "Darwin-based marketing, websites, funding communications and remote delivery for Aboriginal organisations, community enterprises and regional businesses across the Top End.",
+  "seoTitle": "Top End Digital Marketing & Web Design | GT Marketing",
+  "seoDescription": "Darwin-based digital marketing, websites, SEO, campaigns and lead generation for businesses across the Top End.",
   "keywords": [
-    "Aboriginal organisation marketing Top End",
     "remote community marketing NT",
-    "Aboriginal corporation website",
     "marketing agency Top End",
     "funding communications Northern Territory"
   ],
@@ -18,12 +16,11 @@
     "eyebrow": "Darwin-based / Top End remote delivery",
     "heading": "Marketing support across the",
     "accent": "Top End",
-    "intro": "GT Marketing supports Aboriginal organisations, community enterprises and regional businesses across the Top End from Darwin, with remote delivery and planned travel where a project benefits from being in community.",
+    "intro": "GT Marketing supports businesses across the Top End from Darwin with digital strategy, websites, SEO, advertising, content and lead-generation systems.",
     "ctaLabel": "Discuss your organisation",
     "ctaUrl": "/contact"
   },
   "proofPoints": [
-    "Aboriginal organisations",
     "Remote delivery",
     "Low-bandwidth websites",
     "Funding communications",
@@ -33,10 +30,7 @@
   "servicesHeading": "Practical digital and communication support for organisations working across distance.",
   "servicesIntro": "Top End organisations can serve communities, funders, customers, visitors and staff across large geographic areas. The work needs to be clear, accessible on mobile and realistic about connectivity, approvals and local context.",
   "services": [
-    {
-      "title": "Aboriginal organisations",
-      "description": "Websites, communications and practical marketing systems for Aboriginal corporations and community-controlled organisations."
-    },
+    {},
     {
       "title": "Funding communications",
       "description": "Support for grant applications, reports, business plans and stakeholder material, without promising funding outcomes."
@@ -61,12 +55,10 @@
   "localHeading": "Darwin is the office. Remote and regional work is planned with the organisation.",
   "localParagraphs": [
     "GT Marketing is based at 130 Smith Street, Darwin City. Katherine, Arnhem Land, the Tiwi Islands, the Daly region and other Top End communities are not represented as GT Marketing offices.",
-    "Projects can be run by phone, video and shared documents. Where a visit is useful, access, permissions, timing, accommodation and travel cost are agreed before travel.",
-    "For Aboriginal organisations, local cultural protocols and approval processes are set by the organisation and relevant knowledge holders. GT Marketing does not claim cultural authority."
+    "Projects can be run by phone, video and shared documents. Where a visit is useful, access, permissions, timing, accommodation and travel cost are agreed before travel."
   ],
   "industriesHeading": "Organisations and enterprises we can support",
   "industries": [
-    "Aboriginal corporations",
     "Community-controlled organisations",
     "Art centres",
     "Ranger groups",
