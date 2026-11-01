@@ -4,9 +4,10 @@
   "seoTitle": "Top End Digital Marketing & Web Design | GT Marketing",
   "seoDescription": "Darwin-based digital marketing, websites, SEO, campaigns and lead generation for businesses across the Top End.",
   "keywords": [
-    "remote community marketing NT",
+    "digital marketing Top End",
     "marketing agency Top End",
-    "funding communications Northern Territory"
+    "web design Top End NT",
+    "SEO Top End"
   ],
   "locationName": "Top End",
   "locationType": "Place",
@@ -17,54 +18,57 @@
     "heading": "Marketing support across the",
     "accent": "Top End",
     "intro": "GT Marketing supports businesses across the Top End from Darwin with digital strategy, websites, SEO, advertising, content and lead-generation systems.",
-    "ctaLabel": "Discuss your organisation",
+    "ctaLabel": "Discuss your marketing",
     "ctaUrl": "/contact"
   },
   "proofPoints": [
-    "Remote delivery",
-    "Low-bandwidth websites",
-    "Funding communications",
-    "Tourism & arts",
-    "Darwin-based"
+    "Digital strategy",
+    "Web design",
+    "SEO & local search",
+    "Paid advertising",
+    "Lead generation"
   ],
-  "servicesHeading": "Practical digital and communication support for organisations working across distance.",
-  "servicesIntro": "Top End organisations can serve communities, funders, customers, visitors and staff across large geographic areas. The work needs to be clear, accessible on mobile and realistic about connectivity, approvals and local context.",
+  "servicesHeading": "Digital marketing built for Top End businesses.",
+  "servicesIntro": "We combine strategy, websites, SEO, advertising, content and lead generation to help businesses improve visibility, attract customers and create measurable growth.",
   "services": [
-    {},
     {
-      "title": "Funding communications",
-      "description": "Support for grant applications, reports, business plans and stakeholder material, without promising funding outcomes."
+      "title": "Digital strategy",
+      "description": "Clear marketing priorities, channel planning and campaigns aligned to your commercial goals."
     },
     {
-      "title": "Remote-ready websites",
-      "description": "Mobile-first pages, compressed media and simple navigation designed with slower connections and remote users in mind."
+      "title": "Websites & landing pages",
+      "description": "Conversion-focused websites and landing pages designed to turn traffic into enquiries."
     },
     {
-      "title": "Tourism, arts & bush foods",
-      "description": "E-commerce, booking systems and storytelling governed by the organisation’s cultural and intellectual-property protocols."
+      "title": "SEO & local search",
+      "description": "Search optimisation and local visibility to help customers find your business when they are ready to buy."
     },
     {
-      "title": "Community campaigns",
-      "description": "Digital and print-ready communication planned around local audiences, approvals, language and practical distribution."
+      "title": "Paid advertising",
+      "description": "Google and Meta campaigns focused on qualified traffic, enquiries and measurable performance."
     },
     {
-      "title": "Regional enterprises",
-      "description": "Marketing and digital systems for local businesses and enterprises operating outside Darwin."
+      "title": "Content & social media",
+      "description": "Campaign content and social execution that keeps your brand visible, consistent and relevant."
+    },
+    {
+      "title": "Lead generation",
+      "description": "Connected acquisition systems that turn digital attention into trackable business opportunities."
     }
   ],
-  "localHeading": "Darwin is the office. Remote and regional work is planned with the organisation.",
+  "localHeading": "Darwin-based marketing with delivery across the Top End.",
   "localParagraphs": [
-    "GT Marketing is based at 130 Smith Street, Darwin City. Katherine, Arnhem Land, the Tiwi Islands, the Daly region and other Top End communities are not represented as GT Marketing offices.",
-    "Projects can be run by phone, video and shared documents. Where a visit is useful, access, permissions, timing, accommodation and travel cost are agreed before travel."
+    "GT Marketing is based at 130 Smith Street, Darwin City and supports businesses across the Top End through remote and digital delivery.",
+    "Projects are scoped around business goals, marketing priorities and the channels most likely to generate measurable results."
   ],
-  "industriesHeading": "Organisations and enterprises we can support",
+  "industriesHeading": "Businesses we can support",
   "industries": [
-    "Community-controlled organisations",
-    "Art centres",
-    "Ranger groups",
-    "Community stores",
-    "Tourism operators",
-    "Bush-food enterprises",
+    "Tradies",
+    "Hospitality",
+    "Real estate",
+    "Professional services",
+    "Retail & e-commerce",
+    "NDIS providers",
     "Regional businesses"
   ],
   "nearbyHeading": "Top End coverage",
@@ -78,7 +82,7 @@
     "Arnhem region",
     "Daly region"
   ],
-  "serviceAreaNote": "Remote delivery is available across the Top End. Travel is scoped only where it adds value and is agreed with the organisation. GT Marketing does not claim offices outside Darwin City.",
+  "serviceAreaNote": "Digital marketing services are available across the Top End, with GT Marketing operating from its Darwin City office.",
   "faqsHeading": "Top End marketing FAQs",
   "faqs": [
     {
