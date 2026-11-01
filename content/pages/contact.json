@@ -1,95 +1,64 @@
 {
   "type": "ContactPage",
-  "seoTitle": "Contact GT Marketing | Book a Call in Darwin",
-  "seoDescription": "Book a call with GT Marketing in Darwin about local SEO, a website, or a lead-generation system for your business.",
+  "seoTitle": "Contact GT Marketing | Start a Marketing Project in Darwin",
+  "seoDescription": "Start a marketing project with GT Marketing in Darwin. Tell us what you need and we’ll respond with the most practical next step.",
   "hero": {
-    "headingLine1": "Let’s start",
-    "headingLine2": "a project together",
+    "eyebrow": "Start a project",
+    "headingLine1": "Let’s build",
+    "headingAccent": "something that performs.",
+    "intro": "Tell us what you’re trying to achieve. We’ll help turn the right marketing strategy, creative and digital channels into a clear next move.",
+    "primaryCta": "Start your project",
+    "secondaryCta": "Call GT Marketing",
     "image": "/contacthhero.jpg",
-    "imageAlt": "GT Marketing contact visual",
-    "formIntro": "Call for a free 15-minute marketing audit, or send the form."
+    "imageAlt": "Modern GT Marketing contact visual",
+    "responseNote": "Prefer direct contact? Call or email us — no long brief required."
   },
   "form": {
+    "eyebrow": "Project enquiry",
+    "heading": "Tell us what you need.",
+    "intro": "Keep it simple. Share the goal, challenge or opportunity and we’ll come back with the most practical next step.",
     "nameLabel": "Name",
     "namePlaceholder": "Your name",
-    "phoneLabel": "Phone",
-    "phonePlaceholder": "Your mobile number",
-    "needLabel": "What do you need?",
-    "needPlaceholder": "Local SEO, a website, leads, or something else",
-    "emailLabel": "Email (optional)",
+    "emailLabel": "Email",
     "emailPlaceholder": "name@example.com",
-    "privacyNote": "We use this to reply. Read the",
+    "phoneLabel": "Phone (optional)",
+    "phonePlaceholder": "Your mobile number",
+    "needLabel": "What would you like help with?",
+    "needPlaceholder": "For example: more leads, a new website, Google Ads, SEO, social media, a campaign, or a complete marketing system.",
+    "privacyNote": "We only use your details to respond to your enquiry. Read our",
     "privacyLabel": "Privacy Policy",
     "submitLabel": "Send enquiry",
     "sendingLabel": "Sending...",
-    "successHeading": "Enquiry received",
-    "successMessage": "Thank you. Your enquiry has been sent to GT Marketing. We will reply shortly. If it is urgent, call 0405 312 275.",
+    "successHeading": "We’ve got it.",
+    "successMessage": "Thanks for reaching out. We’ll review your enquiry and come back with the most practical next step.",
     "errorFallback": "The enquiry was not sent. Please call 0405 312 275 or email gundeep@gtmarketing.io.",
-    "auditLine": "Free 15-minute marketing audit",
-    "offerLinkLabel": "All Your Marketing. One Simple Monthly Fee.",
-    "offerLinkNote": "From $595 + GST a month until the end of November 2026."
-  },
-  "gallery": {
-    "eyebrow": "Start a conversation",
-    "title": "Bring the ambition. We will build the system.",
-    "images": [
-      { "src": "https://images.pexels.com/photos/3923546/pexels-photo-3923546.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Creative portrait holding oranges over the eyes" },
-      { "src": "https://images.pexels.com/photos/13788166/pexels-photo-13788166.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Orange architectural interior with geometric light" },
-      { "src": "https://images.pexels.com/photos/11588266/pexels-photo-11588266.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Fashion portrait in a vivid orange suit" }
-    ]
-  },
-  "socials": {
-    "headingLines": ["Instagram", "Facebook", "LinkedIn"],
-    "contactLabel": "Our contact"
-  },
-  "faq": {
-    "heading": "A few things you may want to ask us:",
-    "items": [
+    "servicesLabel": "We can help with",
+    "services": [
+      "Strategy",
+      "Google Ads",
+      "Meta Ads",
+      "Websites",
+      "SEO",
+      "Social media",
+      "Lead generation",
+      "Automation"
+    ],
+    "processLabel": "What happens next",
+    "process": [
       {
-        "question": "What happens after I submit an enquiry?",
-        "title": "Process",
-        "description": "We review your goals, timeline, budget and business context before deciding whether the project is a good fit. You will receive a response outlining the most practical next step.",
-        "buttonLabel": "Read",
-        "links": [
-          { "title": "1", "description": "A short discovery conversation is normally used to clarify the commercial problem and required outcomes." },
-          { "title": "2", "description": "When the scope is clear, we provide a proposal covering deliverables, timing, responsibilities and fees." }
-        ]
+        "number": "01",
+        "title": "We review",
+        "text": "We look at your goal, business context and what you actually need — not just what service you selected."
       },
       {
-        "question": "Which industries do you work with?",
-        "title": "Industries",
-        "description": "GT Marketing works with Australian businesses across healthcare, NDIS, hospitality, professional services, property, technology and other growth-focused sectors.",
-        "buttonLabel": "Read",
-        "links": [
-          { "title": "1", "description": "Regulated sectors require careful attention to claims, privacy, participant or patient trust and advertising obligations." }
-        ]
+        "number": "02",
+        "title": "We clarify",
+        "text": "If needed, we have a short conversation to define priorities, scope and the most useful next step."
       },
       {
-        "question": "Can you manage strategy and execution together?",
-        "title": "Delivery",
-        "description": "Yes. Our model is designed to connect positioning, campaign planning, content, websites, paid media, automation and reporting rather than treating them as unrelated tasks.",
-        "buttonLabel": "Read",
-        "links": [
-          { "title": "1", "description": "The exact delivery team and channel mix depend on your priorities, internal capability and available budget." }
-        ]
-      },
-      {
-        "question": "Do you work with other agencies and specialists?",
-        "title": "Collaboration",
-        "description": "Yes. We collaborate with photographers, videographers, developers, designers and specialist advisers when that produces a stronger result for the client.",
-        "buttonLabel": "Read",
-        "links": [
-          { "title": "1", "description": "Responsibilities and ownership are clarified before delivery so you have one accountable point of contact." }
-        ]
-      },
-      {
-        "question": "Can you support workshops or speaking engagements?",
-        "title": "Training",
-        "description": "GT Marketing can support practical workshops and presentations covering marketing strategy, digital execution, AI-enabled workflows, brand positioning and communication.",
-        "buttonLabel": "Read",
-        "links": [
-          { "title": "1", "description": "Send the audience, topic, location and expected format through the contact form so we can assess the request." }
-        ]
+        "number": "03",
+        "title": "We move",
+        "text": "You receive a clear recommendation or proposal covering deliverables, timing and fees."
       }
     ]
   }
