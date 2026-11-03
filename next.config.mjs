@@ -11,6 +11,12 @@ const nextConfig = {
 	async redirects() {
 		return [
 			{
+				source: "/aboriginal-organisations",
+				destination: "/",
+				permanent: true,
+				statusCode: 301,
+			},
+			{
 				source: "/blog",
 				destination: "/insights",
 				permanent: true,

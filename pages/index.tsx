@@ -2,6 +2,8 @@
 
 import { useEffect } from "react";
 import { Curve, Marquee, Ready } from "@/components";
+import FAQStructuredData from "@/components/FAQStructuredData";
+import HomeFaq from "@/components/HomeFaq";
 import HomeVisionShowcase from "@/components/HomeVisionShowcase";
 import { Hero, About, PlayVideo, Projects } from "@/container";
 import HomePromotionPopup from "@/components/HomePromotionPopup";
@@ -20,6 +22,7 @@ export default function Home() {
 
   return (
     <div data-sb-object-id={documentId}>
+      <FAQStructuredData items={content.faq.items.map((item) => ({ question: item.question, description: item.answer }))} />
       <HomePromotionPopup content={promotion} />
       <Curve backgroundColor="#f1f1f1">
         <Hero content={content.hero} />
@@ -34,6 +37,7 @@ export default function Home() {
         <PlayVideo content={content.video} />
         <HomeVisionShowcase content={content.vision} fieldPath="vision" />
         <Projects content={content.projects} />
+        <HomeFaq heading={content.faq.heading} items={content.faq.items} />
         <Ready />
       </Curve>
     </div>
