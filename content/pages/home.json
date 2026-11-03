@@ -5,8 +5,8 @@
   "hero": {
     "eyebrow": "Darwin-based digital marketing agency",
     "headingLine1": "Turn attention",
-    "headingAccent": "into leads.",
-    "headingLine3": "Turn leads into growth.",
+    "headingAccent": "into leads for",
+    "headingLine3": "Darwin businesses.",
     "accentImage": "https://images.pexels.com/photos/28963148/pexels-photo-28963148.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "accentImageAlt": "Bold orange architectural detail representing GT Marketing's creative and performance-led approach",
     "badgeImage": "",
@@ -426,6 +426,27 @@
             "url": "/services"
           }
         ]
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Questions before you call",
+    "items": [
+      {
+        "question": "Where is GT Marketing based?",
+        "answer": "GT Marketing operates from 130 Smith Street, Darwin City. Casuarina and Palmerston are service areas, not additional offices."
+      },
+      {
+        "question": "What does the Darwin work cover?",
+        "answer": "Local SEO, websites and lead generation for Darwin small businesses, including tradies, hospitality, health and professional services in Palmerston, Casuarina and the NT."
+      },
+      {
+        "question": "Do you guarantee rankings or a set number of leads?",
+        "answer": "No. Rankings and lead numbers are not guaranteed."
+      },
+      {
+        "question": "How do I reach the Darwin office?",
+        "answer": "Call 0405 312 275 or use the contact form. The office is at 130 Smith Street, Darwin City NT 0800."
       }
     ]
   }
