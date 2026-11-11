@@ -48,6 +48,28 @@ export function trackSuccessfulContactSubmit() {
 	});
 }
 
+/**
+ * Conversion events for one accepted free SEO audit POST.
+ * Call this only after `isAcceptedNetlifyFormResponse` is true.
+ * Do not call it from a page view, a field focus, or a failed submit.
+ */
+export function trackSuccessfulFreeSeoAuditSubmit() {
+	const gtag = getGtag();
+	if (!gtag) return;
+	gtag("event", "form_submit", {
+		send_to: MEASUREMENT_ID,
+		form_id: "free-seo-audit",
+		form_name: "free_seo_audit",
+		form_destination: "/free-seo-audit-darwin",
+	});
+	gtag("event", "generate_lead", {
+		send_to: MEASUREMENT_ID,
+		method: "free_seo_audit",
+		form_name: "free_seo_audit",
+		lead_type: "free_seo_audit",
+	});
+}
+
 const trackedPhoneClicks = new WeakSet<Event>();
 
 /** One click on a tel: link sends one phone_click. A second listener on the same click is ignored. */
