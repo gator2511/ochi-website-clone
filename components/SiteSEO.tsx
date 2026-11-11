@@ -212,6 +212,23 @@ const ROUTES: Record<string, RouteSEO> = {
 			"$595 + GST a month marketing",
 		],
 	},
+	"/free-seo-audit-darwin": {
+		title: "Free Local SEO Audit Darwin | GT Marketing",
+		description:
+			"Free local SEO audit for Darwin businesses. We review your Google profile, Maps, website, reviews and nearby competitors, then send a written report.",
+		label: "Free local SEO audit",
+		type: "WebPage",
+		parentLabel: "SEO in Darwin",
+		parentPath: "/seo-darwin",
+		image: "/blog/local-seo-checklist-darwin-palmerston.jpg",
+		keywords: [
+			"free local SEO audit Darwin",
+			"SEO audit Darwin",
+			"Google Business Profile Darwin",
+			"local SEO Darwin",
+			"Darwin small business SEO",
+		],
+	},
 	"/brand-kit": {
 		title: "Brand Kit Design Darwin | Brand Guidelines & Identity Systems | GT Marketing",
 		description:
@@ -806,6 +823,42 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 		pageSchema.mainEntity = { "@id": monthlyOfferSchema["@id"] };
 	}
 
+	const freeAuditSchema: Record<string, unknown> | null =
+		path === "/free-seo-audit-darwin"
+			? {
+					"@type": "Service",
+					"@id": `${canonicalUrl}#service`,
+					name: "Free local SEO audit",
+					serviceType: "Local SEO audit",
+					description:
+						"A free local SEO audit for small businesses in Darwin, Palmerston, Casuarina and the Northern Territory. It reviews the Google Business Profile, how the business shows up in Google Maps and local search for its main services, website speed, mobile use and basic on-page SEO, reviews, and competitors nearby. The business receives a short written report with priority fixes, and can take an optional 15-minute call to walk through it. There is no obligation.",
+					provider: { "@id": `${SITE_URL}/#business` },
+					url: canonicalUrl,
+					areaServed: [
+						{ "@type": "City", name: "Darwin" },
+						{ "@type": "City", name: "Palmerston" },
+						{ "@type": "Place", name: "Casuarina" },
+						{ "@type": "AdministrativeArea", name: "Northern Territory" },
+					],
+					offers: {
+						"@type": "Offer",
+						name: "Free local SEO audit",
+						price: "0",
+						priceCurrency: "AUD",
+						availability: "https://schema.org/InStock",
+						url: canonicalUrl,
+					},
+					audience: {
+						"@type": "BusinessAudience",
+						audienceType: "Small businesses in Darwin, Palmerston, Casuarina and the Northern Territory",
+					},
+				}
+			: null;
+
+	if (freeAuditSchema) {
+		pageSchema.mainEntity = { "@id": freeAuditSchema["@id"] };
+	}
+
 	const breadcrumb = breadcrumbSchema(canonicalPath, page);
 	if (breadcrumb) pageSchema.breadcrumb = { "@id": breadcrumb["@id"] };
 	if (path === "/services") pageSchema.mainEntity = offerCatalog;
@@ -821,6 +874,7 @@ export default function SiteSEO({ path: rawPath }: { path: string }) {
 			...(brandKitServiceSchema ? [brandKitServiceSchema] : []),
 			...(dedicatedServiceSchema ? [dedicatedServiceSchema] : []),
 			...(monthlyOfferSchema ? [monthlyOfferSchema] : []),
+			...(freeAuditSchema ? [freeAuditSchema] : []),
 			...(breadcrumb ? [breadcrumb] : []),
 		],
 	};

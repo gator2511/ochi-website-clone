@@ -102,6 +102,7 @@
     "heading": "Where to go next",
     "intro": "Location pages describe the place. Service pages describe the work. Use the list below to move between them.",
     "links": [
+      { "label": "Get a free local SEO audit", "url": "/free-seo-audit-darwin" },
       { "label": "Google Ads in Darwin", "url": "/google-ads-darwin" },
       { "label": "Web design in Darwin", "url": "/web-design-darwin" },
       { "label": "Cafe and hospitality marketing", "url": "/cafe-marketing" },

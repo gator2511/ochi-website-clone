@@ -66,6 +66,11 @@ export default function Footer() {
 									/>
 								</span>
 							))}
+							<LinkHover
+								title="Free local SEO audit"
+								href="/free-seo-audit-darwin"
+								className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium text-secondry flex flex-col before:bottom-[1px] after:bottom-[1px]"
+							/>
 						</div>
 					</div>
 
