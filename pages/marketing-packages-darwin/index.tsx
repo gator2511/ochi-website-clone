@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { Curve, Ready } from "@/components";
+import FreeSeoAuditCta from "@/components/FreeSeoAuditCta";
 import site from "@/content/data/site.json";
 
 /**
@@ -81,6 +82,8 @@ export default function MarketingPackagesDarwin() {
 					<p className="paragraph max-w-[760px] border-t border-[#21212122] py-[12px]">Talk to us about start dates.</p>
 					<p className="paragraph max-w-[760px] border-t border-[#21212122] py-[12px]">Talk to us about what happens after November 2026.</p>
 				</section>
+
+				<FreeSeoAuditCta className="pb-[80px]" />
 			</main>
 			<Ready />
 		</Curve>

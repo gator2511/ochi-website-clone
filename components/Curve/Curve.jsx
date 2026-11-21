@@ -11,6 +11,7 @@ const routes = {
 	"/ochi-team": "About Us",
 	"/insights": "Insights",
 	"/contact": "Contact Us",
+	"/free-seo-audit-darwin": "Free SEO audit",
 	"/case": "Workiz Easy",
 };
 
