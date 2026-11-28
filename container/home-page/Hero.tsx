@@ -33,8 +33,8 @@ export default function Hero({ content }: HeroProps) {
           </p>
 
           <h1 className="text-[#212121] font-FoundersGrotesk font-semibold uppercase tracking-[-2px] text-[112px] leading-[0.82] lg:text-[94px] md:text-[74px] sm:text-[56px] xm:text-[47px] max-w-[1450px]">
-            <span data-sb-field-path="hero.headingLine1" className="block">{content.headingLine1}</span>
-            <span data-sb-field-path="hero.headingAccent" className="block text-[#fd4402]">{content.headingAccent}</span>
+            <span data-sb-field-path="hero.headingLine1" className="block">{content.headingLine1}</span>{" "}
+            <span data-sb-field-path="hero.headingAccent" className="block text-[#fd4402]">{content.headingAccent}</span>{" "}
             <span data-sb-field-path="hero.headingLine3" className="block">{content.headingLine3}</span>
           </h1>
 
